@@ -1,0 +1,263 @@
+# Forrás: https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027263/320229441
+# Mentve: 2026-11-26T19:52:25.383Z
+
+Az oldal sütiket használ
+
+Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javítsa a böngészési élményét, azzal hogy személyre szabott tartalmakat és célzott hirdetéseket jelenít meg, és elemzi a weboldalunk forgalmát, hogy megtudjuk honnan érkeztek a látogatóink.
+
+OKBeállítások megváltoztatása
+ : 
+41:22
+Jegyek
+Webshop
+HÍREK
+MKSZ
+VÁLOGATOTTAK
+VERSENYEK
+TAO
+JÁTÉKVEZETÉS
+MÉDIA
+KOMPETENCIA KÖZPONT
+SZABÁLYZATOK
+OGYB FU14 XIX. CSOPORT
+MKSZ
+Gyermekkézilabda
+OGYB FU14 XIX. csoport
+TABELLA
+	CSAPAT	M	GY	D	V	LG	KG	GK	P	
+1.	FERENCVÁROSI TC II.	6	6	0	0	232	89	143	12	
+2.	Angyalföldi Sportiskola 1.	6	5	0	1	189	95	94	10	
+3.	Csepel DSE	6	4	0	2	152	130	22	8	
+4.	KSA Budapest	6	3	0	3	112	141	-29	6	
+5.	Körte HVSE	6	2	0	4	93	155	-62	4	
+6.	MAFC	6	0	1	5	78	151	-73	1	
+7.	Rév TSC	6	0	1	5	75	170	-95	1	
+PROGRAM ÉS EREDMÉNYEK
+/-tól
+/-ig
+DÁTUM	VERSENY	HELYSZÍN	HAZAI : VENDÉG	EREDMÉNY	
+2026.09.19. 00:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+KSA Budapest
+MAFC
+	10:0	ONLINEJEGYZŐKÖNYV
+2026.09.19. 09:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+Rév TSC
+Körte HVSE
+	11:15	ONLINEJEGYZŐKÖNYV
+2026.09.19. 10:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+MAFC
+Csepel DSE
+	11:29	ONLINEJEGYZŐKÖNYV
+2026.09.19. 11:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+Angyalföldi Sportiskola 1.
+Rév TSC
+	42:12	ONLINEJEGYZŐKÖNYV
+2026.09.19. 12:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+Csepel DSE
+FERENCVÁROSI TC II.
+	20:35	ONLINEJEGYZŐKÖNYV
+2026.09.19. 13:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+Körte HVSE
+KSA Budapest
+	13:27	ONLINEJEGYZŐKÖNYV
+2026.09.19. 14:00	1. forduló
+OGYB FU14 XIX. csoport	Semmelweis Egyetem
+Budapest	
+FERENCVÁROSI TC II.
+Angyalföldi Sportiskola 1.
+	24:17	ONLINEJEGYZŐKÖNYV
+2026.10.03. 09:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+Angyalföldi Sportiskola 1.
+KSA Budapest
+	30:14	ONLINEJEGYZŐKÖNYV
+2026.10.03. 10:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+MAFC
+Körte HVSE
+	11:15	ONLINEJEGYZŐKÖNYV
+2026.10.03. 11:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+KSA Budapest
+FERENCVÁROSI TC II.
+	15:49	ONLINEJEGYZŐKÖNYV
+2026.10.03. 12:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+Rév TSC
+MAFC
+	17:17	ONLINEJEGYZŐKÖNYV
+2026.10.03. 13:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+Körte HVSE
+Csepel DSE
+	22:23	ONLINEJEGYZŐKÖNYV
+2026.10.03. 14:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+FERENCVÁROSI TC II.
+Rév TSC
+	32:4	ONLINEJEGYZŐKÖNYV
+2026.10.03. 15:00	2. forduló
+OGYB FU14 XIX. csoport	Bujdosó Ágota Kézilabdaterem
+Budapest	
+Csepel DSE
+Angyalföldi Sportiskola 1.
+	11:29	ONLINEJEGYZŐKÖNYV
+2026.10.17. 09:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+Csepel DSE
+Rév TSC
+	36:15	ONLINEJEGYZŐKÖNYV
+2026.10.17. 10:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+FERENCVÁROSI TC II.
+MAFC
+	39:20	ONLINEJEGYZŐKÖNYV
+2026.10.17. 11:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+Rév TSC
+KSA Budapest
+	16:28	ONLINEJEGYZŐKÖNYV
+2026.10.17. 12:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+Körte HVSE
+FERENCVÁROSI TC II.
+	13:53	ONLINEJEGYZŐKÖNYV
+2026.10.17. 13:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+MAFC
+Angyalföldi Sportiskola 1.
+	19:41	ONLINEJEGYZŐKÖNYV
+2026.10.17. 14:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+KSA Budapest
+Csepel DSE
+	18:33	ONLINEJEGYZŐKÖNYV
+2026.10.17. 15:00	3. forduló
+OGYB FU14 XIX. csoport	Laurencz László Sportcsarnok
+Budapest	
+Angyalföldi Sportiskola 1.
+Körte HVSE
+	30:15	ONLINEJEGYZŐKÖNYV
+NAPI MŰSOR
+STATISZTIKA
+GÓLLÖVŐ LISTA
+HELY	NÉV	CSAPAT	GÓL	M	
+1.	CSIA MÁTÉ	Angyalföldi Sportiskola 1.	60	6	
+2.	NAGY DOMÁN MARCELL	Angyalföldi Sportiskola 1.	44	6	
+3.	GEDÓ ÁRON	Csepel DSE	38	6	
+4.	KOSTKA DOMINIK	FERENCVÁROSI TC II.	36	4	
+5.	TÓTH PÉTER	Angyalföldi Sportiskola 1.	33	6	
+6.	VARGA NORBERT	FERENCVÁROSI TC II.	31	3	
+7.	KONDOR LŐRINC MIHÁLY	KSA Budapest	27	5	
+8.	HORVÁTH ÁKOS	Csepel DSE	27	6	
+9.	VARGA BOTOND	FERENCVÁROSI TC II.	26	3	
+10.	DEMJÉN BENCE	Csepel DSE	26	6	
+11.	ANTAL MARCELL MÁTÉ	FERENCVÁROSI TC II.	24	4	
+12.	HEGYES BALÁZS	MAFC	24	4	
+13.	PONGÓ SIMON	MAFC	24	5	
+14.	TAKÁCS ANDRÁS	Körte HVSE	24	6	
+15.	JÓZSA ROLAND	FERENCVÁROSI TC II.	23	3	
+16.	HEGEDŰS MÁRTON	FERENCVÁROSI TC II.	20	5	
+17.	PERCZEL BENETT	Angyalföldi Sportiskola 1.	20	6	
+18.	ZHANG WEIYI	Rév TSC	19	6	
+19.	PULA ZSOMBOR	FERENCVÁROSI TC II.	18	4	
+20.	ELLER ZSOMBOR	Csepel DSE	18	6	
+MÉG TÖBB STATISZTIKA
+K&H LIGA HÍREK
+2026/2027
+2026.11.25. 19:31 / K&H férfi liga
+18 GÓLOS SZEGEDI GYŐZELEM
+
+Majdnem megduplázta ellenfele góljait a Szeged, így aratott magabiztos győzelmet hazai pályán a PLER-Budapest ellen a K&H férfi liga 11. fordulójának szerdai játéknapján.
+
+TOVÁBB
+2026.11.22. 19:41 / K&H férfi liga
+FORDÍTÁS UTÁN NYERT IDEGENBEN A GYŐR
+
+A szünetben még a Budai Farkasok vezetett, aztán a második félidő elején kiegyenlített, majd fokozatosan a vezetést is átvette Győr, amely végül kétgólos győzelmével két ponttal távozott idegenből a K&H férfi liga 10. fordulójának vasárnapi játéknapján.
+
+TOVÁBB
+2026.11.21. 20:23 / K&H férfi liga
+HÁROM HAZAI, EGY IDEGENBELI SIKER
+
+A K&H férfi liga 10. fordulójában a NEKA négy góllal nyert a Csurgó ellen, az FTC egy góllal győzte le a Balatonfüredet, a Szigetszentmiklós 36-33-ra nyert a Dabas otthonában, míg a Veszprém kilencgólos győzelmet aratott a Tatabányával szemben.
+
+TOVÁBB
+2026.11.15. 19:51 / K&H férfi liga
+HAZAI GYŐZELMEK
+
+A K&H férfi liga 9. fordulójának zárónapján a Szigetszentmiklós 39-32-re győzte le a NEKA-t, a Balatonfüred nyolc góllal nyert a Dabas ellen, a Budai Farkasok 11 gólos sikert aratott a PLER ellen, míg az ETO egy góllal nyert a Csurgóval szemben.
+
+TOVÁBB
+MÉG TÖBB HÍR
+EURÓPAI KUPA HÍREK
+2026/2027
+2026.11.26. 10:08 / férfi európai kupa hírek
+VESZPRÉM-AALBORG BL-RANGADÓ
+
+November hónap mérkőzésén a BL-ben százszázalékos ONE Veszprém HC a dán Aalborgot fogadja csütörtökön 18:45-től.
+
+TOVÁBB
+2026.11.24. 20:23 / férfi európai kupa hírek
+FÉRFI EL: ELSZÁLLTAK A TOVÁBBJUTÁSI ESÉLYEK
+
+A Tatabánya sokáig jól tartotta magát a Slovan otthonában, de a szlovén együttes a hajrában ellépett Tóth Edmond csapatától, ezzel az idegenbeli vereséggel pedig elszállt a magyar alakulat esélye az EL csoportköréből való továbbjutásra.
+
+TOVÁBB
+2026.11.20. 20:17 / férfi európai kupa hírek
+FÉRFI EK: IDEGENBEN NYERT A PLER
+
+A hajrá előtt még vezetett a hazai pályán játszó görög együttes, ám az utolsó percekben bedarálta ellenfelét a PLER-Budapest, amely így négygólos előnyről várja a visszavágót.
+
+TOVÁBB
+2026.11.18. 22:28 / férfi európai kupa hírek
+FÉRFI BL: SIKERES KEZDÉS A KÖZÉPDÖNTŐBEN
+
+A One Veszprém HC továbbra is veretlen a férfi BL-ben, miután az Orlen Wisla Plock vendégeként a második félidőben fordítva nyert a középdöntős csoportkör első fordulójában.
+
+TOVÁBB
+MÉG TÖBB HÍR
+TÁMOGATÓINK
+INFORMÁCIÓK
+CÍMJEGYZÉK
+FONTOS INFORMÁCIÓK
+KÉZITÖRTÉNELEM
+BANKSZÁMLASZÁM
+K&H BANK
+10400126-21413218-00000000
+ADÓSZÁM
+18161777-2-42
+ELÉRHETŐSÉG
+MAGYAR KÉZILABDA SZÖVETSÉG
+1087 BUDAPEST,
+KÖNYVES KÁLMÁN KÖRÚT 76. 6. EMELET
+MÓDUSZ-IRODAHÁZ
+TELEFON: 06-1-435-4200
+E-MAIL: MKSZ@MKSZ.HU
+KÖZÖSSÉGI MÉDIA
+Copyright- Design by GuruStudio 2020
+Süti preferenciák frissítése
