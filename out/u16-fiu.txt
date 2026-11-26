@@ -1,5 +1,5 @@
 # Forrás: https://www.mksz.hu/versenyek/upFerfiVersenyek/32027157/320229199
-# Mentve: 2026-11-26T20:02:40.508Z
+# Mentve: 2026-11-26T23:03:05.216Z
 
 Az oldal sütiket használ
 
@@ -7,7 +7,7 @@ Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javít
 
 OKBeállítások megváltoztatása
  : 
-41:22
+0:0
 Jegyek
 Webshop
 HÍREK
@@ -283,6 +283,12 @@ Budapest
 ÓKSI SE
 MAFC
 		ONLINEJEGYZŐKÖNYV
+2027.03.07. 14:00	14. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+DABASI KC VSE
+		ONLINEJEGYZŐKÖNYV
 NAPI MŰSOR
 STATISZTIKA
 GÓLLÖVŐ LISTA
@@ -337,6 +343,12 @@ TOVÁBB
 MÉG TÖBB HÍR
 EURÓPAI KUPA HÍREK
 2026/2027
+2026.11.26. 21:00 / férfi európai kupa hírek
+FÉRFI BL: DÖNTETLEN AZ AALBORG ELLEN
+
+Végletekig kiélezett találkozót és dán kapus-csatát követően a One Veszprém HC 28-28-as döntetlent játszott a dán Aalborg Handbold együttesével a férfi BL középdöntős csoportkör második fordulójában, amely egyúttal "A hónap mérkőzése" is volt.
+
+TOVÁBB
 2026.11.26. 10:08 / férfi európai kupa hírek
 VESZPRÉM-AALBORG BL-RANGADÓ
 
@@ -353,12 +365,6 @@ TOVÁBB
 FÉRFI EK: IDEGENBEN NYERT A PLER
 
 A hajrá előtt még vezetett a hazai pályán játszó görög együttes, ám az utolsó percekben bedarálta ellenfelét a PLER-Budapest, amely így négygólos előnyről várja a visszavágót.
-
-TOVÁBB
-2026.11.18. 22:28 / férfi európai kupa hírek
-FÉRFI BL: SIKERES KEZDÉS A KÖZÉPDÖNTŐBEN
-
-A One Veszprém HC továbbra is veretlen a férfi BL-ben, miután az Orlen Wisla Plock vendégeként a második félidőben fordítva nyert a középdöntős csoportkör első fordulójában.
 
 TOVÁBB
 MÉG TÖBB HÍR

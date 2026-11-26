@@ -1,7 +1,1423 @@
 {
  "source": "https://www.mksz.hu/versenyek/upFerfiVersenyek/32027157/320229199",
- "saved": "2026-11-26T20:02:40.508Z",
+ "saved": "2026-11-26T23:03:05.216Z",
  "responses": [
+  {
+   "url": "https://public.mksz.hu/public/api/v1/valogatottstrandkezi/csapat",
+   "body": [
+    {
+     "id": 275,
+     "nev": "Amerikai Egyesült Államok",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 5,
+     "orszagNev": null,
+     "cimerId": 1098871,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098871-USA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 493,
+     "nev": "Argentína",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 9,
+     "orszagNev": null,
+     "cimerId": 2274715,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2274715-ARG.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 274,
+     "nev": "Ausztrália",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 11,
+     "orszagNev": null,
+     "cimerId": 1098839,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098839-aUS.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 476,
+     "nev": "Ausztrália",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 11,
+     "orszagNev": null,
+     "cimerId": 2256996,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256996-Auszt%C3%A1lis.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 490,
+     "nev": "Brazíla",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 27,
+     "orszagNev": null,
+     "cimerId": 2273988,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2273988-BRA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 269,
+     "nev": "Brazília",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 27,
+     "orszagNev": null,
+     "cimerId": 1098792,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098792-br.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 570,
+     "nev": "Brazília",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 27,
+     "orszagNev": null,
+     "cimerId": 2830557,
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5c4995134ea7cb1a6af72930014a14f049c38911b253608d9f6873d67c67b81b",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 206,
+     "nev": "Brazília U18",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 27,
+     "orszagNev": null,
+     "cimerId": 1026682,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1026682-br.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 468,
+     "nev": "Bulgária FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 30,
+     "orszagNev": null,
+     "cimerId": 2212701,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212701-bul.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 369,
+     "nev": "Bulgária U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 30,
+     "orszagNev": null,
+     "cimerId": 1689766,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1689766-bg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 261,
+     "nev": "Csehország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 38,
+     "orszagNev": null,
+     "cimerId": 1089397,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2024/07/13/1089397-CZE.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 244,
+     "nev": "Csehország U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 38,
+     "orszagNev": null,
+     "cimerId": 1083186,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1083186-download.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 497,
+     "nev": "Csehország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 38,
+     "orszagNev": null,
+     "cimerId": 2285969,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2285969-cze.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 477,
+     "nev": "Dánia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 39,
+     "orszagNev": null,
+     "cimerId": 2256997,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256997-den.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 379,
+     "nev": "Észak-Macedónia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 113,
+     "orszagNev": null,
+     "cimerId": 1690726,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1690726-mk.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 9,
+     "nev": "Férfi felnőtt strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 1277185,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1277185-Civil_Ensign_of_Hungary.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 74,
+     "nev": "Férfi ifjúsági strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 2737305,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2737305-Flag_of_Hungary.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 154,
+     "nev": "Férfi junior strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 858330,
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d4196bd2ab4f515ab33e462f843e5f426e91697afbbb02c5e9cdf51c9736e3cd",
+     "korosztalyKod": "VAL_KOROSZT_JUN",
+     "korosztalyNev": "Junior válogatott korosztály"
+    },
+    {
+     "id": 155,
+     "nev": "Férfi serdülő strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 1277189,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1277189-Civil_Ensign_of_Hungary.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 80,
+     "nev": "Franciaország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 57,
+     "orszagNev": null,
+     "cimerId": 489343,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489343-Flag_of_France.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 256,
+     "nev": "Franciország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 57,
+     "orszagNev": null,
+     "cimerId": 1089383,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2024/07/13/1089383-FRA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 290,
+     "nev": "Franciország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 57,
+     "orszagNev": null,
+     "cimerId": 1099381,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099381-FRA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 353,
+     "nev": "Görögország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 63,
+     "orszagNev": null,
+     "cimerId": 1671420,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1671420-download.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 293,
+     "nev": "Hollandia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 69,
+     "orszagNev": null,
+     "cimerId": 1099384,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099384-download%20%284%29.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 573,
+     "nev": "Hollandia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 69,
+     "orszagNev": null,
+     "cimerId": 2838900,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838900-Flag_of_the_Netherlands.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 578,
+     "nev": "Hollandia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 69,
+     "orszagNev": null,
+     "cimerId": 2838928,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838928-Flag_of_the_Netherlands.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 92,
+     "nev": "Hollandia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 69,
+     "orszagNev": null,
+     "cimerId": 489382,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489382-250px-Flag_of_the_Netherlands.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 253,
+     "nev": "Hollandia U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 69,
+     "orszagNev": null,
+     "cimerId": 1083194,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1083194-download (4).png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 264,
+     "nev": "Horvátország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 72,
+     "orszagNev": null,
+     "cimerId": 1089417,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1089417-National-Flag-Of-Croatia.jpg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 83,
+     "nev": "Horvátország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 72,
+     "orszagNev": null,
+     "cimerId": 489349,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489349-hr_500x500.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 435,
+     "nev": "Horvátország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 72,
+     "orszagNev": null,
+     "cimerId": 1956549,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1956549-let%C3%B6lt%C3%A9s%20%284%29.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 431,
+     "nev": "Horvátország FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 72,
+     "orszagNev": null,
+     "cimerId": 1956378,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956378-letöltés (4).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 242,
+     "nev": "Horvátország U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 72,
+     "orszagNev": null,
+     "cimerId": 1083179,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1083179-Flag_of_Croatia.svg",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 557,
+     "nev": "Kenya",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 93,
+     "orszagNev": null,
+     "cimerId": 2777778,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777778-Flag_of_Kenya.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 266,
+     "nev": "Lengyelország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 104,
+     "orszagNev": null,
+     "cimerId": 1089423,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1089423-lengyelország-zászló-2-390x270.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 436,
+     "nev": "Lengyelország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 104,
+     "orszagNev": null,
+     "cimerId": 1956570,
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c3126d579a5ee9572d4ee4f39c4876c6a0f73cf3793af5fe40cd36fb70563a75",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 282,
+     "nev": "Lengyelország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 104,
+     "orszagNev": null,
+     "cimerId": 1099167,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099167-lengyelország-zászló-2-390x270.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 194,
+     "nev": "Lengyelország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 104,
+     "orszagNev": null,
+     "cimerId": 1005355,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1005355-lengyelország-zászló-2-390x270.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 250,
+     "nev": "Litvánia U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 111,
+     "orszagNev": null,
+     "cimerId": 1083192,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083192-download (3).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 272,
+     "nev": "Mexikó",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 125,
+     "orszagNev": null,
+     "cimerId": 1098827,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098827-MEX.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 549,
+     "nev": "Mexikó",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 125,
+     "orszagNev": null,
+     "cimerId": 2777770,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777770-MEX.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 268,
+     "nev": "Németország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 136,
+     "orszagNev": null,
+     "cimerId": 1098787,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098787-GER.jpg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 285,
+     "nev": "Németország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 136,
+     "orszagNev": null,
+     "cimerId": 1099179,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099179-GRE.jpg",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 299,
+     "nev": "Németország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 136,
+     "orszagNev": null,
+     "cimerId": 1099406,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099406-GER.jpg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 86,
+     "nev": "Németország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 136,
+     "orszagNev": null,
+     "cimerId": 489357,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489357-Flag_of_Germany.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 424,
+     "nev": "Németország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 136,
+     "orszagNev": null,
+     "cimerId": 1956344,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956344-letöltés.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 545,
+     "nev": "Norvégia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 141,
+     "orszagNev": null,
+     "cimerId": 2717663,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717663-Flag_of_Norway.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 77,
+     "nev": "Norvégia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 141,
+     "orszagNev": null,
+     "cimerId": 455355,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/455355-download (1).png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 281,
+     "nev": "Norvégia FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 141,
+     "orszagNev": null,
+     "cimerId": 1099163,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099163-NOR.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 373,
+     "nev": "Norvégia U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 141,
+     "orszagNev": null,
+     "cimerId": 1689772,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1689772-no.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 12,
+     "nev": "Női felnőtt strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 1083258,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083258-3708-magyar-zaszlo-1.jpg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 35,
+     "nev": "Női ifjúsági strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 863498,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/863498-3708-magyar-zaszlo-1.jpg",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 161,
+     "nev": "Női junior strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 858357,
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=902dc58e03da367845f839ba26a0d3a8fe47bf409aca894903f248a63cc3eff9",
+     "korosztalyKod": "VAL_KOROSZT_JUN",
+     "korosztalyNev": "Junior válogatott korosztály"
+    },
+    {
+     "id": 158,
+     "nev": "Női serdülő strandkézilabda válogatott",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 1,
+     "orszagNev": "Magyarország",
+     "cimerId": 1083253,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1083253-3708-magyar-zaszlo-1.jpg",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 260,
+     "nev": "Olaszország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 142,
+     "orszagNev": null,
+     "cimerId": 1089396,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1089396-ITA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 292,
+     "nev": "Olaszország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 142,
+     "orszagNev": null,
+     "cimerId": 1099383,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099383-ITA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 541,
+     "nev": "Olaszország LU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 142,
+     "orszagNev": null,
+     "cimerId": 2717573,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717573-Flag_of_Italy.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 562,
+     "nev": "Omán",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 143,
+     "orszagNev": null,
+     "cimerId": 2829316,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2829316-Flag_of_Oman.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 474,
+     "nev": "Omán",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 143,
+     "orszagNev": null,
+     "cimerId": 2256993,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256993-Om%C3%A1n.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 87,
+     "nev": "Oroszország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 144,
+     "orszagNev": null,
+     "cimerId": 489369,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/03/17/489369-Flag_of_Russia.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 351,
+     "nev": "Portugália",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 151,
+     "orszagNev": null,
+     "cimerId": 1671419,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1671419-607697426_max.jpg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 426,
+     "nev": "Portugália FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 151,
+     "orszagNev": null,
+     "cimerId": 1956354,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1956354-letöltés (2).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 565,
+     "nev": "Puerto Rico",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 152,
+     "orszagNev": null,
+     "cimerId": 2829320,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2829320-Flag_of_Puerto_Rico.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 366,
+     "nev": "Románia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 154,
+     "orszagNev": null,
+     "cimerId": 1689763,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1689763-ro.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 471,
+     "nev": "Románia FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 154,
+     "orszagNev": null,
+     "cimerId": 2212702,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2212702-rou.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 465,
+     "nev": "Románia U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 154,
+     "orszagNev": null,
+     "cimerId": 2212695,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212695-rou.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 286,
+     "nev": "Spanyolország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 1099193,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099193-250px-Flag_of_Spain.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 544,
+     "nev": "Spanyolország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 2717654,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717654-Flag_of_Spain.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 91,
+     "nev": "Spanyolország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 489381,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489381-250px-Flag_of_Spain.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 437,
+     "nev": "Spanyolország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 1956572,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956572-letöltés (5).png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 434,
+     "nev": "Spanyolország FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 1956379,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956379-letöltés (5).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 240,
+     "nev": "Spanyolország U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 163,
+     "orszagNev": null,
+     "cimerId": 1077831,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1077831-250px-Flag_of_Spain.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 263,
+     "nev": "Svájc",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 166,
+     "orszagNev": null,
+     "cimerId": 1089405,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1089405-SUI.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 296,
+     "nev": "Svájc",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 166,
+     "orszagNev": null,
+     "cimerId": 1099392,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099392-SUI.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 429,
+     "nev": "Svájc FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 166,
+     "orszagNev": null,
+     "cimerId": 1956363,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1956363-letöltés (3).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 279,
+     "nev": "Svédország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 167,
+     "orszagNev": null,
+     "cimerId": 1099138,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1099138-download (1).png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 575,
+     "nev": "Svédország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 167,
+     "orszagNev": null,
+     "cimerId": 2838902,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838902-Flag_of_Sweden.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 473,
+     "nev": "Svédország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 167,
+     "orszagNev": null,
+     "cimerId": 2212704,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212704-swe.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 425,
+     "nev": "Svédország FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 167,
+     "orszagNev": null,
+     "cimerId": 1956353,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956353-letöltés (1).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 245,
+     "nev": "Svédország U17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 167,
+     "orszagNev": null,
+     "cimerId": 1083187,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083187-download (1).png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 552,
+     "nev": "Szenegál",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 170,
+     "orszagNev": null,
+     "cimerId": 2777772,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777772-Flag_of_Senegal.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 467,
+     "nev": "Szerbia U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 206,
+     "orszagNev": null,
+     "cimerId": 2212698,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2212698-srb.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 355,
+     "nev": "Szlovákia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 78,
+     "orszagNev": null,
+     "cimerId": 1671422,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1671422-download (1).png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 85,
+     "nev": "Szlovénia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 79,
+     "orszagNev": null,
+     "cimerId": 489355,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/03/17/489355-si-01_medium.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 554,
+     "nev": "Tanzánia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 178,
+     "orszagNev": null,
+     "cimerId": 2777775,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2025/06/14/2777775-Flag_of_Tanzania.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 277,
+     "nev": "Thaiföld",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 179,
+     "orszagNev": null,
+     "cimerId": 1098895,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098895-THA.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 191,
+     "nev": "Thaiföld U18",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 179,
+     "orszagNev": null,
+     "cimerId": 1005352,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1005352-th.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 298,
+     "nev": "Törökország",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 182,
+     "orszagNev": null,
+     "cimerId": 1099398,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099398-TUR.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 539,
+     "nev": "Törökország FU17",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 182,
+     "orszagNev": null,
+     "cimerId": 2717507,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717507-Flag_of_Turkey.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 548,
+     "nev": "Tunézia ",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 183,
+     "orszagNev": null,
+     "cimerId": 2777768,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777768-TUN.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 567,
+     "nev": "Tunézia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 183,
+     "orszagNev": null,
+     "cimerId": 2830022,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2830022-TUN.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 492,
+     "nev": "Tunézia",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 183,
+     "orszagNev": null,
+     "cimerId": 2273990,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2273990-TUN.jpeg",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 258,
+     "nev": "Ukrajna",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 189,
+     "orszagNev": null,
+     "cimerId": 1089391,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1089391-UKR.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 283,
+     "nev": "Ukrajna",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 189,
+     "orszagNev": null,
+     "cimerId": 1099170,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099170-UKR.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 289,
+     "nev": "Ukrajna",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "F",
+     "orszagId": 189,
+     "orszagNev": null,
+     "cimerId": 1099377,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099377-UKR.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    },
+    {
+     "id": 90,
+     "nev": "Ukrajna",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 189,
+     "orszagNev": null,
+     "cimerId": 489371,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/489371-250px-Flag_of_Ukraine.svg.png",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 248,
+     "nev": "Ukrajna U16",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 189,
+     "orszagNev": null,
+     "cimerId": 1083190,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1083190-download%20%282%29.png",
+     "korosztalyKod": "VAL_KOROSZT_SER",
+     "korosztalyNev": "Serdülő válogatott korosztály"
+    },
+    {
+     "id": 189,
+     "nev": "Uruguay U18",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 190,
+     "orszagNev": null,
+     "cimerId": 1027637,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1027637-stock-photo-flag-of-uruguay.jpg",
+     "korosztalyKod": "VAL_KOROSZT_IFJ",
+     "korosztalyNev": "Ifjúsági válogatott korosztály"
+    },
+    {
+     "id": 271,
+     "nev": "Vietnám",
+     "sportagKod": "SPAG_2",
+     "sportagNev": "Strandkézilabda",
+     "nem": "N",
+     "orszagId": 195,
+     "orszagNev": null,
+     "cimerId": 1098822,
+     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098822-VIE.png",
+     "korosztalyKod": "VAL_KOROSZT_FEL",
+     "korosztalyNev": "Felnőtt válogatott korosztály"
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/nek-tovabbkepzes/list",
+   "body": {
+    "kozponti": [],
+    "teruleti": [],
+    "egyeb": []
+   }
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/modulok",
+   "body": [
+    {
+     "id": "1",
+     "nev": "fooldali_tabella",
+     "ertek": true
+    },
+    {
+     "id": "2",
+     "nev": "fooldali_program_eredmenyek",
+     "ertek": true
+    },
+    {
+     "id": "3",
+     "nev": "globalis_document_store",
+     "ertek": true
+    },
+    {
+     "id": "4",
+     "nev": "szemely_kereso",
+     "ertek": true
+    },
+    {
+     "id": "5",
+     "nev": "sportszervezet_kereso",
+     "ertek": true
+    },
+    {
+     "id": "6",
+     "nev": "versenyek_tabella",
+     "ertek": true
+    },
+    {
+     "id": "7",
+     "nev": "versenyek_program_eredmenyek",
+     "ertek": true
+    },
+    {
+     "id": "8",
+     "nev": "versenyek_statisztika",
+     "ertek": true
+    },
+    {
+     "id": "9",
+     "nev": "sportszervezet_program_eredmenyek",
+     "ertek": true
+    },
+    {
+     "id": "10",
+     "nev": "sportszervezet_statisztika",
+     "ertek": true
+    },
+    {
+     "id": "11",
+     "nev": "sportszervezet_jatekengedelyek",
+     "ertek": true
+    },
+    {
+     "id": "12",
+     "nev": "jatekos_idenyek",
+     "ertek": true
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
+   "body": {
+    "alapfok": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "kozepfok": [],
+    "felsofok": [],
+    "ehf": [],
+    "eronleti": [],
+    "kezilabdaedzo": [],
+    "kapusedzo": [],
+    "strandedzo": [],
+    "kerekesszekedzo": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "csorgolabdaedzo": []
+   }
+  },
   {
    "url": "https://public.mksz.hu/public/api/v1/testulet/list",
    "body": [
@@ -1589,1553 +3005,772 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/kategoria",
+   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
    "body": [
     {
-     "id": 2,
-     "nev": "férfiválogatott",
-     "sorrend": 2
+     "id": 1,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "MKSZ iroda",
+     "sorrend": 1,
+     "tagList": [
+      {
+       "id": 1,
+       "beosztas": "operatív igazgató, igazgatótanács elnöke",
+       "teljes_nev": "NOVÁK ANDRÁS",
+       "telefonszam": "+3614354230",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
     },
     {
-     "id": 3,
-     "nev": "férfi UP-válogatott",
-     "sorrend": 3
+     "id": 44,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Főtitkár titkársága",
+     "sorrend": 2,
+     "tagList": [
+      {
+       "id": 227,
+       "beosztas": "főtitkár",
+       "teljes_nev": "HORVÁTH GABRIELLA",
+       "telefonszam": "+3614354200",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 230,
+       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
+       "teljes_nev": "VERNES DOROTTYA",
+       "telefonszam": "+3614354219",
+       "email": "vernes.dorottya@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      }
+     ]
     },
     {
      "id": 4,
-     "nev": "női válogatott",
-     "sorrend": 4
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Igazgatótanács titkársága",
+     "sorrend": 3,
+     "tagList": [
+      {
+       "id": 16,
+       "beosztas": "titkárságvezető, média munkatárs",
+       "teljes_nev": "SZABÓ FRUZSINA",
+       "telefonszam": "+3614354231",
+       "email": "szabo.fruzsina@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 19,
+       "beosztas": "informatikai igazgató",
+       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
+       "telefonszam": null,
+       "email": "kovacs.krisztian@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 244,
+       "beosztas": "humánerőforrás vezető",
+       "teljes_nev": "FEHÉR ERIKA PIROSKA",
+       "telefonszam": "+3614354218",
+       "email": "feher.erika@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 319,
+       "beosztas": "recepciós asszisztens",
+       "teljes_nev": "PERÁK CSENGE",
+       "telefonszam": "+3614354230",
+       "email": "perak.csenge@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 357,
+       "beosztas": "operatív igazgatóhelyettes",
+       "teljes_nev": "BARDÓCZY GÁBOR",
+       "telefonszam": "+3614354234",
+       "email": "bardoczy.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
     },
     {
-     "id": 5,
-     "nev": "női UP-válogatott",
-     "sorrend": 5
-    },
-    {
-     "id": 6,
-     "nev": "K&H férfi liga",
-     "sorrend": 6
+     "id": 39,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Jogi és stratégiai igazgatóság",
+     "sorrend": 4,
+     "tagList": [
+      {
+       "id": 180,
+       "beosztas": "Igazgatótanács elnök - helyettes",
+       "teljes_nev": "PRÉMECZ ATTILA",
+       "telefonszam": "+3614354259",
+       "email": "premecz.attila@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 183,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "DRISZKU KLAUDIA",
+       "telefonszam": "+3614354217",
+       "email": "driszku.klaudia@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      },
+      {
+       "id": 184,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "GÁVAI SZONJA",
+       "telefonszam": "+3614354217",
+       "email": "gavai.szonja@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 3
+      },
+      {
+       "id": 344,
+       "beosztas": "képzési jogi munkatárs",
+       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
+       "telefonszam": "+3614354222",
+       "email": "balega.noemi@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 4
+      },
+      {
+       "id": 348,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
+       "telefonszam": "+3614354222",
+       "email": "hikade.imola@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 359,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "ILLÉS NÓRA",
+       "telefonszam": "+3614354250",
+       "email": "illes.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      }
+     ]
     },
     {
      "id": 7,
-     "nev": "férfi európai kupa hírek",
-     "sorrend": 7
-    },
-    {
-     "id": 8,
-     "nev": "K&H női liga",
-     "sorrend": 8
-    },
-    {
-     "id": 9,
-     "nev": "női európai kupa hírek",
-     "sorrend": 9
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Pénzügyi és gazdasági igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 25,
+       "beosztas": "gazdasági és pénzügyi igazgató",
+       "teljes_nev": "HUSVÉTH PETRA",
+       "telefonszam": "+3614354253",
+       "email": "husveth.petra@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 28,
+       "beosztas": "kontrolling vezető",
+       "teljes_nev": "BOGNÁR TIBOR",
+       "telefonszam": "+3614354257",
+       "email": "bognar.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 31,
+       "beosztas": "elszámolási vezető",
+       "teljes_nev": "SCHMELÁS PÉTER",
+       "telefonszam": "+3614354265",
+       "email": "schmelas.peter@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 34,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "LÁSZLÓ PIROSKA",
+       "telefonszam": "+3614354247",
+       "email": "laszlo.piroska@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 37,
+       "beosztas": "támogatás előkészítési vezető",
+       "teljes_nev": "BÁLEGA TIBOR",
+       "telefonszam": "+3614354251",
+       "email": "balega.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 40,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "KRÉKITY NÓRA",
+       "telefonszam": null,
+       "email": "krekity.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 46,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "MÉSZÁROS ANDREA",
+       "telefonszam": "+3614354249",
+       "email": "meszaros.andrea@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 177,
+       "beosztas": "kontrolling szakértő",
+       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
+       "telefonszam": "+3614354251",
+       "email": "liszt.katalin@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 208,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "IKKER EDIT",
+       "telefonszam": "+3614354270",
+       "email": "ikker.edit@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 248,
+       "beosztas": "pénzügyi munkatárs",
+       "teljes_nev": "SZEMES NIKOLETT",
+       "telefonszam": null,
+       "email": "szemes.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      }
+     ]
     },
     {
      "id": 10,
-     "nev": "szövetségi hírek",
-     "sorrend": 10
-    },
-    {
-     "id": 11,
-     "nev": "versenyhírek",
-     "sorrend": 11
-    },
-    {
-     "id": 12,
-     "nev": "NEK hírek",
-     "sorrend": 12
-    },
-    {
-     "id": 13,
-     "nev": "TAO hírek",
-     "sorrend": 13
-    },
-    {
-     "id": 14,
-     "nev": "játékvezetés hírek",
-     "sorrend": 14
-    },
-    {
-     "id": 15,
-     "nev": "parasport hírek",
-     "sorrend": 15
-    },
-    {
-     "id": 16,
-     "nev": "vármegyei szövetségek hírei",
-     "sorrend": 16
-    },
-    {
-     "id": 17,
-     "nev": "kézilabda az iskolában hírei",
-     "sorrend": 17
-    },
-    {
-     "id": 18,
-     "nev": "velünk kerek a világ hírei",
-     "sorrend": 18
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "TAO igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 52,
+       "beosztas": "TAO igazgató",
+       "teljes_nev": "EMBER ÁRON",
+       "telefonszam": "+3614354234",
+       "email": "ember.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 55,
+       "beosztas": "TAO irodavezető",
+       "teljes_nev": "KOVÁCS ADÉL",
+       "telefonszam": "+3614354234",
+       "email": "kovacs.adel@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 58,
+       "beosztas": "TAO igazgató-helyettes",
+       "teljes_nev": "PUSZTAI MÁRTON",
+       "telefonszam": "+3614354258",
+       "email": "pusztai.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 64,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "VIRÁG ANDRÁS",
+       "telefonszam": "+3614354245",
+       "email": "virag.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 24
+      },
+      {
+       "id": 67,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "NAGY ZSUZSANNA",
+       "telefonszam": "+3614354244",
+       "email": "nagy.zsuzsanna@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 76,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BORUS ATTILA",
+       "telefonszam": "0614354276",
+       "email": "borus.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 79,
+       "beosztas": "TAO jóváhagyási szakértő",
+       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
+       "telefonszam": "+3614354258",
+       "email": "orhegyi.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 82,
+       "beosztas": "TAO ellenőrzési csoportvezető",
+       "teljes_nev": "LUKÁCS MÁRTON",
+       "telefonszam": "+3614354243",
+       "email": "lukacs.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 236,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "GÖRGICS MÓNIKA",
+       "telefonszam": "+3614354262",
+       "email": "gorgics.monika@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      },
+      {
+       "id": 238,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "SZABÓ BALÁZS",
+       "telefonszam": "06207711482",
+       "email": "szabo.balazs.tao@mksz.hu",
+       "titulus": null,
+       "sorrend": 22
+      },
+      {
+       "id": 307,
+       "beosztas": "TAO jóváhagyási munkatárs",
+       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
+       "telefonszam": "+3614354258",
+       "email": "varga.krisztina@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 314,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "FARKAS RÓBERT ZSOLT",
+       "telefonszam": "+36305717946",
+       "email": "farkas.robert@mksz.hu",
+       "titulus": null,
+       "sorrend": 25
+      },
+      {
+       "id": 316,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "TAKÁCS ZALÁN",
+       "telefonszam": "+36304694978",
+       "email": "takacs.zalan@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      },
+      {
+       "id": 337,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BLAYER ZSÓFIA",
+       "telefonszam": "+3614354242",
+       "email": "blayer.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      }
+     ]
     },
     {
      "id": 19,
-     "nev": "kiadványok",
-     "sorrend": 19
-    },
-    {
-     "id": 20,
-     "nev": "csarnokfelújítási program",
-     "sorrend": 20
-    },
-    {
-     "id": 21,
-     "nev": "nemzetközi átigazolás",
-     "sorrend": 21
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Utánpótlás-fejlesztési igazgatóság",
+     "sorrend": 6,
+     "tagList": [
+      {
+       "id": 251,
+       "beosztas": "utánpótlás szakmai vezető",
+       "teljes_nev": "HORVÁTH LÁSZLÓ",
+       "telefonszam": null,
+       "email": "horvath.laszlo@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 254,
+       "beosztas": "iskolai programvezető",
+       "teljes_nev": "GYÖMÖREY ISTVÁN",
+       "telefonszam": null,
+       "email": "gyomorey.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 261,
+       "beosztas": "sportszakmai koordinátor",
+       "teljes_nev": "MÓROCZ RÉKA",
+       "telefonszam": "+36300117074",
+       "email": "morocz.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 306,
+       "beosztas": "utánpótlás fejlesztési koordinátor",
+       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
+       "telefonszam": "+3614354236",
+       "email": "rubint.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 339,
+       "beosztas": "utánpótlás-fejlesztési vezető",
+       "teljes_nev": "SEBESTYÉN MÁTÉ",
+       "telefonszam": "+36302119500",
+       "email": "sebestyen.mate@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 342,
+       "beosztas": "utánpótlás-fejlesztési igazgató",
+       "teljes_nev": "PITZ ANDRÁS",
+       "telefonszam": "+3614354200",
+       "email": "pitz.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
     },
     {
      "id": 22,
-     "nev": "strandkézilabda",
-     "sorrend": 22
-    },
-    {
-     "id": 23,
-     "nev": "strandkézilabda-válogatott",
-     "sorrend": 23
-    },
-    {
-     "id": 26,
-     "nev": "versenyeztetés alapdokumentáció hírek",
-     "sorrend": 24
-    },
-    {
-     "id": 29,
-     "nev": "MKSZ KTP-hírek",
-     "sorrend": 25
-    },
-    {
-     "id": 32,
-     "nev": "országos serdülő kiválasztás hírek",
-     "sorrend": 26
-    },
-    {
-     "id": 35,
-     "nev": "szakmai hírek",
-     "sorrend": 27
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/valogatottstrandkezi/csapat",
-   "body": [
-    {
-     "id": 275,
-     "nev": "Amerikai Egyesült Államok",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 5,
-     "orszagNev": null,
-     "cimerId": 1098871,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098871-USA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 493,
-     "nev": "Argentína",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 9,
-     "orszagNev": null,
-     "cimerId": 2274715,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2274715-ARG.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 274,
-     "nev": "Ausztrália",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 11,
-     "orszagNev": null,
-     "cimerId": 1098839,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098839-aUS.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 476,
-     "nev": "Ausztrália",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 11,
-     "orszagNev": null,
-     "cimerId": 2256996,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256996-Auszt%C3%A1lis.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 490,
-     "nev": "Brazíla",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 27,
-     "orszagNev": null,
-     "cimerId": 2273988,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2273988-BRA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 269,
-     "nev": "Brazília",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 27,
-     "orszagNev": null,
-     "cimerId": 1098792,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098792-br.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 570,
-     "nev": "Brazília",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 27,
-     "orszagNev": null,
-     "cimerId": 2830557,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7db4ee8963b58975cc68e77f96b43402aa9c8e9472fbd77ab8b18283d472ff31",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 206,
-     "nev": "Brazília U18",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 27,
-     "orszagNev": null,
-     "cimerId": 1026682,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1026682-br.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 468,
-     "nev": "Bulgária FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 30,
-     "orszagNev": null,
-     "cimerId": 2212701,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212701-bul.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 369,
-     "nev": "Bulgária U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 30,
-     "orszagNev": null,
-     "cimerId": 1689766,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1689766-bg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 261,
-     "nev": "Csehország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 38,
-     "orszagNev": null,
-     "cimerId": 1089397,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2024/07/13/1089397-CZE.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 244,
-     "nev": "Csehország U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 38,
-     "orszagNev": null,
-     "cimerId": 1083186,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1083186-download.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 497,
-     "nev": "Csehország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 38,
-     "orszagNev": null,
-     "cimerId": 2285969,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2285969-cze.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 477,
-     "nev": "Dánia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 39,
-     "orszagNev": null,
-     "cimerId": 2256997,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256997-den.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 379,
-     "nev": "Észak-Macedónia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 113,
-     "orszagNev": null,
-     "cimerId": 1690726,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1690726-mk.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 9,
-     "nev": "Férfi felnőtt strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 1277185,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1277185-Civil_Ensign_of_Hungary.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 74,
-     "nev": "Férfi ifjúsági strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 2737305,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2737305-Flag_of_Hungary.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 154,
-     "nev": "Férfi junior strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 858330,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094930Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f5bfa8bca3c8f22725aa1d23490a2458a7b7bb617843791430aa82ebb3ec805d",
-     "korosztalyKod": "VAL_KOROSZT_JUN",
-     "korosztalyNev": "Junior válogatott korosztály"
-    },
-    {
-     "id": 155,
-     "nev": "Férfi serdülő strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 1277189,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1277189-Civil_Ensign_of_Hungary.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 80,
-     "nev": "Franciaország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 57,
-     "orszagNev": null,
-     "cimerId": 489343,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489343-Flag_of_France.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 256,
-     "nev": "Franciország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 57,
-     "orszagNev": null,
-     "cimerId": 1089383,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2024/07/13/1089383-FRA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 290,
-     "nev": "Franciország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 57,
-     "orszagNev": null,
-     "cimerId": 1099381,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099381-FRA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 353,
-     "nev": "Görögország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 63,
-     "orszagNev": null,
-     "cimerId": 1671420,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1671420-download.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 293,
-     "nev": "Hollandia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 69,
-     "orszagNev": null,
-     "cimerId": 1099384,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099384-download%20%284%29.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 573,
-     "nev": "Hollandia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 69,
-     "orszagNev": null,
-     "cimerId": 2838900,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838900-Flag_of_the_Netherlands.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 578,
-     "nev": "Hollandia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 69,
-     "orszagNev": null,
-     "cimerId": 2838928,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838928-Flag_of_the_Netherlands.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 92,
-     "nev": "Hollandia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 69,
-     "orszagNev": null,
-     "cimerId": 489382,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489382-250px-Flag_of_the_Netherlands.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 253,
-     "nev": "Hollandia U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 69,
-     "orszagNev": null,
-     "cimerId": 1083194,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1083194-download (4).png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 264,
-     "nev": "Horvátország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 72,
-     "orszagNev": null,
-     "cimerId": 1089417,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1089417-National-Flag-Of-Croatia.jpg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 83,
-     "nev": "Horvátország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 72,
-     "orszagNev": null,
-     "cimerId": 489349,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489349-hr_500x500.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 435,
-     "nev": "Horvátország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 72,
-     "orszagNev": null,
-     "cimerId": 1956549,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1956549-let%C3%B6lt%C3%A9s%20%284%29.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 431,
-     "nev": "Horvátország FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 72,
-     "orszagNev": null,
-     "cimerId": 1956378,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956378-letöltés (4).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 242,
-     "nev": "Horvátország U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 72,
-     "orszagNev": null,
-     "cimerId": 1083179,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1083179-Flag_of_Croatia.svg",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 557,
-     "nev": "Kenya",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 93,
-     "orszagNev": null,
-     "cimerId": 2777778,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777778-Flag_of_Kenya.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 266,
-     "nev": "Lengyelország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 104,
-     "orszagNev": null,
-     "cimerId": 1089423,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1089423-lengyelország-zászló-2-390x270.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 436,
-     "nev": "Lengyelország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 104,
-     "orszagNev": null,
-     "cimerId": 1956570,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=20376b62cca35bec6c9fcbee91c2532fa31cfb4683b80ab323f30c651fadfe39",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 282,
-     "nev": "Lengyelország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 104,
-     "orszagNev": null,
-     "cimerId": 1099167,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099167-lengyelország-zászló-2-390x270.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 194,
-     "nev": "Lengyelország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 104,
-     "orszagNev": null,
-     "cimerId": 1005355,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1005355-lengyelország-zászló-2-390x270.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 250,
-     "nev": "Litvánia U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 111,
-     "orszagNev": null,
-     "cimerId": 1083192,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083192-download (3).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 272,
-     "nev": "Mexikó",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 125,
-     "orszagNev": null,
-     "cimerId": 1098827,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098827-MEX.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 549,
-     "nev": "Mexikó",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 125,
-     "orszagNev": null,
-     "cimerId": 2777770,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777770-MEX.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 268,
-     "nev": "Németország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 136,
-     "orszagNev": null,
-     "cimerId": 1098787,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098787-GER.jpg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 285,
-     "nev": "Németország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 136,
-     "orszagNev": null,
-     "cimerId": 1099179,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099179-GRE.jpg",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 299,
-     "nev": "Németország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 136,
-     "orszagNev": null,
-     "cimerId": 1099406,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099406-GER.jpg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 86,
-     "nev": "Németország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 136,
-     "orszagNev": null,
-     "cimerId": 489357,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489357-Flag_of_Germany.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 424,
-     "nev": "Németország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 136,
-     "orszagNev": null,
-     "cimerId": 1956344,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956344-letöltés.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 545,
-     "nev": "Norvégia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 141,
-     "orszagNev": null,
-     "cimerId": 2717663,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717663-Flag_of_Norway.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 77,
-     "nev": "Norvégia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 141,
-     "orszagNev": null,
-     "cimerId": 455355,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/455355-download (1).png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 281,
-     "nev": "Norvégia FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 141,
-     "orszagNev": null,
-     "cimerId": 1099163,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099163-NOR.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 373,
-     "nev": "Norvégia U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 141,
-     "orszagNev": null,
-     "cimerId": 1689772,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1689772-no.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 12,
-     "nev": "Női felnőtt strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 1083258,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083258-3708-magyar-zaszlo-1.jpg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 35,
-     "nev": "Női ifjúsági strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 863498,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/863498-3708-magyar-zaszlo-1.jpg",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 161,
-     "nev": "Női junior strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 858357,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dc1c93a0c3d23e1ef4f2e8d4c41936168df62bdaaf7a901e08f7c7e54eaa4c5c",
-     "korosztalyKod": "VAL_KOROSZT_JUN",
-     "korosztalyNev": "Junior válogatott korosztály"
-    },
-    {
-     "id": 158,
-     "nev": "Női serdülő strandkézilabda válogatott",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 1,
-     "orszagNev": "Magyarország",
-     "cimerId": 1083253,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/1083253-3708-magyar-zaszlo-1.jpg",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 260,
-     "nev": "Olaszország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 142,
-     "orszagNev": null,
-     "cimerId": 1089396,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1089396-ITA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 292,
-     "nev": "Olaszország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 142,
-     "orszagNev": null,
-     "cimerId": 1099383,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099383-ITA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 541,
-     "nev": "Olaszország LU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 142,
-     "orszagNev": null,
-     "cimerId": 2717573,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717573-Flag_of_Italy.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 562,
-     "nev": "Omán",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 143,
-     "orszagNev": null,
-     "cimerId": 2829316,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2829316-Flag_of_Oman.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 474,
-     "nev": "Omán",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 143,
-     "orszagNev": null,
-     "cimerId": 2256993,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2256993-Om%C3%A1n.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 87,
-     "nev": "Oroszország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 144,
-     "orszagNev": null,
-     "cimerId": 489369,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/03/17/489369-Flag_of_Russia.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 351,
-     "nev": "Portugália",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 151,
-     "orszagNev": null,
-     "cimerId": 1671419,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1671419-607697426_max.jpg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 426,
-     "nev": "Portugália FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 151,
-     "orszagNev": null,
-     "cimerId": 1956354,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1956354-letöltés (2).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 565,
-     "nev": "Puerto Rico",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 152,
-     "orszagNev": null,
-     "cimerId": 2829320,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2829320-Flag_of_Puerto_Rico.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 366,
-     "nev": "Románia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 154,
-     "orszagNev": null,
-     "cimerId": 1689763,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1689763-ro.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 471,
-     "nev": "Románia FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 154,
-     "orszagNev": null,
-     "cimerId": 2212702,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2212702-rou.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 465,
-     "nev": "Románia U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 154,
-     "orszagNev": null,
-     "cimerId": 2212695,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212695-rou.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 286,
-     "nev": "Spanyolország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 1099193,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099193-250px-Flag_of_Spain.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 544,
-     "nev": "Spanyolország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 2717654,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717654-Flag_of_Spain.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 91,
-     "nev": "Spanyolország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 489381,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/489381-250px-Flag_of_Spain.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 437,
-     "nev": "Spanyolország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 1956572,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956572-letöltés (5).png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 434,
-     "nev": "Spanyolország FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 1956379,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956379-letöltés (5).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 240,
-     "nev": "Spanyolország U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 163,
-     "orszagNev": null,
-     "cimerId": 1077831,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1077831-250px-Flag_of_Spain.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 263,
-     "nev": "Svájc",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 166,
-     "orszagNev": null,
-     "cimerId": 1089405,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1089405-SUI.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 296,
-     "nev": "Svájc",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 166,
-     "orszagNev": null,
-     "cimerId": 1099392,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099392-SUI.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 429,
-     "nev": "Svájc FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 166,
-     "orszagNev": null,
-     "cimerId": 1956363,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1956363-letöltés (3).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 279,
-     "nev": "Svédország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 167,
-     "orszagNev": null,
-     "cimerId": 1099138,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1099138-download (1).png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 575,
-     "nev": "Svédország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 167,
-     "orszagNev": null,
-     "cimerId": 2838902,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2838902-Flag_of_Sweden.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 473,
-     "nev": "Svédország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 167,
-     "orszagNev": null,
-     "cimerId": 2212704,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2212704-swe.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 425,
-     "nev": "Svédország FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 167,
-     "orszagNev": null,
-     "cimerId": 1956353,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1956353-letöltés (1).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 245,
-     "nev": "Svédország U17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 167,
-     "orszagNev": null,
-     "cimerId": 1083187,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1083187-download (1).png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 552,
-     "nev": "Szenegál",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 170,
-     "orszagNev": null,
-     "cimerId": 2777772,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777772-Flag_of_Senegal.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 467,
-     "nev": "Szerbia U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 206,
-     "orszagNev": null,
-     "cimerId": 2212698,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2212698-srb.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 355,
-     "nev": "Szlovákia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 78,
-     "orszagNev": null,
-     "cimerId": 1671422,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1671422-download (1).png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 85,
-     "nev": "Szlovénia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 79,
-     "orszagNev": null,
-     "cimerId": 489355,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/03/17/489355-si-01_medium.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 554,
-     "nev": "Tanzánia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 178,
-     "orszagNev": null,
-     "cimerId": 2777775,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2025/06/14/2777775-Flag_of_Tanzania.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 277,
-     "nev": "Thaiföld",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 179,
-     "orszagNev": null,
-     "cimerId": 1098895,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098895-THA.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 191,
-     "nev": "Thaiföld U18",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 179,
-     "orszagNev": null,
-     "cimerId": 1005352,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/1005352-th.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 298,
-     "nev": "Törökország",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 182,
-     "orszagNev": null,
-     "cimerId": 1099398,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1099398-TUR.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 539,
-     "nev": "Törökország FU17",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 182,
-     "orszagNev": null,
-     "cimerId": 2717507,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2717507-Flag_of_Turkey.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 548,
-     "nev": "Tunézia ",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 183,
-     "orszagNev": null,
-     "cimerId": 2777768,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2777768-TUN.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 567,
-     "nev": "Tunézia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 183,
-     "orszagNev": null,
-     "cimerId": 2830022,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/2830022-TUN.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 492,
-     "nev": "Tunézia",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 183,
-     "orszagNev": null,
-     "cimerId": 2273990,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/05/12/2273990-TUN.jpeg",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 258,
-     "nev": "Ukrajna",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 189,
-     "orszagNev": null,
-     "cimerId": 1089391,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1089391-UKR.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 283,
-     "nev": "Ukrajna",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 189,
-     "orszagNev": null,
-     "cimerId": 1099170,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/25/1099170-UKR.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 289,
-     "nev": "Ukrajna",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "F",
-     "orszagId": 189,
-     "orszagNev": null,
-     "cimerId": 1099377,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1099377-UKR.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    },
-    {
-     "id": 90,
-     "nev": "Ukrajna",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 189,
-     "orszagNev": null,
-     "cimerId": 489371,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/06/12/489371-250px-Flag_of_Ukraine.svg.png",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 248,
-     "nev": "Ukrajna U16",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 189,
-     "orszagNev": null,
-     "cimerId": 1083190,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1083190-download%20%282%29.png",
-     "korosztalyKod": "VAL_KOROSZT_SER",
-     "korosztalyNev": "Serdülő válogatott korosztály"
-    },
-    {
-     "id": 189,
-     "nev": "Uruguay U18",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 190,
-     "orszagNev": null,
-     "cimerId": 1027637,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/2026/07/02/1027637-stock-photo-flag-of-uruguay.jpg",
-     "korosztalyKod": "VAL_KOROSZT_IFJ",
-     "korosztalyNev": "Ifjúsági válogatott korosztály"
-    },
-    {
-     "id": 271,
-     "nev": "Vietnám",
-     "sportagKod": "SPAG_2",
-     "sportagNev": "Strandkézilabda",
-     "nem": "N",
-     "orszagId": 195,
-     "orszagNev": null,
-     "cimerId": 1098822,
-     "cimerUrl": "https://cdn.mksz.hu/mksz-public/1098822-VIE.png",
-     "korosztalyKod": "VAL_KOROSZT_FEL",
-     "korosztalyNev": "Felnőtt válogatott korosztály"
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
-   "body": {
-    "alapfok": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "kozepfok": [],
-    "felsofok": [],
-    "ehf": [],
-    "eronleti": [],
-    "kezilabdaedzo": [],
-    "kapusedzo": [],
-    "strandedzo": [],
-    "kerekesszekedzo": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "csorgolabdaedzo": []
-   }
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/nek-tovabbkepzes/list",
-   "body": {
-    "kozponti": [],
-    "teruleti": [],
-    "egyeb": []
-   }
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/modulok",
-   "body": [
-    {
-     "id": "1",
-     "nev": "fooldali_tabella",
-     "ertek": true
-    },
-    {
-     "id": "2",
-     "nev": "fooldali_program_eredmenyek",
-     "ertek": true
-    },
-    {
-     "id": "3",
-     "nev": "globalis_document_store",
-     "ertek": true
-    },
-    {
-     "id": "4",
-     "nev": "szemely_kereso",
-     "ertek": true
-    },
-    {
-     "id": "5",
-     "nev": "sportszervezet_kereso",
-     "ertek": true
-    },
-    {
-     "id": "6",
-     "nev": "versenyek_tabella",
-     "ertek": true
-    },
-    {
-     "id": "7",
-     "nev": "versenyek_program_eredmenyek",
-     "ertek": true
-    },
-    {
-     "id": "8",
-     "nev": "versenyek_statisztika",
-     "ertek": true
-    },
-    {
-     "id": "9",
-     "nev": "sportszervezet_program_eredmenyek",
-     "ertek": true
-    },
-    {
-     "id": "10",
-     "nev": "sportszervezet_statisztika",
-     "ertek": true
-    },
-    {
-     "id": "11",
-     "nev": "sportszervezet_jatekengedelyek",
-     "ertek": true
-    },
-    {
-     "id": "12",
-     "nev": "jatekos_idenyek",
-     "ertek": true
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Versenyszervezési és monitoring igazgatóság",
+     "sorrend": 7,
+     "tagList": [
+      {
+       "id": 121,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "EGYED BENCE",
+       "telefonszam": "+3614354215",
+       "email": "egyed.bence@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 124,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
+       "telefonszam": "+3614354212",
+       "email": "major.bernadett@mksz.hu",
+       "titulus": null,
+       "sorrend": 11
+      },
+      {
+       "id": 221,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "FODOR NOÉMI",
+       "telefonszam": "+3614354211",
+       "email": "fodor.noemi@mksz.hu",
+       "titulus": null,
+       "sorrend": 13
+      },
+      {
+       "id": 262,
+       "beosztas": "versenyszervezési és monitoring igazgató",
+       "teljes_nev": "SVEDA MARCELL",
+       "telefonszam": "+3614354241",
+       "email": "sveda.marcell@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 265,
+       "beosztas": "monitoring pénzügyi munkatárs",
+       "teljes_nev": "SIDLOVICS SÁRA",
+       "telefonszam": "+3614354254",
+       "email": "sidlovics.sara@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 268,
+       "beosztas": "monitoring jogi munkatárs",
+       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
+       "telefonszam": "+3614354254",
+       "email": "dutkievicz.david@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 271,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "BALÁZS ÁDÁM",
+       "telefonszam": "+3614354220",
+       "email": "balazs.adam@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 274,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "GALBOS ÁRON",
+       "telefonszam": "+3614354220",
+       "email": "galbos.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 15
+      },
+      {
+       "id": 276,
+       "beosztas": "játékvezetői albizottság titkár",
+       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
+       "telefonszam": "+3614354216",
+       "email": "marko.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 318,
+       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
+       "teljes_nev": "BONIFERT FERENC",
+       "telefonszam": "+3614354216",
+       "email": "bonifert.ferenc@mksz.hu",
+       "titulus": null,
+       "sorrend": 21
+      },
+      {
+       "id": 322,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
+       "telefonszam": "+3614354214",
+       "email": "ersek.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 354,
+       "beosztas": "versenyszervezési vezető",
+       "teljes_nev": "TORDAI ILONA",
+       "telefonszam": null,
+       "email": "tordai.ilona@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      }
+     ]
+    },
+    {
+     "id": 25,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Kommunikációs, PR és marketing-igazgatóság",
+     "sorrend": 8,
+     "tagList": [
+      {
+       "id": 145,
+       "beosztas": "kommunikációs igazgató-helyettes",
+       "teljes_nev": "LISZKAY GÁBOR",
+       "telefonszam": "+3614354225",
+       "email": "liszkay.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 148,
+       "beosztas": "média munkatárs",
+       "teljes_nev": "PALÁNKI ALEXANDRA",
+       "telefonszam": "+3614354224",
+       "email": "palanki.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 231,
+       "beosztas": "kommunikációs-, PR- és marketing igazgató",
+       "teljes_nev": "BALLAI ATTILA",
+       "telefonszam": "+3614354224",
+       "email": "ballai.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 234,
+       "beosztas": "marketing igazgató-helyettes",
+       "teljes_nev": "BENCSICS MÁRK",
+       "telefonszam": null,
+       "email": "bencsics.mark@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 277,
+       "beosztas": "marketing menedzser",
+       "teljes_nev": "TARPAI ZOLTÁN",
+       "telefonszam": null,
+       "email": "tarpai.zoltan@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 278,
+       "beosztas": "grafikus",
+       "teljes_nev": "NÉMETH LEVENTE",
+       "telefonszam": null,
+       "email": "nemeth.levente@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      }
+     ]
+    },
+    {
+     "id": 28,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Szervezési igazgatóság",
+     "sorrend": 11,
+     "tagList": [
+      {
+       "id": 151,
+       "beosztas": "szervezési igazgató",
+       "teljes_nev": "MOLNÁR VIKTOR",
+       "telefonszam": "+3614354228",
+       "email": "viktor.molnar@handballfederation.hu ",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 154,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
+       "telefonszam": "+3614354227",
+       "email": "harsfalvi.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 171,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "PONTYOS PEGGI KATA",
+       "telefonszam": null,
+       "email": "pontyos.peggi@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      }
+     ]
+    },
+    {
+     "id": 45,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Sporttudományi és diagnosztikai igazgatóság",
+     "sorrend": 18,
+     "tagList": [
+      {
+       "id": 281,
+       "beosztas": "SDI igazgató",
+       "teljes_nev": "SZABÓ TAMÁS",
+       "telefonszam": null,
+       "email": "szabo.tamas@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 284,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "DOBRONYI TAMÁS",
+       "telefonszam": null,
+       "email": "dobronyi.tamas@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 286,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "BAKONYI PÉTER",
+       "telefonszam": null,
+       "email": "bakonyi.peter@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 5
+      },
+      {
+       "id": 289,
+       "beosztas": "biológus",
+       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
+       "telefonszam": null,
+       "email": "zsakai.annamaria@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 7
+      },
+      {
+       "id": 292,
+       "beosztas": "kardiológus szakorvos",
+       "teljes_nev": "SIDÓ ZOLTÁN",
+       "telefonszam": null,
+       "email": null,
+       "titulus": "Dr.",
+       "sorrend": 9
+      },
+      {
+       "id": 302,
+       "beosztas": "SDI operatív vezető",
+       "teljes_nev": "SZIGETI SZABOLCS",
+       "telefonszam": null,
+       "email": "szigeti.szabolcs@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 305,
+       "beosztas": "spiroergometriai munkatárs",
+       "teljes_nev": "BÉRES BETTINA",
+       "telefonszam": null,
+       "email": "beres.bettina@mksz.hu",
+       "titulus": null,
+       "sorrend": 18
+      },
+      {
+       "id": 312,
+       "beosztas": "biomechanikai munkatárs",
+       "teljes_nev": "SIMON GERGŐ",
+       "telefonszam": null,
+       "email": "simon.gergo@mksz.hu",
+       "titulus": null,
+       "sorrend": 19
+      },
+      {
+       "id": 351,
+       "beosztas": "SDI recepciós asszisztens",
+       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
+       "telefonszam": "+36300864895",
+       "email": "preil.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      }
+     ]
     }
    ]
   },
@@ -3955,772 +4590,137 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
+   "url": "https://public.mksz.hu/public/api/v1/kategoria",
    "body": [
     {
-     "id": 1,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "MKSZ iroda",
-     "sorrend": 1,
-     "tagList": [
-      {
-       "id": 1,
-       "beosztas": "operatív igazgató, igazgatótanács elnöke",
-       "teljes_nev": "NOVÁK ANDRÁS",
-       "telefonszam": "+3614354230",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
+     "id": 2,
+     "nev": "férfiválogatott",
+     "sorrend": 2
     },
     {
-     "id": 44,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Főtitkár titkársága",
-     "sorrend": 2,
-     "tagList": [
-      {
-       "id": 227,
-       "beosztas": "főtitkár",
-       "teljes_nev": "HORVÁTH GABRIELLA",
-       "telefonszam": "+3614354200",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 230,
-       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
-       "teljes_nev": "VERNES DOROTTYA",
-       "telefonszam": "+3614354219",
-       "email": "vernes.dorottya@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      }
-     ]
+     "id": 3,
+     "nev": "férfi UP-válogatott",
+     "sorrend": 3
     },
     {
      "id": 4,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Igazgatótanács titkársága",
-     "sorrend": 3,
-     "tagList": [
-      {
-       "id": 16,
-       "beosztas": "titkárságvezető, média munkatárs",
-       "teljes_nev": "SZABÓ FRUZSINA",
-       "telefonszam": "+3614354231",
-       "email": "szabo.fruzsina@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 19,
-       "beosztas": "informatikai igazgató",
-       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
-       "telefonszam": null,
-       "email": "kovacs.krisztian@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 244,
-       "beosztas": "humánerőforrás vezető",
-       "teljes_nev": "FEHÉR ERIKA PIROSKA",
-       "telefonszam": "+3614354218",
-       "email": "feher.erika@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 319,
-       "beosztas": "recepciós asszisztens",
-       "teljes_nev": "PERÁK CSENGE",
-       "telefonszam": "+3614354230",
-       "email": "perak.csenge@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 357,
-       "beosztas": "operatív igazgatóhelyettes",
-       "teljes_nev": "BARDÓCZY GÁBOR",
-       "telefonszam": "+3614354234",
-       "email": "bardoczy.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
+     "nev": "női válogatott",
+     "sorrend": 4
     },
     {
-     "id": 39,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Jogi és stratégiai igazgatóság",
-     "sorrend": 4,
-     "tagList": [
-      {
-       "id": 180,
-       "beosztas": "Igazgatótanács elnök - helyettes",
-       "teljes_nev": "PRÉMECZ ATTILA",
-       "telefonszam": "+3614354259",
-       "email": "premecz.attila@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 183,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "DRISZKU KLAUDIA",
-       "telefonszam": "+3614354217",
-       "email": "driszku.klaudia@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      },
-      {
-       "id": 184,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "GÁVAI SZONJA",
-       "telefonszam": "+3614354217",
-       "email": "gavai.szonja@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 3
-      },
-      {
-       "id": 344,
-       "beosztas": "képzési jogi munkatárs",
-       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
-       "telefonszam": "+3614354222",
-       "email": "balega.noemi@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 4
-      },
-      {
-       "id": 348,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
-       "telefonszam": "+3614354222",
-       "email": "hikade.imola@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 359,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "ILLÉS NÓRA",
-       "telefonszam": "+3614354250",
-       "email": "illes.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      }
-     ]
+     "id": 5,
+     "nev": "női UP-válogatott",
+     "sorrend": 5
+    },
+    {
+     "id": 6,
+     "nev": "K&H férfi liga",
+     "sorrend": 6
     },
     {
      "id": 7,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Pénzügyi és gazdasági igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 25,
-       "beosztas": "gazdasági és pénzügyi igazgató",
-       "teljes_nev": "HUSVÉTH PETRA",
-       "telefonszam": "+3614354253",
-       "email": "husveth.petra@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 28,
-       "beosztas": "kontrolling vezető",
-       "teljes_nev": "BOGNÁR TIBOR",
-       "telefonszam": "+3614354257",
-       "email": "bognar.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 31,
-       "beosztas": "elszámolási vezető",
-       "teljes_nev": "SCHMELÁS PÉTER",
-       "telefonszam": "+3614354265",
-       "email": "schmelas.peter@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 34,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "LÁSZLÓ PIROSKA",
-       "telefonszam": "+3614354247",
-       "email": "laszlo.piroska@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 37,
-       "beosztas": "támogatás előkészítési vezető",
-       "teljes_nev": "BÁLEGA TIBOR",
-       "telefonszam": "+3614354251",
-       "email": "balega.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 40,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "KRÉKITY NÓRA",
-       "telefonszam": null,
-       "email": "krekity.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 46,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "MÉSZÁROS ANDREA",
-       "telefonszam": "+3614354249",
-       "email": "meszaros.andrea@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 177,
-       "beosztas": "kontrolling szakértő",
-       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
-       "telefonszam": "+3614354251",
-       "email": "liszt.katalin@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 208,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "IKKER EDIT",
-       "telefonszam": "+3614354270",
-       "email": "ikker.edit@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 248,
-       "beosztas": "pénzügyi munkatárs",
-       "teljes_nev": "SZEMES NIKOLETT",
-       "telefonszam": null,
-       "email": "szemes.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      }
-     ]
+     "nev": "férfi európai kupa hírek",
+     "sorrend": 7
+    },
+    {
+     "id": 8,
+     "nev": "K&H női liga",
+     "sorrend": 8
+    },
+    {
+     "id": 9,
+     "nev": "női európai kupa hírek",
+     "sorrend": 9
     },
     {
      "id": 10,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "TAO igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 52,
-       "beosztas": "TAO igazgató",
-       "teljes_nev": "EMBER ÁRON",
-       "telefonszam": "+3614354234",
-       "email": "ember.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 55,
-       "beosztas": "TAO irodavezető",
-       "teljes_nev": "KOVÁCS ADÉL",
-       "telefonszam": "+3614354234",
-       "email": "kovacs.adel@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 58,
-       "beosztas": "TAO igazgató-helyettes",
-       "teljes_nev": "PUSZTAI MÁRTON",
-       "telefonszam": "+3614354258",
-       "email": "pusztai.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 64,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "VIRÁG ANDRÁS",
-       "telefonszam": "+3614354245",
-       "email": "virag.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 24
-      },
-      {
-       "id": 67,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "NAGY ZSUZSANNA",
-       "telefonszam": "+3614354244",
-       "email": "nagy.zsuzsanna@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 76,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BORUS ATTILA",
-       "telefonszam": "0614354276",
-       "email": "borus.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 79,
-       "beosztas": "TAO jóváhagyási szakértő",
-       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
-       "telefonszam": "+3614354258",
-       "email": "orhegyi.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 82,
-       "beosztas": "TAO ellenőrzési csoportvezető",
-       "teljes_nev": "LUKÁCS MÁRTON",
-       "telefonszam": "+3614354243",
-       "email": "lukacs.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 236,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "GÖRGICS MÓNIKA",
-       "telefonszam": "+3614354262",
-       "email": "gorgics.monika@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      },
-      {
-       "id": 238,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "SZABÓ BALÁZS",
-       "telefonszam": "06207711482",
-       "email": "szabo.balazs.tao@mksz.hu",
-       "titulus": null,
-       "sorrend": 22
-      },
-      {
-       "id": 307,
-       "beosztas": "TAO jóváhagyási munkatárs",
-       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
-       "telefonszam": "+3614354258",
-       "email": "varga.krisztina@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 314,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "FARKAS RÓBERT ZSOLT",
-       "telefonszam": "+36305717946",
-       "email": "farkas.robert@mksz.hu",
-       "titulus": null,
-       "sorrend": 25
-      },
-      {
-       "id": 316,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "TAKÁCS ZALÁN",
-       "telefonszam": "+36304694978",
-       "email": "takacs.zalan@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      },
-      {
-       "id": 337,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BLAYER ZSÓFIA",
-       "telefonszam": "+3614354242",
-       "email": "blayer.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      }
-     ]
+     "nev": "szövetségi hírek",
+     "sorrend": 10
+    },
+    {
+     "id": 11,
+     "nev": "versenyhírek",
+     "sorrend": 11
+    },
+    {
+     "id": 12,
+     "nev": "NEK hírek",
+     "sorrend": 12
+    },
+    {
+     "id": 13,
+     "nev": "TAO hírek",
+     "sorrend": 13
+    },
+    {
+     "id": 14,
+     "nev": "játékvezetés hírek",
+     "sorrend": 14
+    },
+    {
+     "id": 15,
+     "nev": "parasport hírek",
+     "sorrend": 15
+    },
+    {
+     "id": 16,
+     "nev": "vármegyei szövetségek hírei",
+     "sorrend": 16
+    },
+    {
+     "id": 17,
+     "nev": "kézilabda az iskolában hírei",
+     "sorrend": 17
+    },
+    {
+     "id": 18,
+     "nev": "velünk kerek a világ hírei",
+     "sorrend": 18
     },
     {
      "id": 19,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Utánpótlás-fejlesztési igazgatóság",
-     "sorrend": 6,
-     "tagList": [
-      {
-       "id": 251,
-       "beosztas": "utánpótlás szakmai vezető",
-       "teljes_nev": "HORVÁTH LÁSZLÓ",
-       "telefonszam": null,
-       "email": "horvath.laszlo@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 254,
-       "beosztas": "iskolai programvezető",
-       "teljes_nev": "GYÖMÖREY ISTVÁN",
-       "telefonszam": null,
-       "email": "gyomorey.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 261,
-       "beosztas": "sportszakmai koordinátor",
-       "teljes_nev": "MÓROCZ RÉKA",
-       "telefonszam": "+36300117074",
-       "email": "morocz.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 306,
-       "beosztas": "utánpótlás fejlesztési koordinátor",
-       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
-       "telefonszam": "+3614354236",
-       "email": "rubint.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 339,
-       "beosztas": "utánpótlás-fejlesztési vezető",
-       "teljes_nev": "SEBESTYÉN MÁTÉ",
-       "telefonszam": "+36302119500",
-       "email": "sebestyen.mate@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 342,
-       "beosztas": "utánpótlás-fejlesztési igazgató",
-       "teljes_nev": "PITZ ANDRÁS",
-       "telefonszam": "+3614354200",
-       "email": "pitz.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
+     "nev": "kiadványok",
+     "sorrend": 19
+    },
+    {
+     "id": 20,
+     "nev": "csarnokfelújítási program",
+     "sorrend": 20
+    },
+    {
+     "id": 21,
+     "nev": "nemzetközi átigazolás",
+     "sorrend": 21
     },
     {
      "id": 22,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Versenyszervezési és monitoring igazgatóság",
-     "sorrend": 7,
-     "tagList": [
-      {
-       "id": 121,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "EGYED BENCE",
-       "telefonszam": "+3614354215",
-       "email": "egyed.bence@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 124,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
-       "telefonszam": "+3614354212",
-       "email": "major.bernadett@mksz.hu",
-       "titulus": null,
-       "sorrend": 11
-      },
-      {
-       "id": 221,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "FODOR NOÉMI",
-       "telefonszam": "+3614354211",
-       "email": "fodor.noemi@mksz.hu",
-       "titulus": null,
-       "sorrend": 13
-      },
-      {
-       "id": 262,
-       "beosztas": "versenyszervezési és monitoring igazgató",
-       "teljes_nev": "SVEDA MARCELL",
-       "telefonszam": "+3614354241",
-       "email": "sveda.marcell@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 265,
-       "beosztas": "monitoring pénzügyi munkatárs",
-       "teljes_nev": "SIDLOVICS SÁRA",
-       "telefonszam": "+3614354254",
-       "email": "sidlovics.sara@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 268,
-       "beosztas": "monitoring jogi munkatárs",
-       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
-       "telefonszam": "+3614354254",
-       "email": "dutkievicz.david@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 271,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "BALÁZS ÁDÁM",
-       "telefonszam": "+3614354220",
-       "email": "balazs.adam@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 274,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "GALBOS ÁRON",
-       "telefonszam": "+3614354220",
-       "email": "galbos.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 15
-      },
-      {
-       "id": 276,
-       "beosztas": "játékvezetői albizottság titkár",
-       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
-       "telefonszam": "+3614354216",
-       "email": "marko.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 318,
-       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
-       "teljes_nev": "BONIFERT FERENC",
-       "telefonszam": "+3614354216",
-       "email": "bonifert.ferenc@mksz.hu",
-       "titulus": null,
-       "sorrend": 21
-      },
-      {
-       "id": 322,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
-       "telefonszam": "+3614354214",
-       "email": "ersek.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 354,
-       "beosztas": "versenyszervezési vezető",
-       "teljes_nev": "TORDAI ILONA",
-       "telefonszam": null,
-       "email": "tordai.ilona@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      }
-     ]
+     "nev": "strandkézilabda",
+     "sorrend": 22
     },
     {
-     "id": 25,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Kommunikációs, PR és marketing-igazgatóság",
-     "sorrend": 8,
-     "tagList": [
-      {
-       "id": 145,
-       "beosztas": "kommunikációs igazgató-helyettes",
-       "teljes_nev": "LISZKAY GÁBOR",
-       "telefonszam": "+3614354225",
-       "email": "liszkay.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 148,
-       "beosztas": "média munkatárs",
-       "teljes_nev": "PALÁNKI ALEXANDRA",
-       "telefonszam": "+3614354224",
-       "email": "palanki.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 231,
-       "beosztas": "kommunikációs-, PR- és marketing igazgató",
-       "teljes_nev": "BALLAI ATTILA",
-       "telefonszam": "+3614354224",
-       "email": "ballai.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 234,
-       "beosztas": "marketing igazgató-helyettes",
-       "teljes_nev": "BENCSICS MÁRK",
-       "telefonszam": null,
-       "email": "bencsics.mark@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 277,
-       "beosztas": "marketing menedzser",
-       "teljes_nev": "TARPAI ZOLTÁN",
-       "telefonszam": null,
-       "email": "tarpai.zoltan@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 278,
-       "beosztas": "grafikus",
-       "teljes_nev": "NÉMETH LEVENTE",
-       "telefonszam": null,
-       "email": "nemeth.levente@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      }
-     ]
+     "id": 23,
+     "nev": "strandkézilabda-válogatott",
+     "sorrend": 23
     },
     {
-     "id": 28,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Szervezési igazgatóság",
-     "sorrend": 11,
-     "tagList": [
-      {
-       "id": 151,
-       "beosztas": "szervezési igazgató",
-       "teljes_nev": "MOLNÁR VIKTOR",
-       "telefonszam": "+3614354228",
-       "email": "viktor.molnar@handballfederation.hu ",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 154,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
-       "telefonszam": "+3614354227",
-       "email": "harsfalvi.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 171,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "PONTYOS PEGGI KATA",
-       "telefonszam": null,
-       "email": "pontyos.peggi@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      }
-     ]
+     "id": 26,
+     "nev": "versenyeztetés alapdokumentáció hírek",
+     "sorrend": 24
     },
     {
-     "id": 45,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Sporttudományi és diagnosztikai igazgatóság",
-     "sorrend": 18,
-     "tagList": [
-      {
-       "id": 281,
-       "beosztas": "SDI igazgató",
-       "teljes_nev": "SZABÓ TAMÁS",
-       "telefonszam": null,
-       "email": "szabo.tamas@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 284,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "DOBRONYI TAMÁS",
-       "telefonszam": null,
-       "email": "dobronyi.tamas@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 286,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "BAKONYI PÉTER",
-       "telefonszam": null,
-       "email": "bakonyi.peter@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 5
-      },
-      {
-       "id": 289,
-       "beosztas": "biológus",
-       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
-       "telefonszam": null,
-       "email": "zsakai.annamaria@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 7
-      },
-      {
-       "id": 292,
-       "beosztas": "kardiológus szakorvos",
-       "teljes_nev": "SIDÓ ZOLTÁN",
-       "telefonszam": null,
-       "email": null,
-       "titulus": "Dr.",
-       "sorrend": 9
-      },
-      {
-       "id": 302,
-       "beosztas": "SDI operatív vezető",
-       "teljes_nev": "SZIGETI SZABOLCS",
-       "telefonszam": null,
-       "email": "szigeti.szabolcs@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 305,
-       "beosztas": "spiroergometriai munkatárs",
-       "teljes_nev": "BÉRES BETTINA",
-       "telefonszam": null,
-       "email": "beres.bettina@mksz.hu",
-       "titulus": null,
-       "sorrend": 18
-      },
-      {
-       "id": 312,
-       "beosztas": "biomechanikai munkatárs",
-       "teljes_nev": "SIMON GERGŐ",
-       "telefonszam": null,
-       "email": "simon.gergo@mksz.hu",
-       "titulus": null,
-       "sorrend": 19
-      },
-      {
-       "id": 351,
-       "beosztas": "SDI recepciós asszisztens",
-       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
-       "telefonszam": "+36300864895",
-       "email": "preil.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      }
-     ]
+     "id": 29,
+     "nev": "MKSZ KTP-hírek",
+     "sorrend": 25
+    },
+    {
+     "id": 32,
+     "nev": "országos serdülő kiválasztás hírek",
+     "sorrend": 26
+    },
+    {
+     "id": 35,
+     "nev": "szakmai hírek",
+     "sorrend": 27
     }
    ]
   },
@@ -4841,124 +4841,58 @@
    "url": "https://public.mksz.hu/public/api/v1/versenyek/program",
    "body": [
     {
-     "merkozesId": 32021467937,
-     "sportesemenyId": 32025763,
-     "sportesemenyNev": "Női junior válogatott",
-     "sportesemenyRovidNev": "Női junior válogatott",
+     "merkozesId": 32021459807,
+     "sportesemenyId": 32025759,
+     "sportesemenyNev": "Női felnőtt válogatott",
+     "sportesemenyRovidNev": "Női felnőtt válogatott",
      "sportagKod": "SPAG_1",
      "evadEv": 2026,
      "evadNev": "2026/2027",
-     "foversenyId": 32027166,
-     "foversenyRovidNev": "Junior válogatott felkészülési mérkőzések",
-     "foversenyNev": "Junior válogatott felkészülési mérkőzések",
+     "foversenyId": 32027163,
+     "foversenyRovidNev": "Felnőtt válogatott felkészülési mérkőzések",
+     "foversenyNev": "Felnőtt válogatott felkészülési mérkőzések",
      "nem": "N",
-     "korosztalyId": 12020651,
-     "korosztalyNev": "LU20",
-     "alversenyId": 320229554,
-     "alversenyNev": "Junior válogatott felkészülési mérkőzések",
-     "alversenyRovidNev": "Junior válogatott felkészülési mérkőzések",
-     "letesitmenyId": 1256,
-     "letesitmenyNev": "Kovács Katalin Nemzeti Kajak-Kenu Akadémia",
-     "letesitmenyCim": "Sukoró",
+     "korosztalyId": 12020648,
+     "korosztalyNev": "Felnőtt",
+     "alversenyId": 320229559,
+     "alversenyNev": "JYSK-kupa",
+     "alversenyRovidNev": "JYSK-kupa",
+     "letesitmenyId": 903,
+     "letesitmenyNev": "Multifunkciós Csarnok",
+     "letesitmenyCim": "Tatabánya",
      "letesitmenyAlpalyaId": null,
      "letesitmenyAlpalyaNev": null,
-     "hazaiCsapatId": 3810389163,
+     "hazaiCsapatId": 3810389366,
      "hazaiSportszervezetId": null,
      "hazaiLogoDokumentumId": null,
-     "hazaiValogatottLogoDokumentumId": 30172,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/30172-hun_flag.jpeg",
-     "hazaiCsapatNev": "Magyarország női junior",
+     "hazaiValogatottLogoDokumentumId": 4,
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/4-hun_flag.jpeg",
+     "hazaiCsapatNev": "Magyarország női felnőtt",
      "hazaiCsapatRovidNev": "Magyarország",
-     "hazaiCsapatGol": 41,
-     "hazaiCsapatFelidoGol": 18,
+     "hazaiCsapatGol": null,
+     "hazaiCsapatFelidoGol": null,
      "hazaiOrszag": "HUN",
-     "vendegCsapatId": 3810389533,
+     "vendegCsapatId": 3810389372,
      "vendegSportszervezetId": null,
      "vendegLogoDokumentumId": null,
-     "vendegValogatottLogoDokumentumId": 30635140,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz/base/2026/10/21/d29d5c60-e119-40a6-a096-ad758fe13b4b/szlovak.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T195933Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=752a79898268f77834e701b60e3242c8e644c00ea4d11a0fd2cb5807c0fae5fd",
-     "vendegCsapatNev": "Szlovákia női junior",
-     "vendegCsapatRovidNev": "Szlovákia",
-     "vendegCsapatGol": 22,
-     "vendegCsapatFelidoGol": 10,
-     "vendegOrszag": "SVK",
-     "merkozesDatum": "2026-11-26T19:00:00.000",
-     "merkozesDatumNap": "2026-11-26T00:00:00.000",
-     "merkozesStatusz": "JEGYZOK_ELFOGADVA",
+     "vendegValogatottLogoDokumentumId": 1846190,
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/03/1846190-Austria.svg.png",
+     "vendegCsapatNev": "Ausztria női felnőtt",
+     "vendegCsapatRovidNev": "Ausztria",
+     "vendegCsapatGol": null,
+     "vendegCsapatFelidoGol": null,
+     "vendegOrszag": "AUT",
+     "merkozesDatum": "2026-11-27T18:00:00.000",
+     "merkozesDatumNap": "2026-11-27T00:00:00.000",
+     "merkozesStatusz": "IDOPONT_ELFOGADVA",
      "globalisVersenyKod": "VALOGATOTT_VERSENY",
      "globalisVersenyNev": "Válogatott verseny",
      "videoUrl": null,
-     "nezoszam": 75,
+     "nezoszam": null,
      "fordulo": 1,
      "forduloKezdete": null,
      "forduloVege": null,
      "foversenySorrend": 0
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
-   "body": [
-    {
-     "id": 32027157,
-     "rovidNev": "FU16 II.osztály",
-     "nev": "FU16 II.osztály",
-     "nem": "F",
-     "korosztalyId": 12020658,
-     "korosztalyNev": "FU16",
-     "sportagKod": "SPAG_1",
-     "sportagNev": "Teremkézilabda",
-     "sportesemenyId": 32025753,
-     "sportesemenyNev": "U16 II.osztály",
-     "sportesemenyRovidNev": "U16 II.osztály",
-     "sportesemenyTipusKod": "SPETIP_HIV",
-     "sportesemenyTipusNev": "Hivatalos verseny",
-     "evadNev": "2026/2027",
-     "globalisVersenyKod": "IIOSZT",
-     "globalisVersenyNev": "II. osztály",
-     "evadEv": 2026,
-     "foversenySorrend": 8,
-     "publicUrl": null,
-     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
-     "alversenyList": [
-      {
-       "id": 320229199,
-       "rovidNev": "FU16 II. osztály-E",
-       "nev": "FU16 II. osztály-E",
-       "foversenyId": 32027157,
-       "alversenySorrend": 5,
-       "tipusKod": "SPETIP_HIV",
-       "kitehetoIg": "2027-06-30T00:00:00.000",
-       "kitehetoTol": "2026-08-01T00:00:00.000",
-       "sorsolasMegjelenitendo": 1,
-       "tabellaMegjelenitendo": 1
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/valogatott/korosztaly",
-   "body": [
-    {
-     "kod": "VAL_KOROSZT_FEL",
-     "nev": "Felnőtt válogatott korosztály",
-     "sorrend": 1
-    },
-    {
-     "kod": "VAL_KOROSZT_JUN",
-     "nev": "Junior válogatott korosztály",
-     "sorrend": 2
-    },
-    {
-     "kod": "VAL_KOROSZT_IFJ",
-     "nev": "Ifjúsági válogatott korosztály",
-     "sorrend": 3
-    },
-    {
-     "kod": "VAL_KOROSZT_SER",
-     "nev": "Serdülő válogatott korosztály",
-     "sorrend": 4
     }
    ]
   },
@@ -5768,39 +5702,27 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
+   "url": "https://public.mksz.hu/public/api/v1/valogatott/korosztaly",
    "body": [
     {
-     "kod": "EDZOMERKOZES",
-     "nev": "Edzőmérkőzések",
-     "rovidNev": "Edzőmérkőzések",
-     "sorrend": 14,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
+     "kod": "VAL_KOROSZT_FEL",
+     "nev": "Felnőtt válogatott korosztály",
+     "sorrend": 1
     },
     {
-     "kod": "UTANPOTLAS_TORNA",
-     "nev": "Utánpótlás torna",
-     "rovidNev": "UP. torna",
-     "sorrend": 18,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
+     "kod": "VAL_KOROSZT_JUN",
+     "nev": "Junior válogatott korosztály",
+     "sorrend": 2
     },
     {
-     "kod": "NSKB",
-     "nev": "Nemzeti strandkézilabda Bajnokság",
-     "rovidNev": "Nemzeti strandkézilabda Bajnokság",
-     "sorrend": 20,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
+     "kod": "VAL_KOROSZT_IFJ",
+     "nev": "Ifjúsági válogatott korosztály",
+     "sorrend": 3
     },
     {
-     "kod": "USKT",
-     "nev": "Utánpótlás strandkézilabda torna",
-     "rovidNev": "Utánpótlás strandkézilabda torna",
-     "sorrend": 21,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
+     "kod": "VAL_KOROSZT_SER",
+     "nev": "Serdülő válogatott korosztály",
+     "sorrend": 4
     }
    ]
   },
@@ -5925,6 +5847,43 @@
      "rovidNev": "Mini kézilabda",
      "sorrend": 22,
      "sportagKod": "SPAG_1",
+     "evId": 2026
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
+   "body": [
+    {
+     "kod": "EDZOMERKOZES",
+     "nev": "Edzőmérkőzések",
+     "rovidNev": "Edzőmérkőzések",
+     "sorrend": 14,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "UTANPOTLAS_TORNA",
+     "nev": "Utánpótlás torna",
+     "rovidNev": "UP. torna",
+     "sorrend": 18,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "NSKB",
+     "nev": "Nemzeti strandkézilabda Bajnokság",
+     "rovidNev": "Nemzeti strandkézilabda Bajnokság",
+     "sorrend": 20,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "USKT",
+     "nev": "Utánpótlás strandkézilabda torna",
+     "rovidNev": "Utánpótlás strandkézilabda torna",
+     "sorrend": 21,
+     "sportagKod": "SPAG_2",
      "evId": 2026
     }
    ]
@@ -7762,16 +7721,57 @@
    }
   },
   {
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
+   "body": [
+    {
+     "id": 32027157,
+     "rovidNev": "FU16 II.osztály",
+     "nev": "FU16 II.osztály",
+     "nem": "F",
+     "korosztalyId": 12020658,
+     "korosztalyNev": "FU16",
+     "sportagKod": "SPAG_1",
+     "sportagNev": "Teremkézilabda",
+     "sportesemenyId": 32025753,
+     "sportesemenyNev": "U16 II.osztály",
+     "sportesemenyRovidNev": "U16 II.osztály",
+     "sportesemenyTipusKod": "SPETIP_HIV",
+     "sportesemenyTipusNev": "Hivatalos verseny",
+     "evadNev": "2026/2027",
+     "globalisVersenyKod": "IIOSZT",
+     "globalisVersenyNev": "II. osztály",
+     "evadEv": 2026,
+     "foversenySorrend": 8,
+     "publicUrl": null,
+     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
+     "alversenyList": [
+      {
+       "id": 320229199,
+       "rovidNev": "FU16 II. osztály-E",
+       "nev": "FU16 II. osztály-E",
+       "foversenyId": 32027157,
+       "alversenySorrend": 5,
+       "tipusKod": "SPETIP_HIV",
+       "kitehetoIg": "2027-06-30T00:00:00.000",
+       "kitehetoTol": "2026-08-01T00:00:00.000",
+       "sorsolasMegjelenitendo": 1,
+       "tabellaMegjelenitendo": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "url": "https://livescore-socket.mksz.hu/eredmeny",
    "body": {
-    "32021467937": {
+    "32021459807": {
      "eredmeny_allas": {
-      "gol_hazai": 41,
-      "gol_vendeg": 22,
-      "logo_hazai": "https://cdn.mksz.hu/mksz/base/3440a086-1595-42ba-9cbe-0381df078063/hun_flag.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T180104Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f57053cdbc5b8ed408eb7b578ff5ef3d2f08f78217038e4603f0ee44c0cf10e5",
-      "logo_vendeg": "https://cdn.mksz.hu/mksz/base/2026/10/21/d29d5c60-e119-40a6-a096-ad758fe13b4b/szlovak.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T180104Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=952877627638aa42caf10a4201d7ad2ad41f4ec585777318462e806c170d5160",
-      "allapot": 1,
-      "merkozesid": 32021467937
+      "gol_hazai": 0,
+      "gol_vendeg": 0,
+      "logo_hazai": "",
+      "logo_vendeg": "",
+      "allapot": 0,
+      "merkozesid": 32021459807
      }
     }
    }
@@ -7865,6 +7865,21 @@
    "body": {
     "content": [
      {
+      "id": 9715,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 7,
+      "kategoriaNev": "férfi európai kupa hírek",
+      "cim": "Férfi BL: Döntetlen az Aalborg ellen",
+      "rovidSzoveg": "Végletekig kiélezett találkozót és dán kapus-csatát követően a One Veszprém HC 28-28-as döntetlent játszott a dán Aalborg Handbold együttesével a férfi BL középdöntős csoportkör második fordulójában, amely egyúttal \"A hónap mérkőzése\" is volt.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-26T21:00:00.000",
+      "kisKepId": 30709854,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/30709854-20261126_Veszprem-Aalborg_9981.jpg",
+      "tartalom": "<p><em><br>F&eacute;rfi Bajnokok Lig&aacute;ja, I. k&ouml;z&eacute;pd&ouml;ntő csoport, 2. fordul&oacute;</em><br><strong>ONE VESZPR&Eacute;M HC-AALBORG H&Aring;NDBOLD 28-28 (12-12)</strong><br>Veszpr&eacute;m, j&aacute;t&eacute;kvezetők: Kuttler, Merz (n&eacute;metek).<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Descat 4 (1), Dodic, Elderaa, G&aacute;ncs-Pető, Gon&ccedil;alves Dos Santos, Hesham Elsayed Moham 10, Imre 3 (2), Lenne 1, Ligetv&aacute;ri, Martinovic, Mesilhy 2, Pechmalbec 4, Remili 4, Zeinelabedin Ali.&nbsp;Edző: Xavi Pascual.<br>AALBORG: Landin Jacobsen, Norsten (kapusok), Amnitzb&oslash;ll Norlyk, Anderson 4, Blonz, Jacobsen 1, Jensen 1, Knorr 1, Larsen 10 (5), Lindskog, M&ouml;ller 2, Munk 5, Nielsen, Nilsson 4, R&oslash;nningen, Sagosen. Edző: Henrik Kronborg.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 7/3, ill. 5/5.<br><br>Az első j&aacute;t&eacute;kr&eacute;szt hasonl&oacute;an kezdte a k&eacute;t egy&uuml;ttes, gyors let&aacute;mad&aacute;sok &eacute;s g&oacute;lok v&aacute;ltott&aacute;k egym&aacute;st, amelynek k&ouml;sz&ouml;nhetően a tal&aacute;lkoz&oacute; &aacute;ll&aacute;sa a 19. percig v&eacute;gig d&ouml;ntetlen volt. A m&eacute;rkőz&eacute;s pikant&eacute;ri&aacute;j&aacute;t fokozta, hogy a k&eacute;t kaput k&eacute;t d&aacute;n vil&aacute;gklasszis, Emil Nielsen &eacute;s Niklas Landin őrizte. Ezt k&ouml;vette egy elrontott hazai t&aacute;mad&aacute;s, majd egy Landin v&eacute;d&eacute;s, amelynek k&ouml;sz&ouml;nhetően a d&aacute;nok k&eacute;tg&oacute;los előnyre tettek szert. Azonban Nielsen sem t&eacute;tlenkedett, a 25. percben Knorr l&ouml;v&eacute;s&eacute;t h&aacute;r&iacute;totta, majd Hesham tal&aacute;lat&aacute;val &uacute;jra d&ouml;ntetlen, azaz 11-11 volt az eredm&eacute;ny. Ezt k&ouml;vetően a d&aacute;nok ism&eacute;t elh&uacute;ztak egy g&oacute;llal, azonban j&ouml;tt a Nielsen-par&aacute;d&eacute;, a hazaiak kapusa egym&aacute;s ut&aacute;n h&aacute;rom v&eacute;d&eacute;st mutatott be, majd a 30. percbe Pechmalbec kiegyenl&iacute;tett. Az első f&eacute;lidőt a Veszpr&eacute;m hat&eacute;kony v&eacute;dekez&eacute;se, egy d&aacute;n szabaddob&aacute;s &eacute;s egy &uacute;jabb Nielsen v&eacute;d&eacute;s z&aacute;rta, &iacute;gy a sz&uuml;netben az eredm&eacute;ny 12-12 maradt.<br><br>A m&aacute;sodik j&aacute;t&eacute;kr&eacute;sz egy d&aacute;n h&eacute;tm&eacute;teressel indult, amelyet Mesilhy &eacute;rt&eacute;kes&iacute;tett, majd egy gyors kontr&aacute;b&oacute;l, a Veszpr&eacute;m t&aacute;mad&aacute;s&aacute;b&oacute;l Hesham egyenl&iacute;tett. K&eacute;t elhib&aacute;zott hazai t&aacute;mad&aacute;st, &eacute;s egy kihagyott b&uuml;ntetőt k&ouml;vetően a 37. percre az Aalborg előnye imm&aacute;ron k&eacute;t g&oacute;l volt. Azonban a Veszpr&eacute;m alig 1,5 perc alatt ism&eacute;t fel tudott z&aacute;rk&oacute;zni, ekkor az &aacute;ll&aacute;s 17-17 volt. A 40. percben Hesham tal&aacute;lat&aacute;val az első f&eacute;lidő legeleje ut&aacute;n elősz&ouml;r szerezte meg a Veszpr&eacute;m a vezet&eacute;st, azonban ez sem maradt sok&aacute;ig megtorl&aacute;s n&eacute;lk&uuml;l, Nilsson egyenl&iacute;tett ki. Imre Bence h&eacute;tm&eacute;teres&eacute;ből a 47. percben ism&eacute;t a hazai egy&uuml;ttesn&eacute;l volt az előny, azonban az ezt k&ouml;vető t&aacute;mad&aacute;sb&oacute;l a d&aacute;nok is b&uuml;ntetőh&ouml;z jutottak, amit Larsen &eacute;rt&eacute;kes&iacute;tett. A m&aacute;sodik f&eacute;lidő hajr&aacute;j&aacute;ban tov&aacute;bbra is szoros k&uuml;zdelemnek lehett&uuml;nk szemtan&uacute;i, mindk&eacute;t kapuban magabiztos v&eacute;d&eacute;seket mutattak be a d&aacute;n kapusok, azonban a sz&aacute;mokat tekintve Nielsen bizonyult jobbnak. R&eacute;szben ennek k&ouml;sz&ouml;nhetően az 57. percben a tal&aacute;lkoz&oacute; sor&aacute;n elősz&ouml;r h&aacute;rom g&oacute;lra nőtt az &Eacute;p&iacute;tők előnye. Az utols&oacute; percben m&aacute;r csup&aacute;n egy g&oacute;l volt a hazaiak előnye, amikor egy t&aacute;mad&oacute; szab&aacute;lytalans&aacute;got k&ouml;vetően Munk kiegyenl&iacute;tett. Kevesebb, mint f&eacute;l perc volt h&aacute;tra a tal&aacute;lkoz&oacute;b&oacute;l, amikor egy veszpr&eacute;mi idők&eacute;r&eacute;st k&ouml;vetően az &Eacute;p&iacute;tők t&aacute;madhattak, majd d&aacute;n szab&aacute;lytalans&aacute;got egy időnt&uacute;li szabaddob&aacute;s k&ouml;vetkezett, amit Hesham nem tudott &eacute;rt&eacute;kes&iacute;teni. Ezzel a 60 percig tart&oacute; ki&eacute;lezett csata d&ouml;ntetlennel z&aacute;rult.<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi programja:</strong><br><em>November 26., cs&uuml;t&ouml;rt&ouml;k</em><br>20:45 F&uuml;chse Berlin (n&eacute;met)-MT Melsungen (n&eacute;met)<br>20:45 Paris-Saint Germain (francia)-Orlen Wisla Plock (lengyel)<br><br>Fot&oacute;: One Veszpr&eacute;m HC&nbsp;</p>",
+      "merkozesId": null
+     },
+     {
       "id": 9709,
       "ev": 2026,
       "sportagKod": "SPAG_1",
@@ -7908,21 +7923,6 @@
       "kisKepUrl": "https://cdn.mksz.hu/mksz-public/217-europaikupak_ferfi_4.jpg",
       "tartalom": "<p><br><em>F&eacute;rfi Eur&oacute;pa Kupa, 3. selejtezők&ouml;r, első fordul&oacute;</em><br><strong>AEK ATHEN-PLER-BUDAPEST 30-34 (16-18)</strong><br>Ath&eacute;n, j&aacute;t&eacute;kvezetők: Oyarzun, Zaragueta (spanyolok).<br>ATH&Eacute;N: de Souza, Kotanidis, Varpe (kapusok), Arampatzis 2, Batis, Carvalho 3, Charitonidis 1, da Silva 2, Koukoulas 3, Kovacec 1, Laranjeiro 7, Matsouka 2, Papdiodionysiu 2, Safranki 1, Vistorop 3, Zennadi 2. Edző: Rafael Leite Ribeiro.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Albek, Borsos, De&aacute;k, Fekete 1, Hegedűs 2, Kem&eacute;ny 3, Markez 5, Menyh&aacute;rt, Mikita 2, Ocvirk 5, Sinkovits 6, Szkok&aacute;n, T&oacute;th 8, Vuksic 2. Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 5/6, ill. 1/1.<br><br><strong>Visszav&aacute;g&oacute;:</strong><br><em>November 28., szombat</em><br>16:00 PLER-Budapest-AEK Athens (g&ouml;r&ouml;g)<br><br><br><br><br></p>",
       "merkozesId": null
-     },
-     {
-      "id": 9661,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 7,
-      "kategoriaNev": "férfi európai kupa hírek",
-      "cim": "Férfi BL: Sikeres kezdés a középdöntőben",
-      "rovidSzoveg": "A One Veszprém HC továbbra is veretlen a férfi BL-ben, miután az Orlen Wisla Plock vendégeként a második félidőben fordítva nyert a középdöntős csoportkör első fordulójában.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-18T22:28:00.000",
-      "kisKepId": 220,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/220-europaikupak_ferfi_5.jpg",
-      "tartalom": "<p><br><em>F&eacute;rfi Bajnokok Lig&aacute;ja, I. k&ouml;z&eacute;pd&ouml;ntő csoport, 1. fordul&oacute;</em><br><strong>ORLEN WISLA PLOCK-ONE VESZPR&Eacute;M HC 26-30 (17-14)</strong><br>Plock, j&aacute;t&eacute;kvezetők: K. Gasmi, R. Gasmi (franci&aacute;k).<br>PLOCK: Alilovic, Vujovic (kapusok), Bjerre 8 (3), Daszek 1, Dawydzik 1, Fazekas 1, Ilic, Janc 2, Koszorotov 5, Krajewski, Rey Morales, Richardson 3, Serdio 3, Susnja 1, Szita, Zarabec 1. Edző: Xavi Sabat&eacute;.<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Adel 1, Cindric 1, Descat 8 (5), Dodic 2, Elderaa 2, G&aacute;ncs-Pető, Hesham 3, Imre, Lenne 2, Martinovic 1, Pechmalbec 3, Remili 7, Thiagus Petrus. Edző: Xavi Pascual.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 4 perc.<br>H&eacute;tm&eacute;teresek: 3/3, ill. 5/5.<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi eredm&eacute;nye:</strong><br>Aalborg Handbold (d&aacute;n)-F&uuml;chse Berlin (n&eacute;met) 34-31 (18-16)<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi programja:</strong><br><em>November 19., cs&uuml;t&ouml;rt&ouml;k</em><br>20:45 MT Melsungen (n&eacute;met)-Paris-Saint Germain (francia)</p>",
-      "merkozesId": null
      }
     ],
     "pageable": {
@@ -7933,14 +7933,14 @@
      "paged": true,
      "unpaged": false
     },
-    "last": false,
-    "totalElements": 27,
+    "totalElements": 28,
     "totalPages": 7,
+    "last": false,
     "size": 4,
     "number": 0,
     "sort": [],
-    "first": true,
     "numberOfElements": 4,
+    "first": true,
     "empty": false
    }
   },
@@ -8401,7 +8401,7 @@
       "logoDokumentumId": 475716,
       "logoPublicUrl": null,
       "bontas": 1,
-      "sportszervezetLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+      "sportszervezetLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
       "alversenyId": 320229199,
       "lejatszottMerkozes": 8,
       "gyozelem": 2,
@@ -13588,7 +13588,7 @@
      "hazaiSportszervezetId": 355,
      "hazaiLogoDokumentumId": 475716,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "hazaiCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "hazaiCsapatRovidNev": "ÓKSI SE",
      "hazaiCsapatGol": 27,
@@ -13750,7 +13750,7 @@
      "hazaiSportszervezetId": 355,
      "hazaiLogoDokumentumId": 475716,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "hazaiCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "hazaiCsapatRovidNev": "ÓKSI SE",
      "hazaiCsapatGol": 34,
@@ -13966,7 +13966,7 @@
      "hazaiSportszervezetId": 355,
      "hazaiLogoDokumentumId": 475716,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "hazaiCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "hazaiCsapatRovidNev": "ÓKSI SE",
      "hazaiCsapatGol": 30,
@@ -14192,7 +14192,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": 33,
@@ -14354,7 +14354,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": 29,
@@ -14614,7 +14614,7 @@
      "hazaiSportszervezetId": 355,
      "hazaiLogoDokumentumId": 475716,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "hazaiCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "hazaiCsapatRovidNev": "ÓKSI SE",
      "hazaiCsapatGol": 26,
@@ -14894,7 +14894,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": 30,
@@ -15056,7 +15056,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": 23,
@@ -15380,7 +15380,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": null,
@@ -15596,7 +15596,7 @@
      "vendegSportszervezetId": 355,
      "vendegLogoDokumentumId": 475716,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "vendegCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "vendegCsapatRovidNev": "ÓKSI SE",
      "vendegCsapatGol": null,
@@ -15640,7 +15640,7 @@
      "hazaiSportszervezetId": 355,
      "hazaiLogoDokumentumId": 475716,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/475716-oski címer hahó.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/475716-oski címer hahó.png",
      "hazaiCsapatNev": "Óbudai Kézilabda Sportiskola Sportegyesület",
      "hazaiCsapatRovidNev": "ÓKSI SE",
      "hazaiCsapatGol": null,
@@ -15666,6 +15666,60 @@
      "fordulo": 12,
      "forduloKezdete": "2026-08-27T00:00:00.000",
      "forduloVege": "2027-02-14T00:00:00.000",
+     "foversenySorrend": 8
+    },
+    {
+     "merkozesId": 32021446674,
+     "sportesemenyId": 32025753,
+     "sportesemenyNev": "U16 II.osztály",
+     "sportesemenyRovidNev": "U16 II.osztály",
+     "sportagKod": "SPAG_1",
+     "evadEv": 2026,
+     "evadNev": "2026/2027",
+     "foversenyId": 32027157,
+     "foversenyRovidNev": "FU16 II.osztály",
+     "foversenyNev": "FU16 II.osztály",
+     "nem": "F",
+     "korosztalyId": 12020658,
+     "korosztalyNev": "FU16",
+     "alversenyId": 320229199,
+     "alversenyNev": "FU16 II. osztály-E",
+     "alversenyRovidNev": "FU16 II. osztály-E",
+     "letesitmenyId": 136,
+     "letesitmenyNev": "Újlak utcai Ált.Isk. spcs.",
+     "letesitmenyCim": "Budapest",
+     "letesitmenyAlpalyaId": null,
+     "letesitmenyAlpalyaNev": null,
+     "hazaiCsapatId": 3810384014,
+     "hazaiSportszervezetId": 679,
+     "hazaiLogoDokumentumId": 1035613,
+     "hazaiValogatottLogoDokumentumId": null,
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2025/02/24/1035613-RKSK_logo.jpg",
+     "hazaiCsapatNev": "Rákosmenti KSK",
+     "hazaiCsapatRovidNev": "RÁKOSMENTE",
+     "hazaiCsapatGol": null,
+     "hazaiCsapatFelidoGol": null,
+     "hazaiOrszag": null,
+     "vendegCsapatId": 3810385591,
+     "vendegSportszervezetId": 47,
+     "vendegLogoDokumentumId": 31876,
+     "vendegValogatottLogoDokumentumId": null,
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2025/02/04/31876-Dabas_300x300.png",
+     "vendegCsapatNev": "DABASI KÉZILABDA CLUB VÁROSI SPORTEGYESÜLET",
+     "vendegCsapatRovidNev": "DABASI KC VSE",
+     "vendegCsapatGol": null,
+     "vendegCsapatFelidoGol": null,
+     "vendegOrszag": null,
+     "merkozesDatum": "2027-03-07T14:00:00.000",
+     "merkozesDatumNap": "2027-03-07T00:00:00.000",
+     "merkozesStatusz": "IDOPONT_ELFOGADVA",
+     "globalisVersenyKod": "IIOSZT",
+     "globalisVersenyNev": "II. osztály",
+     "videoUrl": null,
+     "nezoszam": null,
+     "fordulo": 14,
+     "forduloKezdete": "2026-08-27T00:00:00.000",
+     "forduloVege": "2027-03-07T00:00:00.000",
      "foversenySorrend": 8
     }
    ]

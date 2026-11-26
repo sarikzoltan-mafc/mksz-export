@@ -1,5 +1,5 @@
 # Forrás: https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027266/320229495
-# Mentve: 2026-11-26T20:02:07.358Z
+# Mentve: 2026-11-26T23:02:30.391Z
 
 Az oldal sütiket használ
 
@@ -7,7 +7,7 @@ Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javít
 
 OKBeállítások megváltoztatása
  : 
-41:22
+0:0
 Jegyek
 Webshop
 HÍREK

@@ -1,7 +1,120 @@
 {
  "source": "https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027266/320229495",
- "saved": "2026-11-26T20:02:07.358Z",
+ "saved": "2026-11-26T23:02:30.391Z",
  "responses": [
+  {
+   "url": "https://public.mksz.hu/public/api/v1/banner/POZICIO_ALSO",
+   "body": [
+    {
+     "id": 345,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://kormany.hu/kormanyzat/belugyminiszterium",
+     "dokumentumId": 30438544,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/07/01/30438544-BM_Allamtitkarsag.png"
+    },
+    {
+     "id": 242,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.szerencsejatek.hu/",
+     "dokumentumId": 46,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/46-mkszsponsor_banner1280x290_tippmix.jpg"
+    },
+    {
+     "id": 280,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://mol.hu/hu/",
+     "dokumentumId": 1314425,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/1314425-MOL%20banner.png"
+    },
+    {
+     "id": 338,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.obi.hu/",
+     "dokumentumId": 30340276,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340276-1280x290_OBI.jpg"
+    },
+    {
+     "id": 344,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.alfa.hu/",
+     "dokumentumId": 30340283,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340283-1280x290_ALFA%20%28002%29.jpg"
+    },
+    {
+     "id": 254,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://jysk.hu/",
+     "dokumentumId": 58,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/58-mkszsponsor_banner1280x290_jysk.jpg"
+    },
+    {
+     "id": 324,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.kh.hu/bank",
+     "dokumentumId": 2876729,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/08/19/2876729-1280x290%20K%26HLiga.jpg"
+    },
+    {
+     "id": 311,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.telekom.hu/lakossagi",
+     "dokumentumId": 2741126,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/03/26/2741126-MKSZSponsors_1280x290_T2.jpg"
+    },
+    {
+     "id": 293,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.mueller.co.hu/",
+     "dokumentumId": 2081407,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2024/02/20/2081407-M%C3%BCller%20banner%20honlap.png"
+    },
+    {
+     "id": 314,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.henkel.hu/",
+     "dokumentumId": 2776500,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/04/24/2776500-1280x290%20Henkel.jpg"
+    },
+    {
+     "id": 329,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://toyotakovacs.hu/",
+     "dokumentumId": 30119124,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/11/26/30119124-1280x290_px.jpg"
+    },
+    {
+     "id": 266,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.nemzetisport.hu/",
+     "dokumentumId": 72,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/72-mkszsponsor_banner1280x290_nemzetisport.jpg"
+    }
+   ]
+  },
   {
    "url": "https://public.mksz.hu/public/api/v1/evad",
    "body": [
@@ -818,119 +931,6 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/banner/POZICIO_ALSO",
-   "body": [
-    {
-     "id": 345,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://kormany.hu/kormanyzat/belugyminiszterium",
-     "dokumentumId": 30438544,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/07/01/30438544-BM_Allamtitkarsag.png"
-    },
-    {
-     "id": 242,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.szerencsejatek.hu/",
-     "dokumentumId": 46,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/46-mkszsponsor_banner1280x290_tippmix.jpg"
-    },
-    {
-     "id": 280,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://mol.hu/hu/",
-     "dokumentumId": 1314425,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/1314425-MOL%20banner.png"
-    },
-    {
-     "id": 338,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.obi.hu/",
-     "dokumentumId": 30340276,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340276-1280x290_OBI.jpg"
-    },
-    {
-     "id": 344,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.alfa.hu/",
-     "dokumentumId": 30340283,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340283-1280x290_ALFA%20%28002%29.jpg"
-    },
-    {
-     "id": 254,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://jysk.hu/",
-     "dokumentumId": 58,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/58-mkszsponsor_banner1280x290_jysk.jpg"
-    },
-    {
-     "id": 324,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.kh.hu/bank",
-     "dokumentumId": 2876729,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/08/19/2876729-1280x290%20K%26HLiga.jpg"
-    },
-    {
-     "id": 311,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.telekom.hu/lakossagi",
-     "dokumentumId": 2741126,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/03/26/2741126-MKSZSponsors_1280x290_T2.jpg"
-    },
-    {
-     "id": 293,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.mueller.co.hu/",
-     "dokumentumId": 2081407,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2024/02/20/2081407-M%C3%BCller%20banner%20honlap.png"
-    },
-    {
-     "id": 314,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.henkel.hu/",
-     "dokumentumId": 2776500,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/04/24/2776500-1280x290%20Henkel.jpg"
-    },
-    {
-     "id": 329,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://toyotakovacs.hu/",
-     "dokumentumId": 30119124,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/11/26/30119124-1280x290_px.jpg"
-    },
-    {
-     "id": 266,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.nemzetisport.hu/",
-     "dokumentumId": 72,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/72-mkszsponsor_banner1280x290_nemzetisport.jpg"
-    }
-   ]
-  },
-  {
    "url": "https://public.mksz.hu/public/api/v1/valogatottstrandkezi/csapat",
    "body": [
     {
@@ -1020,7 +1020,7 @@
      "orszagId": 27,
      "orszagNev": null,
      "cimerId": 2830557,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7db4ee8963b58975cc68e77f96b43402aa9c8e9472fbd77ab8b18283d472ff31",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5c4995134ea7cb1a6af72930014a14f049c38911b253608d9f6873d67c67b81b",
      "korosztalyKod": "VAL_KOROSZT_IFJ",
      "korosztalyNev": "Ifjúsági válogatott korosztály"
     },
@@ -1163,7 +1163,7 @@
      "orszagId": 1,
      "orszagNev": "Magyarország",
      "cimerId": 858330,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094930Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f5bfa8bca3c8f22725aa1d23490a2458a7b7bb617843791430aa82ebb3ec805d",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d4196bd2ab4f515ab33e462f843e5f426e91697afbbb02c5e9cdf51c9736e3cd",
      "korosztalyKod": "VAL_KOROSZT_JUN",
      "korosztalyNev": "Junior válogatott korosztály"
     },
@@ -1397,7 +1397,7 @@
      "orszagId": 104,
      "orszagNev": null,
      "cimerId": 1956570,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=20376b62cca35bec6c9fcbee91c2532fa31cfb4683b80ab323f30c651fadfe39",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c3126d579a5ee9572d4ee4f39c4876c6a0f73cf3793af5fe40cd36fb70563a75",
      "korosztalyKod": "VAL_KOROSZT_FEL",
      "korosztalyNev": "Felnőtt válogatott korosztály"
     },
@@ -1618,7 +1618,7 @@
      "orszagId": 1,
      "orszagNev": "Magyarország",
      "cimerId": 858357,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T094931Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dc1c93a0c3d23e1ef4f2e8d4c41936168df62bdaaf7a901e08f7c7e54eaa4c5c",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=902dc58e03da367845f839ba26a0d3a8fe47bf409aca894903f248a63cc3eff9",
      "korosztalyKod": "VAL_KOROSZT_JUN",
      "korosztalyNev": "Junior válogatott korosztály"
     },
@@ -2226,54 +2226,54 @@
    "url": "https://public.mksz.hu/public/api/v1/versenyek/program",
    "body": [
     {
-     "merkozesId": 32021467937,
-     "sportesemenyId": 32025763,
-     "sportesemenyNev": "Női junior válogatott",
-     "sportesemenyRovidNev": "Női junior válogatott",
+     "merkozesId": 32021459807,
+     "sportesemenyId": 32025759,
+     "sportesemenyNev": "Női felnőtt válogatott",
+     "sportesemenyRovidNev": "Női felnőtt válogatott",
      "sportagKod": "SPAG_1",
      "evadEv": 2026,
      "evadNev": "2026/2027",
-     "foversenyId": 32027166,
-     "foversenyRovidNev": "Junior válogatott felkészülési mérkőzések",
-     "foversenyNev": "Junior válogatott felkészülési mérkőzések",
+     "foversenyId": 32027163,
+     "foversenyRovidNev": "Felnőtt válogatott felkészülési mérkőzések",
+     "foversenyNev": "Felnőtt válogatott felkészülési mérkőzések",
      "nem": "N",
-     "korosztalyId": 12020651,
-     "korosztalyNev": "LU20",
-     "alversenyId": 320229554,
-     "alversenyNev": "Junior válogatott felkészülési mérkőzések",
-     "alversenyRovidNev": "Junior válogatott felkészülési mérkőzések",
-     "letesitmenyId": 1256,
-     "letesitmenyNev": "Kovács Katalin Nemzeti Kajak-Kenu Akadémia",
-     "letesitmenyCim": "Sukoró",
+     "korosztalyId": 12020648,
+     "korosztalyNev": "Felnőtt",
+     "alversenyId": 320229559,
+     "alversenyNev": "JYSK-kupa",
+     "alversenyRovidNev": "JYSK-kupa",
+     "letesitmenyId": 903,
+     "letesitmenyNev": "Multifunkciós Csarnok",
+     "letesitmenyCim": "Tatabánya",
      "letesitmenyAlpalyaId": null,
      "letesitmenyAlpalyaNev": null,
-     "hazaiCsapatId": 3810389163,
+     "hazaiCsapatId": 3810389366,
      "hazaiSportszervezetId": null,
      "hazaiLogoDokumentumId": null,
-     "hazaiValogatottLogoDokumentumId": 30172,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/30172-hun_flag.jpeg",
-     "hazaiCsapatNev": "Magyarország női junior",
+     "hazaiValogatottLogoDokumentumId": 4,
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/4-hun_flag.jpeg",
+     "hazaiCsapatNev": "Magyarország női felnőtt",
      "hazaiCsapatRovidNev": "Magyarország",
-     "hazaiCsapatGol": 41,
-     "hazaiCsapatFelidoGol": 18,
+     "hazaiCsapatGol": null,
+     "hazaiCsapatFelidoGol": null,
      "hazaiOrszag": "HUN",
-     "vendegCsapatId": 3810389533,
+     "vendegCsapatId": 3810389372,
      "vendegSportszervezetId": null,
      "vendegLogoDokumentumId": null,
-     "vendegValogatottLogoDokumentumId": 30635140,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz/base/2026/10/21/d29d5c60-e119-40a6-a096-ad758fe13b4b/szlovak.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T195933Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=752a79898268f77834e701b60e3242c8e644c00ea4d11a0fd2cb5807c0fae5fd",
-     "vendegCsapatNev": "Szlovákia női junior",
-     "vendegCsapatRovidNev": "Szlovákia",
-     "vendegCsapatGol": 22,
-     "vendegCsapatFelidoGol": 10,
-     "vendegOrszag": "SVK",
-     "merkozesDatum": "2026-11-26T19:00:00.000",
-     "merkozesDatumNap": "2026-11-26T00:00:00.000",
-     "merkozesStatusz": "JEGYZOK_ELFOGADVA",
+     "vendegValogatottLogoDokumentumId": 1846190,
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/03/1846190-Austria.svg.png",
+     "vendegCsapatNev": "Ausztria női felnőtt",
+     "vendegCsapatRovidNev": "Ausztria",
+     "vendegCsapatGol": null,
+     "vendegCsapatFelidoGol": null,
+     "vendegOrszag": "AUT",
+     "merkozesDatum": "2026-11-27T18:00:00.000",
+     "merkozesDatumNap": "2026-11-27T00:00:00.000",
+     "merkozesStatusz": "IDOPONT_ELFOGADVA",
      "globalisVersenyKod": "VALOGATOTT_VERSENY",
      "globalisVersenyNev": "Válogatott verseny",
      "videoUrl": null,
-     "nezoszam": 75,
+     "nezoszam": null,
      "fordulo": 1,
      "forduloKezdete": null,
      "forduloVege": null,
@@ -2521,6 +2521,57 @@
    }
   },
   {
+   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
+   "body": {
+    "alapfok": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "kozepfok": [],
+    "felsofok": [],
+    "ehf": [],
+    "eronleti": [],
+    "kezilabdaedzo": [],
+    "kapusedzo": [],
+    "strandedzo": [],
+    "kerekesszekedzo": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "csorgolabdaedzo": []
+   }
+  },
+  {
    "url": "https://public.mksz.hu/public/api/v1/nek-tovabbkepzes/list",
    "body": {
     "kozponti": [],
@@ -2590,6 +2641,47 @@
      "id": "12",
      "nev": "jatekos_idenyek",
      "ertek": true
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
+   "body": [
+    {
+     "id": 32027266,
+     "rovidNev": "Gyermekbajnokság FU12",
+     "nev": "Gyermekbajnokság FU12",
+     "nem": "F",
+     "korosztalyId": 12020669,
+     "korosztalyNev": "FU12",
+     "sportagKod": "SPAG_1",
+     "sportagNev": "Teremkézilabda",
+     "sportesemenyId": 32025808,
+     "sportesemenyNev": "Gyermekbajnokság U12",
+     "sportesemenyRovidNev": "Gyermekbajnokság U12",
+     "sportesemenyTipusKod": "SPETIP_HIV",
+     "sportesemenyTipusNev": "Hivatalos verseny",
+     "evadNev": "2026/2027",
+     "globalisVersenyKod": "GYERMEK_BAJNOKSAG",
+     "globalisVersenyNev": "Gyermekbajnokság",
+     "evadEv": 2026,
+     "foversenySorrend": 5,
+     "publicUrl": null,
+     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
+     "alversenyList": [
+      {
+       "id": 320229495,
+       "rovidNev": "OGYB FU12 VII. csoport",
+       "nev": "OGYB FU12 VII. csoport",
+       "foversenyId": 32027266,
+       "alversenySorrend": 7,
+       "tipusKod": "SPETIP_HIV",
+       "kitehetoIg": "2027-06-30T00:00:00.000",
+       "kitehetoTol": "2026-09-15T00:00:00.000",
+       "sorsolasMegjelenitendo": 1,
+       "tabellaMegjelenitendo": 0
+      }
+     ]
     }
    ]
   },
@@ -2729,96 +2821,774 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
+   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
    "body": [
     {
-     "id": 32027266,
-     "rovidNev": "Gyermekbajnokság FU12",
-     "nev": "Gyermekbajnokság FU12",
-     "nem": "F",
-     "korosztalyId": 12020669,
-     "korosztalyNev": "FU12",
-     "sportagKod": "SPAG_1",
-     "sportagNev": "Teremkézilabda",
-     "sportesemenyId": 32025808,
-     "sportesemenyNev": "Gyermekbajnokság U12",
-     "sportesemenyRovidNev": "Gyermekbajnokság U12",
-     "sportesemenyTipusKod": "SPETIP_HIV",
-     "sportesemenyTipusNev": "Hivatalos verseny",
-     "evadNev": "2026/2027",
-     "globalisVersenyKod": "GYERMEK_BAJNOKSAG",
-     "globalisVersenyNev": "Gyermekbajnokság",
-     "evadEv": 2026,
-     "foversenySorrend": 5,
-     "publicUrl": null,
-     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
-     "alversenyList": [
+     "id": 1,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "MKSZ iroda",
+     "sorrend": 1,
+     "tagList": [
       {
-       "id": 320229495,
-       "rovidNev": "OGYB FU12 VII. csoport",
-       "nev": "OGYB FU12 VII. csoport",
-       "foversenyId": 32027266,
-       "alversenySorrend": 7,
-       "tipusKod": "SPETIP_HIV",
-       "kitehetoIg": "2027-06-30T00:00:00.000",
-       "kitehetoTol": "2026-09-15T00:00:00.000",
-       "sorsolasMegjelenitendo": 1,
-       "tabellaMegjelenitendo": 0
+       "id": 1,
+       "beosztas": "operatív igazgató, igazgatótanács elnöke",
+       "teljes_nev": "NOVÁK ANDRÁS",
+       "telefonszam": "+3614354230",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 44,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Főtitkár titkársága",
+     "sorrend": 2,
+     "tagList": [
+      {
+       "id": 227,
+       "beosztas": "főtitkár",
+       "teljes_nev": "HORVÁTH GABRIELLA",
+       "telefonszam": "+3614354200",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 230,
+       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
+       "teljes_nev": "VERNES DOROTTYA",
+       "telefonszam": "+3614354219",
+       "email": "vernes.dorottya@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Igazgatótanács titkársága",
+     "sorrend": 3,
+     "tagList": [
+      {
+       "id": 16,
+       "beosztas": "titkárságvezető, média munkatárs",
+       "teljes_nev": "SZABÓ FRUZSINA",
+       "telefonszam": "+3614354231",
+       "email": "szabo.fruzsina@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 19,
+       "beosztas": "informatikai igazgató",
+       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
+       "telefonszam": null,
+       "email": "kovacs.krisztian@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 244,
+       "beosztas": "humánerőforrás vezető",
+       "teljes_nev": "FEHÉR ERIKA PIROSKA",
+       "telefonszam": "+3614354218",
+       "email": "feher.erika@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 319,
+       "beosztas": "recepciós asszisztens",
+       "teljes_nev": "PERÁK CSENGE",
+       "telefonszam": "+3614354230",
+       "email": "perak.csenge@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 357,
+       "beosztas": "operatív igazgatóhelyettes",
+       "teljes_nev": "BARDÓCZY GÁBOR",
+       "telefonszam": "+3614354234",
+       "email": "bardoczy.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 39,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Jogi és stratégiai igazgatóság",
+     "sorrend": 4,
+     "tagList": [
+      {
+       "id": 180,
+       "beosztas": "Igazgatótanács elnök - helyettes",
+       "teljes_nev": "PRÉMECZ ATTILA",
+       "telefonszam": "+3614354259",
+       "email": "premecz.attila@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 183,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "DRISZKU KLAUDIA",
+       "telefonszam": "+3614354217",
+       "email": "driszku.klaudia@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      },
+      {
+       "id": 184,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "GÁVAI SZONJA",
+       "telefonszam": "+3614354217",
+       "email": "gavai.szonja@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 3
+      },
+      {
+       "id": 344,
+       "beosztas": "képzési jogi munkatárs",
+       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
+       "telefonszam": "+3614354222",
+       "email": "balega.noemi@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 4
+      },
+      {
+       "id": 348,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
+       "telefonszam": "+3614354222",
+       "email": "hikade.imola@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 359,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "ILLÉS NÓRA",
+       "telefonszam": "+3614354250",
+       "email": "illes.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Pénzügyi és gazdasági igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 25,
+       "beosztas": "gazdasági és pénzügyi igazgató",
+       "teljes_nev": "HUSVÉTH PETRA",
+       "telefonszam": "+3614354253",
+       "email": "husveth.petra@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 28,
+       "beosztas": "kontrolling vezető",
+       "teljes_nev": "BOGNÁR TIBOR",
+       "telefonszam": "+3614354257",
+       "email": "bognar.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 31,
+       "beosztas": "elszámolási vezető",
+       "teljes_nev": "SCHMELÁS PÉTER",
+       "telefonszam": "+3614354265",
+       "email": "schmelas.peter@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 34,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "LÁSZLÓ PIROSKA",
+       "telefonszam": "+3614354247",
+       "email": "laszlo.piroska@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 37,
+       "beosztas": "támogatás előkészítési vezető",
+       "teljes_nev": "BÁLEGA TIBOR",
+       "telefonszam": "+3614354251",
+       "email": "balega.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 40,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "KRÉKITY NÓRA",
+       "telefonszam": null,
+       "email": "krekity.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 46,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "MÉSZÁROS ANDREA",
+       "telefonszam": "+3614354249",
+       "email": "meszaros.andrea@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 177,
+       "beosztas": "kontrolling szakértő",
+       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
+       "telefonszam": "+3614354251",
+       "email": "liszt.katalin@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 208,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "IKKER EDIT",
+       "telefonszam": "+3614354270",
+       "email": "ikker.edit@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 248,
+       "beosztas": "pénzügyi munkatárs",
+       "teljes_nev": "SZEMES NIKOLETT",
+       "telefonszam": null,
+       "email": "szemes.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "TAO igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 52,
+       "beosztas": "TAO igazgató",
+       "teljes_nev": "EMBER ÁRON",
+       "telefonszam": "+3614354234",
+       "email": "ember.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 55,
+       "beosztas": "TAO irodavezető",
+       "teljes_nev": "KOVÁCS ADÉL",
+       "telefonszam": "+3614354234",
+       "email": "kovacs.adel@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 58,
+       "beosztas": "TAO igazgató-helyettes",
+       "teljes_nev": "PUSZTAI MÁRTON",
+       "telefonszam": "+3614354258",
+       "email": "pusztai.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 64,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "VIRÁG ANDRÁS",
+       "telefonszam": "+3614354245",
+       "email": "virag.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 24
+      },
+      {
+       "id": 67,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "NAGY ZSUZSANNA",
+       "telefonszam": "+3614354244",
+       "email": "nagy.zsuzsanna@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 76,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BORUS ATTILA",
+       "telefonszam": "0614354276",
+       "email": "borus.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 79,
+       "beosztas": "TAO jóváhagyási szakértő",
+       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
+       "telefonszam": "+3614354258",
+       "email": "orhegyi.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 82,
+       "beosztas": "TAO ellenőrzési csoportvezető",
+       "teljes_nev": "LUKÁCS MÁRTON",
+       "telefonszam": "+3614354243",
+       "email": "lukacs.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 236,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "GÖRGICS MÓNIKA",
+       "telefonszam": "+3614354262",
+       "email": "gorgics.monika@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      },
+      {
+       "id": 238,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "SZABÓ BALÁZS",
+       "telefonszam": "06207711482",
+       "email": "szabo.balazs.tao@mksz.hu",
+       "titulus": null,
+       "sorrend": 22
+      },
+      {
+       "id": 307,
+       "beosztas": "TAO jóváhagyási munkatárs",
+       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
+       "telefonszam": "+3614354258",
+       "email": "varga.krisztina@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 314,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "FARKAS RÓBERT ZSOLT",
+       "telefonszam": "+36305717946",
+       "email": "farkas.robert@mksz.hu",
+       "titulus": null,
+       "sorrend": 25
+      },
+      {
+       "id": 316,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "TAKÁCS ZALÁN",
+       "telefonszam": "+36304694978",
+       "email": "takacs.zalan@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      },
+      {
+       "id": 337,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BLAYER ZSÓFIA",
+       "telefonszam": "+3614354242",
+       "email": "blayer.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Utánpótlás-fejlesztési igazgatóság",
+     "sorrend": 6,
+     "tagList": [
+      {
+       "id": 251,
+       "beosztas": "utánpótlás szakmai vezető",
+       "teljes_nev": "HORVÁTH LÁSZLÓ",
+       "telefonszam": null,
+       "email": "horvath.laszlo@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 254,
+       "beosztas": "iskolai programvezető",
+       "teljes_nev": "GYÖMÖREY ISTVÁN",
+       "telefonszam": null,
+       "email": "gyomorey.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 261,
+       "beosztas": "sportszakmai koordinátor",
+       "teljes_nev": "MÓROCZ RÉKA",
+       "telefonszam": "+36300117074",
+       "email": "morocz.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 306,
+       "beosztas": "utánpótlás fejlesztési koordinátor",
+       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
+       "telefonszam": "+3614354236",
+       "email": "rubint.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 339,
+       "beosztas": "utánpótlás-fejlesztési vezető",
+       "teljes_nev": "SEBESTYÉN MÁTÉ",
+       "telefonszam": "+36302119500",
+       "email": "sebestyen.mate@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 342,
+       "beosztas": "utánpótlás-fejlesztési igazgató",
+       "teljes_nev": "PITZ ANDRÁS",
+       "telefonszam": "+3614354200",
+       "email": "pitz.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 22,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Versenyszervezési és monitoring igazgatóság",
+     "sorrend": 7,
+     "tagList": [
+      {
+       "id": 121,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "EGYED BENCE",
+       "telefonszam": "+3614354215",
+       "email": "egyed.bence@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 124,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
+       "telefonszam": "+3614354212",
+       "email": "major.bernadett@mksz.hu",
+       "titulus": null,
+       "sorrend": 11
+      },
+      {
+       "id": 221,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "FODOR NOÉMI",
+       "telefonszam": "+3614354211",
+       "email": "fodor.noemi@mksz.hu",
+       "titulus": null,
+       "sorrend": 13
+      },
+      {
+       "id": 262,
+       "beosztas": "versenyszervezési és monitoring igazgató",
+       "teljes_nev": "SVEDA MARCELL",
+       "telefonszam": "+3614354241",
+       "email": "sveda.marcell@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 265,
+       "beosztas": "monitoring pénzügyi munkatárs",
+       "teljes_nev": "SIDLOVICS SÁRA",
+       "telefonszam": "+3614354254",
+       "email": "sidlovics.sara@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 268,
+       "beosztas": "monitoring jogi munkatárs",
+       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
+       "telefonszam": "+3614354254",
+       "email": "dutkievicz.david@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 271,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "BALÁZS ÁDÁM",
+       "telefonszam": "+3614354220",
+       "email": "balazs.adam@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 274,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "GALBOS ÁRON",
+       "telefonszam": "+3614354220",
+       "email": "galbos.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 15
+      },
+      {
+       "id": 276,
+       "beosztas": "játékvezetői albizottság titkár",
+       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
+       "telefonszam": "+3614354216",
+       "email": "marko.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 318,
+       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
+       "teljes_nev": "BONIFERT FERENC",
+       "telefonszam": "+3614354216",
+       "email": "bonifert.ferenc@mksz.hu",
+       "titulus": null,
+       "sorrend": 21
+      },
+      {
+       "id": 322,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
+       "telefonszam": "+3614354214",
+       "email": "ersek.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 354,
+       "beosztas": "versenyszervezési vezető",
+       "teljes_nev": "TORDAI ILONA",
+       "telefonszam": null,
+       "email": "tordai.ilona@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      }
+     ]
+    },
+    {
+     "id": 25,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Kommunikációs, PR és marketing-igazgatóság",
+     "sorrend": 8,
+     "tagList": [
+      {
+       "id": 145,
+       "beosztas": "kommunikációs igazgató-helyettes",
+       "teljes_nev": "LISZKAY GÁBOR",
+       "telefonszam": "+3614354225",
+       "email": "liszkay.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 148,
+       "beosztas": "média munkatárs",
+       "teljes_nev": "PALÁNKI ALEXANDRA",
+       "telefonszam": "+3614354224",
+       "email": "palanki.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 231,
+       "beosztas": "kommunikációs-, PR- és marketing igazgató",
+       "teljes_nev": "BALLAI ATTILA",
+       "telefonszam": "+3614354224",
+       "email": "ballai.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 234,
+       "beosztas": "marketing igazgató-helyettes",
+       "teljes_nev": "BENCSICS MÁRK",
+       "telefonszam": null,
+       "email": "bencsics.mark@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 277,
+       "beosztas": "marketing menedzser",
+       "teljes_nev": "TARPAI ZOLTÁN",
+       "telefonszam": null,
+       "email": "tarpai.zoltan@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 278,
+       "beosztas": "grafikus",
+       "teljes_nev": "NÉMETH LEVENTE",
+       "telefonszam": null,
+       "email": "nemeth.levente@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      }
+     ]
+    },
+    {
+     "id": 28,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Szervezési igazgatóság",
+     "sorrend": 11,
+     "tagList": [
+      {
+       "id": 151,
+       "beosztas": "szervezési igazgató",
+       "teljes_nev": "MOLNÁR VIKTOR",
+       "telefonszam": "+3614354228",
+       "email": "viktor.molnar@handballfederation.hu ",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 154,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
+       "telefonszam": "+3614354227",
+       "email": "harsfalvi.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 171,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "PONTYOS PEGGI KATA",
+       "telefonszam": null,
+       "email": "pontyos.peggi@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      }
+     ]
+    },
+    {
+     "id": 45,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Sporttudományi és diagnosztikai igazgatóság",
+     "sorrend": 18,
+     "tagList": [
+      {
+       "id": 281,
+       "beosztas": "SDI igazgató",
+       "teljes_nev": "SZABÓ TAMÁS",
+       "telefonszam": null,
+       "email": "szabo.tamas@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 284,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "DOBRONYI TAMÁS",
+       "telefonszam": null,
+       "email": "dobronyi.tamas@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 286,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "BAKONYI PÉTER",
+       "telefonszam": null,
+       "email": "bakonyi.peter@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 5
+      },
+      {
+       "id": 289,
+       "beosztas": "biológus",
+       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
+       "telefonszam": null,
+       "email": "zsakai.annamaria@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 7
+      },
+      {
+       "id": 292,
+       "beosztas": "kardiológus szakorvos",
+       "teljes_nev": "SIDÓ ZOLTÁN",
+       "telefonszam": null,
+       "email": null,
+       "titulus": "Dr.",
+       "sorrend": 9
+      },
+      {
+       "id": 302,
+       "beosztas": "SDI operatív vezető",
+       "teljes_nev": "SZIGETI SZABOLCS",
+       "telefonszam": null,
+       "email": "szigeti.szabolcs@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 305,
+       "beosztas": "spiroergometriai munkatárs",
+       "teljes_nev": "BÉRES BETTINA",
+       "telefonszam": null,
+       "email": "beres.bettina@mksz.hu",
+       "titulus": null,
+       "sorrend": 18
+      },
+      {
+       "id": 312,
+       "beosztas": "biomechanikai munkatárs",
+       "teljes_nev": "SIMON GERGŐ",
+       "telefonszam": null,
+       "email": "simon.gergo@mksz.hu",
+       "titulus": null,
+       "sorrend": 19
+      },
+      {
+       "id": 351,
+       "beosztas": "SDI recepciós asszisztens",
+       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
+       "telefonszam": "+36300864895",
+       "email": "preil.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
       }
      ]
     }
    ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
-   "body": {
-    "alapfok": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "kozepfok": [],
-    "felsofok": [],
-    "ehf": [],
-    "eronleti": [],
-    "kezilabdaedzo": [],
-    "kapusedzo": [],
-    "strandedzo": [],
-    "kerekesszekedzo": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "csorgolabdaedzo": []
-   }
   },
   {
    "url": "https://public.mksz.hu/public/api/v1/testulet/list",
@@ -4407,776 +5177,6 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
-   "body": [
-    {
-     "id": 1,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "MKSZ iroda",
-     "sorrend": 1,
-     "tagList": [
-      {
-       "id": 1,
-       "beosztas": "operatív igazgató, igazgatótanács elnöke",
-       "teljes_nev": "NOVÁK ANDRÁS",
-       "telefonszam": "+3614354230",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 44,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Főtitkár titkársága",
-     "sorrend": 2,
-     "tagList": [
-      {
-       "id": 227,
-       "beosztas": "főtitkár",
-       "teljes_nev": "HORVÁTH GABRIELLA",
-       "telefonszam": "+3614354200",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 230,
-       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
-       "teljes_nev": "VERNES DOROTTYA",
-       "telefonszam": "+3614354219",
-       "email": "vernes.dorottya@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      }
-     ]
-    },
-    {
-     "id": 4,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Igazgatótanács titkársága",
-     "sorrend": 3,
-     "tagList": [
-      {
-       "id": 16,
-       "beosztas": "titkárságvezető, média munkatárs",
-       "teljes_nev": "SZABÓ FRUZSINA",
-       "telefonszam": "+3614354231",
-       "email": "szabo.fruzsina@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 19,
-       "beosztas": "informatikai igazgató",
-       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
-       "telefonszam": null,
-       "email": "kovacs.krisztian@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 244,
-       "beosztas": "humánerőforrás vezető",
-       "teljes_nev": "FEHÉR ERIKA PIROSKA",
-       "telefonszam": "+3614354218",
-       "email": "feher.erika@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 319,
-       "beosztas": "recepciós asszisztens",
-       "teljes_nev": "PERÁK CSENGE",
-       "telefonszam": "+3614354230",
-       "email": "perak.csenge@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 357,
-       "beosztas": "operatív igazgatóhelyettes",
-       "teljes_nev": "BARDÓCZY GÁBOR",
-       "telefonszam": "+3614354234",
-       "email": "bardoczy.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 39,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Jogi és stratégiai igazgatóság",
-     "sorrend": 4,
-     "tagList": [
-      {
-       "id": 180,
-       "beosztas": "Igazgatótanács elnök - helyettes",
-       "teljes_nev": "PRÉMECZ ATTILA",
-       "telefonszam": "+3614354259",
-       "email": "premecz.attila@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 183,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "DRISZKU KLAUDIA",
-       "telefonszam": "+3614354217",
-       "email": "driszku.klaudia@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      },
-      {
-       "id": 184,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "GÁVAI SZONJA",
-       "telefonszam": "+3614354217",
-       "email": "gavai.szonja@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 3
-      },
-      {
-       "id": 344,
-       "beosztas": "képzési jogi munkatárs",
-       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
-       "telefonszam": "+3614354222",
-       "email": "balega.noemi@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 4
-      },
-      {
-       "id": 348,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
-       "telefonszam": "+3614354222",
-       "email": "hikade.imola@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 359,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "ILLÉS NÓRA",
-       "telefonszam": "+3614354250",
-       "email": "illes.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      }
-     ]
-    },
-    {
-     "id": 7,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Pénzügyi és gazdasági igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 25,
-       "beosztas": "gazdasági és pénzügyi igazgató",
-       "teljes_nev": "HUSVÉTH PETRA",
-       "telefonszam": "+3614354253",
-       "email": "husveth.petra@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 28,
-       "beosztas": "kontrolling vezető",
-       "teljes_nev": "BOGNÁR TIBOR",
-       "telefonszam": "+3614354257",
-       "email": "bognar.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 31,
-       "beosztas": "elszámolási vezető",
-       "teljes_nev": "SCHMELÁS PÉTER",
-       "telefonszam": "+3614354265",
-       "email": "schmelas.peter@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 34,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "LÁSZLÓ PIROSKA",
-       "telefonszam": "+3614354247",
-       "email": "laszlo.piroska@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 37,
-       "beosztas": "támogatás előkészítési vezető",
-       "teljes_nev": "BÁLEGA TIBOR",
-       "telefonszam": "+3614354251",
-       "email": "balega.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 40,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "KRÉKITY NÓRA",
-       "telefonszam": null,
-       "email": "krekity.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 46,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "MÉSZÁROS ANDREA",
-       "telefonszam": "+3614354249",
-       "email": "meszaros.andrea@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 177,
-       "beosztas": "kontrolling szakértő",
-       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
-       "telefonszam": "+3614354251",
-       "email": "liszt.katalin@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 208,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "IKKER EDIT",
-       "telefonszam": "+3614354270",
-       "email": "ikker.edit@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 248,
-       "beosztas": "pénzügyi munkatárs",
-       "teljes_nev": "SZEMES NIKOLETT",
-       "telefonszam": null,
-       "email": "szemes.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      }
-     ]
-    },
-    {
-     "id": 10,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "TAO igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 52,
-       "beosztas": "TAO igazgató",
-       "teljes_nev": "EMBER ÁRON",
-       "telefonszam": "+3614354234",
-       "email": "ember.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 55,
-       "beosztas": "TAO irodavezető",
-       "teljes_nev": "KOVÁCS ADÉL",
-       "telefonszam": "+3614354234",
-       "email": "kovacs.adel@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 58,
-       "beosztas": "TAO igazgató-helyettes",
-       "teljes_nev": "PUSZTAI MÁRTON",
-       "telefonszam": "+3614354258",
-       "email": "pusztai.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 64,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "VIRÁG ANDRÁS",
-       "telefonszam": "+3614354245",
-       "email": "virag.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 24
-      },
-      {
-       "id": 67,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "NAGY ZSUZSANNA",
-       "telefonszam": "+3614354244",
-       "email": "nagy.zsuzsanna@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 76,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BORUS ATTILA",
-       "telefonszam": "0614354276",
-       "email": "borus.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 79,
-       "beosztas": "TAO jóváhagyási szakértő",
-       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
-       "telefonszam": "+3614354258",
-       "email": "orhegyi.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 82,
-       "beosztas": "TAO ellenőrzési csoportvezető",
-       "teljes_nev": "LUKÁCS MÁRTON",
-       "telefonszam": "+3614354243",
-       "email": "lukacs.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 236,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "GÖRGICS MÓNIKA",
-       "telefonszam": "+3614354262",
-       "email": "gorgics.monika@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      },
-      {
-       "id": 238,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "SZABÓ BALÁZS",
-       "telefonszam": "06207711482",
-       "email": "szabo.balazs.tao@mksz.hu",
-       "titulus": null,
-       "sorrend": 22
-      },
-      {
-       "id": 307,
-       "beosztas": "TAO jóváhagyási munkatárs",
-       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
-       "telefonszam": "+3614354258",
-       "email": "varga.krisztina@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 314,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "FARKAS RÓBERT ZSOLT",
-       "telefonszam": "+36305717946",
-       "email": "farkas.robert@mksz.hu",
-       "titulus": null,
-       "sorrend": 25
-      },
-      {
-       "id": 316,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "TAKÁCS ZALÁN",
-       "telefonszam": "+36304694978",
-       "email": "takacs.zalan@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      },
-      {
-       "id": 337,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BLAYER ZSÓFIA",
-       "telefonszam": "+3614354242",
-       "email": "blayer.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      }
-     ]
-    },
-    {
-     "id": 19,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Utánpótlás-fejlesztési igazgatóság",
-     "sorrend": 6,
-     "tagList": [
-      {
-       "id": 251,
-       "beosztas": "utánpótlás szakmai vezető",
-       "teljes_nev": "HORVÁTH LÁSZLÓ",
-       "telefonszam": null,
-       "email": "horvath.laszlo@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 254,
-       "beosztas": "iskolai programvezető",
-       "teljes_nev": "GYÖMÖREY ISTVÁN",
-       "telefonszam": null,
-       "email": "gyomorey.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 261,
-       "beosztas": "sportszakmai koordinátor",
-       "teljes_nev": "MÓROCZ RÉKA",
-       "telefonszam": "+36300117074",
-       "email": "morocz.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 306,
-       "beosztas": "utánpótlás fejlesztési koordinátor",
-       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
-       "telefonszam": "+3614354236",
-       "email": "rubint.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 339,
-       "beosztas": "utánpótlás-fejlesztési vezető",
-       "teljes_nev": "SEBESTYÉN MÁTÉ",
-       "telefonszam": "+36302119500",
-       "email": "sebestyen.mate@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 342,
-       "beosztas": "utánpótlás-fejlesztési igazgató",
-       "teljes_nev": "PITZ ANDRÁS",
-       "telefonszam": "+3614354200",
-       "email": "pitz.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 22,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Versenyszervezési és monitoring igazgatóság",
-     "sorrend": 7,
-     "tagList": [
-      {
-       "id": 121,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "EGYED BENCE",
-       "telefonszam": "+3614354215",
-       "email": "egyed.bence@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 124,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
-       "telefonszam": "+3614354212",
-       "email": "major.bernadett@mksz.hu",
-       "titulus": null,
-       "sorrend": 11
-      },
-      {
-       "id": 221,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "FODOR NOÉMI",
-       "telefonszam": "+3614354211",
-       "email": "fodor.noemi@mksz.hu",
-       "titulus": null,
-       "sorrend": 13
-      },
-      {
-       "id": 262,
-       "beosztas": "versenyszervezési és monitoring igazgató",
-       "teljes_nev": "SVEDA MARCELL",
-       "telefonszam": "+3614354241",
-       "email": "sveda.marcell@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 265,
-       "beosztas": "monitoring pénzügyi munkatárs",
-       "teljes_nev": "SIDLOVICS SÁRA",
-       "telefonszam": "+3614354254",
-       "email": "sidlovics.sara@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 268,
-       "beosztas": "monitoring jogi munkatárs",
-       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
-       "telefonszam": "+3614354254",
-       "email": "dutkievicz.david@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 271,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "BALÁZS ÁDÁM",
-       "telefonszam": "+3614354220",
-       "email": "balazs.adam@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 274,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "GALBOS ÁRON",
-       "telefonszam": "+3614354220",
-       "email": "galbos.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 15
-      },
-      {
-       "id": 276,
-       "beosztas": "játékvezetői albizottság titkár",
-       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
-       "telefonszam": "+3614354216",
-       "email": "marko.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 318,
-       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
-       "teljes_nev": "BONIFERT FERENC",
-       "telefonszam": "+3614354216",
-       "email": "bonifert.ferenc@mksz.hu",
-       "titulus": null,
-       "sorrend": 21
-      },
-      {
-       "id": 322,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
-       "telefonszam": "+3614354214",
-       "email": "ersek.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 354,
-       "beosztas": "versenyszervezési vezető",
-       "teljes_nev": "TORDAI ILONA",
-       "telefonszam": null,
-       "email": "tordai.ilona@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      }
-     ]
-    },
-    {
-     "id": 25,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Kommunikációs, PR és marketing-igazgatóság",
-     "sorrend": 8,
-     "tagList": [
-      {
-       "id": 145,
-       "beosztas": "kommunikációs igazgató-helyettes",
-       "teljes_nev": "LISZKAY GÁBOR",
-       "telefonszam": "+3614354225",
-       "email": "liszkay.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 148,
-       "beosztas": "média munkatárs",
-       "teljes_nev": "PALÁNKI ALEXANDRA",
-       "telefonszam": "+3614354224",
-       "email": "palanki.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 231,
-       "beosztas": "kommunikációs-, PR- és marketing igazgató",
-       "teljes_nev": "BALLAI ATTILA",
-       "telefonszam": "+3614354224",
-       "email": "ballai.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 234,
-       "beosztas": "marketing igazgató-helyettes",
-       "teljes_nev": "BENCSICS MÁRK",
-       "telefonszam": null,
-       "email": "bencsics.mark@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 277,
-       "beosztas": "marketing menedzser",
-       "teljes_nev": "TARPAI ZOLTÁN",
-       "telefonszam": null,
-       "email": "tarpai.zoltan@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 278,
-       "beosztas": "grafikus",
-       "teljes_nev": "NÉMETH LEVENTE",
-       "telefonszam": null,
-       "email": "nemeth.levente@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      }
-     ]
-    },
-    {
-     "id": 28,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Szervezési igazgatóság",
-     "sorrend": 11,
-     "tagList": [
-      {
-       "id": 151,
-       "beosztas": "szervezési igazgató",
-       "teljes_nev": "MOLNÁR VIKTOR",
-       "telefonszam": "+3614354228",
-       "email": "viktor.molnar@handballfederation.hu ",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 154,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
-       "telefonszam": "+3614354227",
-       "email": "harsfalvi.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 171,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "PONTYOS PEGGI KATA",
-       "telefonszam": null,
-       "email": "pontyos.peggi@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      }
-     ]
-    },
-    {
-     "id": 45,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Sporttudományi és diagnosztikai igazgatóság",
-     "sorrend": 18,
-     "tagList": [
-      {
-       "id": 281,
-       "beosztas": "SDI igazgató",
-       "teljes_nev": "SZABÓ TAMÁS",
-       "telefonszam": null,
-       "email": "szabo.tamas@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 284,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "DOBRONYI TAMÁS",
-       "telefonszam": null,
-       "email": "dobronyi.tamas@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 286,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "BAKONYI PÉTER",
-       "telefonszam": null,
-       "email": "bakonyi.peter@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 5
-      },
-      {
-       "id": 289,
-       "beosztas": "biológus",
-       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
-       "telefonszam": null,
-       "email": "zsakai.annamaria@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 7
-      },
-      {
-       "id": 292,
-       "beosztas": "kardiológus szakorvos",
-       "teljes_nev": "SIDÓ ZOLTÁN",
-       "telefonszam": null,
-       "email": null,
-       "titulus": "Dr.",
-       "sorrend": 9
-      },
-      {
-       "id": 302,
-       "beosztas": "SDI operatív vezető",
-       "teljes_nev": "SZIGETI SZABOLCS",
-       "telefonszam": null,
-       "email": "szigeti.szabolcs@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 305,
-       "beosztas": "spiroergometriai munkatárs",
-       "teljes_nev": "BÉRES BETTINA",
-       "telefonszam": null,
-       "email": "beres.bettina@mksz.hu",
-       "titulus": null,
-       "sorrend": 18
-      },
-      {
-       "id": 312,
-       "beosztas": "biomechanikai munkatárs",
-       "teljes_nev": "SIMON GERGŐ",
-       "telefonszam": null,
-       "email": "simon.gergo@mksz.hu",
-       "titulus": null,
-       "sorrend": 19
-      },
-      {
-       "id": 351,
-       "beosztas": "SDI recepciós asszisztens",
-       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
-       "telefonszam": "+36300864895",
-       "email": "preil.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      }
-     ]
-    }
-   ]
-  },
-  {
    "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
    "body": [
     {
@@ -5362,6 +5362,21 @@
      "evId": 2026
     }
    ]
+  },
+  {
+   "url": "https://livescore-socket.mksz.hu/eredmeny",
+   "body": {
+    "32021459807": {
+     "eredmeny_allas": {
+      "gol_hazai": 0,
+      "gol_vendeg": 0,
+      "logo_hazai": "",
+      "logo_vendeg": "",
+      "allapot": 0,
+      "merkozesid": 32021459807
+     }
+    }
+   }
   },
   {
    "url": "https://public.mksz.hu/public/api/v1/korosztaly",
@@ -6169,19 +6184,8 @@
    ]
   },
   {
-   "url": "https://livescore-socket.mksz.hu/eredmeny",
-   "body": {
-    "32021467937": {
-     "eredmeny_allas": {
-      "gol_hazai": 41,
-      "gol_vendeg": 22,
-      "logo_hazai": "https://cdn.mksz.hu/mksz/base/3440a086-1595-42ba-9cbe-0381df078063/hun_flag.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T180104Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f57053cdbc5b8ed408eb7b578ff5ef3d2f08f78217038e4603f0ee44c0cf10e5",
-      "logo_vendeg": "https://cdn.mksz.hu/mksz/base/2026/10/21/d29d5c60-e119-40a6-a096-ad758fe13b4b/szlovak.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T180104Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=952877627638aa42caf10a4201d7ad2ad41f4ec585777318462e806c170d5160",
-      "allapot": 1,
-      "merkozesid": 32021467937
-     }
-    }
-   }
+   "url": "https://public.mksz.hu/public/api/v1/statisztika/gollovo",
+   "body": []
   },
   {
    "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyek",
@@ -7040,178 +7044,6 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/statisztika/gollovo",
-   "body": []
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/mindenhir",
-   "body": {
-    "content": [
-     {
-      "id": 9703,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 6,
-      "kategoriaNev": "K&H férfi liga",
-      "cim": "18 gólos szegedi győzelem",
-      "rovidSzoveg": "Majdnem megduplázta ellenfele góljait a Szeged, így aratott magabiztos győzelmet hazai pályán a PLER-Budapest ellen a K&H férfi liga 11. fordulójának szerdai játéknapján.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-25T19:31:00.000",
-      "kisKepId": 30707122,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/25/30707122-SE20261125_Szeged_PLER_8.jpg",
-      "tartalom": "<p><strong><br></strong><em>K&amp;H f&eacute;rfi liga, 11. fordul&oacute;</em><strong><br>OTP BANK-PICK SZEGED-PLER-BUDAPEST 38-20 (18-11)</strong><br>Szeged, j&aacute;t&eacute;kvezetők: Nagy, T&uacute;r&oacute;czy.<br>SZEGED: Mikler, Portner 1 (kapusok), Cs&ouml;rgő 2, Fazekas, Frimmel-Naderer 4 (2), Furka, Goriga 2, Jelinic 5 (2), Kukic 2, Luk&aacute;cs 3, Rod 3, Rosta 6, Sandell 4, Sostaric, Szil&aacute;gyi 4, Toto 2. Edző: Michael Apelgren.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Albek 4, Barna 1, De&aacute;k, Farkas 1, Fekete 3, G&aacute;sp&aacute;r 1, Heged&uuml;s, Hov&aacute;n 1 (1), Kavin 2, Menyh&aacute;rt, Mocz&oacute; 3, Sinkovits 2, Szkok&aacute;n, Vuksic 2 (1). Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 5/4, ill. 5/2.<br><a href=\"https://livescore.mksz.hu/32021423052/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://www.mksz.hu/jegyzokonyv/32021423052\">Jegyzők&ouml;nyv</a><br><br><strong>A j&aacute;t&eacute;kh&eacute;t tov&aacute;bbi m&eacute;rkőz&eacute;sei:</strong><br><em>November 28., szombat</em><br>17:00 Csurg&oacute;i KK-BEPELOG Dabas<br>18:00 Balatonf&uuml;redi KSE-One Veszpr&eacute;m HC<br>18:00 HE-DO B. Braun Gy&ouml;ngy&ouml;s-Budai-Farkasok-R&eacute;v<br>18:00 Szigetszentmikl&oacute;si KSK-Ferencv&aacute;rosi TC<br>20:00 MOL Tatab&aacute;nya KC-Eger (Sport 1)<br><em>November 29., vas&aacute;rnap</em><br>18:15 LIQUI MOLY NEKA-ETO University HT (Sport 1)<br><br><br>Fot&oacute;: OTP Bank-PICK Szeged/S&oacute;lya Eliza</p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9680,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 6,
-      "kategoriaNev": "K&H férfi liga",
-      "cim": "Fordítás után nyert idegenben a Győr",
-      "rovidSzoveg": "A szünetben még a Budai Farkasok vezetett, aztán a második félidő elején kiegyenlített, majd fokozatosan a vezetést is átvette Győr, amely végül kétgólos győzelmével két ponttal távozott idegenből a K&H férfi liga 10. fordulójának vasárnapi játéknapján.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-22T19:41:00.000",
-      "kisKepId": 30693922,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/22/30693922-LF2A1817.jpg",
-      "tartalom": "<p><strong><br></strong><em>K&amp;H f&eacute;rfi liga, 10. fordul&oacute;</em><strong><br>BUDAI FARKASOK-R&Eacute;V-ETO UNIVERSITY HT 29-31 (16-14)</strong><br>Buda&ouml;rs, j&aacute;t&eacute;kvezetők: B&iacute;r&oacute;, Kiss.<br>BUDAI FARKASOK: Balogh, Zernovic (kapusok), Bene, Draskovics 1, Horv&aacute;th 1, Hutv&aacute;gner 1, Josefsson 3, Juh&aacute;sz 4, K&ouml;vecses, Maric 2, Melnicsuk, Nourelden 8 (1), Panic 6, Pint&eacute;r, Prainer 3, Szeitl. Edző: Kors&oacute;s &Aacute;d&aacute;m.<br>GYŐR: Győri (kapusok), P&aacute;sztor (kapusok), Bogn&aacute;r, Bozovic, Dely 3, F&uuml;zi 2, Győri 7, H&aacute;ri 1 (1), Kov&aacute;cs, Krakovszki 3, Krakovszki 7, Kusan 1, Nagy 2, Stepancic 2, Szmet&aacute;n 2, Zakor 1. Edző: Kopornyik Zsolt.<br>Ki&aacute;ll&iacute;t&aacute;sok: 14, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 5/1, ill. 2/1.<br><a href=\"https://livescore.mksz.hu/32021423043/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://www.mksz.hu/jegyzokonyv/32021423043\">Jegyzők&ouml;nyv</a><br><br><strong>A j&aacute;t&eacute;kh&eacute;t tov&aacute;bbi eredm&eacute;nyei:</strong><br>LIQUI MOLY NEKA-Csurg&oacute;i KK 28-24 (16-10)<br>Ferencv&aacute;rosi TC-Balatonf&uuml;redi KSE 35-34 (20-16)<br>BEPELOG Dabas-Szigetszentmikl&oacute;si KSK 33-36 (16-15)<br>One Veszpr&eacute;m HC-MOL Tatab&aacute;nya KC 39-30 (21-14)<br><br><br>Fot&oacute;: www.budaifarkasok.hu</p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9677,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 6,
-      "kategoriaNev": "K&H férfi liga",
-      "cim": "Három hazai, egy idegenbeli siker",
-      "rovidSzoveg": "A K&H férfi liga 10. fordulójában a NEKA négy góllal nyert a Csurgó ellen, az FTC egy góllal győzte le a Balatonfüredet, a Szigetszentmiklós 36-33-ra nyert a Dabas otthonában, míg a Veszprém kilencgólos győzelmet aratott a Tatabányával szemben.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-21T20:23:00.000",
-      "kisKepId": 30693580,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/21/30693580-20261121_Dab_Szigszm (15).jpg",
-      "tartalom": "<p><br><em>K&amp;H f&eacute;rfi liga, 10. fordul&oacute;</em><br><strong>LIQUI MOLY NEKA-CSURG&Oacute;I KK 28-24 (16-10)</strong><br>Balatonbogl&aacute;r, j&aacute;t&eacute;kvezetők: Horv&aacute;th, Marton.<br>NEKA: Borsos, Nagy (kapusok), Bugy&aacute;ki 1, Gazs&oacute; 8 (2), Kardos 2, Koll&aacute;r, Kov&aacute;cs 4 (2), Kucsera 1, Luk&aacute;cs 3, Maracsk&oacute; 2, M&eacute;sz&aacute;ros 3, Szab&oacute;, Sz&eacute;les, T&aacute;rnoki 1, T&ouml;r&ouml;k 3, V&aacute;ri. Edző: Lehőcz Zolt&aacute;n.<br>CSURG&Oacute;: V&aacute;czi, Zaponsek (kapusok), Alilovic 6 (3), Bazs&oacute;, Bogdanovic 1, G&aacute;bor, Herceg 2, Kathi 4, Kavcic 4, Kiss, Milovanovic 1, N&eacute;meth, Ratkovic 2, Sz&uuml;cs 1, Szűcs 3, Vasv&aacute;ri. Edző: Alem Toskic.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 4/4, ill. 6/3.<br><a href=\"https://livescore.mksz.hu/32021423040/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423040\">Jegyzők&ouml;nyv</a><br><br><strong>FERENCV&Aacute;ROSI TC-BALATONF&Uuml;REDI KSE 35-34 (20-16)</strong><br>Budapest, j&aacute;t&eacute;kvezetők: S&aacute;ndor, Szab&oacute;.<br><a href=\"https://livescore.mksz.hu/32021423034/esemenyek\">R&eacute;szletes statisztika</a><br><br><strong>BEPELOG DABAS-SZIGETSZENTMIKL&Oacute;SI KSK 33-36 (16-15)</strong><br>Dabas, j&aacute;t&eacute;kvezetők: B&aacute;tori, Sz&eacute;csi.<br>DABAS: Pallag, Pint&eacute;r (kapusok), Balogh, D&ouml;rnyei, G&aacute;sp&aacute;r, Hunyadi 3, Kov&aacute;cs 6 (1), Laurinyecz 2, Stramszky, Szladovics 8, Sz&ouml;kr&eacute;nyes 2, V&aacute;rszegi 3, Zdolik 8 (3), &Aacute;cs 1. Edző: Tomori Győző.<br>SZIGETSZENTMIKL&Oacute;S: Dem&eacute;nyi, Holl&oacute;, Jakobicz (kapusok), Davidovic, Debreczeni 5, Hoffmann, Kov&aacute;cs 2, Lakosy 1, Ol&aacute;h, Schmid 10 (7), Sch&auml;ffer 3, Spacsek 3, T&oacute;vizi 3, Varga 3, Varj&uacute; 3 (1), V&aacute;czi 3. Edző: Kilvinger B&aacute;lint.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 4/4, ill. 10/8.<br><a href=\"https://livescore.mksz.hu/32021423037/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423037\">Jegyzők&ouml;nyv</a><br><br><strong>ONE VESZPR&Eacute;M HC-MOL TATAB&Aacute;NYA KC 39-30 (21-14)</strong><br>Veszpr&eacute;m, j&aacute;t&eacute;kvezetők: B&oacute;cz, Wiedemann.<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Barna 2, Cindric 1, Dodic 2, Elderaa 2, Goncalves 1, G&aacute;ncs-Pető 5, Imre 7 (3), Ligetv&aacute;ri, Martinovic 2, Mesilhy 3, Mohamed 2 (1), Mohamed 3, Pechmalbec 5, Remili 4. Edző: Xavier Pascual Fuertes.<br>TATAB&Aacute;NYA: And&oacute;, Sz&eacute;kely (kapusok), Becker 1 (1), Bod&oacute; 7, Karai 1, Moln&aacute;r 3 (1), Mosindi 2, Papp 3, Rodriguez 1, Szűcs, Temesv&aacute;ri 2, Terj&eacute;k 1, T&oacute;th 5, Vajda 1, Zhitnikov 3. Edző: T&oacute;th Edmond.<br>Ki&aacute;ll&iacute;t&aacute;sok: 0, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 6/4, ill. 3/2.<br><a href=\"https://livescore.mksz.hu/32021423049/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423049\">Jegyzők&ouml;nyv</a><br><br><strong>A fordul&oacute; tov&aacute;bbi programja:</strong><br><em>November 22., vas&aacute;rnap</em><br>18:00 Budai Farkasok-R&eacute;v-ETO University HT<br><br>Fot&oacute;: Szigetszentmikl&oacute;si KSK / Cseh P&eacute;ter</p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9643,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 6,
-      "kategoriaNev": "K&H férfi liga",
-      "cim": "Hazai győzelmek",
-      "rovidSzoveg": "A K&H férfi liga 9. fordulójának zárónapján a Szigetszentmiklós 39-32-re győzte le a NEKA-t, a Balatonfüred nyolc góllal nyert a Dabas ellen, a Budai Farkasok 11 gólos sikert aratott a PLER ellen, míg az ETO egy góllal nyert a Csurgóval szemben.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-15T19:51:00.000",
-      "kisKepId": 30677225,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/15/30677225-CSPR0009.jpeg",
-      "tartalom": "<p><em><br>K&amp;H f&eacute;rfi liga, 9. fordul&oacute;</em><br><strong>SZIGETSZENTMIKL&Oacute;SI KSK-LIQUI MOLY NEKA 39-32 (19-13)</strong><br>Szigetszentmikl&oacute;s, j&aacute;t&eacute;kvezetők: Felhő, &Ouml;csi.<br>SZIGETSZENTMIKL&Oacute;S: Dem&eacute;nyi, Holl&oacute; 2 (kapusok), Davidovic 2, Debreczeni 6, Hoffmann 2, Kov&aacute;cs 3, Lakosy 3 (1), Ol&aacute;h, Schmid 1 (1), Sch&auml;ffer 3, Spacsek 1, T&oacute;vizi, Varga 6, Varj&uacute; 3, V&aacute;czi 7. Edző: Kilvinger B&aacute;lint.<br>NEKA: Borsos, Nagy (kapusok), Apr&oacute;, Balogh 1, Bugy&aacute;ki 1, Gazs&oacute; 10 (1), Kardos 1, Kov&aacute;cs 4 (4), Kucsera 2, Luk&aacute;cs 4, Maracsk&oacute;, M&eacute;sz&aacute;ros 3, Szab&oacute; 1, T&aacute;rnoki, T&ouml;r&ouml;k 1, V&aacute;ri 4. Edző: Lehőcz Zolt&aacute;n.<br>Ki&aacute;ll&iacute;t&aacute;sok: 8, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 2/2, ill. 7/5.<br><a href=\"https://livescore.mksz.hu/32021423028/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423028\">Jegyzők&ouml;nyv</a><br><br><strong>BALATONF&Uuml;REDI KSE-BEPELOG DABAS 34-26 (18-12)</strong><br>Balatonf&uuml;red, j&aacute;t&eacute;kvezetők: Fekete, Hajdu.<br>BALATONF&Uuml;RED: F&uuml;st&ouml;s, Podoba (kapusok), Ambrus 5 (1), B&oacute;ka 1, Fekete 6, Garajszki 2, Horny&aacute;k 1, Klucsik 5, Kov&aacute;cs, N&eacute;meth 3, Popovic 1, Rozman, Simotics 4, Sretenovic 3, Szab&oacute; 1, Varga 2. Edző: Kis &Aacute;kos.<br>DABAS: Pallag, Pint&eacute;r (kapusok), Balogh, D&ouml;rnyei, G&aacute;sp&aacute;r, Hunyadi 2, Kov&aacute;cs 1, Laurinyecz 1, Stramszky 1, Szladovics 2, Sz&ouml;kr&eacute;nyes 5, Tisza 2, V&aacute;rszegi 8, Zdolik 3 (1), &Aacute;cs 1. Edző: Tomori Győző.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 2 perc.<br>H&eacute;tm&eacute;teresek: 2/1, ill. 1/1.<br><a href=\"https://livescore.mksz.hu/32021423013/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423013\">Jegyzők&ouml;nyv</a><br><br><strong>BUDAI FARKASOK-R&Eacute;V-PLER-BUDAPEST 36-25 (19-10)<br></strong>Buda&ouml;rs, j&aacute;t&eacute;kvezetők: Hargitai, Mark&oacute;.<br>BUDAI FARKASOK: Balogh, Zernovic (kapusok), Bene, Draskovics 6, Horv&aacute;th 4, Hutv&aacute;gner 1, Josefsson, Juh&aacute;sz 8 (3), K&ouml;vecses 2 (1), Maric 1, Melnicsuk 2, Nourelden 5, Panic 1, Pint&eacute;r 2, Prainer 4, Szeitl. Edző: Kors&oacute;s &Aacute;d&aacute;m.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Borsos, De&aacute;k 2, Fekete 3, Heged&uuml;s 1, Kavin 3, Kem&eacute;ny 1, Markez 1, Menyh&aacute;rt 4, Mikita 3, Mocz&oacute;, Ocvirk 1, Szkok&aacute;n, T&oacute;th 5 (4), Vuksic 1. Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 16, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 6/4, ill. 4/4.<br><a href=\"https://livescore.mksz.hu/32021423019/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423019\">Jegyzők&ouml;nyv</a><br><br><strong>ETO UNIVERSITY HT-CSURG&Oacute;I KK 27-26 (14-10)</strong><br>Győr, j&aacute;t&eacute;kvezetők: Kiu G., Kiu T.<br>GYŐR: Győri, P&aacute;sztor (kapusok), Bogn&aacute;r 3, Bozovic, Dely 2, F&uuml;zi 1, Győri 3, H&aacute;ri 1, Kov&aacute;cs, Krakovszki 2, Krakovszki 3 (2), Kusan 6, Nagy, Stepancic 1, Szmet&aacute;n 5, Zakor. Edző: Kopornyik Zsolt.<br>CSURG&Oacute;: V&aacute;czi, Zaponsek (kapusok), Alilovic, Bazs&oacute; 1, Bogdanovic 1, G&aacute;bor, Herceg 1, Kathi 5, Kavcic 6, Kiss 4, Milovanovic 1, N&eacute;meth, Ratkovic 1, Sz&uuml;cs 1, Szűcs 5 (3), Vasv&aacute;ri. Edző: Alem Toskic.<br>Ki&aacute;ll&iacute;t&aacute;sok: 10, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 6/2, ill. 6/3.<br><a href=\"https://livescore.mksz.hu/32021423025/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423025\">Jegyzők&ouml;nyv</a><br><br><strong>A fordul&oacute; tov&aacute;bbi eredm&eacute;nyei:<br></strong>OTP Bank-PICK Szeged-One Veszpr&eacute;m HC 30-30 (15-15)<br>HE-DO B. Braun Gy&ouml;ngy&ouml;s-Eger 27-26 (16-9)<br>MOL Tatab&aacute;nya KC-Ferencv&aacute;rosi TC 40-26 (18-9)<br><br>Fot&oacute;: Szigetszentmikl&oacute;si KSK/Cseh P&eacute;ter</p>",
-      "merkozesId": null
-     }
-    ],
-    "pageable": {
-     "pageNumber": 0,
-     "pageSize": 4,
-     "sort": [],
-     "offset": 0,
-     "paged": true,
-     "unpaged": false
-    },
-    "last": false,
-    "totalElements": 36,
-    "totalPages": 9,
-    "size": 4,
-    "number": 0,
-    "sort": [],
-    "first": true,
-    "numberOfElements": 4,
-    "empty": false
-   }
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/mindenhir",
-   "body": {
-    "content": [
-     {
-      "id": 9709,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 7,
-      "kategoriaNev": "férfi európai kupa hírek",
-      "cim": "Veszprém-Aalborg BL-rangadó",
-      "rovidSzoveg": "November hónap mérkőzésén a BL-ben százszázalékos ONE Veszprém HC a dán Aalborgot fogadja csütörtökön 18:45-től. ",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-26T10:08:00.000",
-      "kisKepId": 30708022,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/30708022-PR0_7199.jpg",
-      "tartalom": "<p>&nbsp;</p>\n<p>A m&eacute;rkőz&eacute;st a Sport1 &eacute;lőben k&ouml;zvet&iacute;ti.</p>\n<p>A k&eacute;t szuperszt&aacute;r egy&uuml;ttesre egyar&aacute;nt jellemző, hogy t&ouml;bbsz&ouml;r&ouml;s BL-ez&uuml;st&eacute;rmes (a Veszpr&eacute;m 2002-ben, 2016-ban &eacute;s 2019-ben, m&iacute;g az Aalborg 2021-ben &eacute;s 2024-ben vesz&iacute;tett fin&aacute;l&eacute;t a legrangosabb klubsorozatban), győznie azonban eddig egyiknek sem siker&uuml;lt.&nbsp;</p>\n<p>A k&ouml;zelm&uacute;ltja az Aalborgnak egy fokkal jobb, hiszen a legut&oacute;bbi szezonban bejutott a k&ouml;lni FINAL4-ba (ahol v&eacute;g&uuml;l nyeretlen&uuml;l, a 4. helyen z&aacute;rt), m&iacute;g a Veszpr&eacute;m 2025-ben a Magdeburg ellen &ouml;sszes&iacute;t&eacute;sben egy g&oacute;llal, id&eacute;n a F&uuml;chse Berlinnel szemben csup&aacute;n h&eacute;tm&eacute;teresekkel esett ki a Bajnokok Lig&aacute;ja negyedd&ouml;ntőj&eacute;ben.&nbsp;</p>\n<p>Az Aalborg ebben az id&eacute;nyben nem teljes&iacute;t kiegyens&uacute;lyozottan, d&ouml;ntetlennel kezdett a Paris St. Germain ellen, majd magabiztosan nyert Celj&eacute;ben &eacute;s Z&aacute;gr&aacute;bban, &aacute;m ezt k&ouml;vetően mindk&eacute;t csapattal szemben megszenvedett a hazai siker&eacute;rt, v&eacute;g&uuml;l a csoportk&ouml;r z&aacute;r&aacute;s&aacute;n sim&aacute;n, h&eacute;t g&oacute;llal kikapott P&aacute;rizsban. A k&ouml;z&eacute;pd&ouml;ntő nyit&aacute;ny&aacute;n a F&uuml;chse Berlint h&aacute;rom g&oacute;llal verte, jelenleg ez az egyetlen szezonbeli &ouml;sszehasonl&iacute;t&aacute;si alap a k&eacute;t egy&uuml;ttes k&ouml;z&ouml;tt, hiszen a n&eacute;met főv&aacute;ros csapat&aacute;t a Veszpr&eacute;m idegenben hat, hazai p&aacute;ly&aacute;n n&eacute;gy tal&aacute;lattal tudta megverni.&nbsp;</p>\n<p>A d&aacute;n egy&uuml;ttes fők&eacute;nt hazai klasszisokra &ndash; Niklas &eacute;s Magnus Landin, Thomas Arnoldsen, Tobias Nielsen &ndash; &eacute;p&iacute;t, akiket egy-egy skandin&aacute;v &eacute;lj&aacute;t&eacute;kos (a norv&eacute;g Sagosen &eacute;s Blonz, a sv&eacute;d M&ouml;ller) &eacute;s a n&eacute;met Knorr eg&eacute;sz&iacute;t ki. Tr&eacute;ner&uuml;k, Simon Dahl J&ouml;rgensen mind&ouml;ssze 35 &eacute;ves, a Skjernben k&eacute;zilabd&aacute;zott, &aacute;m egy s&eacute;r&uuml;l&eacute;s miatt kor&aacute;n visszavonult, 29 &eacute;vesen m&aacute;r a Nordsjaelland vezetőedzője volt, valamint a d&aacute;n juniorv&aacute;logatott m&aacute;sodedzője, 2023-t&oacute;l az Aalborg m&aacute;sodedzője, majd 2024 november&eacute;től, Maik Machulla t&aacute;voz&aacute;sa &oacute;ta vezetőedzők&eacute;nt ir&aacute;ny&iacute;tja a csapatot, 2025-ben d&aacute;n bajnoks&aacute;got &eacute;s kup&aacute;t is nyert az egy&uuml;ttessel, majd 2026-ban ism&eacute;t dupl&aacute;zott a hazai sorozatokban.&nbsp;</p>\n<p>A k&eacute;t csapat a legut&oacute;bbi id&eacute;ny csoportk&ouml;r&eacute;ben is tal&aacute;lkozott egym&aacute;ssal, akkor az 1. fordul&oacute;ban D&aacute;ni&aacute;ban n&eacute;gy, a z&aacute;r&oacute;k&ouml;rben Veszpr&eacute;mben &ouml;t g&oacute;llal nyert az Aalborg, &iacute;gy van mi&eacute;rt visszav&aacute;gnia Xavi Pascual egy&uuml;ttes&eacute;nek.&nbsp;</p>\n<p>A Veszpr&eacute;m, rem&eacute;nybeli &uacute;jabb győzelm&eacute;vel nagyot l&eacute;pne a csoport első k&eacute;t hely&eacute;nek megszerz&eacute;se fel&eacute;, amely kedvezőbb poz&iacute;ci&oacute;t jelenthetne sz&aacute;m&aacute;ra a negyedd&ouml;ntőben (hazai p&aacute;ly&aacute;n j&aacute;tszhatn&aacute; a visszav&aacute;g&oacute;t, a II-es csoport &ndash; Magdeburg, Barca, Sporting, Kielce, GOG, Bucuresti &ndash; 3. vagy 4. helyezettje ellen).&nbsp;</p>\n<p><em>Az I-es k&ouml;z&eacute;pd&ouml;ntő csoport 2. fordul&oacute;j&aacute;nak programja, november 26., cs&uuml;t&ouml;rt&ouml;k:&nbsp;</em><br><strong>18:45 ONE VESZPR&Eacute;M HC&ndash;AALBORG HANDBOLD (d&aacute;n)</strong><br>20:45 F&uuml;chse Berlin (n&eacute;met)&ndash;MT Melsungen (n&eacute;met)<br>20:45 PSG Handball (francia)&ndash;Orlen Wisla Plock (lengyel)</p>\n<p><em>Az I-es k&ouml;z&eacute;pd&ouml;ntő-csoport &aacute;ll&aacute;sa: &nbsp;</em><br><strong>1. Veszpr&eacute;m 6 p</strong>, 2. PSG 5 p, <strong>3. Aalborg 3 p</strong>, 4. Melsungen 2 p, 5. Plock 2 p, 6. Berlin 0 p</p>\n<p><em>A II-es k&ouml;z&eacute;pd&ouml;ntő-csoport &aacute;ll&aacute;sa:&nbsp;</em><br>1. SC Magdeburg 8 p, 2. Barca 6 p, 3. Sporting 6 p, 4. Kielce 2 p, 5. GOG 0 p, 6. Bucuresti 0 p<br>&nbsp;<br>A csapatok magukkal hozt&aacute;k a csoportk&ouml;rből a m&aacute;sik tov&aacute;bbjut&oacute; elleni eredm&eacute;nyeiket.&nbsp;<br>A csoportok első n&eacute;gy-n&eacute;gy helyezettje a negyedd&ouml;ntőbe jut.</p>\n<p><strong>A Veszpr&eacute;m eredm&eacute;nyei a Bajnokok Lig&aacute;ja 2026/27-es id&eacute;ny&eacute;ben:&nbsp;</strong><br><em>Csoportm&eacute;rkőz&eacute;sek:&nbsp;</em><br>Veszpr&eacute;m-Porto (portug&aacute;l) 36-28<br>F&uuml;chse Berlin-Veszpr&eacute;m 29-35<br>Partizan (szerb)-Veszpr&eacute;m 26-37<br>Veszpr&eacute;m-Partizan 38-28<br>Veszpr&eacute;m-F&uuml;chse Berlin 39-35<br>Porto-Veszpr&eacute;m 29-34</p>\n<p><em>K&ouml;z&eacute;pd&ouml;ntő:&nbsp;</em><br>Orlen Wisla Plock-Veszpr&eacute;m 26-30</p>\n<p><strong>Az Aalborg eredm&eacute;nyei a Bajnokok Lig&aacute;ja 2026/27-es id&eacute;ny&eacute;ben:&nbsp;</strong><br><em>Csoportm&eacute;rkőz&eacute;sek:&nbsp;</em><br>Aalborg-PSG 33-33<br>Celje (szlov&eacute;n)-Aalborg 26-36<br>Zagreb (horv&aacute;t)-Aalborg 23-33<br>Aalborg-Zagreb 34-33<br>Aalborg-Celje 34-30<br>PSG-Aalborg 32-25</p>\n<p><em>K&ouml;z&eacute;pd&ouml;ntő:&nbsp;</em><br>Aalborg-F&uuml;chse Berlin 34-31</p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9697,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 7,
-      "kategoriaNev": "férfi európai kupa hírek",
-      "cim": "Férfi EL: elszálltak a továbbjutási esélyek",
-      "rovidSzoveg": "A Tatabánya sokáig jól tartotta magát a Slovan otthonában, de a szlovén együttes a hajrában ellépett Tóth Edmond csapatától, ezzel az idegenbeli vereséggel pedig elszállt a magyar alakulat esélye az EL csoportköréből való továbbjutásra.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-24T20:23:00.000",
-      "kisKepId": 220,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/220-europaikupak_ferfi_5.jpg",
-      "tartalom": "<p><br><em>F&eacute;rfi Eur&oacute;pa Liga, H-csoport, 5. fordul&oacute;</em><br><strong>RD LL GROSIST SLOVAN-MOL TATAB&Aacute;NYA KC 30-25 (16-15)</strong><br>Ljubljana, j&aacute;t&eacute;kvezetők: Panetta, Riello (olaszok).<br>SLOVAN: Bojic, Ferlin, Panjtar (kapusok), Cavor 3, Cokan 4 (3), Jovicic 3, Knavs, Latkovic 3, Orac Istenic, Pipp, Smaoial 5, Tajnik 9 (1), Trivkovic, Zabic 3. Edző: uros Zorman.&nbsp;<br>TATAB&Aacute;NYA: And&oacute;, Sz&eacute;kely (kapusok), Bod&oacute; 6, &Eacute;les, Karai 2, Moln&aacute;r 1, Mosindi 5, Papp 3, Rodr&iacute;guez 2, Szűcs, Temesv&aacute;ri, Terj&eacute;k 1, T&oacute;th 1, Vajda 1, Zsitnyikov 3. Edző: T&oacute;th Emdond.&nbsp;<br>Ki&aacute;ll&iacute;t&aacute;sok: 4/5, ill. 0/0.<br>H&eacute;tm&eacute;teresek: 4, ill. 10 perc.<br><br><strong>A H-csoport tov&aacute;bbi eredm&eacute;nye:</strong><br>Mors-Thy Handbold (d&aacute;n)-Valur (izlandi) 36-33 (16-15)<br><br><em>A H-csoport &aacute;ll&aacute;sa:</em> 1. RD LL Grosist Slovan 10 p (+32), 2. Valur 4 p (+6), 3. Mors-Thy Hanbodl 4 p (-23), <strong>4. MOL Tatab&aacute;nya KC 2 p (-15)</strong>.<br><br></p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9669,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 7,
-      "kategoriaNev": "férfi európai kupa hírek",
-      "cim": "Férfi EK: idegenben nyert a PLER",
-      "rovidSzoveg": "A hajrá előtt még vezetett a hazai pályán játszó görög együttes, ám az utolsó percekben bedarálta ellenfelét a PLER-Budapest, amely így négygólos előnyről várja a visszavágót.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-20T20:17:00.000",
-      "kisKepId": 217,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/217-europaikupak_ferfi_4.jpg",
-      "tartalom": "<p><br><em>F&eacute;rfi Eur&oacute;pa Kupa, 3. selejtezők&ouml;r, első fordul&oacute;</em><br><strong>AEK ATHEN-PLER-BUDAPEST 30-34 (16-18)</strong><br>Ath&eacute;n, j&aacute;t&eacute;kvezetők: Oyarzun, Zaragueta (spanyolok).<br>ATH&Eacute;N: de Souza, Kotanidis, Varpe (kapusok), Arampatzis 2, Batis, Carvalho 3, Charitonidis 1, da Silva 2, Koukoulas 3, Kovacec 1, Laranjeiro 7, Matsouka 2, Papdiodionysiu 2, Safranki 1, Vistorop 3, Zennadi 2. Edző: Rafael Leite Ribeiro.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Albek, Borsos, De&aacute;k, Fekete 1, Hegedűs 2, Kem&eacute;ny 3, Markez 5, Menyh&aacute;rt, Mikita 2, Ocvirk 5, Sinkovits 6, Szkok&aacute;n, T&oacute;th 8, Vuksic 2. Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 5/6, ill. 1/1.<br><br><strong>Visszav&aacute;g&oacute;:</strong><br><em>November 28., szombat</em><br>16:00 PLER-Budapest-AEK Athens (g&ouml;r&ouml;g)<br><br><br><br><br></p>",
-      "merkozesId": null
-     },
-     {
-      "id": 9661,
-      "ev": 2026,
-      "sportagKod": "SPAG_1",
-      "kategoriaId": 7,
-      "kategoriaNev": "férfi európai kupa hírek",
-      "cim": "Férfi BL: Sikeres kezdés a középdöntőben",
-      "rovidSzoveg": "A One Veszprém HC továbbra is veretlen a férfi BL-ben, miután az Orlen Wisla Plock vendégeként a második félidőben fordítva nyert a középdöntős csoportkör első fordulójában.",
-      "szerzo": "MKSZ",
-      "datum": "2026-11-18T22:28:00.000",
-      "kisKepId": 220,
-      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/220-europaikupak_ferfi_5.jpg",
-      "tartalom": "<p><br><em>F&eacute;rfi Bajnokok Lig&aacute;ja, I. k&ouml;z&eacute;pd&ouml;ntő csoport, 1. fordul&oacute;</em><br><strong>ORLEN WISLA PLOCK-ONE VESZPR&Eacute;M HC 26-30 (17-14)</strong><br>Plock, j&aacute;t&eacute;kvezetők: K. Gasmi, R. Gasmi (franci&aacute;k).<br>PLOCK: Alilovic, Vujovic (kapusok), Bjerre 8 (3), Daszek 1, Dawydzik 1, Fazekas 1, Ilic, Janc 2, Koszorotov 5, Krajewski, Rey Morales, Richardson 3, Serdio 3, Susnja 1, Szita, Zarabec 1. Edző: Xavi Sabat&eacute;.<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Adel 1, Cindric 1, Descat 8 (5), Dodic 2, Elderaa 2, G&aacute;ncs-Pető, Hesham 3, Imre, Lenne 2, Martinovic 1, Pechmalbec 3, Remili 7, Thiagus Petrus. Edző: Xavi Pascual.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 4 perc.<br>H&eacute;tm&eacute;teresek: 3/3, ill. 5/5.<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi eredm&eacute;nye:</strong><br>Aalborg Handbold (d&aacute;n)-F&uuml;chse Berlin (n&eacute;met) 34-31 (18-16)<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi programja:</strong><br><em>November 19., cs&uuml;t&ouml;rt&ouml;k</em><br>20:45 MT Melsungen (n&eacute;met)-Paris-Saint Germain (francia)</p>",
-      "merkozesId": null
-     }
-    ],
-    "pageable": {
-     "pageNumber": 0,
-     "pageSize": 4,
-     "sort": [],
-     "offset": 0,
-     "paged": true,
-     "unpaged": false
-    },
-    "last": false,
-    "totalElements": 27,
-    "totalPages": 7,
-    "size": 4,
-    "number": 0,
-    "sort": [],
-    "first": true,
-    "numberOfElements": 4,
-    "empty": false
-   }
-  },
-  {
    "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyek",
    "body": [
     {
@@ -7949,6 +7781,174 @@
    ]
   },
   {
+   "url": "https://public.mksz.hu/public/api/v1/mindenhir",
+   "body": {
+    "content": [
+     {
+      "id": 9703,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 6,
+      "kategoriaNev": "K&H férfi liga",
+      "cim": "18 gólos szegedi győzelem",
+      "rovidSzoveg": "Majdnem megduplázta ellenfele góljait a Szeged, így aratott magabiztos győzelmet hazai pályán a PLER-Budapest ellen a K&H férfi liga 11. fordulójának szerdai játéknapján.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-25T19:31:00.000",
+      "kisKepId": 30707122,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/25/30707122-SE20261125_Szeged_PLER_8.jpg",
+      "tartalom": "<p><strong><br></strong><em>K&amp;H f&eacute;rfi liga, 11. fordul&oacute;</em><strong><br>OTP BANK-PICK SZEGED-PLER-BUDAPEST 38-20 (18-11)</strong><br>Szeged, j&aacute;t&eacute;kvezetők: Nagy, T&uacute;r&oacute;czy.<br>SZEGED: Mikler, Portner 1 (kapusok), Cs&ouml;rgő 2, Fazekas, Frimmel-Naderer 4 (2), Furka, Goriga 2, Jelinic 5 (2), Kukic 2, Luk&aacute;cs 3, Rod 3, Rosta 6, Sandell 4, Sostaric, Szil&aacute;gyi 4, Toto 2. Edző: Michael Apelgren.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Albek 4, Barna 1, De&aacute;k, Farkas 1, Fekete 3, G&aacute;sp&aacute;r 1, Heged&uuml;s, Hov&aacute;n 1 (1), Kavin 2, Menyh&aacute;rt, Mocz&oacute; 3, Sinkovits 2, Szkok&aacute;n, Vuksic 2 (1). Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 5/4, ill. 5/2.<br><a href=\"https://livescore.mksz.hu/32021423052/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://www.mksz.hu/jegyzokonyv/32021423052\">Jegyzők&ouml;nyv</a><br><br><strong>A j&aacute;t&eacute;kh&eacute;t tov&aacute;bbi m&eacute;rkőz&eacute;sei:</strong><br><em>November 28., szombat</em><br>17:00 Csurg&oacute;i KK-BEPELOG Dabas<br>18:00 Balatonf&uuml;redi KSE-One Veszpr&eacute;m HC<br>18:00 HE-DO B. Braun Gy&ouml;ngy&ouml;s-Budai-Farkasok-R&eacute;v<br>18:00 Szigetszentmikl&oacute;si KSK-Ferencv&aacute;rosi TC<br>20:00 MOL Tatab&aacute;nya KC-Eger (Sport 1)<br><em>November 29., vas&aacute;rnap</em><br>18:15 LIQUI MOLY NEKA-ETO University HT (Sport 1)<br><br><br>Fot&oacute;: OTP Bank-PICK Szeged/S&oacute;lya Eliza</p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9680,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 6,
+      "kategoriaNev": "K&H férfi liga",
+      "cim": "Fordítás után nyert idegenben a Győr",
+      "rovidSzoveg": "A szünetben még a Budai Farkasok vezetett, aztán a második félidő elején kiegyenlített, majd fokozatosan a vezetést is átvette Győr, amely végül kétgólos győzelmével két ponttal távozott idegenből a K&H férfi liga 10. fordulójának vasárnapi játéknapján.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-22T19:41:00.000",
+      "kisKepId": 30693922,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/22/30693922-LF2A1817.jpg",
+      "tartalom": "<p><strong><br></strong><em>K&amp;H f&eacute;rfi liga, 10. fordul&oacute;</em><strong><br>BUDAI FARKASOK-R&Eacute;V-ETO UNIVERSITY HT 29-31 (16-14)</strong><br>Buda&ouml;rs, j&aacute;t&eacute;kvezetők: B&iacute;r&oacute;, Kiss.<br>BUDAI FARKASOK: Balogh, Zernovic (kapusok), Bene, Draskovics 1, Horv&aacute;th 1, Hutv&aacute;gner 1, Josefsson 3, Juh&aacute;sz 4, K&ouml;vecses, Maric 2, Melnicsuk, Nourelden 8 (1), Panic 6, Pint&eacute;r, Prainer 3, Szeitl. Edző: Kors&oacute;s &Aacute;d&aacute;m.<br>GYŐR: Győri (kapusok), P&aacute;sztor (kapusok), Bogn&aacute;r, Bozovic, Dely 3, F&uuml;zi 2, Győri 7, H&aacute;ri 1 (1), Kov&aacute;cs, Krakovszki 3, Krakovszki 7, Kusan 1, Nagy 2, Stepancic 2, Szmet&aacute;n 2, Zakor 1. Edző: Kopornyik Zsolt.<br>Ki&aacute;ll&iacute;t&aacute;sok: 14, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 5/1, ill. 2/1.<br><a href=\"https://livescore.mksz.hu/32021423043/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://www.mksz.hu/jegyzokonyv/32021423043\">Jegyzők&ouml;nyv</a><br><br><strong>A j&aacute;t&eacute;kh&eacute;t tov&aacute;bbi eredm&eacute;nyei:</strong><br>LIQUI MOLY NEKA-Csurg&oacute;i KK 28-24 (16-10)<br>Ferencv&aacute;rosi TC-Balatonf&uuml;redi KSE 35-34 (20-16)<br>BEPELOG Dabas-Szigetszentmikl&oacute;si KSK 33-36 (16-15)<br>One Veszpr&eacute;m HC-MOL Tatab&aacute;nya KC 39-30 (21-14)<br><br><br>Fot&oacute;: www.budaifarkasok.hu</p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9677,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 6,
+      "kategoriaNev": "K&H férfi liga",
+      "cim": "Három hazai, egy idegenbeli siker",
+      "rovidSzoveg": "A K&H férfi liga 10. fordulójában a NEKA négy góllal nyert a Csurgó ellen, az FTC egy góllal győzte le a Balatonfüredet, a Szigetszentmiklós 36-33-ra nyert a Dabas otthonában, míg a Veszprém kilencgólos győzelmet aratott a Tatabányával szemben.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-21T20:23:00.000",
+      "kisKepId": 30693580,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/21/30693580-20261121_Dab_Szigszm (15).jpg",
+      "tartalom": "<p><br><em>K&amp;H f&eacute;rfi liga, 10. fordul&oacute;</em><br><strong>LIQUI MOLY NEKA-CSURG&Oacute;I KK 28-24 (16-10)</strong><br>Balatonbogl&aacute;r, j&aacute;t&eacute;kvezetők: Horv&aacute;th, Marton.<br>NEKA: Borsos, Nagy (kapusok), Bugy&aacute;ki 1, Gazs&oacute; 8 (2), Kardos 2, Koll&aacute;r, Kov&aacute;cs 4 (2), Kucsera 1, Luk&aacute;cs 3, Maracsk&oacute; 2, M&eacute;sz&aacute;ros 3, Szab&oacute;, Sz&eacute;les, T&aacute;rnoki 1, T&ouml;r&ouml;k 3, V&aacute;ri. Edző: Lehőcz Zolt&aacute;n.<br>CSURG&Oacute;: V&aacute;czi, Zaponsek (kapusok), Alilovic 6 (3), Bazs&oacute;, Bogdanovic 1, G&aacute;bor, Herceg 2, Kathi 4, Kavcic 4, Kiss, Milovanovic 1, N&eacute;meth, Ratkovic 2, Sz&uuml;cs 1, Szűcs 3, Vasv&aacute;ri. Edző: Alem Toskic.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 4/4, ill. 6/3.<br><a href=\"https://livescore.mksz.hu/32021423040/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423040\">Jegyzők&ouml;nyv</a><br><br><strong>FERENCV&Aacute;ROSI TC-BALATONF&Uuml;REDI KSE 35-34 (20-16)</strong><br>Budapest, j&aacute;t&eacute;kvezetők: S&aacute;ndor, Szab&oacute;.<br><a href=\"https://livescore.mksz.hu/32021423034/esemenyek\">R&eacute;szletes statisztika</a><br><br><strong>BEPELOG DABAS-SZIGETSZENTMIKL&Oacute;SI KSK 33-36 (16-15)</strong><br>Dabas, j&aacute;t&eacute;kvezetők: B&aacute;tori, Sz&eacute;csi.<br>DABAS: Pallag, Pint&eacute;r (kapusok), Balogh, D&ouml;rnyei, G&aacute;sp&aacute;r, Hunyadi 3, Kov&aacute;cs 6 (1), Laurinyecz 2, Stramszky, Szladovics 8, Sz&ouml;kr&eacute;nyes 2, V&aacute;rszegi 3, Zdolik 8 (3), &Aacute;cs 1. Edző: Tomori Győző.<br>SZIGETSZENTMIKL&Oacute;S: Dem&eacute;nyi, Holl&oacute;, Jakobicz (kapusok), Davidovic, Debreczeni 5, Hoffmann, Kov&aacute;cs 2, Lakosy 1, Ol&aacute;h, Schmid 10 (7), Sch&auml;ffer 3, Spacsek 3, T&oacute;vizi 3, Varga 3, Varj&uacute; 3 (1), V&aacute;czi 3. Edző: Kilvinger B&aacute;lint.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 4/4, ill. 10/8.<br><a href=\"https://livescore.mksz.hu/32021423037/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423037\">Jegyzők&ouml;nyv</a><br><br><strong>ONE VESZPR&Eacute;M HC-MOL TATAB&Aacute;NYA KC 39-30 (21-14)</strong><br>Veszpr&eacute;m, j&aacute;t&eacute;kvezetők: B&oacute;cz, Wiedemann.<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Barna 2, Cindric 1, Dodic 2, Elderaa 2, Goncalves 1, G&aacute;ncs-Pető 5, Imre 7 (3), Ligetv&aacute;ri, Martinovic 2, Mesilhy 3, Mohamed 2 (1), Mohamed 3, Pechmalbec 5, Remili 4. Edző: Xavier Pascual Fuertes.<br>TATAB&Aacute;NYA: And&oacute;, Sz&eacute;kely (kapusok), Becker 1 (1), Bod&oacute; 7, Karai 1, Moln&aacute;r 3 (1), Mosindi 2, Papp 3, Rodriguez 1, Szűcs, Temesv&aacute;ri 2, Terj&eacute;k 1, T&oacute;th 5, Vajda 1, Zhitnikov 3. Edző: T&oacute;th Edmond.<br>Ki&aacute;ll&iacute;t&aacute;sok: 0, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 6/4, ill. 3/2.<br><a href=\"https://livescore.mksz.hu/32021423049/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423049\">Jegyzők&ouml;nyv</a><br><br><strong>A fordul&oacute; tov&aacute;bbi programja:</strong><br><em>November 22., vas&aacute;rnap</em><br>18:00 Budai Farkasok-R&eacute;v-ETO University HT<br><br>Fot&oacute;: Szigetszentmikl&oacute;si KSK / Cseh P&eacute;ter</p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9643,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 6,
+      "kategoriaNev": "K&H férfi liga",
+      "cim": "Hazai győzelmek",
+      "rovidSzoveg": "A K&H férfi liga 9. fordulójának zárónapján a Szigetszentmiklós 39-32-re győzte le a NEKA-t, a Balatonfüred nyolc góllal nyert a Dabas ellen, a Budai Farkasok 11 gólos sikert aratott a PLER ellen, míg az ETO egy góllal nyert a Csurgóval szemben.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-15T19:51:00.000",
+      "kisKepId": 30677225,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/15/30677225-CSPR0009.jpeg",
+      "tartalom": "<p><em><br>K&amp;H f&eacute;rfi liga, 9. fordul&oacute;</em><br><strong>SZIGETSZENTMIKL&Oacute;SI KSK-LIQUI MOLY NEKA 39-32 (19-13)</strong><br>Szigetszentmikl&oacute;s, j&aacute;t&eacute;kvezetők: Felhő, &Ouml;csi.<br>SZIGETSZENTMIKL&Oacute;S: Dem&eacute;nyi, Holl&oacute; 2 (kapusok), Davidovic 2, Debreczeni 6, Hoffmann 2, Kov&aacute;cs 3, Lakosy 3 (1), Ol&aacute;h, Schmid 1 (1), Sch&auml;ffer 3, Spacsek 1, T&oacute;vizi, Varga 6, Varj&uacute; 3, V&aacute;czi 7. Edző: Kilvinger B&aacute;lint.<br>NEKA: Borsos, Nagy (kapusok), Apr&oacute;, Balogh 1, Bugy&aacute;ki 1, Gazs&oacute; 10 (1), Kardos 1, Kov&aacute;cs 4 (4), Kucsera 2, Luk&aacute;cs 4, Maracsk&oacute;, M&eacute;sz&aacute;ros 3, Szab&oacute; 1, T&aacute;rnoki, T&ouml;r&ouml;k 1, V&aacute;ri 4. Edző: Lehőcz Zolt&aacute;n.<br>Ki&aacute;ll&iacute;t&aacute;sok: 8, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 2/2, ill. 7/5.<br><a href=\"https://livescore.mksz.hu/32021423028/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423028\">Jegyzők&ouml;nyv</a><br><br><strong>BALATONF&Uuml;REDI KSE-BEPELOG DABAS 34-26 (18-12)</strong><br>Balatonf&uuml;red, j&aacute;t&eacute;kvezetők: Fekete, Hajdu.<br>BALATONF&Uuml;RED: F&uuml;st&ouml;s, Podoba (kapusok), Ambrus 5 (1), B&oacute;ka 1, Fekete 6, Garajszki 2, Horny&aacute;k 1, Klucsik 5, Kov&aacute;cs, N&eacute;meth 3, Popovic 1, Rozman, Simotics 4, Sretenovic 3, Szab&oacute; 1, Varga 2. Edző: Kis &Aacute;kos.<br>DABAS: Pallag, Pint&eacute;r (kapusok), Balogh, D&ouml;rnyei, G&aacute;sp&aacute;r, Hunyadi 2, Kov&aacute;cs 1, Laurinyecz 1, Stramszky 1, Szladovics 2, Sz&ouml;kr&eacute;nyes 5, Tisza 2, V&aacute;rszegi 8, Zdolik 3 (1), &Aacute;cs 1. Edző: Tomori Győző.<br>Ki&aacute;ll&iacute;t&aacute;sok: 6, ill. 2 perc.<br>H&eacute;tm&eacute;teresek: 2/1, ill. 1/1.<br><a href=\"https://livescore.mksz.hu/32021423013/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423013\">Jegyzők&ouml;nyv</a><br><br><strong>BUDAI FARKASOK-R&Eacute;V-PLER-BUDAPEST 36-25 (19-10)<br></strong>Buda&ouml;rs, j&aacute;t&eacute;kvezetők: Hargitai, Mark&oacute;.<br>BUDAI FARKASOK: Balogh, Zernovic (kapusok), Bene, Draskovics 6, Horv&aacute;th 4, Hutv&aacute;gner 1, Josefsson, Juh&aacute;sz 8 (3), K&ouml;vecses 2 (1), Maric 1, Melnicsuk 2, Nourelden 5, Panic 1, Pint&eacute;r 2, Prainer 4, Szeitl. Edző: Kors&oacute;s &Aacute;d&aacute;m.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Borsos, De&aacute;k 2, Fekete 3, Heged&uuml;s 1, Kavin 3, Kem&eacute;ny 1, Markez 1, Menyh&aacute;rt 4, Mikita 3, Mocz&oacute;, Ocvirk 1, Szkok&aacute;n, T&oacute;th 5 (4), Vuksic 1. Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 16, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 6/4, ill. 4/4.<br><a href=\"https://livescore.mksz.hu/32021423019/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423019\">Jegyzők&ouml;nyv</a><br><br><strong>ETO UNIVERSITY HT-CSURG&Oacute;I KK 27-26 (14-10)</strong><br>Győr, j&aacute;t&eacute;kvezetők: Kiu G., Kiu T.<br>GYŐR: Győri, P&aacute;sztor (kapusok), Bogn&aacute;r 3, Bozovic, Dely 2, F&uuml;zi 1, Győri 3, H&aacute;ri 1, Kov&aacute;cs, Krakovszki 2, Krakovszki 3 (2), Kusan 6, Nagy, Stepancic 1, Szmet&aacute;n 5, Zakor. Edző: Kopornyik Zsolt.<br>CSURG&Oacute;: V&aacute;czi, Zaponsek (kapusok), Alilovic, Bazs&oacute; 1, Bogdanovic 1, G&aacute;bor, Herceg 1, Kathi 5, Kavcic 6, Kiss 4, Milovanovic 1, N&eacute;meth, Ratkovic 1, Sz&uuml;cs 1, Szűcs 5 (3), Vasv&aacute;ri. Edző: Alem Toskic.<br>Ki&aacute;ll&iacute;t&aacute;sok: 10, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 6/2, ill. 6/3.<br><a href=\"https://livescore.mksz.hu/32021423025/esemenyek\">R&eacute;szletes statisztika</a><br><a href=\"https://mksz.hu/jegyzokonyv/32021423025\">Jegyzők&ouml;nyv</a><br><br><strong>A fordul&oacute; tov&aacute;bbi eredm&eacute;nyei:<br></strong>OTP Bank-PICK Szeged-One Veszpr&eacute;m HC 30-30 (15-15)<br>HE-DO B. Braun Gy&ouml;ngy&ouml;s-Eger 27-26 (16-9)<br>MOL Tatab&aacute;nya KC-Ferencv&aacute;rosi TC 40-26 (18-9)<br><br>Fot&oacute;: Szigetszentmikl&oacute;si KSK/Cseh P&eacute;ter</p>",
+      "merkozesId": null
+     }
+    ],
+    "pageable": {
+     "pageNumber": 0,
+     "pageSize": 4,
+     "sort": [],
+     "offset": 0,
+     "paged": true,
+     "unpaged": false
+    },
+    "last": false,
+    "totalElements": 36,
+    "totalPages": 9,
+    "size": 4,
+    "number": 0,
+    "sort": [],
+    "first": true,
+    "numberOfElements": 4,
+    "empty": false
+   }
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/mindenhir",
+   "body": {
+    "content": [
+     {
+      "id": 9715,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 7,
+      "kategoriaNev": "férfi európai kupa hírek",
+      "cim": "Férfi BL: Döntetlen az Aalborg ellen",
+      "rovidSzoveg": "Végletekig kiélezett találkozót és dán kapus-csatát követően a One Veszprém HC 28-28-as döntetlent játszott a dán Aalborg Handbold együttesével a férfi BL középdöntős csoportkör második fordulójában, amely egyúttal \"A hónap mérkőzése\" is volt.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-26T21:00:00.000",
+      "kisKepId": 30709854,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/30709854-20261126_Veszprem-Aalborg_9981.jpg",
+      "tartalom": "<p><em><br>F&eacute;rfi Bajnokok Lig&aacute;ja, I. k&ouml;z&eacute;pd&ouml;ntő csoport, 2. fordul&oacute;</em><br><strong>ONE VESZPR&Eacute;M HC-AALBORG H&Aring;NDBOLD 28-28 (12-12)</strong><br>Veszpr&eacute;m, j&aacute;t&eacute;kvezetők: Kuttler, Merz (n&eacute;metek).<br>VESZPR&Eacute;M: Appelgren, Nielsen (kapusok), Descat 4 (1), Dodic, Elderaa, G&aacute;ncs-Pető, Gon&ccedil;alves Dos Santos, Hesham Elsayed Moham 10, Imre 3 (2), Lenne 1, Ligetv&aacute;ri, Martinovic, Mesilhy 2, Pechmalbec 4, Remili 4, Zeinelabedin Ali.&nbsp;Edző: Xavi Pascual.<br>AALBORG: Landin Jacobsen, Norsten (kapusok), Amnitzb&oslash;ll Norlyk, Anderson 4, Blonz, Jacobsen 1, Jensen 1, Knorr 1, Larsen 10 (5), Lindskog, M&ouml;ller 2, Munk 5, Nielsen, Nilsson 4, R&oslash;nningen, Sagosen. Edző: Henrik Kronborg.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 8 perc.<br>H&eacute;tm&eacute;teresek: 7/3, ill. 5/5.<br><br>Az első j&aacute;t&eacute;kr&eacute;szt hasonl&oacute;an kezdte a k&eacute;t egy&uuml;ttes, gyors let&aacute;mad&aacute;sok &eacute;s g&oacute;lok v&aacute;ltott&aacute;k egym&aacute;st, amelynek k&ouml;sz&ouml;nhetően a tal&aacute;lkoz&oacute; &aacute;ll&aacute;sa a 19. percig v&eacute;gig d&ouml;ntetlen volt. A m&eacute;rkőz&eacute;s pikant&eacute;ri&aacute;j&aacute;t fokozta, hogy a k&eacute;t kaput k&eacute;t d&aacute;n vil&aacute;gklasszis, Emil Nielsen &eacute;s Niklas Landin őrizte. Ezt k&ouml;vette egy elrontott hazai t&aacute;mad&aacute;s, majd egy Landin v&eacute;d&eacute;s, amelynek k&ouml;sz&ouml;nhetően a d&aacute;nok k&eacute;tg&oacute;los előnyre tettek szert. Azonban Nielsen sem t&eacute;tlenkedett, a 25. percben Knorr l&ouml;v&eacute;s&eacute;t h&aacute;r&iacute;totta, majd Hesham tal&aacute;lat&aacute;val &uacute;jra d&ouml;ntetlen, azaz 11-11 volt az eredm&eacute;ny. Ezt k&ouml;vetően a d&aacute;nok ism&eacute;t elh&uacute;ztak egy g&oacute;llal, azonban j&ouml;tt a Nielsen-par&aacute;d&eacute;, a hazaiak kapusa egym&aacute;s ut&aacute;n h&aacute;rom v&eacute;d&eacute;st mutatott be, majd a 30. percbe Pechmalbec kiegyenl&iacute;tett. Az első f&eacute;lidőt a Veszpr&eacute;m hat&eacute;kony v&eacute;dekez&eacute;se, egy d&aacute;n szabaddob&aacute;s &eacute;s egy &uacute;jabb Nielsen v&eacute;d&eacute;s z&aacute;rta, &iacute;gy a sz&uuml;netben az eredm&eacute;ny 12-12 maradt.<br><br>A m&aacute;sodik j&aacute;t&eacute;kr&eacute;sz egy d&aacute;n h&eacute;tm&eacute;teressel indult, amelyet Mesilhy &eacute;rt&eacute;kes&iacute;tett, majd egy gyors kontr&aacute;b&oacute;l, a Veszpr&eacute;m t&aacute;mad&aacute;s&aacute;b&oacute;l Hesham egyenl&iacute;tett. K&eacute;t elhib&aacute;zott hazai t&aacute;mad&aacute;st, &eacute;s egy kihagyott b&uuml;ntetőt k&ouml;vetően a 37. percre az Aalborg előnye imm&aacute;ron k&eacute;t g&oacute;l volt. Azonban a Veszpr&eacute;m alig 1,5 perc alatt ism&eacute;t fel tudott z&aacute;rk&oacute;zni, ekkor az &aacute;ll&aacute;s 17-17 volt. A 40. percben Hesham tal&aacute;lat&aacute;val az első f&eacute;lidő legeleje ut&aacute;n elősz&ouml;r szerezte meg a Veszpr&eacute;m a vezet&eacute;st, azonban ez sem maradt sok&aacute;ig megtorl&aacute;s n&eacute;lk&uuml;l, Nilsson egyenl&iacute;tett ki. Imre Bence h&eacute;tm&eacute;teres&eacute;ből a 47. percben ism&eacute;t a hazai egy&uuml;ttesn&eacute;l volt az előny, azonban az ezt k&ouml;vető t&aacute;mad&aacute;sb&oacute;l a d&aacute;nok is b&uuml;ntetőh&ouml;z jutottak, amit Larsen &eacute;rt&eacute;kes&iacute;tett. A m&aacute;sodik f&eacute;lidő hajr&aacute;j&aacute;ban tov&aacute;bbra is szoros k&uuml;zdelemnek lehett&uuml;nk szemtan&uacute;i, mindk&eacute;t kapuban magabiztos v&eacute;d&eacute;seket mutattak be a d&aacute;n kapusok, azonban a sz&aacute;mokat tekintve Nielsen bizonyult jobbnak. R&eacute;szben ennek k&ouml;sz&ouml;nhetően az 57. percben a tal&aacute;lkoz&oacute; sor&aacute;n elősz&ouml;r h&aacute;rom g&oacute;lra nőtt az &Eacute;p&iacute;tők előnye. Az utols&oacute; percben m&aacute;r csup&aacute;n egy g&oacute;l volt a hazaiak előnye, amikor egy t&aacute;mad&oacute; szab&aacute;lytalans&aacute;got k&ouml;vetően Munk kiegyenl&iacute;tett. Kevesebb, mint f&eacute;l perc volt h&aacute;tra a tal&aacute;lkoz&oacute;b&oacute;l, amikor egy veszpr&eacute;mi idők&eacute;r&eacute;st k&ouml;vetően az &Eacute;p&iacute;tők t&aacute;madhattak, majd d&aacute;n szab&aacute;lytalans&aacute;got egy időnt&uacute;li szabaddob&aacute;s k&ouml;vetkezett, amit Hesham nem tudott &eacute;rt&eacute;kes&iacute;teni. Ezzel a 60 percig tart&oacute; ki&eacute;lezett csata d&ouml;ntetlennel z&aacute;rult.<br><br><strong>Az I. k&ouml;z&eacute;pd&ouml;ntő csoport tov&aacute;bbi programja:</strong><br><em>November 26., cs&uuml;t&ouml;rt&ouml;k</em><br>20:45 F&uuml;chse Berlin (n&eacute;met)-MT Melsungen (n&eacute;met)<br>20:45 Paris-Saint Germain (francia)-Orlen Wisla Plock (lengyel)<br><br>Fot&oacute;: One Veszpr&eacute;m HC&nbsp;</p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9709,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 7,
+      "kategoriaNev": "férfi európai kupa hírek",
+      "cim": "Veszprém-Aalborg BL-rangadó",
+      "rovidSzoveg": "November hónap mérkőzésén a BL-ben százszázalékos ONE Veszprém HC a dán Aalborgot fogadja csütörtökön 18:45-től. ",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-26T10:08:00.000",
+      "kisKepId": 30708022,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/30708022-PR0_7199.jpg",
+      "tartalom": "<p>&nbsp;</p>\n<p>A m&eacute;rkőz&eacute;st a Sport1 &eacute;lőben k&ouml;zvet&iacute;ti.</p>\n<p>A k&eacute;t szuperszt&aacute;r egy&uuml;ttesre egyar&aacute;nt jellemző, hogy t&ouml;bbsz&ouml;r&ouml;s BL-ez&uuml;st&eacute;rmes (a Veszpr&eacute;m 2002-ben, 2016-ban &eacute;s 2019-ben, m&iacute;g az Aalborg 2021-ben &eacute;s 2024-ben vesz&iacute;tett fin&aacute;l&eacute;t a legrangosabb klubsorozatban), győznie azonban eddig egyiknek sem siker&uuml;lt.&nbsp;</p>\n<p>A k&ouml;zelm&uacute;ltja az Aalborgnak egy fokkal jobb, hiszen a legut&oacute;bbi szezonban bejutott a k&ouml;lni FINAL4-ba (ahol v&eacute;g&uuml;l nyeretlen&uuml;l, a 4. helyen z&aacute;rt), m&iacute;g a Veszpr&eacute;m 2025-ben a Magdeburg ellen &ouml;sszes&iacute;t&eacute;sben egy g&oacute;llal, id&eacute;n a F&uuml;chse Berlinnel szemben csup&aacute;n h&eacute;tm&eacute;teresekkel esett ki a Bajnokok Lig&aacute;ja negyedd&ouml;ntőj&eacute;ben.&nbsp;</p>\n<p>Az Aalborg ebben az id&eacute;nyben nem teljes&iacute;t kiegyens&uacute;lyozottan, d&ouml;ntetlennel kezdett a Paris St. Germain ellen, majd magabiztosan nyert Celj&eacute;ben &eacute;s Z&aacute;gr&aacute;bban, &aacute;m ezt k&ouml;vetően mindk&eacute;t csapattal szemben megszenvedett a hazai siker&eacute;rt, v&eacute;g&uuml;l a csoportk&ouml;r z&aacute;r&aacute;s&aacute;n sim&aacute;n, h&eacute;t g&oacute;llal kikapott P&aacute;rizsban. A k&ouml;z&eacute;pd&ouml;ntő nyit&aacute;ny&aacute;n a F&uuml;chse Berlint h&aacute;rom g&oacute;llal verte, jelenleg ez az egyetlen szezonbeli &ouml;sszehasonl&iacute;t&aacute;si alap a k&eacute;t egy&uuml;ttes k&ouml;z&ouml;tt, hiszen a n&eacute;met főv&aacute;ros csapat&aacute;t a Veszpr&eacute;m idegenben hat, hazai p&aacute;ly&aacute;n n&eacute;gy tal&aacute;lattal tudta megverni.&nbsp;</p>\n<p>A d&aacute;n egy&uuml;ttes fők&eacute;nt hazai klasszisokra &ndash; Niklas &eacute;s Magnus Landin, Thomas Arnoldsen, Tobias Nielsen &ndash; &eacute;p&iacute;t, akiket egy-egy skandin&aacute;v &eacute;lj&aacute;t&eacute;kos (a norv&eacute;g Sagosen &eacute;s Blonz, a sv&eacute;d M&ouml;ller) &eacute;s a n&eacute;met Knorr eg&eacute;sz&iacute;t ki. Tr&eacute;ner&uuml;k, Simon Dahl J&ouml;rgensen mind&ouml;ssze 35 &eacute;ves, a Skjernben k&eacute;zilabd&aacute;zott, &aacute;m egy s&eacute;r&uuml;l&eacute;s miatt kor&aacute;n visszavonult, 29 &eacute;vesen m&aacute;r a Nordsjaelland vezetőedzője volt, valamint a d&aacute;n juniorv&aacute;logatott m&aacute;sodedzője, 2023-t&oacute;l az Aalborg m&aacute;sodedzője, majd 2024 november&eacute;től, Maik Machulla t&aacute;voz&aacute;sa &oacute;ta vezetőedzők&eacute;nt ir&aacute;ny&iacute;tja a csapatot, 2025-ben d&aacute;n bajnoks&aacute;got &eacute;s kup&aacute;t is nyert az egy&uuml;ttessel, majd 2026-ban ism&eacute;t dupl&aacute;zott a hazai sorozatokban.&nbsp;</p>\n<p>A k&eacute;t csapat a legut&oacute;bbi id&eacute;ny csoportk&ouml;r&eacute;ben is tal&aacute;lkozott egym&aacute;ssal, akkor az 1. fordul&oacute;ban D&aacute;ni&aacute;ban n&eacute;gy, a z&aacute;r&oacute;k&ouml;rben Veszpr&eacute;mben &ouml;t g&oacute;llal nyert az Aalborg, &iacute;gy van mi&eacute;rt visszav&aacute;gnia Xavi Pascual egy&uuml;ttes&eacute;nek.&nbsp;</p>\n<p>A Veszpr&eacute;m, rem&eacute;nybeli &uacute;jabb győzelm&eacute;vel nagyot l&eacute;pne a csoport első k&eacute;t hely&eacute;nek megszerz&eacute;se fel&eacute;, amely kedvezőbb poz&iacute;ci&oacute;t jelenthetne sz&aacute;m&aacute;ra a negyedd&ouml;ntőben (hazai p&aacute;ly&aacute;n j&aacute;tszhatn&aacute; a visszav&aacute;g&oacute;t, a II-es csoport &ndash; Magdeburg, Barca, Sporting, Kielce, GOG, Bucuresti &ndash; 3. vagy 4. helyezettje ellen).&nbsp;</p>\n<p><em>Az I-es k&ouml;z&eacute;pd&ouml;ntő csoport 2. fordul&oacute;j&aacute;nak programja, november 26., cs&uuml;t&ouml;rt&ouml;k:&nbsp;</em><br><strong>18:45 ONE VESZPR&Eacute;M HC&ndash;AALBORG HANDBOLD (d&aacute;n)</strong><br>20:45 F&uuml;chse Berlin (n&eacute;met)&ndash;MT Melsungen (n&eacute;met)<br>20:45 PSG Handball (francia)&ndash;Orlen Wisla Plock (lengyel)</p>\n<p><em>Az I-es k&ouml;z&eacute;pd&ouml;ntő-csoport &aacute;ll&aacute;sa: &nbsp;</em><br><strong>1. Veszpr&eacute;m 6 p</strong>, 2. PSG 5 p, <strong>3. Aalborg 3 p</strong>, 4. Melsungen 2 p, 5. Plock 2 p, 6. Berlin 0 p</p>\n<p><em>A II-es k&ouml;z&eacute;pd&ouml;ntő-csoport &aacute;ll&aacute;sa:&nbsp;</em><br>1. SC Magdeburg 8 p, 2. Barca 6 p, 3. Sporting 6 p, 4. Kielce 2 p, 5. GOG 0 p, 6. Bucuresti 0 p<br>&nbsp;<br>A csapatok magukkal hozt&aacute;k a csoportk&ouml;rből a m&aacute;sik tov&aacute;bbjut&oacute; elleni eredm&eacute;nyeiket.&nbsp;<br>A csoportok első n&eacute;gy-n&eacute;gy helyezettje a negyedd&ouml;ntőbe jut.</p>\n<p><strong>A Veszpr&eacute;m eredm&eacute;nyei a Bajnokok Lig&aacute;ja 2026/27-es id&eacute;ny&eacute;ben:&nbsp;</strong><br><em>Csoportm&eacute;rkőz&eacute;sek:&nbsp;</em><br>Veszpr&eacute;m-Porto (portug&aacute;l) 36-28<br>F&uuml;chse Berlin-Veszpr&eacute;m 29-35<br>Partizan (szerb)-Veszpr&eacute;m 26-37<br>Veszpr&eacute;m-Partizan 38-28<br>Veszpr&eacute;m-F&uuml;chse Berlin 39-35<br>Porto-Veszpr&eacute;m 29-34</p>\n<p><em>K&ouml;z&eacute;pd&ouml;ntő:&nbsp;</em><br>Orlen Wisla Plock-Veszpr&eacute;m 26-30</p>\n<p><strong>Az Aalborg eredm&eacute;nyei a Bajnokok Lig&aacute;ja 2026/27-es id&eacute;ny&eacute;ben:&nbsp;</strong><br><em>Csoportm&eacute;rkőz&eacute;sek:&nbsp;</em><br>Aalborg-PSG 33-33<br>Celje (szlov&eacute;n)-Aalborg 26-36<br>Zagreb (horv&aacute;t)-Aalborg 23-33<br>Aalborg-Zagreb 34-33<br>Aalborg-Celje 34-30<br>PSG-Aalborg 32-25</p>\n<p><em>K&ouml;z&eacute;pd&ouml;ntő:&nbsp;</em><br>Aalborg-F&uuml;chse Berlin 34-31</p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9697,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 7,
+      "kategoriaNev": "férfi európai kupa hírek",
+      "cim": "Férfi EL: elszálltak a továbbjutási esélyek",
+      "rovidSzoveg": "A Tatabánya sokáig jól tartotta magát a Slovan otthonában, de a szlovén együttes a hajrában ellépett Tóth Edmond csapatától, ezzel az idegenbeli vereséggel pedig elszállt a magyar alakulat esélye az EL csoportköréből való továbbjutásra.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-24T20:23:00.000",
+      "kisKepId": 220,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/220-europaikupak_ferfi_5.jpg",
+      "tartalom": "<p><br><em>F&eacute;rfi Eur&oacute;pa Liga, H-csoport, 5. fordul&oacute;</em><br><strong>RD LL GROSIST SLOVAN-MOL TATAB&Aacute;NYA KC 30-25 (16-15)</strong><br>Ljubljana, j&aacute;t&eacute;kvezetők: Panetta, Riello (olaszok).<br>SLOVAN: Bojic, Ferlin, Panjtar (kapusok), Cavor 3, Cokan 4 (3), Jovicic 3, Knavs, Latkovic 3, Orac Istenic, Pipp, Smaoial 5, Tajnik 9 (1), Trivkovic, Zabic 3. Edző: uros Zorman.&nbsp;<br>TATAB&Aacute;NYA: And&oacute;, Sz&eacute;kely (kapusok), Bod&oacute; 6, &Eacute;les, Karai 2, Moln&aacute;r 1, Mosindi 5, Papp 3, Rodr&iacute;guez 2, Szűcs, Temesv&aacute;ri, Terj&eacute;k 1, T&oacute;th 1, Vajda 1, Zsitnyikov 3. Edző: T&oacute;th Emdond.&nbsp;<br>Ki&aacute;ll&iacute;t&aacute;sok: 4/5, ill. 0/0.<br>H&eacute;tm&eacute;teresek: 4, ill. 10 perc.<br><br><strong>A H-csoport tov&aacute;bbi eredm&eacute;nye:</strong><br>Mors-Thy Handbold (d&aacute;n)-Valur (izlandi) 36-33 (16-15)<br><br><em>A H-csoport &aacute;ll&aacute;sa:</em> 1. RD LL Grosist Slovan 10 p (+32), 2. Valur 4 p (+6), 3. Mors-Thy Hanbodl 4 p (-23), <strong>4. MOL Tatab&aacute;nya KC 2 p (-15)</strong>.<br><br></p>",
+      "merkozesId": null
+     },
+     {
+      "id": 9669,
+      "ev": 2026,
+      "sportagKod": "SPAG_1",
+      "kategoriaId": 7,
+      "kategoriaNev": "férfi európai kupa hírek",
+      "cim": "Férfi EK: idegenben nyert a PLER",
+      "rovidSzoveg": "A hajrá előtt még vezetett a hazai pályán játszó görög együttes, ám az utolsó percekben bedarálta ellenfelét a PLER-Budapest, amely így négygólos előnyről várja a visszavágót.",
+      "szerzo": "MKSZ",
+      "datum": "2026-11-20T20:17:00.000",
+      "kisKepId": 217,
+      "kisKepUrl": "https://cdn.mksz.hu/mksz-public/217-europaikupak_ferfi_4.jpg",
+      "tartalom": "<p><br><em>F&eacute;rfi Eur&oacute;pa Kupa, 3. selejtezők&ouml;r, első fordul&oacute;</em><br><strong>AEK ATHEN-PLER-BUDAPEST 30-34 (16-18)</strong><br>Ath&eacute;n, j&aacute;t&eacute;kvezetők: Oyarzun, Zaragueta (spanyolok).<br>ATH&Eacute;N: de Souza, Kotanidis, Varpe (kapusok), Arampatzis 2, Batis, Carvalho 3, Charitonidis 1, da Silva 2, Koukoulas 3, Kovacec 1, Laranjeiro 7, Matsouka 2, Papdiodionysiu 2, Safranki 1, Vistorop 3, Zennadi 2. Edző: Rafael Leite Ribeiro.<br>PLER-BUDAPEST: Bősz, Kr&aacute;nitz (kapusok), Albek, Borsos, De&aacute;k, Fekete 1, Hegedűs 2, Kem&eacute;ny 3, Markez 5, Menyh&aacute;rt, Mikita 2, Ocvirk 5, Sinkovits 6, Szkok&aacute;n, T&oacute;th 8, Vuksic 2. Edző: Leps&eacute;nyi S&aacute;ndor.<br>Ki&aacute;ll&iacute;t&aacute;sok: 4, ill. 6 perc.<br>H&eacute;tm&eacute;teresek: 5/6, ill. 1/1.<br><br><strong>Visszav&aacute;g&oacute;:</strong><br><em>November 28., szombat</em><br>16:00 PLER-Budapest-AEK Athens (g&ouml;r&ouml;g)<br><br><br><br><br></p>",
+      "merkozesId": null
+     }
+    ],
+    "pageable": {
+     "pageNumber": 0,
+     "pageSize": 4,
+     "sort": [],
+     "offset": 0,
+     "paged": true,
+     "unpaged": false
+    },
+    "totalElements": 28,
+    "totalPages": 7,
+    "last": false,
+    "size": 4,
+    "number": 0,
+    "sort": [],
+    "numberOfElements": 4,
+    "first": true,
+    "empty": false
+   }
+  },
+  {
    "url": "https://public.mksz.hu/public/api/v1/versenyek/program",
    "body": [
     {
@@ -8365,7 +8365,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 18,
@@ -8409,7 +8409,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 29,
@@ -8463,7 +8463,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 26,
@@ -8581,7 +8581,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 26,
@@ -9165,7 +9165,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 25,
@@ -9273,7 +9273,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 13,
@@ -9337,7 +9337,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 24,
@@ -9391,7 +9391,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 24,
@@ -9489,7 +9489,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 32,
@@ -9543,7 +9543,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 13,
@@ -9607,7 +9607,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 43,
@@ -9661,7 +9661,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 9,
@@ -10083,7 +10083,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 30,
@@ -10093,7 +10093,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 4,
@@ -10191,7 +10191,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 25,
@@ -10363,7 +10363,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 48,
@@ -10893,7 +10893,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 33,
@@ -10903,7 +10903,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 16,
@@ -11001,7 +11001,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 18,
@@ -11055,7 +11055,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 22,
@@ -11119,7 +11119,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 31,
@@ -11173,7 +11173,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 8,
@@ -11335,7 +11335,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 19,
@@ -11487,7 +11487,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 19,
@@ -12739,7 +12739,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": null,
@@ -12793,7 +12793,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": null,
@@ -12891,7 +12891,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": null,
@@ -12945,7 +12945,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": null,
@@ -13441,7 +13441,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": null,
@@ -13485,7 +13485,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": null,
@@ -13539,7 +13539,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": null,
@@ -13603,7 +13603,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": null,
@@ -17267,7 +17267,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 18,
@@ -17311,7 +17311,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 29,
@@ -17365,7 +17365,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 26,
@@ -17483,7 +17483,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 26,
@@ -18067,7 +18067,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 25,
@@ -18175,7 +18175,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 13,
@@ -18239,7 +18239,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 24,
@@ -18293,7 +18293,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 24,
@@ -18391,7 +18391,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 32,
@@ -18445,7 +18445,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 13,
@@ -18509,7 +18509,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 43,
@@ -18563,7 +18563,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 9,
@@ -18985,7 +18985,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 30,
@@ -18995,7 +18995,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 4,
@@ -19093,7 +19093,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 25,
@@ -19265,7 +19265,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 48,
@@ -19795,7 +19795,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": 33,
@@ -19805,7 +19805,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": 16,
@@ -19903,7 +19903,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": 18,
@@ -19957,7 +19957,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": 22,
@@ -20021,7 +20021,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": 31,
@@ -20075,7 +20075,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": 8,
@@ -20237,7 +20237,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": 19,
@@ -20389,7 +20389,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": 19,
@@ -21641,7 +21641,7 @@
      "vendegSportszervezetId": 378,
      "vendegLogoDokumentumId": 3037139,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "vendegCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "vendegCsapatRovidNev": "Veresegyház VSK",
      "vendegCsapatGol": null,
@@ -21695,7 +21695,7 @@
      "vendegSportszervezetId": 833,
      "vendegLogoDokumentumId": 895677,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "vendegCsapatNev": "BVSC-Zugló",
      "vendegCsapatRovidNev": "BVSC-Zugló",
      "vendegCsapatGol": null,
@@ -21793,7 +21793,7 @@
      "hazaiSportszervezetId": 378,
      "hazaiLogoDokumentumId": 3037139,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/3037139-VVSK_logo-2014.jpg",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/3037139-VVSK_logo-2014.jpg",
      "hazaiCsapatNev": "Veresegyház Városi Sportkör Egyesület",
      "hazaiCsapatRovidNev": "Veresegyház VSK",
      "hazaiCsapatGol": null,
@@ -21847,7 +21847,7 @@
      "hazaiSportszervezetId": 833,
      "hazaiLogoDokumentumId": 895677,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/895677-BVSC.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/895677-BVSC.png",
      "hazaiCsapatNev": "BVSC-Zugló",
      "hazaiCsapatRovidNev": "BVSC-Zugló",
      "hazaiCsapatGol": null,
@@ -22343,7 +22343,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC II.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC II.",
      "vendegCsapatGol": null,
@@ -22387,7 +22387,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC I.",
      "hazaiCsapatGol": null,
@@ -22441,7 +22441,7 @@
      "hazaiSportszervezetId": 16,
      "hazaiLogoDokumentumId": 31873,
      "hazaiValogatottLogoDokumentumId": null,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "hazaiCsapatNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatRovidNev": "FERENCVÁROSI TC II.",
      "hazaiCsapatGol": null,
@@ -22505,7 +22505,7 @@
      "vendegSportszervezetId": 16,
      "vendegLogoDokumentumId": 31873,
      "vendegValogatottLogoDokumentumId": null,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/26/31873-FTC_300x300.png",
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/11/27/31873-FTC_300x300.png",
      "vendegCsapatNev": "FERENCVÁROSI TC I.",
      "vendegCsapatRovidNev": "FERENCVÁROSI TC I.",
      "vendegCsapatGol": null,

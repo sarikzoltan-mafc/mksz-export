@@ -1,5 +1,5 @@
 # Forrás: https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027263/320229441
-# Mentve: 2026-11-26T20:02:24.483Z
+# Mentve: 2026-11-26T23:02:49.036Z
 
 Az oldal sütiket használ
 
@@ -7,7 +7,7 @@ Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javít
 
 OKBeállítások megváltoztatása
  : 
-41:22
+0:0
 Jegyek
 Webshop
 HÍREK
@@ -216,6 +216,12 @@ TOVÁBB
 MÉG TÖBB HÍR
 EURÓPAI KUPA HÍREK
 2026/2027
+2026.11.26. 21:00 / férfi európai kupa hírek
+FÉRFI BL: DÖNTETLEN AZ AALBORG ELLEN
+
+Végletekig kiélezett találkozót és dán kapus-csatát követően a One Veszprém HC 28-28-as döntetlent játszott a dán Aalborg Handbold együttesével a férfi BL középdöntős csoportkör második fordulójában, amely egyúttal "A hónap mérkőzése" is volt.
+
+TOVÁBB
 2026.11.26. 10:08 / férfi európai kupa hírek
 VESZPRÉM-AALBORG BL-RANGADÓ
 
@@ -232,12 +238,6 @@ TOVÁBB
 FÉRFI EK: IDEGENBEN NYERT A PLER
 
 A hajrá előtt még vezetett a hazai pályán játszó görög együttes, ám az utolsó percekben bedarálta ellenfelét a PLER-Budapest, amely így négygólos előnyről várja a visszavágót.
-
-TOVÁBB
-2026.11.18. 22:28 / férfi európai kupa hírek
-FÉRFI BL: SIKERES KEZDÉS A KÖZÉPDÖNTŐBEN
-
-A One Veszprém HC továbbra is veretlen a férfi BL-ben, miután az Orlen Wisla Plock vendégeként a második félidőben fordítva nyert a középdöntős csoportkör első fordulójában.
 
 TOVÁBB
 MÉG TÖBB HÍR
