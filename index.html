@@ -1,0 +1,3610 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAFC Eredményfigyelő</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#c8102e; --red-d:#9e0c24; --ink:#141414; --ink2:#4a4a4a; --mute:#8a8a8a;
+  --line:#e6e3df; --bg:#f6f4f1; --card:#fff; --win:#1d7a46; --win-bg:#e6f4ec; --loss:#b3261e; --loss-bg:#fbe9e7;
+  --pend:#8a6d00; --pend-bg:#fff4cc;
+}
+@media (prefers-color-scheme: dark){
+  :root{--ink:#f2f0ed;--ink2:#c3bfba;--mute:#8f8a85;--line:#2d2a28;--bg:#121110;--card:#1b1918;
+  --win:#5fd08f;--win-bg:#163323;--loss:#ff8a80;--loss-bg:#3a1a18;--pend:#ffd54f;--pend-bg:#332b0d;}
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+header{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+@media (prefers-color-scheme: dark){header{background:#000}}
+header::after{content:"";position:absolute;right:-60px;top:0;bottom:0;width:260px;background:var(--red);transform:skewX(-18deg)}
+.hwrap{max-width:980px;margin:0 auto;padding:28px 20px 24px;position:relative;z-index:1}
+.kicker{font:700 13px/1 "Barlow Condensed",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#ff9aa8}
+h1{font:800 44px/1 "Barlow Condensed",sans-serif;margin:8px 0 6px;letter-spacing:.01em;text-transform:uppercase}
+.sub{color:#cfcac4;font-size:14px}
+.sub b{color:#fff;font-weight:600}
+main{max-width:980px;margin:0 auto;padding:20px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat .n{font:700 30px/1 "Barlow Condensed",sans-serif}
+.stat .l{font-size:12px;color:var(--mute);margin-top:4px}
+.stat.w .n{color:var(--win)} .stat.lo .n{color:var(--loss)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink2);border-radius:999px;padding:7px 14px;font:600 13px Inter,sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--red);border-color:var(--red);color:#fff}
+.bar .sp{flex:1}
+.tbar{margin-top:-4px;gap:6px}
+.tbar[hidden]{display:none}
+.tlab{font:700 13px/1 "Barlow Condensed",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-right:4px;min-width:82px}
+#facets{margin-bottom:6px}
+.chip.sm{padding:5px 11px;font-size:12px}
+.chip .cnt{opacity:.6;font-weight:500;margin-left:2px}
+input[type=search]{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:8px 12px;font:14px Inter,sans-serif;min-width:200px}
+.day{margin:22px 0 8px;font:700 15px/1 "Barlow Condensed",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);display:flex;gap:10px;align-items:center}
+.day::after{content:"";flex:1;height:1px;background:var(--line)}
+.m{display:grid;grid-template-columns:86px 1fr auto;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:8px;text-decoration:none;color:inherit}
+.m.W{border-left-color:var(--win)} .m.L{border-left-color:var(--loss)} .m.P{border-left-color:var(--pend)} .m.D{border-left-color:var(--ink2)}
+a.m:hover{border-color:var(--red)}
+.t{font:700 18px/1 "Barlow Condensed",sans-serif}
+.sport{font-size:11px;color:var(--mute);margin-top:4px;text-transform:uppercase;letter-spacing:.06em}
+.comp{font-size:12px;color:var(--mute);margin-bottom:4px}
+.teams{font-size:15px;line-height:1.35}
+.teams .mafc{font-weight:600}
+.note{font-size:12px;color:var(--pend);margin-top:4px}
+.res{text-align:right;min-width:92px}
+.score{font:800 24px/1 "Barlow Condensed",sans-serif;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;margin-top:5px;font:700 11px/1 Inter,sans-serif;padding:4px 7px;border-radius:5px;letter-spacing:.04em}
+.b-W{background:var(--win-bg);color:var(--win)} .b-L{background:var(--loss-bg);color:var(--loss)}
+.b-P{background:var(--pend-bg);color:var(--pend)} .b-D{background:var(--bg);color:var(--ink);border:1px solid var(--ink2)} .b-S{background:var(--bg);color:var(--ink2);border:1px solid var(--line)}
+.empty{padding:30px;text-align:center;color:var(--mute);background:var(--card);border:1px dashed var(--line);border-radius:10px}
+section.src{margin-top:34px}
+section.src h2{font:700 20px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
+.srcs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.s{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13px;color:var(--ink2)}
+.s b{color:var(--ink)} .s a{color:var(--red)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--win)}
+.dot.limited{background:var(--pend)}
+footer{max-width:980px;margin:0 auto;padding:10px 20px 40px;font-size:12px;color:var(--mute)}
+@media (max-width:640px){
+  h1{font-size:34px} .stats{grid-template-columns:repeat(2,1fr)} .srcs{grid-template-columns:1fr}
+  .m{grid-template-columns:72px 1fr auto;gap:10px} .sport{font-size:9.5px;letter-spacing:.03em} header::after{width:120px;right:-50px}
+}
+</style>
+</head>
+<body>
+<header><div class="hwrap">
+  <div class="kicker">Műegyetemi Atlétikai és Football Club</div>
+  <h1>MAFC Eredményfigyelő</h1>
+  <div class="sub">A szövetségi oldalak MAFC-ot érintő mérkőzései egy helyen · Frissítve: <b id="upd">–</b></div>
+</div></header>
+<main>
+  <div class="stats" id="stats"></div>
+  <div class="bar" id="filters">
+    <button class="chip" data-s="all" aria-pressed="true">Mind</button>
+    <button class="chip" data-s="kosarlabda" aria-pressed="false">🏀 Kosárlabda</button>
+    <button class="chip" data-s="roplabda" aria-pressed="false">🏐 Röplabda</button>
+    <button class="chip" data-s="kezilabda" aria-pressed="false">🤾 Kézilabda</button>
+    <button class="chip" data-s="vizilabda" aria-pressed="false">🤽 Vízilabda</button>
+    <span class="sp"></span>
+    <input type="search" id="q" placeholder="Keresés: csapat, bajnokság…">
+  </div>
+  <div id="facets"></div>
+  <div id="list"></div>
+  <section class="src"><h2>Figyelt források</h2><div class="srcs" id="srcs"></div></section>
+</main>
+<footer>Az adatok a sportági szövetségek nyilvános oldalairól származnak; minden mérkőzés a forrásoldalra mutat. Az oldalt ütemezett feladat frissíti naponta többször.</footer>
+<script id="mafc-data" type="application/json">{
+ "updated": "2026-11-26T21:03:43+01:00",
+ "sources": [
+  {
+   "sport": "kosarlabda",
+   "name": "MKOSZ – napi műsor",
+   "url": "https://mkosz.hu/musor",
+   "status": "ok",
+   "note": "Naponta lekérve (a szezon 2026. szeptember 1-jétől), minden korosztály és bajnokság (felnőtt, egyetemi, junior, kadett, serdülő, U12 Gyermek Kupa, U11 Kenguru Kupa, 3x3, budapesti regionális)."
+  },
+  {
+   "sport": "roplabda",
+   "name": "MRSZ – hunvolley.info és DataProject",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp",
+   "status": "ok",
+   "note": "Minden korosztály: a hunvolley.info napi műsora (dátum szerint lekérve) adja a felnőtt budapesti és az utánpótlás-bajnokságokat; a férfi NB I, a Magyar Kupa és az U20 hivatalos eredményeit a szövetség DataProject-oldaláról is ellenőrizzük."
+  },
+  {
+   "sport": "kezilabda",
+   "name": "MKSZ – versenyek (GitHub-mentésen keresztül)",
+   "url": "https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027266/320229495",
+   "status": "ok",
+   "note": "Az MKSZ oldala csak böngészőben jelenik meg, ezért egy GitHub-automatizmus (sarikzoltan-mafc/mksz-export) naponta háromszor böngészővel menti a figyelt versenyoldalakat; a frissítés ebből a mentésből olvas. Figyelt versenyek: U12 fiú (OGYB VII. csoport), U14 fiú (OGYB XIX. csoport), U16 fiú II. osztály (E csoport)."
+  },
+  {
+   "sport": "vizilabda",
+   "name": "MVLSZ – waterpolo.hu napi műsor",
+   "url": "https://www.waterpolo.hu/adatbank/musor",
+   "status": "ok",
+   "note": "A szövetség napi műsoroldala (dátum szerint lekérve). A MAFC csapatai: férfi OB II, női OB I/B és a budapesti Gyarmati Dezső felnőtt férfi bajnokság (a csapatnév mindhárom bajnokságban „MAFC”)."
+  }
+ ],
+ "matches": [
+  {
+   "id": "kl-32021446518",
+   "sport": "kezilabda",
+   "date": "2026-09-13",
+   "time": "10:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "RÁKOSMENTE",
+   "away": "MAFC",
+   "score": "37-40",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446518",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021453192",
+   "sport": "kezilabda",
+   "date": "2026-09-19",
+   "time": "",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "KSA Budapest",
+   "away": "MAFC",
+   "score": "10-0",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453192",
+   "status": "final",
+   "note": "Az MKSZ-oldalon kezdési időpont nélkül szerepel."
+  },
+  {
+   "id": "kl-32021453186",
+   "sport": "kezilabda",
+   "date": "2026-09-19",
+   "time": "10:00",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "MAFC",
+   "away": "Csepel DSE",
+   "score": "11-29",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453186",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446530",
+   "sport": "kezilabda",
+   "date": "2026-09-19",
+   "time": "13:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "MAFC",
+   "away": "DABASI KC VSE",
+   "score": "34-50",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446530",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446542",
+   "sport": "kezilabda",
+   "date": "2026-09-26",
+   "time": "15:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "MAFC",
+   "away": "Gyömrői KA",
+   "score": "29-55",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446542",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_142039",
+   "sport": "kosarlabda",
+   "date": "2026-09-27",
+   "time": "09:00",
+   "competition": "Fiú Kadett",
+   "home": "Soproni Tigrisek SE U16/A",
+   "away": "MAFC/B",
+   "score": "64-118",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_142039",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_48",
+   "sport": "kosarlabda",
+   "date": "2026-09-27",
+   "time": "09:00",
+   "competition": "Gyermek Kupa",
+   "home": "Budapesti Honvéd SE/A",
+   "away": "MAFC Heisler",
+   "score": "113-14",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_48",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-09-27-fiu-u18-buzek-iii-tfse-feher-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-09-27",
+   "time": "10:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "TFSE FEHÉR",
+   "away": "MAFC Piros",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-09-27",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-09-27-fiu-u18-buzek-i-o-egri-varosi-spor-mafc",
+   "sport": "roplabda",
+   "date": "2026-09-27",
+   "time": "11:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "Egri Városi Sportiskola",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-09-27",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_50",
+   "sport": "kosarlabda",
+   "date": "2026-09-27",
+   "time": "12:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Heisler",
+   "away": "Óbudai Kaszások/A",
+   "score": "40-52",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_50",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-09-27-fiu-u18-buzek-i-o-mafc-szrse",
+   "sport": "roplabda",
+   "date": "2026-09-27",
+   "time": "13:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "MAFC",
+   "away": "SZRSE",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-09-27",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_45",
+   "sport": "kosarlabda",
+   "date": "2026-09-27",
+   "time": "14:00",
+   "competition": "Gyermek Kupa",
+   "home": "Vasas Akadémia U12",
+   "away": "MAFC Gabányi",
+   "score": "61-64",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_45",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-09-27-fiu-u18-buzek-iii-mafc-piros-gyongyosi-rse",
+   "sport": "roplabda",
+   "date": "2026-09-27",
+   "time": "14:30",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MAFC Piros",
+   "away": "Gyöngyösi RSE",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-09-27",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-09-27-gyermek-kupa-mafc-gabanyi-kolokos-fiuk",
+   "sport": "kosarlabda",
+   "date": "2026-09-27",
+   "time": "17:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Gabányi",
+   "away": "KöLöKöS Fiúk",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-09-27",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-313637",
+   "sport": "vizilabda",
+   "date": "2026-09-27",
+   "time": "19:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "MAFC",
+   "away": "HETE - Rév TSC",
+   "score": "9-8",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313637",
+   "status": "final"
+  },
+  {
+   "id": "mk-huna_cup_1038",
+   "sport": "kosarlabda",
+   "date": "2026-09-28",
+   "time": "20:45",
+   "competition": "Hepp Kupa, Férfi",
+   "home": "MAFC Martos",
+   "away": "Honvéd Ludovika",
+   "score": "70-80",
+   "url": "https://mkosz.hu/merkozes/x2627/huna_cup/huna_cup_1038",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140649",
+   "sport": "kosarlabda",
+   "date": "2026-10-02",
+   "time": "20:20",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "BEAC",
+   "away": "MAFC Martos",
+   "score": "60-56",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140649",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021453237",
+   "sport": "kezilabda",
+   "date": "2026-10-03",
+   "time": "10:00",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "MAFC",
+   "away": "Körte HVSE",
+   "score": "11-15",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453237",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_142018",
+   "sport": "kosarlabda",
+   "date": "2026-10-03",
+   "time": "10:30",
+   "competition": "Fiú Serdülő",
+   "home": "Vasas Akadémia/A",
+   "away": "MAFC/A",
+   "score": "78-84",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14/hunu14_142018",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-03-fiu-u16-tatar-i-o-fino-kaposvar-a-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-03",
+   "time": "11:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "Fino Kaposvár A",
+   "away": "MAFC",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-03",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-03-fiu-u16-tatar-iii-hajta-se-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-03",
+   "time": "11:00",
+   "competition": "Fiú U16 (Tatár) III. o.",
+   "home": "Hajta SE",
+   "away": "MAFC Piros",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-03",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021453204",
+   "sport": "kezilabda",
+   "date": "2026-10-03",
+   "time": "12:00",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "Rév TSC",
+   "away": "MAFC",
+   "score": "17-17",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453204",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-03-fiu-u16-tatar-i-o-mafc-kesi-r-a-a",
+   "sport": "roplabda",
+   "date": "2026-10-03",
+   "time": "13:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "MAFC",
+   "away": "KESI-R.A. A",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-03",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_142021",
+   "sport": "kosarlabda",
+   "date": "2026-10-03",
+   "time": "18:15",
+   "competition": "Fiú Serdülő",
+   "home": "AKMÉ Körmendi Törpördögök",
+   "away": "MAFC/A",
+   "score": "80-103",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14/hunu14_142021",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-04-fiu-serdulo-mafc-b-vasas-akademia-b",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "10:30",
+   "competition": "Fiú Serdülő",
+   "home": "MAFC/B",
+   "away": "Vasas Akadémia/B",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-10-04-fiu-u20-tarnawa-i-mafc-mav-elore",
+   "sport": "roplabda",
+   "date": "2026-10-04",
+   "time": "11:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "MAFC",
+   "away": "Máv Előre",
+   "score": "3-0",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-04-fiu-u20-tarnawa-ii-dse-roplabda-aka-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-04",
+   "time": "11:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "DSE Röplabda Akadémia",
+   "away": "MAFC Piros",
+   "score": "3-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-04",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-04-fiu-u20-tarnawa-ii-mafc-piros-pse-piros",
+   "sport": "roplabda",
+   "date": "2026-10-04",
+   "time": "13:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "MAFC Piros",
+   "away": "PSE Piros",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-04",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-04-fiu-u20-tarnawa-i-dag-kse-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-04",
+   "time": "15:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "Dág KSE",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-04-nb-i-b-piros-csopo-vasas-akademia-u-ujbuda-mafc-u21",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "15:00",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Vasas Akadémia U21",
+   "away": "Újbuda MAFC U21",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-04-noi-amator-nb-i-fe-mafc-zte-nkk",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "16:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "MAFC",
+   "away": "ZTE NKK",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-2026-10-04-bp-felnott-varosgazda",
+   "sport": "vizilabda",
+   "date": "2026-10-04",
+   "time": "17:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "Városgazda Utánpótlás Akadémia",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.waterpolo.hu/adatbank/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon. A napi műsorban élő állásként 9–9 szerepel."
+  },
+  {
+   "id": "mk-2026-10-04-ferfi-nb-i-b-piros-vasas-akademia-ujbuda-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "18:00",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Vasas Akadémia",
+   "away": "Újbuda MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-04-ferfi-nb-ii-kiemel-honved-ludovika-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "18:00",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "Honvéd Ludovika",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-04-fiu-serdulo-kks-mafc-b",
+   "sport": "kosarlabda",
+   "date": "2026-10-04",
+   "time": "18:15",
+   "competition": "Fiú Serdülő",
+   "home": "KKS",
+   "away": "MAFC/B",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-04",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-hun3ki_140659",
+   "sport": "kosarlabda",
+   "date": "2026-10-07",
+   "time": "19:30",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC Martos",
+   "away": "Honvéd Ludovika",
+   "score": "52-94",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140659",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142747",
+   "sport": "kosarlabda",
+   "date": "2026-10-09",
+   "time": "19:00",
+   "competition": "Fiú Junior",
+   "home": "MAFC/A",
+   "away": "Falco-Vulcano Energia KC Sz.hely U19/A",
+   "score": "85-77",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142747",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-10-fiu-u18-buzek-i-o-mafc-mav-elore",
+   "sport": "roplabda",
+   "date": "2026-10-10",
+   "time": "11:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "MAFC",
+   "away": "Máv Előre",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-10",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021458653",
+   "sport": "kezilabda",
+   "date": "2026-10-10",
+   "time": "11:45",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "Pilisvörösvári KSK",
+   "away": "MAFC",
+   "score": "19-10",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021458653",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145447",
+   "sport": "kosarlabda",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/A",
+   "away": "ZTE KK",
+   "score": "76-48",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145447",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446548",
+   "sport": "kezilabda",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "XVI Ker KMSE",
+   "away": "MAFC",
+   "score": "35-27",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446548",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-10-fiu-u18-buzek-iii-panorama-se-u18f-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-10",
+   "time": "13:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "Panoráma SE U18fiú",
+   "away": "MAFC Piros",
+   "score": "1-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-10",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145505",
+   "sport": "kosarlabda",
+   "date": "2026-10-10",
+   "time": "14:30",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/B",
+   "away": "DEAC KA U16",
+   "score": "71-95",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145505",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021458660",
+   "sport": "kezilabda",
+   "date": "2026-10-10",
+   "time": "14:30",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "MAFC",
+   "away": "Esztergomi Oroszlánok KSC",
+   "score": "27-18",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021458660",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-10-fiu-u18-buzek-i-o-fino-kaposvar-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-10",
+   "time": "15:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "Fino Kaposvár",
+   "away": "MAFC",
+   "score": "2-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-10",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-10-fiu-u18-buzek-iii-malev-sc-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-10",
+   "time": "16:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MALÉV SC",
+   "away": "MAFC Piros",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-10",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140293",
+   "sport": "kosarlabda",
+   "date": "2026-10-10",
+   "time": "17:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "MTK Budapest",
+   "away": "MAFC",
+   "score": "56-50",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140293",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2a_135775",
+   "sport": "kosarlabda",
+   "date": "2026-10-10",
+   "time": "17:30",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Újbuda MAFC",
+   "away": "Salgótarjáni KSE",
+   "score": "83-87",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2a/hun2a_135775",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2au20_137231",
+   "sport": "kosarlabda",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Újbuda MAFC U21",
+   "away": "Beszterce KK U21",
+   "score": "88-59",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2au20/hun2au20_137231",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-11-fiu-u14-dunszt-ii-pse-zold-mafc-nlg",
+   "sport": "roplabda",
+   "date": "2026-10-11",
+   "time": "11:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "PSE Zöld",
+   "away": "MAFC-NLG",
+   "score": "2-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-11",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-11-fiu-u14-dunszt-ii-mafc-piros-szese",
+   "sport": "roplabda",
+   "date": "2026-10-11",
+   "time": "11:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "MAFC Piros",
+   "away": "SZESE",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-11",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-11-fiu-u14-dunszt-ii-fino-kaposvar-b-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-11",
+   "time": "15:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "Fino Kaposvár B",
+   "away": "MAFC Piros",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-11",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-11-kenguru-kupa-u11-mafc-grosics-budafoki-bekak",
+   "sport": "kosarlabda",
+   "date": "2026-10-11",
+   "time": "15:30",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "MAFC Grosics",
+   "away": "Budafoki Békák",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-11",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-11-ferfi-nb-ii-kiemel-kanizsa-kosarlab-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-11",
+   "time": "16:00",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "Kanizsa Kosárlabda Klub",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-11",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-11-kenguru-kupa-u11-zugloi-sasok-u11-mafc-grosics",
+   "sport": "kosarlabda",
+   "date": "2026-10-11",
+   "time": "17:00",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "Zuglói Sasok U11",
+   "away": "MAFC Grosics",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-11",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-313655",
+   "sport": "vizilabda",
+   "date": "2026-10-11",
+   "time": "19:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "MAFC",
+   "away": "Ozorai-Hullámtörők SC",
+   "score": "15-12",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313655",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun_univn_142251",
+   "sport": "kosarlabda",
+   "date": "2026-10-12",
+   "time": "19:50",
+   "competition": "Leány egyetemi bajnokság, Nyugat",
+   "home": "Semmelweis Egyetem",
+   "away": "BME-MAFC",
+   "score": "56-47",
+   "url": "https://mkosz.hu/merkozes/x2627/whun_univn/whun_univn_142251",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_15",
+   "sport": "kosarlabda",
+   "date": "2026-10-12",
+   "time": "21:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Közgáz Leftoverz",
+   "away": "MAFC Kardinális",
+   "score": "57-66",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_15",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-13-ferfi-budapest-i-o-mafc-karman-rszse",
+   "sport": "roplabda",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "competition": "Férfi Budapest I. osztály, A csoport",
+   "home": "MAFC-Kármán",
+   "away": "RSZSE",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-13",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_univk_142485",
+   "sport": "kosarlabda",
+   "date": "2026-10-13",
+   "time": "19:20",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "BME-MAFC",
+   "away": "Eszterházy SC",
+   "score": "97-63",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_univk/hun_univk_142485",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142753",
+   "sport": "kosarlabda",
+   "date": "2026-10-14",
+   "time": "15:00",
+   "competition": "Fiú Junior",
+   "home": "Szolnoki KA U19/A",
+   "away": "MAFC/A",
+   "score": "82-73",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142753",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-15-ferfi-budapest-i-o-mafc-vasarhelyi-mafc-schonherz",
+   "sport": "roplabda",
+   "date": "2026-10-15",
+   "time": "18:20",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "MAFC-Vásárhelyi",
+   "away": "MAFC-Schönherz",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-15",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145453",
+   "sport": "kosarlabda",
+   "date": "2026-10-16",
+   "time": "13:15",
+   "competition": "Fiú Kadett",
+   "home": "Vasas Akadémia/A",
+   "away": "MAFC/A",
+   "score": "64-77",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145453",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446566",
+   "sport": "kezilabda",
+   "date": "2026-10-16",
+   "time": "17:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "MAFC",
+   "away": "ÓKSI SE",
+   "score": "28-29",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446566",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-16-noi-budapest-i-osz-beac-mafc-epk",
+   "sport": "roplabda",
+   "date": "2026-10-16",
+   "time": "19:30",
+   "competition": "Női Budapest I. osztály",
+   "home": "BEAC",
+   "away": "MAFC-ÉPK",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-16",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_17",
+   "sport": "kosarlabda",
+   "date": "2026-10-16",
+   "time": "20:45",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Martos",
+   "away": "Basket Beats",
+   "score": "66-59",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_17",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021453219",
+   "sport": "kezilabda",
+   "date": "2026-10-17",
+   "time": "10:00",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "FERENCVÁROSI TC II.",
+   "away": "MAFC",
+   "score": "39-20",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453219",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-17-fiu-serdulo-nka-pecs-u14-fiu-mafc-a",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "10:30",
+   "competition": "Fiú Serdülő",
+   "home": "NKA Pécs U14 Fiú/A",
+   "away": "MAFC/A",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-17-fiu-serdulo-mafc-b-esmtk-tf-jak-u14",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "10:30",
+   "competition": "Fiú Serdülő",
+   "home": "MAFC/B",
+   "away": "ESMTK - TF - JAK U14",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u20-tarnawa-i-meafc-miskolc-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "11:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "MEAFC-Miskolc",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-17-fiu-kadett-mafc-b-budapesti-honved",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "11:00",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/B",
+   "away": "Budapesti Honvéd SE/A",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-10-17-u12-kismini-ii-o-k-mafc-pse-zold",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "11:00",
+   "competition": "U12 Kismini II. o. Közép",
+   "home": "MAFC",
+   "away": "PSE Zöld",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u20-tarnawa-i-mafc-tfse-kek",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "13:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "MAFC",
+   "away": "TFSE Kék",
+   "score": "3-0",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u20-tarnawa-ii-tfse-feher-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "13:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "TFSE Fehér",
+   "away": "MAFC Piros",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u16-tatar-i-o-szolnoki-spc-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "13:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "Szolnoki SPC",
+   "away": "MAFC",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "vl-313349",
+   "sport": "vizilabda",
+   "date": "2026-10-17",
+   "time": "13:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "Dunaújvárosi Főiskola VE",
+   "away": "MAFC",
+   "score": "7-15",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313349",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021453231",
+   "sport": "kezilabda",
+   "date": "2026-10-17",
+   "time": "13:00",
+   "competition": "Gyermekbajnokság U14 fiú – OGYB FU14 XIX. csoport",
+   "home": "MAFC",
+   "away": "Angyalföldi Sportiskola 1.",
+   "score": "19-41",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021453231",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-17-regionalis-fiu-ser-mafc-c-kereszturi-se-b",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "13:30",
+   "competition": "Regionális Fiú Serdülő, Budapest",
+   "home": "MAFC/C",
+   "away": "Keresztúri SE/B",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-10-17-u12-kismini-ii-o-k-radzeer-se-mafc",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "14:00",
+   "competition": "U12 Kismini II. o. Közép",
+   "home": "Radzeer SE",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u20-tarnawa-ii-mafc-piros-psc-bonyhad",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "15:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "MAFC Piros",
+   "away": "PSC Bonyhád",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-17-fiu-u16-tatar-i-o-mafc-vrck",
+   "sport": "roplabda",
+   "date": "2026-10-17",
+   "time": "15:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "MAFC",
+   "away": "VRCK",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-17",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-17-fiu-serdulo-mafc-a-vasas-akademia-a",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "16:00",
+   "competition": "Fiú Serdülő",
+   "home": "MAFC/A",
+   "away": "Vasas Akadémia/A",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-17-fiu-serdulo-vasas-akademia-b-mafc-b",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "16:00",
+   "competition": "Fiú Serdülő",
+   "home": "Vasas Akadémia/B",
+   "away": "MAFC/B",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-313355",
+   "sport": "vizilabda",
+   "date": "2026-10-17",
+   "time": "16:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "MAFC",
+   "away": "UNI-GYŐR GYVSE",
+   "score": "13-14",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313355",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-17-ferfi-nb-i-b-piros-hubner-nyiregyha-ujbuda-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "17:00",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "HÜBNER Nyíregyháza BS",
+   "away": "Újbuda MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-17-nb-i-b-piros-csopo-nyiregyhaza-blue-ujbuda-mafc-u21",
+   "sport": "kosarlabda",
+   "date": "2026-10-17",
+   "time": "19:15",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Nyíregyháza Blue Sharks U21",
+   "away": "Újbuda MAFC U21",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-17",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-313401",
+   "sport": "vizilabda",
+   "date": "2026-10-17",
+   "time": "19:15",
+   "competition": "Női OB I/B. Bajnokság",
+   "home": "Kis-Pingvin BEAC",
+   "away": "MAFC",
+   "score": "14-11",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313401",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-18-fiu-u16-tatar-iii-mafc-piros-radzeer-se",
+   "sport": "roplabda",
+   "date": "2026-10-18",
+   "time": "11:00",
+   "competition": "Fiú U16 (Tatár) III. o.",
+   "home": "MAFC Piros",
+   "away": "Radzeer SE",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-18",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_jas_kiv_7",
+   "sport": "kosarlabda",
+   "date": "2026-10-18",
+   "time": "14:00",
+   "competition": "Kiváló Kölykök Kupója U12 Fiú",
+   "home": "Zsíros Akadémia Kőbánya",
+   "away": "MAFC",
+   "score": "51-63",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_jas_kiv/hun_jas_kiv_7",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-18-fiu-u16-tatar-iii-psc-bonyhad-mafc-piros",
+   "sport": "roplabda",
+   "date": "2026-10-18",
+   "time": "15:00",
+   "competition": "Fiú U16 (Tatár) III. o.",
+   "home": "PSC Bonyhád",
+   "away": "MAFC Piros",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-18",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_jas_kiv_8",
+   "sport": "kosarlabda",
+   "date": "2026-10-18",
+   "time": "15:30",
+   "competition": "Kiváló Kölykök Kupója U12 Fiú",
+   "home": "MAFC",
+   "away": "BKG-Veresegyház",
+   "score": "58-66",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_jas_kiv/hun_jas_kiv_8",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140311",
+   "sport": "kosarlabda",
+   "date": "2026-10-18",
+   "time": "16:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "MAFC",
+   "away": "Pécsi VSK 1919",
+   "score": "78-69",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140311",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-18-nb1-szeged",
+   "sport": "roplabda",
+   "date": "2026-10-18",
+   "time": "18:00",
+   "competition": "Férfi NB I Liga",
+   "home": "Vidux-Szegedi RSE",
+   "away": "MAFC",
+   "score": "3-2",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "final"
+  },
+  {
+   "id": "vl-313669",
+   "sport": "vizilabda",
+   "date": "2026-10-18",
+   "time": "19:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "BVSC Heavy Tools",
+   "away": "MAFC",
+   "score": "9-19",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313669",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-19-budapest-regionali-mafc-kardinalis-zugloi-sasok",
+   "sport": "kosarlabda",
+   "date": "2026-10-19",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Kardinális",
+   "away": "Zuglói Sasok",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-19",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-20-hepp-kupa-noi-elte-fortis-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-20",
+   "time": "18:40",
+   "competition": "Hepp Kupa, Női",
+   "home": "ELTE Fortis",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-20",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-10-21-ferfi-nb-ii-kiemel-mafc-martos-mafc",
+   "sport": "kosarlabda",
+   "date": "2026-10-21",
+   "time": "19:30",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC Martos",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-21",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-10-21-ferfi-budapest-i-o-mozdulj-mafc-vasarhelyi",
+   "sport": "roplabda",
+   "date": "2026-10-21",
+   "time": "20:00",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "Mozdulj",
+   "away": "MAFC-Vásárhelyi",
+   "score": "3-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-21",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142757",
+   "sport": "kosarlabda",
+   "date": "2026-10-24",
+   "time": "11:00",
+   "competition": "Fiú Junior",
+   "home": "MAFC/A",
+   "away": "Óbudai Kaszások/A-CELLECT",
+   "score": "74-64",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142757",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2au20_137257",
+   "sport": "kosarlabda",
+   "date": "2026-10-24",
+   "time": "15:15",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Tiszaújvárosi Phoenix KK U21",
+   "away": "Újbuda MAFC U21",
+   "score": "83-142",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2au20/hun2au20_137257",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2a_135801",
+   "sport": "kosarlabda",
+   "date": "2026-10-24",
+   "time": "18:00",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Tiszaújvárosi Termálfürdő Phoenix KK",
+   "away": "Újbuda MAFC",
+   "score": "92-102",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2a/hun2a_135801",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-10-26-fiu-u14-valogatott-kkp-2013-fiu-mafc-u15",
+   "sport": "kosarlabda",
+   "date": "2026-10-26",
+   "time": "15:00",
+   "competition": "Fiú U14 Válogatott",
+   "home": "KKP 2013 fiú",
+   "away": "MAFC U15",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-10-26",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-whun_univn_142257",
+   "sport": "kosarlabda",
+   "date": "2026-10-26",
+   "time": "18:20",
+   "competition": "Leány egyetemi bajnokság, Nyugat",
+   "home": "Közgáz SC és DSK",
+   "away": "BME-MAFC",
+   "score": "111-52",
+   "url": "https://mkosz.hu/merkozes/x2627/whun_univn/whun_univn_142257",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_32",
+   "sport": "kosarlabda",
+   "date": "2026-10-26",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Kardinális",
+   "away": "Goldenhusz",
+   "score": "57-64",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_32",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_univk_142511",
+   "sport": "kosarlabda",
+   "date": "2026-10-27",
+   "time": "19:20",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "BME-MAFC",
+   "away": "ELTE-BEAC",
+   "score": "43-56",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_univk/hun_univk_142511",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-28-ferfi-budapest-i-o-mafc-schonherz-corvinus",
+   "sport": "roplabda",
+   "date": "2026-10-28",
+   "time": "20:30",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "MAFC-Schönherz",
+   "away": "Corvinus",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-28",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-29-ferfi-budapest-i-o-kispest-se-mafc-karman",
+   "sport": "roplabda",
+   "date": "2026-10-29",
+   "time": "19:45",
+   "competition": "Férfi Budapest I. osztály, A csoport",
+   "home": "Kispest SE",
+   "away": "MAFC-Kármán",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-29",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-30-ferfi-budapest-ii-panorama-se-onk-mafc-bme",
+   "sport": "roplabda",
+   "date": "2026-10-30",
+   "time": "20:20",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "Panoráma SE - ONK",
+   "away": "MAFC-BME",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-30",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140677",
+   "sport": "kosarlabda",
+   "date": "2026-10-30",
+   "time": "20:20",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "ELTE Fortis",
+   "away": "MAFC",
+   "score": "79-65",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140677",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_33",
+   "sport": "kosarlabda",
+   "date": "2026-10-30",
+   "time": "20:45",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Martos",
+   "away": "E5vös Okapik",
+   "score": "88-59",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_33",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-31-fiu-u14-dunszt-ii-tfse-biatorbagy-mafc-nlg",
+   "sport": "roplabda",
+   "date": "2026-10-31",
+   "time": "13:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "TFSE-Biatorbágy",
+   "away": "MAFC-NLG",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-31",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-10-31-fiu-u14-dunszt-ii-mafc-nlg-szese",
+   "sport": "roplabda",
+   "date": "2026-10-31",
+   "time": "15:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "MAFC-NLG",
+   "away": "SZESE",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-10-31",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142759",
+   "sport": "kosarlabda",
+   "date": "2026-10-31",
+   "time": "15:00",
+   "competition": "Fiú Junior",
+   "home": "Zsíros Akadémia Kőbánya/A",
+   "away": "MAFC/A",
+   "score": "79-70",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142759",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446575",
+   "sport": "kezilabda",
+   "date": "2026-10-31",
+   "time": "15:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "Gyáli BKSE",
+   "away": "MAFC",
+   "score": "31-33",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446575",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2a_135813",
+   "sport": "kosarlabda",
+   "date": "2026-10-31",
+   "time": "17:30",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Újbuda MAFC",
+   "away": "Peka Bau-MEAFC Wolves",
+   "score": "111-105",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2a/hun2a_135813",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2au20_137269",
+   "sport": "kosarlabda",
+   "date": "2026-10-31",
+   "time": "19:45",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Újbuda MAFC U21",
+   "away": "Peka Bau-MEAFC Wolves U21",
+   "score": "104-87",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2au20/hun2au20_137269",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-01-fiu-u18-buzek-iii-o-kele-malev-sc",
+   "sport": "roplabda",
+   "date": "2026-11-01",
+   "time": "10:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MALÉV SC",
+   "away": "MAFC Piros",
+   "score": "1-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-01",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-01-fiu-u18-buzek-iii-o-kele-gyongyosi-rse",
+   "sport": "roplabda",
+   "date": "2026-11-01",
+   "time": "13:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MAFC Piros",
+   "away": "Gyöngyösi RSE",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-01",
+   "status": "final",
+   "note": "A napi műsor összesítő táblázatában 11:30 szerepel."
+  },
+  {
+   "id": "hv-2026-11-01-fiu-u18-buzek-i-o-pse-zold",
+   "sport": "roplabda",
+   "date": "2026-11-01",
+   "time": "15:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "PSE Zöld",
+   "away": "MAFC",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-01",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-01-nb1-szolnok",
+   "sport": "roplabda",
+   "date": "2026-11-01",
+   "time": "19:00",
+   "competition": "Férfi NB I Liga",
+   "home": "MAFC",
+   "away": "Szolnoki SPC",
+   "score": "3-1",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_39",
+   "sport": "kosarlabda",
+   "date": "2026-11-02",
+   "time": "19:30",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "QPAC",
+   "away": "MAFC Kardinális",
+   "score": "65-50",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_39",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_univk_142521",
+   "sport": "kosarlabda",
+   "date": "2026-11-02",
+   "time": "20:00",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "Debreceni Medikus Sportegyesület",
+   "away": "BME-MAFC",
+   "score": "60-84",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_univk/hun_univk_142521",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-02-ferfi-budapest-ii-osztal-ossc",
+   "sport": "roplabda",
+   "date": "2026-11-02",
+   "time": "20:30",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "MAFC-BME",
+   "away": "ÓSSC",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-02",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145517",
+   "sport": "kosarlabda",
+   "date": "2026-11-03",
+   "time": "16:20",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/B",
+   "away": "Soproni Sportiskola KA U16/A",
+   "score": "59-85",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145517",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rfs_147473",
+   "sport": "kosarlabda",
+   "date": "2026-11-03",
+   "time": "16:30",
+   "competition": "Regionális Fiú Serdülő, Budapest",
+   "home": "BUDAFOK U14/B",
+   "away": "MAFC/C",
+   "score": "66-41",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rfs/hun_bud_rfs_147473",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_fsb_147713",
+   "sport": "kosarlabda",
+   "date": "2026-11-03",
+   "time": "17:30",
+   "competition": "Budapest, Fiú Serdülő B",
+   "home": "MAFC-U14",
+   "away": "Óbudai Kaszások/D",
+   "score": "47-44",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_fsb/hun_bud_fsb_147713",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140679",
+   "sport": "kosarlabda",
+   "date": "2026-11-03",
+   "time": "19:15",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "Kanizsa Kosárlabda Klub",
+   "away": "MAFC Martos",
+   "score": "52-59",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140679",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145457",
+   "sport": "kosarlabda",
+   "date": "2026-11-04",
+   "time": "17:00",
+   "competition": "Fiú Kadett",
+   "home": "AKMÉ Körmendi Törpördögök",
+   "away": "MAFC/A",
+   "score": "51-90",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145457",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-04-ferfi-budapest-ii-osztal-kre-sc",
+   "sport": "roplabda",
+   "date": "2026-11-04",
+   "time": "19:00",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "KRE SC",
+   "away": "MAFC-Újbuda",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-04",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2a_135825",
+   "sport": "kosarlabda",
+   "date": "2026-11-05",
+   "time": "17:00",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Jászberényi KSE",
+   "away": "Újbuda MAFC",
+   "score": "72-85",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2a/hun2a_135825",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2au20_137281",
+   "sport": "kosarlabda",
+   "date": "2026-11-05",
+   "time": "19:15",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Jászberényi KSE U21",
+   "away": "Újbuda MAFC U21",
+   "score": "59-147",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2au20/hun2au20_137281",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-06-fiu-u14-dunszt-ii-o-nyug-rszse",
+   "sport": "roplabda",
+   "date": "2026-11-06",
+   "time": "16:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "RSZSE",
+   "away": "MAFC Piros",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-06",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_203",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Gabányi",
+   "away": "Kőbányai Darazsak/A",
+   "score": "71-40",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_203",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_206",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Heisler",
+   "away": "BKG-Veresegyház Fiú",
+   "score": "44-84",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_206",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_fkb_147897",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "10:00",
+   "competition": "Budapest, Fiú Kadett B",
+   "home": "MAFC U16",
+   "away": "Kiss Lenke KS/B",
+   "score": "133-32",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_fkb/hun_bud_fkb_147897",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_204",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "10:30",
+   "competition": "Gyermek Kupa",
+   "home": "Vasas Akadémia U12",
+   "away": "MAFC Gabányi",
+   "score": "82-41",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_204",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_207",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "10:30",
+   "competition": "Gyermek Kupa",
+   "home": "Vasas Amazonok",
+   "away": "MAFC Heisler",
+   "score": "82-51",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_207",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-07-fiu-u16-tatar-i-o-pse-zold",
+   "sport": "roplabda",
+   "date": "2026-11-07",
+   "time": "11:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "MAFC",
+   "away": "PSE Zöld",
+   "score": "3-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-07",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_fsb_147723",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "12:00",
+   "competition": "Budapest, Fiú Serdülő B",
+   "home": "MAFC-U14",
+   "away": "Vasas Solymok",
+   "score": "138-18",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_fsb/hun_bud_fsb_147723",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021459424",
+   "sport": "kezilabda",
+   "date": "2026-11-07",
+   "time": "12:00",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "Csepel DSE",
+   "away": "MAFC",
+   "score": "26-9",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021459424",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021459430",
+   "sport": "kezilabda",
+   "date": "2026-11-07",
+   "time": "13:50",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "MAFC",
+   "away": "KSA Budapest",
+   "score": "12-20",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021459430",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-07-fiu-u16-tatar-i-o-kunhegyes-ese",
+   "sport": "roplabda",
+   "date": "2026-11-07",
+   "time": "15:00",
+   "competition": "Fiú U16 (Tatár) I. o.",
+   "home": "Kunhegyes ESE",
+   "away": "MAFC",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-07",
+   "status": "final"
+  },
+  {
+   "id": "vl-313363",
+   "sport": "vizilabda",
+   "date": "2026-11-07",
+   "time": "15:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "PTE-PEAC Mighty Bulls",
+   "away": "MAFC",
+   "score": "9-19",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313363",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_225",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "15:30",
+   "competition": "Gyermek Kupa",
+   "home": "BUDAFOKI BAKOK",
+   "away": "MAFC Mokos",
+   "score": "35-57",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_225",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu12_226",
+   "sport": "kosarlabda",
+   "date": "2026-11-07",
+   "time": "17:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Mokos",
+   "away": "ICT Pilots U12",
+   "score": "45-36",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu12/hunu12_226",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-07-nb1-dag",
+   "sport": "roplabda",
+   "date": "2026-11-07",
+   "time": "17:00",
+   "competition": "Férfi NB I Liga",
+   "home": "SWISSTEN Dág KSE",
+   "away": "MAFC",
+   "score": "3-0",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "final"
+  },
+  {
+   "id": "vl-313357",
+   "sport": "vizilabda",
+   "date": "2026-11-07",
+   "time": "17:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "Balaton Vízilabda Klub",
+   "away": "MAFC",
+   "score": "6-21",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313357",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_3x3_121",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "09:00",
+   "competition": "3x3 Fiú Serdülő",
+   "home": "MAFC",
+   "away": "KKS",
+   "score": "7-3",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14_3x3/hunu14_3x3_121",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_3x3_131",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "09:20",
+   "competition": "3x3 Fiú Serdülő",
+   "home": "MAFC",
+   "away": "Csepel Basket/B",
+   "score": "12-7",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14_3x3/hunu14_3x3_131",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_3x3_141",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "09:40",
+   "competition": "3x3 Fiú Serdülő",
+   "home": "TFSE",
+   "away": "MAFC",
+   "score": "3-12",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14_3x3/hunu14_3x3_141",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145525",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "10:00",
+   "competition": "Fiú Kadett",
+   "home": "Alba Fehérvár",
+   "away": "MAFC/B",
+   "score": "102-77",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145525",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_3x3_152",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "10:40",
+   "competition": "3x3 Fiú Serdülő",
+   "home": "MAFC",
+   "away": "Zuglói Sasok",
+   "score": "1-16",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14_3x3/hunu14_3x3_152",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u16-tatar-iii-o-mav-elore-feher",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "11:00",
+   "competition": "Fiú U16 (Tatár) III. o.",
+   "home": "Máv Előre fehér",
+   "away": "MAFC Piros",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-08",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u20-tarnawa-ii-o-nyu-pte-peac",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "11:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "PTE-PEAC",
+   "away": "MAFC Piros",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-08",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_3x3_166",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "12:00",
+   "competition": "3x3 Fiú Serdülő",
+   "home": "Zsíros Akadémia Kőbánya",
+   "away": "MAFC",
+   "score": "9-4",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14_3x3/hunu14_3x3_166",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u16-tatar-iii-o-meafc-felsozsolca",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "competition": "Fiú U16 (Tatár) III. o.",
+   "home": "MAFC Piros",
+   "away": "MEAFC-Felsőzsolca",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-08",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u20-tarnawa-i-o-pse-zold",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "PSE Zöld",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u20-tarnawa-ii-o-nyu-dklsn",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "competition": "Fiú U20 (Tarnawa) II. o. Nyugat",
+   "home": "MAFC Piros",
+   "away": "DKLSN",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-08",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140329",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "BKG Akadémia",
+   "away": "MAFC",
+   "score": "51-67",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140329",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145461",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "15:00",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/A",
+   "away": "NKA Pécs U16 Fiú/A",
+   "score": "67-90",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145461",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-08-fiu-u20-tarnawa-i-o-fino-kaposvar",
+   "sport": "roplabda",
+   "date": "2026-11-08",
+   "time": "15:00",
+   "competition": "Fiú U20 (Tarnawa) I. o.",
+   "home": "MAFC",
+   "away": "Fino Kaposvár",
+   "score": "3-0",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140689",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "18:00",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC Martos",
+   "away": "KKS",
+   "score": "84-55",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140689",
+   "status": "final"
+  },
+  {
+   "id": "vl-313673",
+   "sport": "vizilabda",
+   "date": "2026-11-08",
+   "time": "19:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "MAFC",
+   "away": "WPBSE",
+   "score": "12-8",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313673",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140685",
+   "sport": "kosarlabda",
+   "date": "2026-11-08",
+   "time": "19:45",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC",
+   "away": "BUDAFOK U23",
+   "score": "76-86",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140685",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-09-ferfi-budapest-i-osztaly-beac",
+   "sport": "roplabda",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "BEAC",
+   "away": "MAFC-Schönherz",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-09",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_46",
+   "sport": "kosarlabda",
+   "date": "2026-11-09",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Kardinális",
+   "away": "Honvéd Zrínyi SE",
+   "score": "65-61",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_46",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-09-ferfi-budapest-ii-osztal-rszse-ii",
+   "sport": "roplabda",
+   "date": "2026-11-09",
+   "time": "20:30",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "MAFC-BME",
+   "away": "RSZSE II",
+   "score": "3-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-09",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_49",
+   "sport": "kosarlabda",
+   "date": "2026-11-09",
+   "time": "20:45",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Martos",
+   "away": "Budaörsi DSE Csepel",
+   "score": "75-60",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_49",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_univk_142529",
+   "sport": "kosarlabda",
+   "date": "2026-11-10",
+   "time": "19:20",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "BME-MAFC",
+   "away": "Semmelweis Egyetem",
+   "score": "85-44",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_univk/hun_univk_142529",
+   "status": "final"
+  },
+  {
+   "id": "mk-huna_cup_1066",
+   "sport": "kosarlabda",
+   "date": "2026-11-10",
+   "time": "19:30",
+   "competition": "Hepp Kupa, Férfi",
+   "home": "BUDAFOK",
+   "away": "Újbuda MAFC",
+   "score": "89-105",
+   "url": "https://mkosz.hu/merkozes/x2627/huna_cup/huna_cup_1066",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-10-noi-budapest-i-osztaly-semmelweis-egyetem",
+   "sport": "roplabda",
+   "date": "2026-11-10",
+   "time": "19:30",
+   "competition": "Női Budapest I. osztály",
+   "home": "Semmelweis Egyetem",
+   "away": "MAFC-ÉPK",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-10",
+   "status": "final"
+  },
+  {
+   "id": "vl-313407",
+   "sport": "vizilabda",
+   "date": "2026-11-11",
+   "time": "20:00",
+   "competition": "Női OB I/B. Bajnokság",
+   "home": "MAFC",
+   "away": "Semmelweis OSC",
+   "score": "6-26",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313407",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-11-noi-budapest-ii-osztaly--rksk-felnott-noi",
+   "sport": "roplabda",
+   "date": "2026-11-11",
+   "time": "20:30",
+   "competition": "Női Budapest II. osztály, B csoport",
+   "home": "MAFC-BME",
+   "away": "RKSK felnőtt női",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-11",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142767",
+   "sport": "kosarlabda",
+   "date": "2026-11-12",
+   "time": "18:30",
+   "competition": "Fiú Junior",
+   "home": "Falco-Vulcano Energia KC Sz.hely U19/A",
+   "away": "MAFC/A",
+   "score": "76-94",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142767",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140699",
+   "sport": "kosarlabda",
+   "date": "2026-11-13",
+   "time": "18:30",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MOGAAC",
+   "away": "MAFC Martos",
+   "score": "63-74",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140699",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-14-fiu-u18-buzek-iii-o-kele-tfse-feher",
+   "sport": "roplabda",
+   "date": "2026-11-14",
+   "time": "10:00",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MAFC Piros",
+   "away": "TFSE FEHÉR",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-14",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rfs_147487",
+   "sport": "kosarlabda",
+   "date": "2026-11-14",
+   "time": "11:00",
+   "competition": "Regionális Fiú Serdülő, Budapest",
+   "home": "MAFC/C",
+   "away": "Budapesti Bikák U14",
+   "score": "50-52",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rfs/hun_bud_rfs_147487",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145469",
+   "sport": "kosarlabda",
+   "date": "2026-11-14",
+   "time": "13:00",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/A",
+   "away": "FSE Megyeri Tigrisek/A",
+   "score": "121-48",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145469",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-14-fiu-u18-buzek-iii-o-kele-panorama-se-u18fiu",
+   "sport": "roplabda",
+   "date": "2026-11-14",
+   "time": "14:30",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MAFC Piros",
+   "away": "Panoráma SE U18fiú",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-14",
+   "status": "final",
+   "note": "A napi műsor összesítő táblázatában 13:00 szerepel."
+  },
+  {
+   "id": "mk-hunu16_145531",
+   "sport": "kosarlabda",
+   "date": "2026-11-14",
+   "time": "15:30",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/B",
+   "away": "Óbudai Kaszások/A",
+   "score": "69-94",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145531",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-14-fiu-u18-buzek-iii-o-kele-gyongyosi-rse",
+   "sport": "roplabda",
+   "date": "2026-11-14",
+   "time": "17:30",
+   "competition": "Fiú U18 (Buzek) III. o. Kelet",
+   "home": "MAFC Piros",
+   "away": "Gyöngyösi RSE",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-14",
+   "status": "final",
+   "note": "A napi műsor összesítő táblázatában 16:00 szerepel."
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u18-buzek-i-o-vrck",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "VRCK",
+   "away": "MAFC",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u14-dunszt-ii-o-nyug-rszse",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "RSZSE",
+   "away": "MAFC-NLG",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u14-dunszt-ii-o-nyug-tfse-biatorbagy",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "11:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "TFSE-Biatorbágy",
+   "away": "MAFC Piros",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_142159",
+   "sport": "kosarlabda",
+   "date": "2026-11-15",
+   "time": "12:45",
+   "competition": "Fiú Serdülő",
+   "home": "ESMTK - TF - JAK U14",
+   "away": "MAFC/B",
+   "score": "40-87",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14/hunu14_142159",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u18-buzek-i-o-kesi-r-a",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "competition": "Fiú U18 (Buzek) I. o.",
+   "home": "MAFC",
+   "away": "KESI-R.A.",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u14-dunszt-ii-o-nyug-fino-kaposvar-b",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "MAFC-NLG",
+   "away": "Fino Kaposvár B",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-fiu-u14-dunszt-ii-o-nyug-pse-zold",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "competition": "Fiú U14 (Dunszt) II. o. Nyugat",
+   "home": "MAFC Piros",
+   "away": "PSE Zöld",
+   "score": "3-2",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-15",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446587",
+   "sport": "kezilabda",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "Csepel DSE",
+   "away": "MAFC",
+   "score": "45-37",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446587",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_jas_kiv_16",
+   "sport": "kosarlabda",
+   "date": "2026-11-15",
+   "time": "14:00",
+   "competition": "Kiváló Kölykök Kupója U12 Fiú",
+   "home": "Lehel Kosársuli",
+   "away": "MAFC",
+   "score": "39-89",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_jas_kiv/hun_jas_kiv_16",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_jas_kiv_17",
+   "sport": "kosarlabda",
+   "date": "2026-11-15",
+   "time": "15:30",
+   "competition": "Kiváló Kölykök Kupója U12 Fiú",
+   "home": "MAFC",
+   "away": "Kecskeméti KA",
+   "score": "46-67",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_jas_kiv/hun_jas_kiv_17",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu14_142160",
+   "sport": "kosarlabda",
+   "date": "2026-11-15",
+   "time": "16:45",
+   "competition": "Fiú Serdülő",
+   "home": "Óbudai Kaszások/B",
+   "away": "MAFC/B",
+   "score": "70-60",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu14/hunu14_142160",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-15-nb1-dkse",
+   "sport": "roplabda",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "competition": "Férfi NB I Liga",
+   "home": "DKSE",
+   "away": "MAFC",
+   "score": "1-3",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "final",
+   "note": "Szettek: 15-25, 16-25, 25-17, 18-25."
+  },
+  {
+   "id": "vl-313683",
+   "sport": "vizilabda",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "Váci Vízilabda SE",
+   "away": "MAFC",
+   "score": "15-8",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313683",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140337",
+   "sport": "kosarlabda",
+   "date": "2026-11-15",
+   "time": "18:30",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "MAFC",
+   "away": "Tatabányai Sport Club",
+   "score": "70-57",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140337",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_9",
+   "sport": "kosarlabda",
+   "date": "2026-11-16",
+   "time": "19:30",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Radobasket",
+   "away": "MAFC Martos",
+   "score": "75-81",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_9",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_univk_142537",
+   "sport": "kosarlabda",
+   "date": "2026-11-16",
+   "time": "19:45",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "Nyíregyházi Egyetemi SE",
+   "away": "BME-MAFC",
+   "score": "85-94",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_univk/hun_univk_142537",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun_univn_142263",
+   "sport": "kosarlabda",
+   "date": "2026-11-16",
+   "time": "20:20",
+   "competition": "Leány egyetemi bajnokság, Nyugat",
+   "home": "BME-MAFC",
+   "away": "PTE-PEAC",
+   "score": "64-41",
+   "url": "https://mkosz.hu/merkozes/x2627/whun_univn/whun_univn_142263",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-16-ferfi-budapest-ii-osztal-dag-kse-zaki",
+   "sport": "roplabda",
+   "date": "2026-11-16",
+   "time": "20:30",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "MAFC-Újbuda",
+   "away": "Dág KSE - ZAKI",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-16",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-17-ferfi-budapest-i-osztaly-dag-kse",
+   "sport": "roplabda",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "competition": "Férfi Budapest I. osztály, A csoport",
+   "home": "MAFC-Kármán",
+   "away": "Dág KSE",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-17",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140321",
+   "sport": "kosarlabda",
+   "date": "2026-11-17",
+   "time": "19:45",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "BKG-Veresegyház",
+   "away": "MAFC",
+   "score": "53-94",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140321",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-17-ferfi-budapest-ii-osztal-panorama-se",
+   "sport": "roplabda",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "Panoráma SE",
+   "away": "MAFC-BME",
+   "score": "3-1",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-17",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021446599",
+   "sport": "kezilabda",
+   "date": "2026-11-18",
+   "time": "17:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "MAFC",
+   "away": "RÁKOSMENTE",
+   "score": "36-25",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446599",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145499",
+   "sport": "kosarlabda",
+   "date": "2026-11-18",
+   "time": "18:45",
+   "competition": "Fiú Kadett",
+   "home": "FSE Megyeri Tigrisek/A",
+   "away": "MAFC/A",
+   "score": "44-100",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145499",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun2a_135837",
+   "sport": "kosarlabda",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Újbuda MAFC",
+   "away": "DEAC U23",
+   "score": "92-95",
+   "url": "https://mkosz.hu/merkozes/x2627/hun2a/hun2a_135837",
+   "status": "final"
+  },
+  {
+   "id": "vl-313413",
+   "sport": "vizilabda",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "competition": "Női OB I/B. Bajnokság",
+   "home": "POLO Sport Club OB1b",
+   "away": "MAFC",
+   "score": "13-12",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313413",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-19-ferfi-bp",
+   "sport": "roplabda",
+   "date": "2026-11-19",
+   "time": "18:20",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "MAFC-Vásárhelyi",
+   "away": "Corvinus",
+   "score": "2-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-19",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rfs_147493",
+   "sport": "kosarlabda",
+   "date": "2026-11-19",
+   "time": "18:30",
+   "competition": "Regionális Fiú Serdülő, Budapest",
+   "home": "Zuglói Sasok U13/B",
+   "away": "MAFC/C",
+   "score": "25-114",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rfs/hun_bud_rfs_147493",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_53",
+   "sport": "kosarlabda",
+   "date": "2026-11-19",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Basket Beats",
+   "away": "MAFC Kardinális",
+   "score": "73-65",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_53",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-19-noi-bp",
+   "sport": "roplabda",
+   "date": "2026-11-19",
+   "time": "20:20",
+   "competition": "Női Budapest I. osztály",
+   "home": "MAFC-ÉPK",
+   "away": "Közgáz",
+   "score": "1-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-19",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-20-noi-budapest-ii-osztaly--ute-u20p",
+   "sport": "roplabda",
+   "date": "2026-11-20",
+   "time": "18:00",
+   "competition": "Női Budapest II. osztály, B csoport",
+   "home": "UTE U20P",
+   "away": "MAFC-BME",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-20",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_41",
+   "sport": "kosarlabda",
+   "date": "2026-11-20",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Vashódok",
+   "away": "MAFC Martos",
+   "score": "62-95",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_41",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu11_249",
+   "sport": "kosarlabda",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "Kőbányai Darazsak/A",
+   "away": "MAFC Grosics",
+   "score": "79-59",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu11/hunu11_249",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-21-u12-kismini-ii-o-kozep-kse-u12",
+   "sport": "roplabda",
+   "date": "2026-11-21",
+   "time": "11:00",
+   "competition": "U12 Kismini II. o. Közép",
+   "home": "KSE U12",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-21",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-hunu11_251",
+   "sport": "kosarlabda",
+   "date": "2026-11-21",
+   "time": "12:00",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "MAFC Grosics",
+   "away": "Budapesti Honvéd SE/A",
+   "score": "54-66",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu11/hunu11_251",
+   "status": "final"
+  },
+  {
+   "id": "vl-313379",
+   "sport": "vizilabda",
+   "date": "2026-11-21",
+   "time": "12:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "MAFC",
+   "away": "SMAFC1860 Soproni Egyetem",
+   "score": "11-12",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313379",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-21-u12-kismini-ii-o-kozep-vsd-u12",
+   "sport": "roplabda",
+   "date": "2026-11-21",
+   "time": "12:30",
+   "competition": "U12 Kismini II. o. Közép",
+   "home": "MAFC",
+   "away": "VSD U12",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-21",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "vl-313371",
+   "sport": "vizilabda",
+   "date": "2026-11-21",
+   "time": "14:00",
+   "competition": "Férfi OB II. Bajnokság",
+   "home": "Dunaújvárosi Főiskola VE",
+   "away": "MAFC",
+   "score": "7-14",
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313371",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145535",
+   "sport": "kosarlabda",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "competition": "Fiú Kadett",
+   "home": "DEAC KA U16",
+   "away": "MAFC/B",
+   "score": "90-75",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145535",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021463060",
+   "sport": "kezilabda",
+   "date": "2026-11-22",
+   "time": "09:55",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "MAFC",
+   "away": "VS Dunakeszi",
+   "score": "18-17",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021463060",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-22-fiu-u20-iii-o-osztalyozo-kesi-r-a-a",
+   "sport": "roplabda",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "competition": "Fiú U20 I–II. o. osztályozó, B csoport",
+   "home": "KESI-R.A. A",
+   "away": "MAFC Piros",
+   "score": "3-1",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu18_142773",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "11:00",
+   "competition": "Fiú Junior",
+   "home": "MAFC/A",
+   "away": "Szolnoki KA U19/A",
+   "score": "74-70",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu18/hunu18_142773",
+   "status": "final"
+  },
+  {
+   "id": "kl-32021463068",
+   "sport": "kezilabda",
+   "date": "2026-11-22",
+   "time": "12:40",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "Tempo KSE",
+   "away": "MAFC",
+   "score": "16-18",
+   "url": "https://www.mksz.hu/jegyzokonyv/32021463068",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-22-fiu-u20-iii-o-osztalyozo-pse-feher",
+   "sport": "roplabda",
+   "date": "2026-11-22",
+   "time": "13:00",
+   "competition": "Fiú U20 I–II. o. osztályozó, B csoport",
+   "home": "MAFC Piros",
+   "away": "PSE Fehér",
+   "score": "0-3",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu16_145477",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "13:00",
+   "competition": "Fiú Kadett",
+   "home": "ZTE KK",
+   "away": "MAFC/A",
+   "score": "54-108",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu16/hunu16_145477",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_fkb_147907",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "13:15",
+   "competition": "Budapest, Fiú Kadett B",
+   "home": "MAFC U16",
+   "away": "Keresztúri SE/C",
+   "score": "78-85",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_fkb/hun_bud_fkb_147907",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu11_294",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "Budapesti Honvéd SE/B",
+   "away": "MAFC Bikszádi",
+   "score": "31-69",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu11/hunu11_294",
+   "status": "final"
+  },
+  {
+   "id": "mk-hunu11_296",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "competition": "Kenguru Kupa (U11)",
+   "home": "MAFC Bikszádi",
+   "away": "Kőbányai Darazsak/Pannónia",
+   "score": "86-18",
+   "url": "https://mkosz.hu/merkozes/x2627/hunu11/hunu11_296",
+   "status": "final"
+  },
+  {
+   "id": "mk-whun2b_140347",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "Fo-PU-Mix VESC",
+   "away": "MAFC",
+   "score": "60-61",
+   "url": "https://mkosz.hu/merkozes/x2627/whun2b/whun2b_140347",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140703",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC Martos",
+   "away": "Sportopus Fehérvár",
+   "score": "65-40",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140703",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-22-nb1-pse",
+   "sport": "roplabda",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "competition": "Férfi NB I Liga",
+   "home": "MAFC",
+   "away": "Pénzügyőr SE",
+   "score": "3-1",
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "final"
+  },
+  {
+   "id": "vl-313691",
+   "sport": "vizilabda",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "MAFC",
+   "away": "Óbudai Egyetem Kandó Sport Club",
+   "score": null,
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313691",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-hun3ki_140707",
+   "sport": "kosarlabda",
+   "date": "2026-11-22",
+   "time": "19:45",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "MAFC",
+   "away": "KKS",
+   "score": "60-57",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140707",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-11-23-leany-egyetemi-bajnoksag-szombathelyi-egyetemi-sp",
+   "sport": "kosarlabda",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "competition": "Leány egyetemi bajnokság, Nyugat",
+   "home": "Szombathelyi Egyetemi Sportegyesület",
+   "away": "BME-MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-23",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon. A mérkőzés a 2026-11-24-i ellenőrzéskor már nem szerepelt az MKOSZ napi műsorában (esetleg halasztották)."
+  },
+  {
+   "id": "hv-2026-11-23-noi-budapest-i-osztaly-panorama-se",
+   "sport": "roplabda",
+   "date": "2026-11-23",
+   "time": "19:00",
+   "competition": "Női Budapest I. osztály",
+   "home": "Panoráma SE",
+   "away": "MAFC-ÉPK",
+   "score": "0-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-23",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-23-ferfi-budapest-i-osztaly-beac",
+   "sport": "roplabda",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "BEAC",
+   "away": "MAFC-Vásárhelyi",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-23",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun_bud_rkfb_60",
+   "sport": "kosarlabda",
+   "date": "2026-11-23",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Kardinális",
+   "away": "E5vös Okapik",
+   "score": "72-40",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_60",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-23-ferfi-budapest-ii-osztal-mafc-ujbuda",
+   "sport": "roplabda",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "MAFC-BME",
+   "away": "MAFC-Újbuda",
+   "score": "2-3",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-23",
+   "status": "final"
+  },
+  {
+   "id": "mk-2026-11-23-fiu-egyetemi-bajnoksag-k-deac",
+   "sport": "kosarlabda",
+   "date": "2026-11-23",
+   "time": "20:30",
+   "competition": "Fiú egyetemi bajnokság, Kelet",
+   "home": "DEAC",
+   "away": "BME-MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-23",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon. A mérkőzés a 2026-11-24-i ellenőrzéskor már nem szerepelt az MKOSZ napi műsorában (esetleg halasztották)."
+  },
+  {
+   "id": "mk-hun_bud_rkfb_57",
+   "sport": "kosarlabda",
+   "date": "2026-11-23",
+   "time": "21:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Közgáz Leftoverz",
+   "away": "MAFC Martos",
+   "score": "64-83",
+   "url": "https://mkosz.hu/merkozes/x2627/hun_bud_rkfb/hun_bud_rkfb_57",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-24-ferfi-budapest-i-osztaly-se-sk",
+   "sport": "roplabda",
+   "date": "2026-11-24",
+   "time": "19:30",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "SE SK",
+   "away": "MAFC-Schönherz",
+   "score": "3-0",
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-24",
+   "status": "final"
+  },
+  {
+   "id": "mk-hun3ki_140693",
+   "sport": "kosarlabda",
+   "date": "2026-11-24",
+   "time": "20:40",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "Sportopus Fehérvár",
+   "away": "MAFC",
+   "score": "77-55",
+   "url": "https://mkosz.hu/merkozes/x2627/hun3ki/hun3ki_140693",
+   "status": "final"
+  },
+  {
+   "id": "hv-2026-11-25-ferfi-budapest-i-osztaly-oe-kando-sc",
+   "sport": "roplabda",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "competition": "Férfi Budapest I. osztály, A csoport",
+   "home": "ÓE-Kandó SC",
+   "away": "MAFC-Kármán",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-25",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "hv-2026-11-25-noi-budapest-ii-osztaly--radzeer-se",
+   "sport": "roplabda",
+   "date": "2026-11-25",
+   "time": "20:30",
+   "competition": "Női Budapest II. osztály, B csoport",
+   "home": "MAFC-BME",
+   "away": "Radzeer SE",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-25",
+   "status": "pending",
+   "note": "A hivatalos eredmény még nem jelent meg a szövetségi oldalon."
+  },
+  {
+   "id": "mk-2026-11-26-fiu-kadett-budapesti-honved-se-a",
+   "sport": "kosarlabda",
+   "date": "2026-11-26",
+   "time": "18:00",
+   "competition": "Fiú Kadett",
+   "home": "Budapesti Honvéd SE/A",
+   "away": "MAFC/B",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-26",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-26-ferfi-budapest-ii-osztal-wse",
+   "sport": "roplabda",
+   "date": "2026-11-26",
+   "time": "20:20",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "WSE",
+   "away": "MAFC-Újbuda",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-26",
+   "status": "scheduled"
+  },
+  {
+   "id": "kl-32021446611",
+   "sport": "kezilabda",
+   "date": "2026-11-27",
+   "time": "18:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "DABASI KC VSE",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446611",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-27-mk-dkse",
+   "sport": "roplabda",
+   "date": "2026-11-27",
+   "time": "19:30",
+   "competition": "Férfi Magyar Kupa, nyolcaddöntő",
+   "home": "DKSE",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=66&PID=78",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-27-ferfi-nb-ii-kiemelt-csop-beac",
+   "sport": "kosarlabda",
+   "date": "2026-11-27",
+   "time": "20:20",
+   "competition": "Férfi NB II. Kiemelt csoport",
+   "home": "BEAC",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-27",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-27-budapest-regionalis-kiem-monor-se",
+   "sport": "kosarlabda",
+   "date": "2026-11-27",
+   "time": "20:45",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Martos",
+   "away": "Monor SE",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-27",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-budapest-regiona-budaorsi-dse-csepel",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "10:00",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "Budaörsi DSE Csepel",
+   "away": "MAFC Kardinális",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hun_bud_rkfb/79059/mafc-kardinalis",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-gyermek-kupa-vasas-akademia-u12",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "10:30",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Gabányi",
+   "away": "Vasas Akadémia U12",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/2652/mafc-gabanyi",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-28-fiu-u14-iii-o-osztalyozo-szrse",
+   "sport": "roplabda",
+   "date": "2026-11-28",
+   "time": "11:00",
+   "competition": "Fiú U14 I–II. o. osztályozó, A csoport",
+   "home": "SZRSE",
+   "away": "MAFC Piros",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-28",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-gyermek-kupa-budapesti-honved-se-a",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "12:00",
+   "competition": "Gyermek Kupa",
+   "home": "Budapesti Honvéd SE/A",
+   "away": "MAFC Gabányi",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/2652/mafc-gabanyi",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-28-fiu-u14-iii-o-osztalyozo-deac",
+   "sport": "roplabda",
+   "date": "2026-11-28",
+   "time": "13:00",
+   "competition": "Fiú U14 I–II. o. osztályozó, A csoport",
+   "home": "MAFC Piros",
+   "away": "DEAC",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-28",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-nb-i-b-piros-cso-bkg-prima-akademia-u21",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "14:45",
+   "competition": "NB I. B Piros csoport, Fiú U21",
+   "home": "Újbuda MAFC U21",
+   "away": "BKG PRIMA Akadémia U21",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hun2au20/27010/ujbuda-mafc-u21",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-fiu-kadett-vasas-akademia-a",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "15:00",
+   "competition": "Fiú Kadett",
+   "home": "MAFC/A",
+   "away": "Vasas Akadémia/A",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu16/2067/mafc-a",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-28-ferfi-nb-i-b-pir-bkg-prima-akademia",
+   "sport": "kosarlabda",
+   "date": "2026-11-28",
+   "time": "17:30",
+   "competition": "Férfi NB I. B Piros csoport",
+   "home": "Újbuda MAFC",
+   "away": "BKG PRIMA Akadémia",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hun2a/9218/ujbuda-mafc",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-29-fiu-u18-iiiii-o-osztalyo-pse-feher",
+   "sport": "roplabda",
+   "date": "2026-11-29",
+   "time": "11:00",
+   "competition": "Fiú U18 II–III. o. osztályozó",
+   "home": "PSE Fehér",
+   "away": "MAFC Piros",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-29",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-budapest-fiu-serdulo-wsk-u14f",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "12:00",
+   "competition": "Budapest, Fiú Serdülő B",
+   "home": "MAFC-U14",
+   "away": "WSK U14F",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hun_bud_fsb/79105/mafc-u14",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-29-fiu-u18-iiiii-o-osztalyo-ikrenyi-dsk",
+   "sport": "roplabda",
+   "date": "2026-11-29",
+   "time": "13:00",
+   "competition": "Fiú U18 II–III. o. osztályozó",
+   "home": "MAFC Piros",
+   "away": "Ikrényi DSK",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-29",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-gyermek-kupa-ziccer-tigrisek",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "14:00",
+   "competition": "Gyermek Kupa",
+   "home": "Ziccer Tigrisek",
+   "away": "MAFC Mokos",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/787/mafc-mokos",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-gyermek-kupa-budapesti-honved-se-b",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "14:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Heisler",
+   "away": "Budapesti Honvéd SE/B",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/3085/mafc-heisler",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-gyermek-kupa-beac-ujbuda-ka-a",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "15:30",
+   "competition": "Gyermek Kupa",
+   "home": "BEAC Újbuda KA/A",
+   "away": "MAFC Heisler",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/3085/mafc-heisler",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-noi-amator-nb-i-feher-soproni-darazsak-akademia",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "16:00",
+   "competition": "Női Amatőr NB I. Fehér csoport",
+   "home": "MAFC",
+   "away": "Soproni Darazsak Akadémia",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/whun2b/51139/mafc",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-29-gyermek-kupa-blf-se-u12",
+   "sport": "kosarlabda",
+   "date": "2026-11-29",
+   "time": "17:00",
+   "competition": "Gyermek Kupa",
+   "home": "MAFC Mokos",
+   "away": "BLF SE U12",
+   "score": null,
+   "url": "https://mkosz.hu/csapat/x2627/hunu12/787/mafc-mokos",
+   "status": "scheduled"
+  },
+  {
+   "id": "vl-313707",
+   "sport": "vizilabda",
+   "date": "2026-11-29",
+   "time": "19:30",
+   "competition": "Budapesti Gyarmati Dezső Felnőtt Férfi Bajnokság",
+   "home": "III. Kerületi TVE Junior",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.waterpolo.hu/adatbank/meccs/313707",
+   "status": "scheduled"
+  },
+  {
+   "id": "mk-2026-11-30-budapest-regionalis-kiem-vashodok",
+   "sport": "kosarlabda",
+   "date": "2026-11-30",
+   "time": "20:15",
+   "competition": "Budapest, Regionális Kiemelt Férfi – Cziffra Mihály bajnokság",
+   "home": "MAFC Kardinális",
+   "away": "Vashódok",
+   "score": null,
+   "url": "https://mkosz.hu/musor/2026-11-30",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-11-30-ferfi-budapest-ii-osztal-pase",
+   "sport": "roplabda",
+   "date": "2026-11-30",
+   "time": "20:30",
+   "competition": "Férfi Budapest II. osztály",
+   "home": "MAFC-BME",
+   "away": "PASE",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-11-30",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-12-02-ferfi-budapest-i-oszt-mozdulj",
+   "sport": "roplabda",
+   "date": "2026-12-02",
+   "time": "20:30",
+   "competition": "Férfi Budapest I. osztály, B csoport",
+   "home": "MAFC-Schönherz",
+   "away": "Mozdulj",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-12-02",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-12-03-noi-budapest-i-osztaly-kre-sc-a",
+   "sport": "roplabda",
+   "date": "2026-12-03",
+   "time": "20:20",
+   "competition": "Női Budapest I. osztály",
+   "home": "MAFC-ÉPK",
+   "away": "KRE SC-A",
+   "score": null,
+   "url": "https://www.hunvolley.info/pr_a/010/200/p_200.asp?p_datum=2026-12-03",
+   "status": "scheduled"
+  },
+  {
+   "id": "kl-32021463258",
+   "sport": "kezilabda",
+   "date": "2026-12-06",
+   "time": "09:00",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "Budai Farkasok-Rév-Budakeszi",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.mksz.hu/jegyzokonyv/32021463258",
+   "status": "scheduled"
+  },
+  {
+   "id": "kl-32021463267",
+   "sport": "kezilabda",
+   "date": "2026-12-06",
+   "time": "13:35",
+   "competition": "Gyermekbajnokság U12 fiú – OGYB FU12 VII. csoport",
+   "home": "KSA Budapest",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.mksz.hu/jegyzokonyv/32021463267",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-12-06-mk-dkse",
+   "sport": "roplabda",
+   "date": "2026-12-06",
+   "time": "19:00",
+   "competition": "Férfi Magyar Kupa, nyolcaddöntő",
+   "home": "MAFC",
+   "away": "DKSE",
+   "score": null,
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=66&PID=78",
+   "status": "scheduled",
+   "note": "Visszavágó, Tungsram Csarnok."
+  },
+  {
+   "id": "kl-32021446620",
+   "sport": "kezilabda",
+   "date": "2026-12-09",
+   "time": "17:30",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "Gyömrői KA",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446620",
+   "status": "scheduled"
+  },
+  {
+   "id": "hv-2026-12-12-nb1-tfse",
+   "sport": "roplabda",
+   "date": "2026-12-12",
+   "time": "19:00",
+   "competition": "Férfi NB I Liga",
+   "home": "MAFC",
+   "away": "TFSE",
+   "score": null,
+   "url": "https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=65&PID=72",
+   "status": "scheduled"
+  },
+  {
+   "id": "kl-32021446653",
+   "sport": "kezilabda",
+   "date": "2027-02-13",
+   "time": "17:00",
+   "competition": "U16 fiú II. osztály – FU16 II. osztály-E",
+   "home": "ÓKSI SE",
+   "away": "MAFC",
+   "score": null,
+   "url": "https://www.mksz.hu/jegyzokonyv/32021446653",
+   "status": "scheduled"
+  }
+ ]
+}</script>
+<script>
+const SP={kosarlabda:"Kosárlabda",roplabda:"Röplabda",kezilabda:"Kézilabda",vizilabda:"Vízilabda"};
+const DAYS=["vasárnap","hétfő","kedd","szerda","csütörtök","péntek","szombat"];
+const MON=["január","február","március","április","május","június","július","augusztus","szeptember","október","november","december"];
+const isMafc=n=>/(^|[^A-Za-z])MAFC/.test(n||"");
+const mafcTeams=m=>[m.home,m.away].filter(isMafc);
+let D={matches:[],sources:[]};
+try{D=JSON.parse(document.getElementById("mafc-data").textContent)}catch(e){}
+let sport="all",q="",selAge="",selLvl="",selTeam="";
+const AGE_ORDER=["Felnőtt","Egyetemi","U21","U20","U19","U18","U16","U14","U12","U11","Ifjúsági","Serdülő","Gyermek","Baby"];
+const LVL_ORDER=["OB I","OB I/B","OB II","NB I","NB I/B","NB II","Amatőr NB I","I. osztály","II. osztály","III. osztály","Osztályozó","Országos","Regionális","Gyermekbajnokság","Egyetemi","3x3","Kupa","Egyéb"];
+const AGE_HINT={U19:"kosárlabdában: junior",U16:"kosárlabdában: kadett",U14:"kosárlabdában: serdülő",U12:"kosárlabdában: Gyermek Kupa, Kölykök Kupája",U11:"kosárlabdában: Kenguru Kupa"};
+function ageOf(m){
+  const c=m.competition||"";let x;
+  if((x=c.match(/\bU\s?(\d{2})\b/i)))return"U"+x[1];
+  if(/egyetemi/i.test(c))return"Egyetemi";
+  if(m.sport==="vizilabda"){
+    if(/ifjúsági/i.test(c))return"Ifjúsági";
+    if(/serdülő/i.test(c))return"Serdülő";
+    if(/gyermek/i.test(c))return"Gyermek";
+    if(/baby/i.test(c))return"Baby";
+    return"Felnőtt";
+  }
+  if(/junior/i.test(c))return"U19";
+  if(/kadett/i.test(c))return"U16";
+  if(/serdülő/i.test(c))return"U14";
+  if(/gyermek|kölyk/i.test(c))return"U12";
+  if(/kenguru/i.test(c))return"U11";
+  return"Felnőtt";
+}
+function lvlOf(m){
+  const c=m.competition||"";let x;
+  if(/osztályozó/i.test(c))return"Osztályozó";
+  if(/gyermekbajnokság/i.test(c))return"Gyermekbajnokság";
+  if(/kup(a|ój)/i.test(c))return"Kupa";
+  if(/3x3/i.test(c))return"3x3";
+  if(/egyetemi/i.test(c))return"Egyetemi";
+  if(/\bOB\s*I\s*\/\s*B\b/.test(c))return"OB I/B";
+  if(/\bOB\s*II\b/.test(c))return"OB II";
+  if(/\bOB\s*I\b/.test(c))return"OB I";
+  if(/amatőr\s+NB\s*I\b/i.test(c))return"Amatőr NB I";
+  if(/\bNB\s*II\b/.test(c))return"NB II";
+  if(/\bNB\s*I\.?\s*B\b/.test(c))return"NB I/B";
+  if(/\bNB\s*I\b/.test(c))return"NB I";
+  if((x=c.match(/(?:^|[\s(])(III|II|I)\.\s*o(?:sztály)?\b/)))return x[1]+". osztály";
+  if(/budapest|regionális/i.test(c))return"Regionális";
+  return m.sport==="kosarlabda"?"Országos":"Egyéb";
+}
+const okSport=m=>sport==="all"||m.sport===sport;
+const okQ=m=>!q||(m.home+" "+m.away+" "+m.competition).toLowerCase().includes(q);
+function pass(m,skip){
+  return okSport(m)&&okQ(m)&&(skip==="age"||!selAge||ageOf(m)===selAge)&&(skip==="lvl"||!selLvl||lvlOf(m)===selLvl)&&(skip==="team"||!selTeam||mafcTeams(m).includes(selTeam));
+}
+function facetRow(key,label,sel,vals,order,hint){
+  const cnt={};D.matches.filter(m=>pass(m,key)).forEach(m=>vals(m).forEach(v=>cnt[v]=(cnt[v]||0)+1));
+  if(sel&&!cnt[sel])cnt[sel]=0;
+  const rk=v=>{const i=order?order.indexOf(v):-1;return i<0?99:i};
+  const names=Object.keys(cnt).sort((a,b)=>order?rk(a)-rk(b)||a.localeCompare(b,"hu"):a.localeCompare(b,"hu"));
+  if(names.length<2&&!sel)return"";
+  return `<div class="bar tbar" data-k="${key}"><span class="tlab">${label}</span><button class="chip sm" data-v="" aria-pressed="${!sel}">Összes</button>`+
+    names.map(n=>`<button class="chip sm" data-v="${esc(n)}" aria-pressed="${sel===n}"${hint&&hint[n]?` title="${esc(hint[n])}"`:""}>${esc(n)}<span class="cnt">${cnt[n]}</span></button>`).join("")+`</div>`;
+}
+function renderFacets(){
+  let h=facetRow("age","Korosztály",selAge,m=>[ageOf(m)],AGE_ORDER,AGE_HINT);
+  if(sport!=="all")h+=facetRow("lvl","Szint",selLvl,m=>[lvlOf(m)],LVL_ORDER)+facetRow("team","Csapat",selTeam,mafcTeams,null);
+  document.getElementById("facets").innerHTML=h;
+}
+function outcome(m){
+  if(m.status==="pending")return"P";
+  if(m.status!=="final"||!m.score)return"S";
+  const [a,b]=m.score.split(/[-:–]/).map(x=>parseInt(x,10));
+  if(isNaN(a)||isNaN(b))return"S";
+  const homeM=isMafc(m.home),awayM=isMafc(m.away);
+  if(homeM&&awayM)return"S";
+  const mine=homeM?a:b,their=homeM?b:a;
+  return mine>their?"W":mine<their?"L":"D";
+}
+function fmtDay(d){const x=new Date(d+"T12:00:00");return `${x.getFullYear()}. ${MON[x.getMonth()]} ${x.getDate()}., ${DAYS[x.getDay()]}`}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function team(n){return isMafc(n)?`<span class="mafc">${esc(n)}</span>`:esc(n)}
+function render(){
+  const u=D.updated?new Date(D.updated):null;
+  document.getElementById("upd").textContent=u?u.toLocaleString("hu-HU",{year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit"}):"–";
+  renderFacets();
+  const ms=D.matches.filter(m=>pass(m,""));
+  const fin=ms.filter(m=>m.status==="final").map(outcome);
+  const w=fin.filter(x=>x==="W").length,l=fin.filter(x=>x==="L").length,up=ms.filter(m=>m.status==="scheduled"||m.status==="pending").length;
+  document.getElementById("stats").innerHTML=
+    `<div class="stat"><div class="n">${fin.length}</div><div class="l">lejátszott mérkőzés</div></div>`+
+    `<div class="stat w"><div class="n">${w}</div><div class="l">győzelem</div></div>`+
+    `<div class="stat lo"><div class="n">${l}</div><div class="l">vereség</div></div>`+
+    `<div class="stat"><div class="n">${up}</div><div class="l">várható / feldolgozás alatt</div></div>`;
+  const by={};ms.forEach(m=>(by[m.date]=by[m.date]||[]).push(m));
+  const days=Object.keys(by).sort().reverse();
+  const L=document.getElementById("list");
+  if(!days.length){L.innerHTML=`<div class="empty">Ebben a szűrésben még nincs MAFC-mérkőzés.</div>`;return}
+  L.innerHTML=days.map(d=>`<div class="day">${fmtDay(d)}</div>`+by[d].sort((a,b)=>(a.time||"").localeCompare(b.time||"")).map(m=>{
+    const o=outcome(m);
+    const badge={W:"GYŐZELEM",L:"VERESÉG",D:"DÖNTETLEN",P:"FELDOLGOZÁS",S:"VÁRHATÓ"}[o];
+    const cls=o;
+    const score=m.score?esc(m.score.replace("-"," – ")):"–";
+    const tag=m.url?"a":"div",href=m.url?` href="${esc(m.url)}" target="_blank" rel="noopener"`:"";
+    return `<${tag} class="m ${cls}"${href}>
+      <div><div class="t">${esc(m.time||"")}</div><div class="sport">${SP[m.sport]||""}</div></div>
+      <div><div class="comp">${esc(m.competition)}</div><div class="teams">${team(m.home)} <span style="color:var(--mute)">–</span> ${team(m.away)}</div>${m.note?`<div class="note">${esc(m.note)}</div>`:""}</div>
+      <div class="res"><div class="score">${score}</div><span class="badge b-${cls}">${badge}</span></div>
+    </${tag}>`}).join("")).join("");
+}
+document.getElementById("srcs").innerHTML=D.sources.map(s=>`<div class="s"><span class="dot ${s.status==="ok"?"":"limited"}"></span><b>${SP[s.sport]}</b> · <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><div style="margin-top:4px">${esc(s.note)}</div></div>`).join("");
+document.getElementById("filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;sport=b.dataset.s;selAge="";selLvl="";selTeam="";document.querySelectorAll("#filters .chip").forEach(c=>c.setAttribute("aria-pressed",c===b));render()});
+document.getElementById("facets").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.closest("[data-k]").dataset.k,v=b.dataset.v||"";if(k==="age")selAge=v;else if(k==="lvl")selLvl=v;else selTeam=v;render()});
+document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render()});
+render();
+</script>
+</body>
+</html>
