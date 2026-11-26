@@ -25,6 +25,25 @@ const { chromium } = require('playwright');
     try {
       await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
       await page.waitForTimeout(5000);
+      // A „Program és eredmények” dátumszűrőjét a teljes szezonra állítjuk (a felnőtt-típusú
+      // versenyoldalak alapból csak az aktuális hét körüli meccseket mutatják).
+      const now = new Date();
+      const y = now.getMonth() >= 6 ? now.getFullYear() : now.getFullYear() - 1;
+      const range = await page.evaluate(([start, end]) => {
+        let el = document.querySelector('input.datepicker');
+        while (el && !el.__vue__) el = el.parentElement;
+        for (let v = el && el.__vue__; v; v = v.$parent) {
+          if (v.$options.name === 'Program_eredmenyek_blokk') {
+            v.startDate = start; v.endDate = end; return true;
+          }
+        }
+        return false;
+      }, [`${y}.06.01.`, `${y + 1}.07.31.`]);
+      if (range) {
+        try { await page.waitForLoadState('networkidle', { timeout: 30000 }); } catch (e) {}
+        await page.waitForTimeout(4000);
+      }
+      console.log(`${name}: teljes szezonra állított dátumszűrő: ${range ? 'igen' : 'nem (nincs ilyen szűrő)'}`);
       // A lenyitható részek (pl. fordulók) kinyitása, ha vannak
       for (const b of await page.$$('button[aria-expanded="false"]')) {
         try { await b.click({ timeout: 1000 }); } catch (e) {}
