@@ -1,5 +1,5 @@
 # Forrás: https://www.mksz.hu/versenyek/upFerfiVersenyek/32027157/320229199
-# Mentve: 2026-11-26T19:52:38.748Z
+# Mentve: 2026-11-26T20:02:40.508Z
 
 Az oldal sütiket használ
 
@@ -37,6 +37,186 @@ PROGRAM ÉS EREDMÉNYEK
 /-tól
 /-ig
 DÁTUM	VERSENY	HELYSZÍN	HAZAI : VENDÉG	EREDMÉNY	
+2026.09.05. 14:00	1. forduló
+FU16 II. osztály-E	Gyáli Sportcsarnok és Kézilabda Képzési Központ
+Gyál	
+Gyömrői KA
+Gyáli BKSE
+	36:26	ONLINEJEGYZŐKÖNYV
+2026.09.10. 16:45	1. forduló
+FU16 II. osztály-E	Sportcsarnok
+Csömör	
+XVI Ker KMSE
+Csepel DSE
+	33:27	ONLINEJEGYZŐKÖNYV
+2026.09.12. 17:00	1. forduló
+FU16 II. osztály-E	Kerék u. Ált. Isk. spcs.
+Budapest	
+ÓKSI SE
+DABASI KC VSE
+	27:37	ONLINEJEGYZŐKÖNYV
+2026.09.13. 10:00	1. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+MAFC
+	37:40	ONLINEJEGYZŐKÖNYV
+2026.09.16. 18:00	3. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+Csepel DSE
+	39:29	ONLINEJEGYZŐKÖNYV
+2026.09.19. 17:00	2. forduló
+FU16 II. osztály-E	Kerék u. Ált. Isk. spcs.
+Budapest	
+ÓKSI SE
+Gyömrői KA
+	34:40	ONLINEJEGYZŐKÖNYV
+2026.09.19. 13:00	2. forduló
+FU16 II. osztály-E	SPORT11
+Budapest	
+MAFC
+DABASI KC VSE
+	34:50	ONLINEJEGYZŐKÖNYV
+2026.09.19. 11:00	2. forduló
+FU16 II. osztály-E	Gyáli Sportcsarnok és Kézilabda Képzési Központ
+Gyál	
+Gyáli BKSE
+XVI Ker KMSE
+	40:42	ONLINEJEGYZŐKÖNYV
+2026.09.20. 13:00	2. forduló
+FU16 II. osztály-E	Laurencz László Sportcsarnok
+Budapest	
+Csepel DSE
+RÁKOSMENTE
+	38:20	ONLINEJEGYZŐKÖNYV
+2026.09.24. 19:00	3. forduló
+FU16 II. osztály-E	Kerék u. Ált. Isk. spcs.
+Budapest	
+ÓKSI SE
+XVI Ker KMSE
+	30:32	ONLINEJEGYZŐKÖNYV
+2026.09.26. 15:00	3. forduló
+FU16 II. osztály-E	SPORT11
+Budapest	
+MAFC
+Gyömrői KA
+	29:55	ONLINEJEGYZŐKÖNYV
+2026.09.27. 12:00	3. forduló
+FU16 II. osztály-E	Gyáli Sportcsarnok és Kézilabda Képzési Központ
+Gyál	
+Gyáli BKSE
+RÁKOSMENTE
+	36:19	ONLINEJEGYZŐKÖNYV
+2026.09.30. 16:00	4. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+Gyáli BKSE
+	52:22	ONLINEJEGYZŐKÖNYV
+2026.10.04. 17:00	4. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+ÓKSI SE
+	24:33	ONLINEJEGYZŐKÖNYV
+2026.10.04. 16:00	4. forduló
+FU16 II. osztály-E	Ignácz Ilona Sportcsarnok
+Gyömrő	
+Gyömrői KA
+Csepel DSE
+	53:41	ONLINEJEGYZŐKÖNYV
+2026.10.10. 12:00	4. forduló
+FU16 II. osztály-E	Sportcsarnok
+Csömör	
+XVI Ker KMSE
+MAFC
+	35:27	ONLINEJEGYZŐKÖNYV
+2026.10.16. 17:00	5. forduló
+FU16 II. osztály-E	SPORT11
+Budapest	
+MAFC
+ÓKSI SE
+	28:29	ONLINEJEGYZŐKÖNYV
+2026.10.16. 17:30	5. forduló
+FU16 II. osztály-E	Sportcsarnok
+Csömör	
+XVI Ker KMSE
+RÁKOSMENTE
+	48:22	ONLINEJEGYZŐKÖNYV
+2026.10.17. 14:30	5. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+Gyömrői KA
+	31:26	ONLINEJEGYZŐKÖNYV
+2026.10.18. 11:00	5. forduló
+FU16 II. osztály-E	Laurencz László Sportcsarnok
+Budapest	
+Csepel DSE
+Gyáli BKSE
+	26:32	ONLINEJEGYZŐKÖNYV
+2026.10.29. 10:00	6. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+XVI Ker KMSE
+	36:34	ONLINEJEGYZŐKÖNYV
+2026.10.31. 17:00	6. forduló
+FU16 II. osztály-E	Kerék u. Ált. Isk. spcs.
+Budapest	
+ÓKSI SE
+Csepel DSE
+	26:32	ONLINEJEGYZŐKÖNYV
+2026.10.31. 10:00	6. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+Gyömrői KA
+	24:43	ONLINEJEGYZŐKÖNYV
+2026.10.31. 15:00	6. forduló
+FU16 II. osztály-E	Gyáli Sportcsarnok és Kézilabda Képzési Központ
+Gyál	
+Gyáli BKSE
+MAFC
+	31:33	ONLINEJEGYZŐKÖNYV
+2026.11.11. 16:00	7. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+RÁKOSMENTE
+	42:10	ONLINEJEGYZŐKÖNYV
+2026.11.15. 13:00	7. forduló
+FU16 II. osztály-E	Laurencz László Sportcsarnok
+Budapest	
+Csepel DSE
+MAFC
+	45:37	ONLINEJEGYZŐKÖNYV
+2026.11.15. 15:00	7. forduló
+FU16 II. osztály-E	Gyáli Sportcsarnok és Kézilabda Képzési Központ
+Gyál	
+Gyáli BKSE
+ÓKSI SE
+	32:30	ONLINEJEGYZŐKÖNYV
+2026.11.15. 14:00	7. forduló
+FU16 II. osztály-E	Ignácz Ilona Sportcsarnok
+Gyömrő	
+Gyömrői KA
+XVI Ker KMSE
+	43:29	ONLINEJEGYZŐKÖNYV
+2026.11.18. 17:00	8. forduló
+FU16 II. osztály-E	SPORT11
+Budapest	
+MAFC
+RÁKOSMENTE
+	36:25	ONLINEJEGYZŐKÖNYV
+2026.11.18. 16:00	8. forduló
+FU16 II. osztály-E	OBO Aréna
+Dabas	
+DABASI KC VSE
+ÓKSI SE
+	32:23	ONLINEJEGYZŐKÖNYV
 2026.11.22. 13:00	8. forduló
 FU16 II. osztály-E	Laurencz László Sportcsarnok
 Budapest	
@@ -60,6 +240,48 @@ FU16 II. osztály-E	Sportcsarnok
 Csömör	
 XVI Ker KMSE
 Gyáli BKSE
+		ONLINEJEGYZŐKÖNYV
+2026.12.06. 15:00	9. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+Csepel DSE
+		ONLINEJEGYZŐKÖNYV
+2026.12.06. 12:00	9. forduló
+FU16 II. osztály-E	Ignácz Ilona Sportcsarnok
+Gyömrő	
+Gyömrői KA
+ÓKSI SE
+		ONLINEJEGYZŐKÖNYV
+2026.12.09. 17:30	10. forduló
+FU16 II. osztály-E	Ignácz Ilona Sportcsarnok
+Gyömrő	
+Gyömrői KA
+MAFC
+		ONLINEJEGYZŐKÖNYV
+2026.12.13. 18:00	10. forduló
+FU16 II. osztály-E	Laurencz László Sportcsarnok
+Budapest	
+Csepel DSE
+DABASI KC VSE
+		ONLINEJEGYZŐKÖNYV
+2026.12.13. 14:00	10. forduló
+FU16 II. osztály-E	Újlak utcai Ált.Isk. spcs.
+Budapest	
+RÁKOSMENTE
+Gyáli BKSE
+		ONLINEJEGYZŐKÖNYV
+2026.12.13. 16:00	10. forduló
+FU16 II. osztály-E	Sportcsarnok
+Csömör	
+XVI Ker KMSE
+ÓKSI SE
+		ONLINEJEGYZŐKÖNYV
+2027.02.13. 17:00	12. forduló
+FU16 II. osztály-E	Kerék u. Ált. Isk. spcs.
+Budapest	
+ÓKSI SE
+MAFC
 		ONLINEJEGYZŐKÖNYV
 NAPI MŰSOR
 STATISZTIKA
