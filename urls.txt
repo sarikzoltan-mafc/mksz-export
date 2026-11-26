@@ -1,0 +1,3 @@
+# Egy sor = egy figyelt MKSZ-oldal: <rövid név> <teljes URL>
+# Újabb oldal (pl. U14) felvételéhez írj ide egy új sort.
+u12-fiu https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027266/320229495
