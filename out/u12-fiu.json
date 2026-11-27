@@ -1,120 +1,7 @@
 {
  "source": "https://www.mksz.hu/versenyek-gyermekkezilabda/upFerfiVersenyek/32027266/320229495",
- "saved": "2026-11-26T23:02:30.391Z",
+ "saved": "2026-11-27T07:24:46.093Z",
  "responses": [
-  {
-   "url": "https://public.mksz.hu/public/api/v1/banner/POZICIO_ALSO",
-   "body": [
-    {
-     "id": 345,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://kormany.hu/kormanyzat/belugyminiszterium",
-     "dokumentumId": 30438544,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/07/01/30438544-BM_Allamtitkarsag.png"
-    },
-    {
-     "id": 242,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.szerencsejatek.hu/",
-     "dokumentumId": 46,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/46-mkszsponsor_banner1280x290_tippmix.jpg"
-    },
-    {
-     "id": 280,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://mol.hu/hu/",
-     "dokumentumId": 1314425,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/1314425-MOL%20banner.png"
-    },
-    {
-     "id": 338,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.obi.hu/",
-     "dokumentumId": 30340276,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340276-1280x290_OBI.jpg"
-    },
-    {
-     "id": 344,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.alfa.hu/",
-     "dokumentumId": 30340283,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340283-1280x290_ALFA%20%28002%29.jpg"
-    },
-    {
-     "id": 254,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://jysk.hu/",
-     "dokumentumId": 58,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/58-mkszsponsor_banner1280x290_jysk.jpg"
-    },
-    {
-     "id": 324,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.kh.hu/bank",
-     "dokumentumId": 2876729,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/08/19/2876729-1280x290%20K%26HLiga.jpg"
-    },
-    {
-     "id": 311,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.telekom.hu/lakossagi",
-     "dokumentumId": 2741126,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/03/26/2741126-MKSZSponsors_1280x290_T2.jpg"
-    },
-    {
-     "id": 293,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.mueller.co.hu/",
-     "dokumentumId": 2081407,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2024/02/20/2081407-M%C3%BCller%20banner%20honlap.png"
-    },
-    {
-     "id": 314,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.henkel.hu/",
-     "dokumentumId": 2776500,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/04/24/2776500-1280x290%20Henkel.jpg"
-    },
-    {
-     "id": 329,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://toyotakovacs.hu/",
-     "dokumentumId": 30119124,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/11/26/30119124-1280x290_px.jpg"
-    },
-    {
-     "id": 266,
-     "ev": 2022,
-     "sportagKod": "SPAG_1",
-     "pozicio": "POZICIO_ALSO",
-     "link": "https://www.nemzetisport.hu/",
-     "dokumentumId": 72,
-     "kepUrl": "https://cdn.mksz.hu/mksz-public/72-mkszsponsor_banner1280x290_nemzetisport.jpg"
-    }
-   ]
-  },
   {
    "url": "https://public.mksz.hu/public/api/v1/evad",
    "body": [
@@ -1020,7 +907,7 @@
      "orszagId": 27,
      "orszagNev": null,
      "cimerId": 2830557,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5c4995134ea7cb1a6af72930014a14f049c38911b253608d9f6873d67c67b81b",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/2025/06/24/1db6fbe1-c4eb-4423-8e7c-c60cc443ea59/Flag_of_Brazil.svg.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T192958Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5da5551a1798f0942265e8f9fe7aa994297369270cf7f756d2e6474e3d27f57b",
      "korosztalyKod": "VAL_KOROSZT_IFJ",
      "korosztalyNev": "Ifjúsági válogatott korosztály"
     },
@@ -1163,7 +1050,7 @@
      "orszagId": 1,
      "orszagNev": "Magyarország",
      "cimerId": 858330,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d4196bd2ab4f515ab33e462f843e5f426e91697afbbb02c5e9cdf51c9736e3cd",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/e77ac4b7-9764-4541-a8c7-78d88f209f35/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T192958Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=96cf277f29e42660fe1a4ed5b95978fe02f096c48ad364c0a521d0f39de295bc",
      "korosztalyKod": "VAL_KOROSZT_JUN",
      "korosztalyNev": "Junior válogatott korosztály"
     },
@@ -1397,7 +1284,7 @@
      "orszagId": 104,
      "orszagNev": null,
      "cimerId": 1956570,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c3126d579a5ee9572d4ee4f39c4876c6a0f73cf3793af5fe40cd36fb70563a75",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/c0badd27-beb8-4b0b-891f-9bb501179f11/let%C3%B6lt%C3%A9s%20%286%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T192958Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0c247316b40a871a8fd023f98236f41aab91842a961735607749e3224792da59",
      "korosztalyKod": "VAL_KOROSZT_FEL",
      "korosztalyNev": "Felnőtt válogatott korosztály"
     },
@@ -1618,7 +1505,7 @@
      "orszagId": 1,
      "orszagNev": "Magyarország",
      "cimerId": 858357,
-     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T185919Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=902dc58e03da367845f839ba26a0d3a8fe47bf409aca894903f248a63cc3eff9",
+     "cimerUrl": "https://cdn.mksz.hu/mksz/base/bd1f2c42-2bcd-43b3-a882-98839604e142/Magyarorszag_cimer.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=L9YHNYO378470KBT9LIP%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T192958Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8cd94734197d0d01489aa8a04da6f38e2636ee7053bb8af2f1eedbe7358c6e91",
      "korosztalyKod": "VAL_KOROSZT_JUN",
      "korosztalyNev": "Junior válogatott korosztály"
     },
@@ -2223,61 +2110,115 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/program",
+   "url": "https://public.mksz.hu/public/api/v1/banner/POZICIO_ALSO",
    "body": [
     {
-     "merkozesId": 32021459807,
-     "sportesemenyId": 32025759,
-     "sportesemenyNev": "Női felnőtt válogatott",
-     "sportesemenyRovidNev": "Női felnőtt válogatott",
+     "id": 345,
+     "ev": 2022,
      "sportagKod": "SPAG_1",
-     "evadEv": 2026,
-     "evadNev": "2026/2027",
-     "foversenyId": 32027163,
-     "foversenyRovidNev": "Felnőtt válogatott felkészülési mérkőzések",
-     "foversenyNev": "Felnőtt válogatott felkészülési mérkőzések",
-     "nem": "N",
-     "korosztalyId": 12020648,
-     "korosztalyNev": "Felnőtt",
-     "alversenyId": 320229559,
-     "alversenyNev": "JYSK-kupa",
-     "alversenyRovidNev": "JYSK-kupa",
-     "letesitmenyId": 903,
-     "letesitmenyNev": "Multifunkciós Csarnok",
-     "letesitmenyCim": "Tatabánya",
-     "letesitmenyAlpalyaId": null,
-     "letesitmenyAlpalyaNev": null,
-     "hazaiCsapatId": 3810389366,
-     "hazaiSportszervezetId": null,
-     "hazaiLogoDokumentumId": null,
-     "hazaiValogatottLogoDokumentumId": 4,
-     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/4-hun_flag.jpeg",
-     "hazaiCsapatNev": "Magyarország női felnőtt",
-     "hazaiCsapatRovidNev": "Magyarország",
-     "hazaiCsapatGol": null,
-     "hazaiCsapatFelidoGol": null,
-     "hazaiOrszag": "HUN",
-     "vendegCsapatId": 3810389372,
-     "vendegSportszervezetId": null,
-     "vendegLogoDokumentumId": null,
-     "vendegValogatottLogoDokumentumId": 1846190,
-     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/03/1846190-Austria.svg.png",
-     "vendegCsapatNev": "Ausztria női felnőtt",
-     "vendegCsapatRovidNev": "Ausztria",
-     "vendegCsapatGol": null,
-     "vendegCsapatFelidoGol": null,
-     "vendegOrszag": "AUT",
-     "merkozesDatum": "2026-11-27T18:00:00.000",
-     "merkozesDatumNap": "2026-11-27T00:00:00.000",
-     "merkozesStatusz": "IDOPONT_ELFOGADVA",
-     "globalisVersenyKod": "VALOGATOTT_VERSENY",
-     "globalisVersenyNev": "Válogatott verseny",
-     "videoUrl": null,
-     "nezoszam": null,
-     "fordulo": 1,
-     "forduloKezdete": null,
-     "forduloVege": null,
-     "foversenySorrend": 0
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://kormany.hu/kormanyzat/belugyminiszterium",
+     "dokumentumId": 30438544,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/07/01/30438544-BM_Allamtitkarsag.png"
+    },
+    {
+     "id": 242,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.szerencsejatek.hu/",
+     "dokumentumId": 46,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/46-mkszsponsor_banner1280x290_tippmix.jpg"
+    },
+    {
+     "id": 280,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://mol.hu/hu/",
+     "dokumentumId": 1314425,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/1314425-MOL%20banner.png"
+    },
+    {
+     "id": 338,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.obi.hu/",
+     "dokumentumId": 30340276,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340276-1280x290_OBI.jpg"
+    },
+    {
+     "id": 344,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.alfa.hu/",
+     "dokumentumId": 30340283,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2026/03/18/30340283-1280x290_ALFA%20%28002%29.jpg"
+    },
+    {
+     "id": 254,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://jysk.hu/",
+     "dokumentumId": 58,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/58-mkszsponsor_banner1280x290_jysk.jpg"
+    },
+    {
+     "id": 324,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.kh.hu/bank",
+     "dokumentumId": 2876729,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/08/19/2876729-1280x290%20K%26HLiga.jpg"
+    },
+    {
+     "id": 293,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.mueller.co.hu/",
+     "dokumentumId": 2081407,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2024/02/20/2081407-M%C3%BCller%20banner%20honlap.png"
+    },
+    {
+     "id": 311,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.telekom.hu/lakossagi",
+     "dokumentumId": 2741126,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/03/26/2741126-MKSZSponsors_1280x290_T2.jpg"
+    },
+    {
+     "id": 329,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://toyotakovacs.hu/",
+     "dokumentumId": 30119124,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/11/26/30119124-1280x290_px.jpg"
+    },
+    {
+     "id": 314,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.henkel.hu/",
+     "dokumentumId": 2776500,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/2025/04/24/2776500-1280x290%20Henkel.jpg"
+    },
+    {
+     "id": 266,
+     "ev": 2022,
+     "sportagKod": "SPAG_1",
+     "pozicio": "POZICIO_ALSO",
+     "link": "https://www.nemzetisport.hu/",
+     "dokumentumId": 72,
+     "kepUrl": "https://cdn.mksz.hu/mksz-public/72-mkszsponsor_banner1280x290_nemzetisport.jpg"
     }
    ]
   },
@@ -2521,63 +2462,63 @@
    }
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
-   "body": {
-    "alapfok": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "kozepfok": [],
-    "felsofok": [],
-    "ehf": [],
-    "eronleti": [],
-    "kezilabdaedzo": [],
-    "kapusedzo": [],
-    "strandedzo": [],
-    "kerekesszekedzo": [
-     {
-      "id": 202213,
-      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
-      "helyszin": "Online",
-      "evadId": "2026/2027",
-      "tipusKod": "TANFTIP_5",
-      "tipusKodNev": "Játékvezetői tanfolyam",
-      "szintKod": "NEKSZINT_1",
-      "szintKodNev": "alapfok",
-      "kezdoDatum": "2026-10-19T00:00:00.000",
-      "zaroDatum": "2027-01-31T00:00:00.000",
-      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
-      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
-      "minLetszam": null,
-      "maxLetszam": 500,
-      "allapot": 1
-     }
-    ],
-    "csorgolabdaedzo": []
-   }
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/nek-tovabbkepzes/list",
-   "body": {
-    "kozponti": [],
-    "teruleti": [],
-    "egyeb": []
-   }
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/program",
+   "body": [
+    {
+     "merkozesId": 32021459807,
+     "sportesemenyId": 32025759,
+     "sportesemenyNev": "Női felnőtt válogatott",
+     "sportesemenyRovidNev": "Női felnőtt válogatott",
+     "sportagKod": "SPAG_1",
+     "evadEv": 2026,
+     "evadNev": "2026/2027",
+     "foversenyId": 32027163,
+     "foversenyRovidNev": "Felnőtt válogatott felkészülési mérkőzések",
+     "foversenyNev": "Felnőtt válogatott felkészülési mérkőzések",
+     "nem": "N",
+     "korosztalyId": 12020648,
+     "korosztalyNev": "Felnőtt",
+     "alversenyId": 320229559,
+     "alversenyNev": "JYSK-kupa",
+     "alversenyRovidNev": "JYSK-kupa",
+     "letesitmenyId": 903,
+     "letesitmenyNev": "Multifunkciós Csarnok",
+     "letesitmenyCim": "Tatabánya",
+     "letesitmenyAlpalyaId": null,
+     "letesitmenyAlpalyaNev": null,
+     "hazaiCsapatId": 3810389366,
+     "hazaiSportszervezetId": null,
+     "hazaiLogoDokumentumId": null,
+     "hazaiValogatottLogoDokumentumId": 4,
+     "hazaiLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/09/4-hun_flag.jpeg",
+     "hazaiCsapatNev": "Magyarország női felnőtt",
+     "hazaiCsapatRovidNev": "Magyarország",
+     "hazaiCsapatGol": null,
+     "hazaiCsapatFelidoGol": null,
+     "hazaiOrszag": "HUN",
+     "vendegCsapatId": 3810389372,
+     "vendegSportszervezetId": null,
+     "vendegLogoDokumentumId": null,
+     "vendegValogatottLogoDokumentumId": 1846190,
+     "vendegLogoUrl": "https://cdn.mksz.hu/mksz-public/2026/07/03/1846190-Austria.svg.png",
+     "vendegCsapatNev": "Ausztria női felnőtt",
+     "vendegCsapatRovidNev": "Ausztria",
+     "vendegCsapatGol": null,
+     "vendegCsapatFelidoGol": null,
+     "vendegOrszag": "AUT",
+     "merkozesDatum": "2026-11-27T18:00:00.000",
+     "merkozesDatumNap": "2026-11-27T00:00:00.000",
+     "merkozesStatusz": "IDOPONT_ELFOGADVA",
+     "globalisVersenyKod": "VALOGATOTT_VERSENY",
+     "globalisVersenyNev": "Válogatott verseny",
+     "videoUrl": null,
+     "nezoszam": null,
+     "fordulo": 1,
+     "forduloKezdete": null,
+     "forduloVege": null,
+     "foversenySorrend": 0
+    }
+   ]
   },
   {
    "url": "https://public.mksz.hu/public/api/v1/modulok",
@@ -2641,47 +2582,6 @@
      "id": "12",
      "nev": "jatekos_idenyek",
      "ertek": true
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
-   "body": [
-    {
-     "id": 32027266,
-     "rovidNev": "Gyermekbajnokság FU12",
-     "nev": "Gyermekbajnokság FU12",
-     "nem": "F",
-     "korosztalyId": 12020669,
-     "korosztalyNev": "FU12",
-     "sportagKod": "SPAG_1",
-     "sportagNev": "Teremkézilabda",
-     "sportesemenyId": 32025808,
-     "sportesemenyNev": "Gyermekbajnokság U12",
-     "sportesemenyRovidNev": "Gyermekbajnokság U12",
-     "sportesemenyTipusKod": "SPETIP_HIV",
-     "sportesemenyTipusNev": "Hivatalos verseny",
-     "evadNev": "2026/2027",
-     "globalisVersenyKod": "GYERMEK_BAJNOKSAG",
-     "globalisVersenyNev": "Gyermekbajnokság",
-     "evadEv": 2026,
-     "foversenySorrend": 5,
-     "publicUrl": null,
-     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
-     "alversenyList": [
-      {
-       "id": 320229495,
-       "rovidNev": "OGYB FU12 VII. csoport",
-       "nev": "OGYB FU12 VII. csoport",
-       "foversenyId": 32027266,
-       "alversenySorrend": 7,
-       "tipusKod": "SPETIP_HIV",
-       "kitehetoIg": "2027-06-30T00:00:00.000",
-       "kitehetoTol": "2026-09-15T00:00:00.000",
-       "sorsolasMegjelenitendo": 1,
-       "tabellaMegjelenitendo": 0
-      }
-     ]
     }
    ]
   },
@@ -2821,770 +2721,100 @@
    ]
   },
   {
-   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
+   "url": "https://public.mksz.hu/public/api/v1/nek-tanfolyam/list",
+   "body": {
+    "alapfok": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "kozepfok": [],
+    "felsofok": [],
+    "ehf": [],
+    "eronleti": [],
+    "kezilabdaedzo": [],
+    "kapusedzo": [],
+    "strandedzo": [],
+    "kerekesszekedzo": [
+     {
+      "id": 202213,
+      "nev": "Alapfokú játékvezetői tanfolyam 2026/2027.",
+      "helyszin": "Online",
+      "evadId": "2026/2027",
+      "tipusKod": "TANFTIP_5",
+      "tipusKodNev": "Játékvezetői tanfolyam",
+      "szintKod": "NEKSZINT_1",
+      "szintKodNev": "alapfok",
+      "kezdoDatum": "2026-10-19T00:00:00.000",
+      "zaroDatum": "2027-01-31T00:00:00.000",
+      "jelentkezesKezdoDatum": "2026-09-30T00:00:00.000",
+      "jelentkezesZaroDatum": "2026-11-30T00:00:00.000",
+      "minLetszam": null,
+      "maxLetszam": 500,
+      "allapot": 1
+     }
+    ],
+    "csorgolabdaedzo": []
+   }
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/nek-tovabbkepzes/list",
+   "body": {
+    "kozponti": [],
+    "teruleti": [],
+    "egyeb": []
+   }
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/foversenyekalversenyek",
    "body": [
     {
-     "id": 1,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "MKSZ iroda",
-     "sorrend": 1,
-     "tagList": [
-      {
-       "id": 1,
-       "beosztas": "operatív igazgató, igazgatótanács elnöke",
-       "teljes_nev": "NOVÁK ANDRÁS",
-       "telefonszam": "+3614354230",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 44,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Főtitkár titkársága",
-     "sorrend": 2,
-     "tagList": [
-      {
-       "id": 227,
-       "beosztas": "főtitkár",
-       "teljes_nev": "HORVÁTH GABRIELLA",
-       "telefonszam": "+3614354200",
-       "email": "mksz@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 230,
-       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
-       "teljes_nev": "VERNES DOROTTYA",
-       "telefonszam": "+3614354219",
-       "email": "vernes.dorottya@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      }
-     ]
-    },
-    {
-     "id": 4,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Igazgatótanács titkársága",
-     "sorrend": 3,
-     "tagList": [
-      {
-       "id": 16,
-       "beosztas": "titkárságvezető, média munkatárs",
-       "teljes_nev": "SZABÓ FRUZSINA",
-       "telefonszam": "+3614354231",
-       "email": "szabo.fruzsina@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 19,
-       "beosztas": "informatikai igazgató",
-       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
-       "telefonszam": null,
-       "email": "kovacs.krisztian@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 244,
-       "beosztas": "humánerőforrás vezető",
-       "teljes_nev": "FEHÉR ERIKA PIROSKA",
-       "telefonszam": "+3614354218",
-       "email": "feher.erika@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 319,
-       "beosztas": "recepciós asszisztens",
-       "teljes_nev": "PERÁK CSENGE",
-       "telefonszam": "+3614354230",
-       "email": "perak.csenge@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 357,
-       "beosztas": "operatív igazgatóhelyettes",
-       "teljes_nev": "BARDÓCZY GÁBOR",
-       "telefonszam": "+3614354234",
-       "email": "bardoczy.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 39,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Jogi és stratégiai igazgatóság",
-     "sorrend": 4,
-     "tagList": [
-      {
-       "id": 180,
-       "beosztas": "Igazgatótanács elnök - helyettes",
-       "teljes_nev": "PRÉMECZ ATTILA",
-       "telefonszam": "+3614354259",
-       "email": "premecz.attila@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 183,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "DRISZKU KLAUDIA",
-       "telefonszam": "+3614354217",
-       "email": "driszku.klaudia@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      },
-      {
-       "id": 184,
-       "beosztas": "jogi szakértő",
-       "teljes_nev": "GÁVAI SZONJA",
-       "telefonszam": "+3614354217",
-       "email": "gavai.szonja@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 3
-      },
-      {
-       "id": 344,
-       "beosztas": "képzési jogi munkatárs",
-       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
-       "telefonszam": "+3614354222",
-       "email": "balega.noemi@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 4
-      },
-      {
-       "id": 348,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
-       "telefonszam": "+3614354222",
-       "email": "hikade.imola@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 359,
-       "beosztas": "oktatásszervezési szakértő",
-       "teljes_nev": "ILLÉS NÓRA",
-       "telefonszam": "+3614354250",
-       "email": "illes.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      }
-     ]
-    },
-    {
-     "id": 7,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Pénzügyi és gazdasági igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 25,
-       "beosztas": "gazdasági és pénzügyi igazgató",
-       "teljes_nev": "HUSVÉTH PETRA",
-       "telefonszam": "+3614354253",
-       "email": "husveth.petra@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 28,
-       "beosztas": "kontrolling vezető",
-       "teljes_nev": "BOGNÁR TIBOR",
-       "telefonszam": "+3614354257",
-       "email": "bognar.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 31,
-       "beosztas": "elszámolási vezető",
-       "teljes_nev": "SCHMELÁS PÉTER",
-       "telefonszam": "+3614354265",
-       "email": "schmelas.peter@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 34,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "LÁSZLÓ PIROSKA",
-       "telefonszam": "+3614354247",
-       "email": "laszlo.piroska@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 37,
-       "beosztas": "támogatás előkészítési vezető",
-       "teljes_nev": "BÁLEGA TIBOR",
-       "telefonszam": "+3614354251",
-       "email": "balega.tibor@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 40,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "KRÉKITY NÓRA",
-       "telefonszam": null,
-       "email": "krekity.nora@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 46,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "MÉSZÁROS ANDREA",
-       "telefonszam": "+3614354249",
-       "email": "meszaros.andrea@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 177,
-       "beosztas": "kontrolling szakértő",
-       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
-       "telefonszam": "+3614354251",
-       "email": "liszt.katalin@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 208,
-       "beosztas": "gazdasági ügyintéző",
-       "teljes_nev": "IKKER EDIT",
-       "telefonszam": "+3614354270",
-       "email": "ikker.edit@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 248,
-       "beosztas": "pénzügyi munkatárs",
-       "teljes_nev": "SZEMES NIKOLETT",
-       "telefonszam": null,
-       "email": "szemes.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      }
-     ]
-    },
-    {
-     "id": 10,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "TAO igazgatóság",
-     "sorrend": 5,
-     "tagList": [
-      {
-       "id": 52,
-       "beosztas": "TAO igazgató",
-       "teljes_nev": "EMBER ÁRON",
-       "telefonszam": "+3614354234",
-       "email": "ember.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 55,
-       "beosztas": "TAO irodavezető",
-       "teljes_nev": "KOVÁCS ADÉL",
-       "telefonszam": "+3614354234",
-       "email": "kovacs.adel@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 58,
-       "beosztas": "TAO igazgató-helyettes",
-       "teljes_nev": "PUSZTAI MÁRTON",
-       "telefonszam": "+3614354258",
-       "email": "pusztai.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 64,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "VIRÁG ANDRÁS",
-       "telefonszam": "+3614354245",
-       "email": "virag.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 24
-      },
-      {
-       "id": 67,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "NAGY ZSUZSANNA",
-       "telefonszam": "+3614354244",
-       "email": "nagy.zsuzsanna@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 76,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BORUS ATTILA",
-       "telefonszam": "0614354276",
-       "email": "borus.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 14
-      },
-      {
-       "id": 79,
-       "beosztas": "TAO jóváhagyási szakértő",
-       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
-       "telefonszam": "+3614354258",
-       "email": "orhegyi.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 82,
-       "beosztas": "TAO ellenőrzési csoportvezető",
-       "teljes_nev": "LUKÁCS MÁRTON",
-       "telefonszam": "+3614354243",
-       "email": "lukacs.marton@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 236,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "GÖRGICS MÓNIKA",
-       "telefonszam": "+3614354262",
-       "email": "gorgics.monika@mksz.hu",
-       "titulus": null,
-       "sorrend": 16
-      },
-      {
-       "id": 238,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "SZABÓ BALÁZS",
-       "telefonszam": "06207711482",
-       "email": "szabo.balazs.tao@mksz.hu",
-       "titulus": null,
-       "sorrend": 22
-      },
-      {
-       "id": 307,
-       "beosztas": "TAO jóváhagyási munkatárs",
-       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
-       "telefonszam": "+3614354258",
-       "email": "varga.krisztina@mksz.hu",
-       "titulus": null,
-       "sorrend": 10
-      },
-      {
-       "id": 314,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "FARKAS RÓBERT ZSOLT",
-       "telefonszam": "+36305717946",
-       "email": "farkas.robert@mksz.hu",
-       "titulus": null,
-       "sorrend": 25
-      },
-      {
-       "id": 316,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "TAKÁCS ZALÁN",
-       "telefonszam": "+36304694978",
-       "email": "takacs.zalan@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      },
-      {
-       "id": 337,
-       "beosztas": "TAO ellenőrzési munkatárs",
-       "teljes_nev": "BLAYER ZSÓFIA",
-       "telefonszam": "+3614354242",
-       "email": "blayer.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 26
-      }
-     ]
-    },
-    {
-     "id": 19,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Utánpótlás-fejlesztési igazgatóság",
-     "sorrend": 6,
-     "tagList": [
-      {
-       "id": 251,
-       "beosztas": "utánpótlás szakmai vezető",
-       "teljes_nev": "HORVÁTH LÁSZLÓ",
-       "telefonszam": null,
-       "email": "horvath.laszlo@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 254,
-       "beosztas": "iskolai programvezető",
-       "teljes_nev": "GYÖMÖREY ISTVÁN",
-       "telefonszam": null,
-       "email": "gyomorey.istvan@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 261,
-       "beosztas": "sportszakmai koordinátor",
-       "teljes_nev": "MÓROCZ RÉKA",
-       "telefonszam": "+36300117074",
-       "email": "morocz.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 306,
-       "beosztas": "utánpótlás fejlesztési koordinátor",
-       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
-       "telefonszam": "+3614354236",
-       "email": "rubint.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 339,
-       "beosztas": "utánpótlás-fejlesztési vezető",
-       "teljes_nev": "SEBESTYÉN MÁTÉ",
-       "telefonszam": "+36302119500",
-       "email": "sebestyen.mate@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 342,
-       "beosztas": "utánpótlás-fejlesztési igazgató",
-       "teljes_nev": "PITZ ANDRÁS",
-       "telefonszam": "+3614354200",
-       "email": "pitz.andras@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      }
-     ]
-    },
-    {
-     "id": 22,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Versenyszervezési és monitoring igazgatóság",
-     "sorrend": 7,
-     "tagList": [
-      {
-       "id": 121,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "EGYED BENCE",
-       "telefonszam": "+3614354215",
-       "email": "egyed.bence@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      },
-      {
-       "id": 124,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
-       "telefonszam": "+3614354212",
-       "email": "major.bernadett@mksz.hu",
-       "titulus": null,
-       "sorrend": 11
-      },
-      {
-       "id": 221,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "FODOR NOÉMI",
-       "telefonszam": "+3614354211",
-       "email": "fodor.noemi@mksz.hu",
-       "titulus": null,
-       "sorrend": 13
-      },
-      {
-       "id": 262,
-       "beosztas": "versenyszervezési és monitoring igazgató",
-       "teljes_nev": "SVEDA MARCELL",
-       "telefonszam": "+3614354241",
-       "email": "sveda.marcell@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 265,
-       "beosztas": "monitoring pénzügyi munkatárs",
-       "teljes_nev": "SIDLOVICS SÁRA",
-       "telefonszam": "+3614354254",
-       "email": "sidlovics.sara@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 268,
-       "beosztas": "monitoring jogi munkatárs",
-       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
-       "telefonszam": "+3614354254",
-       "email": "dutkievicz.david@mksz.hu",
-       "titulus": null,
-       "sorrend": 5
-      },
-      {
-       "id": 271,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "BALÁZS ÁDÁM",
-       "telefonszam": "+3614354220",
-       "email": "balazs.adam@mksz.hu",
-       "titulus": null,
-       "sorrend": 9
-      },
-      {
-       "id": 274,
-       "beosztas": "versenyadminisztrációs munkatárs",
-       "teljes_nev": "GALBOS ÁRON",
-       "telefonszam": "+3614354220",
-       "email": "galbos.aron@mksz.hu",
-       "titulus": null,
-       "sorrend": 15
-      },
-      {
-       "id": 276,
-       "beosztas": "játékvezetői albizottság titkár",
-       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
-       "telefonszam": "+3614354216",
-       "email": "marko.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
-      },
-      {
-       "id": 318,
-       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
-       "teljes_nev": "BONIFERT FERENC",
-       "telefonszam": "+3614354216",
-       "email": "bonifert.ferenc@mksz.hu",
-       "titulus": null,
-       "sorrend": 21
-      },
-      {
-       "id": 322,
-       "beosztas": "versenyadminisztrációs szakértő",
-       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
-       "telefonszam": "+3614354214",
-       "email": "ersek.reka@mksz.hu",
-       "titulus": null,
-       "sorrend": 12
-      },
-      {
-       "id": 354,
-       "beosztas": "versenyszervezési vezető",
-       "teljes_nev": "TORDAI ILONA",
-       "telefonszam": null,
-       "email": "tordai.ilona@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 2
-      }
-     ]
-    },
-    {
-     "id": 25,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Kommunikációs, PR és marketing-igazgatóság",
-     "sorrend": 8,
-     "tagList": [
-      {
-       "id": 145,
-       "beosztas": "kommunikációs igazgató-helyettes",
-       "teljes_nev": "LISZKAY GÁBOR",
-       "telefonszam": "+3614354225",
-       "email": "liszkay.gabor@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 148,
-       "beosztas": "média munkatárs",
-       "teljes_nev": "PALÁNKI ALEXANDRA",
-       "telefonszam": "+3614354224",
-       "email": "palanki.alexandra@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      },
-      {
-       "id": 231,
-       "beosztas": "kommunikációs-, PR- és marketing igazgató",
-       "teljes_nev": "BALLAI ATTILA",
-       "telefonszam": "+3614354224",
-       "email": "ballai.attila@mksz.hu",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 234,
-       "beosztas": "marketing igazgató-helyettes",
-       "teljes_nev": "BENCSICS MÁRK",
-       "telefonszam": null,
-       "email": "bencsics.mark@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 277,
-       "beosztas": "marketing menedzser",
-       "teljes_nev": "TARPAI ZOLTÁN",
-       "telefonszam": null,
-       "email": "tarpai.zoltan@mksz.hu",
-       "titulus": null,
-       "sorrend": 6
-      },
-      {
-       "id": 278,
-       "beosztas": "grafikus",
-       "teljes_nev": "NÉMETH LEVENTE",
-       "telefonszam": null,
-       "email": "nemeth.levente@mksz.hu",
-       "titulus": null,
-       "sorrend": 7
-      }
-     ]
-    },
-    {
-     "id": 28,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Szervezési igazgatóság",
-     "sorrend": 11,
-     "tagList": [
-      {
-       "id": 151,
-       "beosztas": "szervezési igazgató",
-       "teljes_nev": "MOLNÁR VIKTOR",
-       "telefonszam": "+3614354228",
-       "email": "viktor.molnar@handballfederation.hu ",
-       "titulus": null,
-       "sorrend": 1
-      },
-      {
-       "id": 154,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
-       "telefonszam": "+3614354227",
-       "email": "harsfalvi.zsofia@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 171,
-       "beosztas": "rendezvényszervező munkatárs",
-       "teljes_nev": "PONTYOS PEGGI KATA",
-       "telefonszam": null,
-       "email": "pontyos.peggi@mksz.hu",
-       "titulus": null,
-       "sorrend": 4
-      }
-     ]
-    },
-    {
-     "id": 45,
-     "szervezet_id": 50,
-     "szervezet_nev": "Magyar Kézilabda Szövetség",
-     "nev": "Sporttudományi és diagnosztikai igazgatóság",
-     "sorrend": 18,
-     "tagList": [
-      {
-       "id": 281,
-       "beosztas": "SDI igazgató",
-       "teljes_nev": "SZABÓ TAMÁS",
-       "telefonszam": null,
-       "email": "szabo.tamas@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 1
-      },
-      {
-       "id": 284,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "DOBRONYI TAMÁS",
-       "telefonszam": null,
-       "email": "dobronyi.tamas@mksz.hu",
-       "titulus": null,
-       "sorrend": 3
-      },
-      {
-       "id": 286,
-       "beosztas": "biomechanikai szakértő",
-       "teljes_nev": "BAKONYI PÉTER",
-       "telefonszam": null,
-       "email": "bakonyi.peter@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 5
-      },
-      {
-       "id": 289,
-       "beosztas": "biológus",
-       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
-       "telefonszam": null,
-       "email": "zsakai.annamaria@mksz.hu",
-       "titulus": "Dr.",
-       "sorrend": 7
-      },
-      {
-       "id": 292,
-       "beosztas": "kardiológus szakorvos",
-       "teljes_nev": "SIDÓ ZOLTÁN",
-       "telefonszam": null,
-       "email": null,
-       "titulus": "Dr.",
-       "sorrend": 9
-      },
-      {
-       "id": 302,
-       "beosztas": "SDI operatív vezető",
-       "teljes_nev": "SZIGETI SZABOLCS",
-       "telefonszam": null,
-       "email": "szigeti.szabolcs@mksz.hu",
-       "titulus": null,
-       "sorrend": 2
-      },
-      {
-       "id": 305,
-       "beosztas": "spiroergometriai munkatárs",
-       "teljes_nev": "BÉRES BETTINA",
-       "telefonszam": null,
-       "email": "beres.bettina@mksz.hu",
-       "titulus": null,
-       "sorrend": 18
-      },
-      {
-       "id": 312,
-       "beosztas": "biomechanikai munkatárs",
-       "teljes_nev": "SIMON GERGŐ",
-       "telefonszam": null,
-       "email": "simon.gergo@mksz.hu",
-       "titulus": null,
-       "sorrend": 19
-      },
-      {
-       "id": 351,
-       "beosztas": "SDI recepciós asszisztens",
-       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
-       "telefonszam": "+36300864895",
-       "email": "preil.nikolett@mksz.hu",
-       "titulus": null,
-       "sorrend": 20
+     "id": 32027266,
+     "rovidNev": "Gyermekbajnokság FU12",
+     "nev": "Gyermekbajnokság FU12",
+     "nem": "F",
+     "korosztalyId": 12020669,
+     "korosztalyNev": "FU12",
+     "sportagKod": "SPAG_1",
+     "sportagNev": "Teremkézilabda",
+     "sportesemenyId": 32025808,
+     "sportesemenyNev": "Gyermekbajnokság U12",
+     "sportesemenyRovidNev": "Gyermekbajnokság U12",
+     "sportesemenyTipusKod": "SPETIP_HIV",
+     "sportesemenyTipusNev": "Hivatalos verseny",
+     "evadNev": "2026/2027",
+     "globalisVersenyKod": "GYERMEK_BAJNOKSAG",
+     "globalisVersenyNev": "Gyermekbajnokság",
+     "evadEv": 2026,
+     "foversenySorrend": 5,
+     "publicUrl": null,
+     "sportesemenyKezdete": "2026-07-01T00:00:00.000",
+     "alversenyList": [
+      {
+       "id": 320229495,
+       "rovidNev": "OGYB FU12 VII. csoport",
+       "nev": "OGYB FU12 VII. csoport",
+       "foversenyId": 32027266,
+       "alversenySorrend": 7,
+       "tipusKod": "SPETIP_HIV",
+       "kitehetoIg": "2027-06-30T00:00:00.000",
+       "kitehetoTol": "2026-09-15T00:00:00.000",
+       "sorsolasMegjelenitendo": 1,
+       "tabellaMegjelenitendo": 0
       }
      ]
     }
@@ -5177,6 +4407,776 @@
    ]
   },
   {
+   "url": "https://public.mksz.hu/public/api/v1/apparatus/list",
+   "body": [
+    {
+     "id": 1,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "MKSZ iroda",
+     "sorrend": 1,
+     "tagList": [
+      {
+       "id": 1,
+       "beosztas": "operatív igazgató, igazgatótanács elnöke",
+       "teljes_nev": "NOVÁK ANDRÁS",
+       "telefonszam": "+3614354230",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 44,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Főtitkár titkársága",
+     "sorrend": 2,
+     "tagList": [
+      {
+       "id": 227,
+       "beosztas": "főtitkár",
+       "teljes_nev": "HORVÁTH GABRIELLA",
+       "telefonszam": "+3614354200",
+       "email": "mksz@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 230,
+       "beosztas": "nemzetközi kapcsolatok sportmunkatárs",
+       "teljes_nev": "VERNES DOROTTYA",
+       "telefonszam": "+3614354219",
+       "email": "vernes.dorottya@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Igazgatótanács titkársága",
+     "sorrend": 3,
+     "tagList": [
+      {
+       "id": 16,
+       "beosztas": "titkárságvezető, média munkatárs",
+       "teljes_nev": "SZABÓ FRUZSINA",
+       "telefonszam": "+3614354231",
+       "email": "szabo.fruzsina@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 19,
+       "beosztas": "informatikai igazgató",
+       "teljes_nev": "KOVÁCS KRISZTIÁN ZSOLT",
+       "telefonszam": null,
+       "email": "kovacs.krisztian@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 244,
+       "beosztas": "humánerőforrás vezető",
+       "teljes_nev": "FEHÉR ERIKA PIROSKA",
+       "telefonszam": "+3614354218",
+       "email": "feher.erika@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 319,
+       "beosztas": "recepciós asszisztens",
+       "teljes_nev": "PERÁK CSENGE",
+       "telefonszam": "+3614354230",
+       "email": "perak.csenge@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 357,
+       "beosztas": "operatív igazgatóhelyettes",
+       "teljes_nev": "BARDÓCZY GÁBOR",
+       "telefonszam": "+3614354234",
+       "email": "bardoczy.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 39,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Jogi és stratégiai igazgatóság",
+     "sorrend": 4,
+     "tagList": [
+      {
+       "id": 180,
+       "beosztas": "Igazgatótanács elnök - helyettes",
+       "teljes_nev": "PRÉMECZ ATTILA",
+       "telefonszam": "+3614354259",
+       "email": "premecz.attila@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 183,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "DRISZKU KLAUDIA",
+       "telefonszam": "+3614354217",
+       "email": "driszku.klaudia@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      },
+      {
+       "id": 184,
+       "beosztas": "jogi szakértő",
+       "teljes_nev": "GÁVAI SZONJA",
+       "telefonszam": "+3614354217",
+       "email": "gavai.szonja@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 3
+      },
+      {
+       "id": 344,
+       "beosztas": "képzési jogi munkatárs",
+       "teljes_nev": "DALKÓ-BÁLEGA NOÉMI",
+       "telefonszam": "+3614354222",
+       "email": "balega.noemi@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 4
+      },
+      {
+       "id": 348,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "KOVÁCSNÉ HIKÁDE IMOLA TIMEA",
+       "telefonszam": "+3614354222",
+       "email": "hikade.imola@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 359,
+       "beosztas": "oktatásszervezési szakértő",
+       "teljes_nev": "ILLÉS NÓRA",
+       "telefonszam": "+3614354250",
+       "email": "illes.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Pénzügyi és gazdasági igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 25,
+       "beosztas": "gazdasági és pénzügyi igazgató",
+       "teljes_nev": "HUSVÉTH PETRA",
+       "telefonszam": "+3614354253",
+       "email": "husveth.petra@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 28,
+       "beosztas": "kontrolling vezető",
+       "teljes_nev": "BOGNÁR TIBOR",
+       "telefonszam": "+3614354257",
+       "email": "bognar.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 31,
+       "beosztas": "elszámolási vezető",
+       "teljes_nev": "SCHMELÁS PÉTER",
+       "telefonszam": "+3614354265",
+       "email": "schmelas.peter@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 34,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "LÁSZLÓ PIROSKA",
+       "telefonszam": "+3614354247",
+       "email": "laszlo.piroska@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 37,
+       "beosztas": "támogatás előkészítési vezető",
+       "teljes_nev": "BÁLEGA TIBOR",
+       "telefonszam": "+3614354251",
+       "email": "balega.tibor@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 40,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "KRÉKITY NÓRA",
+       "telefonszam": null,
+       "email": "krekity.nora@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 46,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "MÉSZÁROS ANDREA",
+       "telefonszam": "+3614354249",
+       "email": "meszaros.andrea@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 177,
+       "beosztas": "kontrolling szakértő",
+       "teljes_nev": "VERZÁRNÉ LISZT KATALIN",
+       "telefonszam": "+3614354251",
+       "email": "liszt.katalin@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 208,
+       "beosztas": "gazdasági ügyintéző",
+       "teljes_nev": "IKKER EDIT",
+       "telefonszam": "+3614354270",
+       "email": "ikker.edit@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 248,
+       "beosztas": "pénzügyi munkatárs",
+       "teljes_nev": "SZEMES NIKOLETT",
+       "telefonszam": null,
+       "email": "szemes.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "TAO igazgatóság",
+     "sorrend": 5,
+     "tagList": [
+      {
+       "id": 52,
+       "beosztas": "TAO igazgató",
+       "teljes_nev": "EMBER ÁRON",
+       "telefonszam": "+3614354234",
+       "email": "ember.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 55,
+       "beosztas": "TAO irodavezető",
+       "teljes_nev": "KOVÁCS ADÉL",
+       "telefonszam": "+3614354234",
+       "email": "kovacs.adel@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 58,
+       "beosztas": "TAO igazgató-helyettes",
+       "teljes_nev": "PUSZTAI MÁRTON",
+       "telefonszam": "+3614354258",
+       "email": "pusztai.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 64,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "VIRÁG ANDRÁS",
+       "telefonszam": "+3614354245",
+       "email": "virag.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 24
+      },
+      {
+       "id": 67,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "NAGY ZSUZSANNA",
+       "telefonszam": "+3614354244",
+       "email": "nagy.zsuzsanna@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 76,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BORUS ATTILA",
+       "telefonszam": "0614354276",
+       "email": "borus.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 14
+      },
+      {
+       "id": 79,
+       "beosztas": "TAO jóváhagyási szakértő",
+       "teljes_nev": "ŐRHEGYI ISTVÁN ÁDÁM",
+       "telefonszam": "+3614354258",
+       "email": "orhegyi.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 82,
+       "beosztas": "TAO ellenőrzési csoportvezető",
+       "teljes_nev": "LUKÁCS MÁRTON",
+       "telefonszam": "+3614354243",
+       "email": "lukacs.marton@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 236,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "GÖRGICS MÓNIKA",
+       "telefonszam": "+3614354262",
+       "email": "gorgics.monika@mksz.hu",
+       "titulus": null,
+       "sorrend": 16
+      },
+      {
+       "id": 238,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "SZABÓ BALÁZS",
+       "telefonszam": "06207711482",
+       "email": "szabo.balazs.tao@mksz.hu",
+       "titulus": null,
+       "sorrend": 22
+      },
+      {
+       "id": 307,
+       "beosztas": "TAO jóváhagyási munkatárs",
+       "teljes_nev": "VARGA KRISZTINA ILDIKÓ",
+       "telefonszam": "+3614354258",
+       "email": "varga.krisztina@mksz.hu",
+       "titulus": null,
+       "sorrend": 10
+      },
+      {
+       "id": 314,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "FARKAS RÓBERT ZSOLT",
+       "telefonszam": "+36305717946",
+       "email": "farkas.robert@mksz.hu",
+       "titulus": null,
+       "sorrend": 25
+      },
+      {
+       "id": 316,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "TAKÁCS ZALÁN",
+       "telefonszam": "+36304694978",
+       "email": "takacs.zalan@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      },
+      {
+       "id": 337,
+       "beosztas": "TAO ellenőrzési munkatárs",
+       "teljes_nev": "BLAYER ZSÓFIA",
+       "telefonszam": "+3614354242",
+       "email": "blayer.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 26
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Utánpótlás-fejlesztési igazgatóság",
+     "sorrend": 6,
+     "tagList": [
+      {
+       "id": 251,
+       "beosztas": "utánpótlás szakmai vezető",
+       "teljes_nev": "HORVÁTH LÁSZLÓ",
+       "telefonszam": null,
+       "email": "horvath.laszlo@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 254,
+       "beosztas": "iskolai programvezető",
+       "teljes_nev": "GYÖMÖREY ISTVÁN",
+       "telefonszam": null,
+       "email": "gyomorey.istvan@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 261,
+       "beosztas": "sportszakmai koordinátor",
+       "teljes_nev": "MÓROCZ RÉKA",
+       "telefonszam": "+36300117074",
+       "email": "morocz.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 306,
+       "beosztas": "utánpótlás fejlesztési koordinátor",
+       "teljes_nev": "RUBINT ALEXANDRA KRISZTINA",
+       "telefonszam": "+3614354236",
+       "email": "rubint.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 339,
+       "beosztas": "utánpótlás-fejlesztési vezető",
+       "teljes_nev": "SEBESTYÉN MÁTÉ",
+       "telefonszam": "+36302119500",
+       "email": "sebestyen.mate@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 342,
+       "beosztas": "utánpótlás-fejlesztési igazgató",
+       "teljes_nev": "PITZ ANDRÁS",
+       "telefonszam": "+3614354200",
+       "email": "pitz.andras@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      }
+     ]
+    },
+    {
+     "id": 22,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Versenyszervezési és monitoring igazgatóság",
+     "sorrend": 7,
+     "tagList": [
+      {
+       "id": 121,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "EGYED BENCE",
+       "telefonszam": "+3614354215",
+       "email": "egyed.bence@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      },
+      {
+       "id": 124,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "MARKÓ-MAJOR BERNADETT",
+       "telefonszam": "+3614354212",
+       "email": "major.bernadett@mksz.hu",
+       "titulus": null,
+       "sorrend": 11
+      },
+      {
+       "id": 221,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "FODOR NOÉMI",
+       "telefonszam": "+3614354211",
+       "email": "fodor.noemi@mksz.hu",
+       "titulus": null,
+       "sorrend": 13
+      },
+      {
+       "id": 262,
+       "beosztas": "versenyszervezési és monitoring igazgató",
+       "teljes_nev": "SVEDA MARCELL",
+       "telefonszam": "+3614354241",
+       "email": "sveda.marcell@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 265,
+       "beosztas": "monitoring pénzügyi munkatárs",
+       "teljes_nev": "SIDLOVICS SÁRA",
+       "telefonszam": "+3614354254",
+       "email": "sidlovics.sara@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 268,
+       "beosztas": "monitoring jogi munkatárs",
+       "teljes_nev": "DR. DUTKIEVICZ DÁVID",
+       "telefonszam": "+3614354254",
+       "email": "dutkievicz.david@mksz.hu",
+       "titulus": null,
+       "sorrend": 5
+      },
+      {
+       "id": 271,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "BALÁZS ÁDÁM",
+       "telefonszam": "+3614354220",
+       "email": "balazs.adam@mksz.hu",
+       "titulus": null,
+       "sorrend": 9
+      },
+      {
+       "id": 274,
+       "beosztas": "versenyadminisztrációs munkatárs",
+       "teljes_nev": "GALBOS ÁRON",
+       "telefonszam": "+3614354220",
+       "email": "galbos.aron@mksz.hu",
+       "titulus": null,
+       "sorrend": 15
+      },
+      {
+       "id": 276,
+       "beosztas": "játékvezetői albizottság titkár",
+       "teljes_nev": "MARKÓ GÁBOR ISTVÁN",
+       "telefonszam": "+3614354216",
+       "email": "marko.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      },
+      {
+       "id": 318,
+       "beosztas": "hivatalos személyek fejlesztéséért felelős vezető",
+       "teljes_nev": "BONIFERT FERENC",
+       "telefonszam": "+3614354216",
+       "email": "bonifert.ferenc@mksz.hu",
+       "titulus": null,
+       "sorrend": 21
+      },
+      {
+       "id": 322,
+       "beosztas": "versenyadminisztrációs szakértő",
+       "teljes_nev": "KOVÁCS-ÉRSEK RÉKA",
+       "telefonszam": "+3614354214",
+       "email": "ersek.reka@mksz.hu",
+       "titulus": null,
+       "sorrend": 12
+      },
+      {
+       "id": 354,
+       "beosztas": "versenyszervezési vezető",
+       "teljes_nev": "TORDAI ILONA",
+       "telefonszam": null,
+       "email": "tordai.ilona@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 2
+      }
+     ]
+    },
+    {
+     "id": 25,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Kommunikációs, PR és marketing-igazgatóság",
+     "sorrend": 8,
+     "tagList": [
+      {
+       "id": 145,
+       "beosztas": "kommunikációs igazgató-helyettes",
+       "teljes_nev": "LISZKAY GÁBOR",
+       "telefonszam": "+3614354225",
+       "email": "liszkay.gabor@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 148,
+       "beosztas": "média munkatárs",
+       "teljes_nev": "PALÁNKI ALEXANDRA",
+       "telefonszam": "+3614354224",
+       "email": "palanki.alexandra@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      },
+      {
+       "id": 231,
+       "beosztas": "kommunikációs-, PR- és marketing igazgató",
+       "teljes_nev": "BALLAI ATTILA",
+       "telefonszam": "+3614354224",
+       "email": "ballai.attila@mksz.hu",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 234,
+       "beosztas": "marketing igazgató-helyettes",
+       "teljes_nev": "BENCSICS MÁRK",
+       "telefonszam": null,
+       "email": "bencsics.mark@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 277,
+       "beosztas": "marketing menedzser",
+       "teljes_nev": "TARPAI ZOLTÁN",
+       "telefonszam": null,
+       "email": "tarpai.zoltan@mksz.hu",
+       "titulus": null,
+       "sorrend": 6
+      },
+      {
+       "id": 278,
+       "beosztas": "grafikus",
+       "teljes_nev": "NÉMETH LEVENTE",
+       "telefonszam": null,
+       "email": "nemeth.levente@mksz.hu",
+       "titulus": null,
+       "sorrend": 7
+      }
+     ]
+    },
+    {
+     "id": 28,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Szervezési igazgatóság",
+     "sorrend": 11,
+     "tagList": [
+      {
+       "id": 151,
+       "beosztas": "szervezési igazgató",
+       "teljes_nev": "MOLNÁR VIKTOR",
+       "telefonszam": "+3614354228",
+       "email": "viktor.molnar@handballfederation.hu ",
+       "titulus": null,
+       "sorrend": 1
+      },
+      {
+       "id": 154,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "HAJDU-HÁRSFALVI ZSÓFIA",
+       "telefonszam": "+3614354227",
+       "email": "harsfalvi.zsofia@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 171,
+       "beosztas": "rendezvényszervező munkatárs",
+       "teljes_nev": "PONTYOS PEGGI KATA",
+       "telefonszam": null,
+       "email": "pontyos.peggi@mksz.hu",
+       "titulus": null,
+       "sorrend": 4
+      }
+     ]
+    },
+    {
+     "id": 45,
+     "szervezet_id": 50,
+     "szervezet_nev": "Magyar Kézilabda Szövetség",
+     "nev": "Sporttudományi és diagnosztikai igazgatóság",
+     "sorrend": 18,
+     "tagList": [
+      {
+       "id": 281,
+       "beosztas": "SDI igazgató",
+       "teljes_nev": "SZABÓ TAMÁS",
+       "telefonszam": null,
+       "email": "szabo.tamas@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 1
+      },
+      {
+       "id": 284,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "DOBRONYI TAMÁS",
+       "telefonszam": null,
+       "email": "dobronyi.tamas@mksz.hu",
+       "titulus": null,
+       "sorrend": 3
+      },
+      {
+       "id": 286,
+       "beosztas": "biomechanikai szakértő",
+       "teljes_nev": "BAKONYI PÉTER",
+       "telefonszam": null,
+       "email": "bakonyi.peter@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 5
+      },
+      {
+       "id": 289,
+       "beosztas": "biológus",
+       "teljes_nev": "ZSÁKAI ANNAMÁRIA",
+       "telefonszam": null,
+       "email": "zsakai.annamaria@mksz.hu",
+       "titulus": "Dr.",
+       "sorrend": 7
+      },
+      {
+       "id": 292,
+       "beosztas": "kardiológus szakorvos",
+       "teljes_nev": "SIDÓ ZOLTÁN",
+       "telefonszam": null,
+       "email": null,
+       "titulus": "Dr.",
+       "sorrend": 9
+      },
+      {
+       "id": 302,
+       "beosztas": "SDI operatív vezető",
+       "teljes_nev": "SZIGETI SZABOLCS",
+       "telefonszam": null,
+       "email": "szigeti.szabolcs@mksz.hu",
+       "titulus": null,
+       "sorrend": 2
+      },
+      {
+       "id": 305,
+       "beosztas": "spiroergometriai munkatárs",
+       "teljes_nev": "BÉRES BETTINA",
+       "telefonszam": null,
+       "email": "beres.bettina@mksz.hu",
+       "titulus": null,
+       "sorrend": 18
+      },
+      {
+       "id": 312,
+       "beosztas": "biomechanikai munkatárs",
+       "teljes_nev": "SIMON GERGŐ",
+       "telefonszam": null,
+       "email": "simon.gergo@mksz.hu",
+       "titulus": null,
+       "sorrend": 19
+      },
+      {
+       "id": 351,
+       "beosztas": "SDI recepciós asszisztens",
+       "teljes_nev": "PREIL NIKOLETT GABRIELLA",
+       "telefonszam": "+36300864895",
+       "email": "preil.nikolett@mksz.hu",
+       "titulus": null,
+       "sorrend": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
    "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
    "body": [
     {
@@ -5297,68 +5297,6 @@
      "rovidNev": "Mini kézilabda",
      "sorrend": 22,
      "sportagKod": "SPAG_1",
-     "evId": 2026
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/valogatott/korosztaly",
-   "body": [
-    {
-     "kod": "VAL_KOROSZT_FEL",
-     "nev": "Felnőtt válogatott korosztály",
-     "sorrend": 1
-    },
-    {
-     "kod": "VAL_KOROSZT_JUN",
-     "nev": "Junior válogatott korosztály",
-     "sorrend": 2
-    },
-    {
-     "kod": "VAL_KOROSZT_IFJ",
-     "nev": "Ifjúsági válogatott korosztály",
-     "sorrend": 3
-    },
-    {
-     "kod": "VAL_KOROSZT_SER",
-     "nev": "Serdülő válogatott korosztály",
-     "sorrend": 4
-    }
-   ]
-  },
-  {
-   "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
-   "body": [
-    {
-     "kod": "EDZOMERKOZES",
-     "nev": "Edzőmérkőzések",
-     "rovidNev": "Edzőmérkőzések",
-     "sorrend": 14,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
-    },
-    {
-     "kod": "UTANPOTLAS_TORNA",
-     "nev": "Utánpótlás torna",
-     "rovidNev": "UP. torna",
-     "sorrend": 18,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
-    },
-    {
-     "kod": "NSKB",
-     "nev": "Nemzeti strandkézilabda Bajnokság",
-     "rovidNev": "Nemzeti strandkézilabda Bajnokság",
-     "sorrend": 20,
-     "sportagKod": "SPAG_2",
-     "evId": 2026
-    },
-    {
-     "kod": "USKT",
-     "nev": "Utánpótlás strandkézilabda torna",
-     "rovidNev": "Utánpótlás strandkézilabda torna",
-     "sorrend": 21,
-     "sportagKod": "SPAG_2",
      "evId": 2026
     }
    ]
@@ -6180,6 +6118,68 @@
      "nem": "N",
      "nsrId": null,
      "egyVersenyengedely": null
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/valogatott/korosztaly",
+   "body": [
+    {
+     "kod": "VAL_KOROSZT_FEL",
+     "nev": "Felnőtt válogatott korosztály",
+     "sorrend": 1
+    },
+    {
+     "kod": "VAL_KOROSZT_JUN",
+     "nev": "Junior válogatott korosztály",
+     "sorrend": 2
+    },
+    {
+     "kod": "VAL_KOROSZT_IFJ",
+     "nev": "Ifjúsági válogatott korosztály",
+     "sorrend": 3
+    },
+    {
+     "kod": "VAL_KOROSZT_SER",
+     "nev": "Serdülő válogatott korosztály",
+     "sorrend": 4
+    }
+   ]
+  },
+  {
+   "url": "https://public.mksz.hu/public/api/v1/versenyek/globalis-verseny",
+   "body": [
+    {
+     "kod": "EDZOMERKOZES",
+     "nev": "Edzőmérkőzések",
+     "rovidNev": "Edzőmérkőzések",
+     "sorrend": 14,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "UTANPOTLAS_TORNA",
+     "nev": "Utánpótlás torna",
+     "rovidNev": "UP. torna",
+     "sorrend": 18,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "NSKB",
+     "nev": "Nemzeti strandkézilabda Bajnokság",
+     "rovidNev": "Nemzeti strandkézilabda Bajnokság",
+     "sorrend": 20,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
+    },
+    {
+     "kod": "USKT",
+     "nev": "Utánpótlás strandkézilabda torna",
+     "rovidNev": "Utánpótlás strandkézilabda torna",
+     "sorrend": 21,
+     "sportagKod": "SPAG_2",
+     "evId": 2026
     }
    ]
   },
@@ -7937,14 +7937,14 @@
      "paged": true,
      "unpaged": false
     },
+    "last": false,
     "totalElements": 28,
     "totalPages": 7,
-    "last": false,
     "size": 4,
     "number": 0,
     "sort": [],
-    "numberOfElements": 4,
     "first": true,
+    "numberOfElements": 4,
     "empty": false
    }
   },
