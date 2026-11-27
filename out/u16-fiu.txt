@@ -1,11 +1,21 @@
 # Forrás: https://www.mksz.hu/versenyek/upFerfiVersenyek/32027157/320229199
-# Mentve: 2026-11-27T12:01:38.369Z
+# Mentve: 2026-11-27T23:01:20.198Z
 
 Az oldal sütiket használ
 
 Az oldal sütiket és egyéb nyomkövető technológiákat alkalmaz, hogy javítsa a böngészési élményét, azzal hogy személyre szabott tartalmakat és célzott hirdetéseket jelenít meg, és elemzi a weboldalunk forgalmát, hogy megtudjuk honnan érkeztek a látogatóink.
 
 OKBeállítások megváltoztatása
+ : 
+0:0
+ : 
+0:0
+ : 
+0:0
+ : 
+0:0
+ : 
+0:0
  : 
 0:0
 Jegyek
@@ -25,12 +35,12 @@ Versenyek
 FU16 II. osztály-E
 TABELLA
 	CSAPAT	M	GY	D	V	LG	KG	GK	P	
-1.	DABASI KC VSE	8	8	0	0	319	205	114	16	
+1.	DABASI KC VSE	9	9	0	0	361	228	133	18	
 2.	Gyömrői KA	8	7	0	1	353	243	110	14	
 3.	XVI Ker KMSE	8	6	0	2	291	262	29	12	
 4.	Csepel DSE	8	3	0	5	275	278	-3	6	
-5.	MAFC	8	3	0	5	264	307	-43	6	
-6.	Gyáli BKSE	8	3	0	5	248	295	-47	6	
+5.	Gyáli BKSE	8	3	0	5	248	295	-47	6	
+6.	MAFC	9	3	0	6	287	349	-62	6	
 7.	ÓKSI SE	8	2	0	6	232	257	-25	4	
 8.	RÁKOSMENTE	8	0	0	8	181	316	-135	0	
 PROGRAM ÉS EREDMÉNYEK
@@ -234,7 +244,7 @@ FU16 II. osztály-E	OBO Aréna
 Dabas	
 DABASI KC VSE
 MAFC
-		ONLINEJEGYZŐKÖNYV
+	42:23	ONLINEJEGYZŐKÖNYV
 2026.11.29. 15:00	9. forduló
 FU16 II. osztály-E	Sportcsarnok
 Csömör	
@@ -293,12 +303,12 @@ NAPI MŰSOR
 STATISZTIKA
 GÓLLÖVŐ LISTA
 HELY	NÉV	CSAPAT	GÓL	M	
-1.	CSIKTUSNÁDI-KISS ANDOR GERGELY	MAFC	84	9	
-2.	PÁLINKÁS MÓR	ÓKSI SE	81	8	
-3.	MRÁZ MÁTÉ MILÁN	DABASI KC VSE	76	9	
+1.	CSIKTUSNÁDI-KISS ANDOR GERGELY	MAFC	97	9	
+2.	MRÁZ MÁTÉ MILÁN	DABASI KC VSE	87	9	
+3.	PÁLINKÁS MÓR	ÓKSI SE	81	8	
 4.	RÉPÁSZKI BARNABÁS	Csepel DSE	72	7	
 5.	SIKLÓSI ERIK	MAFC	65	7	
-6.	STRUPKA BENEDEK	DABASI KC VSE	59	9	
+6.	STRUPKA BENEDEK	DABASI KC VSE	61	9	
 7.	SZOKOLAI ZSOMBOR DOMINIK	Gyömrői KA	55	8	
 8.	MOLNÁR ÁBEL	XVI Ker KMSE	53	8	
 9.	FETTER ZÉTÉNY	ÓKSI SE	52	7	
@@ -307,12 +317,12 @@ HELY	NÉV	CSAPAT	GÓL	M
 12.	KÁPLÁR MÁTÉ ZOLTÁN	Gyömrői KA	50	8	
 13.	SOMOSVÁRI BOTOND	Gyömrői KA	48	8	
 14.	BALOGH BENCE	Csepel DSE	44	6	
-15.	SZITT MÁTYÁS LÁSZLÓ	XVI Ker KMSE	42	7	
-16.	KEMÉNY BOTOND	Gyömrői KA	42	8	
-17.	KOVÁCS LÁSZLÓ	Gyáli BKSE	41	8	
-18.	SZATMÁRI ZSOMBOR BALÁZS	RÁKOSMENTE	41	8	
-19.	SZŐNYI NIMRÓD BALÁZS	RÁKOSMENTE	40	6	
-20.	DARABÁN BENCE LEVENTE	Gyáli BKSE	39	8	
+15.	VERES ÁRON	DABASI KC VSE	44	9	
+16.	SZITT MÁTYÁS LÁSZLÓ	XVI Ker KMSE	42	7	
+17.	KEMÉNY BOTOND	Gyömrői KA	42	8	
+18.	KOVÁCS LÁSZLÓ	Gyáli BKSE	41	8	
+19.	SZATMÁRI ZSOMBOR BALÁZS	RÁKOSMENTE	41	8	
+20.	SZŐNYI NIMRÓD BALÁZS	RÁKOSMENTE	40	6	
 MÉG TÖBB STATISZTIKA
 K&H LIGA HÍREK
 2026/2027
