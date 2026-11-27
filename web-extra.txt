@@ -3,3 +3,4 @@
 # a következő GitHub-futás azt a napot is elmenti. Ha megjött az eredmény, a sor törölhető.
 hunvolley 2026-11-21
 hunvolley 2026-11-25
+hunvolley 2026-09-27
