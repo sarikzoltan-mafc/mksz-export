@@ -57,7 +57,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     fs.mkdirSync(`web/${t.site}`, { recursive: true });
     let rec = { site: t.site, key: t.key, url: t.url, ok: false };
     for (let attempt = 1; attempt <= 2 && !rec.ok; attempt++) {
-      const page = await browser.newPage({ locale: 'hu-HU' });
+      const page = await browser.newPage({ locale: 'hu-HU', timezoneId: 'Europe/Budapest' });
       try {
         const resp = await page.goto(t.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
         try { await page.waitForLoadState('load', { timeout: 20000 }); } catch (e) {}
