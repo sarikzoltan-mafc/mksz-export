@@ -1,0 +1,5 @@
+# Pótlólagos napok a web-export számára (soronként: "hunvolley ÉÉÉÉ-HH-NN").
+# Ide a frissítés beírhatja egy régebbi, még eredmény nélküli röplabdameccs napját;
+# a következő GitHub-futás azt a napot is elmenti. Ha megjött az eredmény, a sor törölhető.
+hunvolley 2026-11-21
+hunvolley 2026-11-25
