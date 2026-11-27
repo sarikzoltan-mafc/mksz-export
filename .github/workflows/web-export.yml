@@ -1,4 +1,4 @@
-name: Szövetségi oldalak mentése (kosár-, röp-, vízilabda)
+name: Szövetségi oldalak mentése (röplabda)
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       extra:
-        description: 'Pótlólagos napok, szóközzel: forrás:ÉÉÉÉ-HH-NN (forrás: mkosz | hunvolley | waterpolo)'
+        description: 'Pótlólagos napok, szóközzel: hunvolley:ÉÉÉÉ-HH-NN'
         required: false
         default: ''
 
