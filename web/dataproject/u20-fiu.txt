@@ -1,0 +1,315 @@
+# Forrás: https://hvf-web.dataproject.com/CompetitionMatches.aspx?ID=67&PID=76
+# Mentve: 2026-11-28T11:54:50.867Z
+
+We use cookies on this site to enhance your browsing experience - >Learn more
+X
+Hungarian Volleyball Federation
+2026/2027
+ALL COMPETITIONS
+dr. Tarnawa Ferdinánd U20 OB
+Főoldal
+Mérkőzések
+Tabella
+Statisztika
+Csapatok
+Játékos
+Sajtó
+Események
+Élő pont eredmények
+Fiú U20 OB
+	
+select
+Fiú U20 OB - Alapszakasz
+Fiú U20 OB - I-II. osztály Osztályozó
+Fiú U20 OB - Középszakasz
+Alapszakasz
+2026. 09. 19. - 11:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+Dág KSE	
+ 1 - 3 	
+Fino Kaposvár	
+TUMPECH ÁDÁM NORBERT
+FEKETE BÁLINT	
+2026. 09. 19. - 11:00	
+
+BÁNYAI JÚLIA GIMNÁZIUM TORNATERME	
+KESI Röplabda Akadémia 'A'	
+ 0 - 3 	
+Szolnoki Sportcentrum	
+BIBÓK FERENC
+BOGDÁN BENCE	
+2026. 09. 19. - 13:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+Fino Kaposvár	
+ 3 - 2 	
+MEAFC-Miskolc	
+FEKETE BÁLINT
+TUMPECH ÁDÁM NORBERT	
+2026. 09. 19. - 13:00	
+
+BÁNYAI JÚLIA GIMNÁZIUM TORNATERME	
+Szolnoki Sportcentrum	
+ 2 - 3 	
+MAFC	
+BOGDÁN BENCE
+BIBÓK FERENC	
+2026. 09. 19. - 15:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+MEAFC-Miskolc	
+ 3 - 1 	
+Dág KSE	
+TUMPECH ÁDÁM NORBERT
+FEKETE BÁLINT	
+2026. 09. 19. - 15:00	
+
+BÁNYAI JÚLIA GIMNÁZIUM TORNATERME	
+MAFC	
+ 3 - 0 	
+KESI Röplabda Akadémia 'A'	
+BIBÓK FERENC
+BOGDÁN BENCE	
+2026. 10. 04. - 11:00	
+
+SZLOVÁK TANÍTÁSI NYELVŰ ÁLT. ISK. ÉS GIMN.	
+MAFC	
+ 3 - 0 	
+Máv Előre	
+SZABÓ PÉTER
+BÁTKAI-KATONA ÁGNES	
+2026. 10. 04. - 11:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+TFSE Kék	
+ 3 - 0 	
+KESI Röplabda Akadémia 'A'	
+ADLER LÁSZLÓ
+VARJASI MELINDA	
+2026. 10. 04. - 11:00	
+
+SZOLNOK VÁROSI SPORTCSARNOK	
+Szolnoki Sportcentrum	
+ 1 - 3 	
+Pénzügyőr Sportegyesület Zöld	
+TILLMANN GYULA ZSOLT
+HORVÁTH MIKLÓS	
+2026. 10. 04. - 13:00	
+
+SZLOVÁK TANÍTÁSI NYELVŰ ÁLT. ISK. ÉS GIMN.	
+Máv Előre	
+ 3 - 0 	
+Dág KSE	
+BÁTKAI-KATONA ÁGNES
+SZABÓ PÉTER	
+2026. 10. 04. - 13:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+KESI Röplabda Akadémia 'A'	
+ 3 - 0 	
+Fino Kaposvár	
+VARJASI MELINDA
+ADLER LÁSZLÓ	
+2026. 10. 04. - 13:00	
+
+SZOLNOK VÁROSI SPORTCSARNOK	
+Pénzügyőr Sportegyesület Zöld	
+ 3 - 2 	
+MEAFC-Miskolc	
+HORVÁTH MIKLÓS
+TILLMANN GYULA ZSOLT	
+2026. 10. 04. - 15:00	
+
+SZLOVÁK TANÍTÁSI NYELVŰ ÁLT. ISK. ÉS GIMN.	
+Dág KSE	
+ 0 - 3 	
+MAFC	
+SZABÓ PÉTER
+BÁTKAI-KATONA ÁGNES	
+2026. 10. 04. - 15:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+Fino Kaposvár	
+ 3 - 0 	
+TFSE Kék	
+ADLER LÁSZLÓ
+VARJASI MELINDA	
+2026. 10. 04. - 15:00	
+
+SZOLNOK VÁROSI SPORTCSARNOK	
+MEAFC-Miskolc	
+ 0 - 3 	
+Szolnoki Sportcentrum	
+TILLMANN GYULA ZSOLT
+HORVÁTH MIKLÓS	
+2026. 10. 17. - 11:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+Dág KSE	
+ 0 - 3 	
+Pénzügyőr Sportegyesület Zöld	
+MEZŐFFY EMÍLIA ANNA
+HALÁSZ ENIKŐ ERIKA	
+2026. 10. 17. - 11:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+MEAFC-Miskolc	
+ 0 - 3 	
+MAFC	
+SZARKA JÁNOS ISTVÁN
+MARKÓ ALEX OLIVÉR	
+2026. 10. 17. - 11:00	
+
+MÁV ELŐRE UTÁNPÓTLÁS KÖZPONT	
+Máv Előre	
+ 3 - 0 	
+Fino Kaposvár	
+ALBERT ANNA
+ADLER LÁSZLÓ	
+2026. 10. 17. - 13:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+Pénzügyőr Sportegyesület Zöld	
+ 3 - 0 	
+KESI Röplabda Akadémia 'A'	
+HALÁSZ ENIKŐ ERIKA
+MEZŐFFY EMÍLIA ANNA	
+2026. 10. 17. - 13:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+MAFC	
+ 3 - 0 	
+TFSE Kék	
+MARKÓ ALEX OLIVÉR
+SZARKA JÁNOS ISTVÁN	
+2026. 10. 17. - 13:00	
+
+MÁV ELŐRE UTÁNPÓTLÁS KÖZPONT	
+Fino Kaposvár	
+ 1 - 3 	
+Szolnoki Sportcentrum	
+ADLER LÁSZLÓ
+ALBERT ANNA	
+2026. 10. 17. - 15:00	
+
+OSZUSKA MIKLÓS SPORTCSARNOK	
+KESI Röplabda Akadémia 'A'	
+ 3 - 0 	
+Dág KSE	
+MEZŐFFY EMÍLIA ANNA
+HALÁSZ ENIKŐ ERIKA	
+2026. 10. 17. - 15:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+TFSE Kék	
+ 3 - 1 	
+MEAFC-Miskolc	
+SZARKA JÁNOS ISTVÁN
+MARKÓ ALEX OLIVÉR	
+2026. 10. 17. - 15:00	
+
+MÁV ELŐRE UTÁNPÓTLÁS KÖZPONT	
+Szolnoki Sportcentrum	
+ 3 - 1 	
+Máv Előre	
+ALBERT ANNA
+ADLER LÁSZLÓ	
+2026. 10. 31. - 11:00	
+
+MÁV ELŐRE VOLLEYBALL CENTER	
+Máv Előre	
+ 3 - 1 	
+TFSE Kék	
+PUMMER JÚLIA
+KAPOSVÁRI GÁBOR	
+2026. 10. 31. - 13:00	
+
+MÁV ELŐRE VOLLEYBALL CENTER	
+TFSE Kék	
+ 0 - 3 	
+Pénzügyőr Sportegyesület Zöld	
+KAPOSVÁRI GÁBOR
+PUMMER JÚLIA	
+2026. 10. 31. - 15:00	
+
+MÁV ELŐRE VOLLEYBALL CENTER	
+Pénzügyőr Sportegyesület Zöld	
+ 0 - 3 	
+Máv Előre	
+PUMMER JÚLIA
+KAPOSVÁRI GÁBOR	
+2026. 11. 08. - 11:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+TFSE Kék	
+ 3 - 0 	
+Dág KSE	
+NAGY ÁGNES JULIANNA
+BARABÁS BARNABÁS ÁDÁM	
+2026. 11. 08. - 11:00	
+
+KODÁLY ZOLTÁN KÖZPONTI ÁLTALÁNOS ISKOLA ÉS AMI	
+Fino Kaposvár	
+ 2 - 3 	
+Pénzügyőr Sportegyesület Zöld	
+KÓSA DÁNIEL
+TAKÁCS ÁDÁM	
+2026. 11. 08. - 11:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+MEAFC-Miskolc	
+ 3 - 2 	
+KESI Röplabda Akadémia 'A'	
+FEKETE BÁLINT
+BERÉNYI ESZTER	
+2026. 11. 08. - 13:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+Dág KSE	
+ 0 - 3 	
+Szolnoki Sportcentrum	
+BARABÁS BARNABÁS ÁDÁM
+NAGY ÁGNES JULIANNA	
+2026. 11. 08. - 13:00	
+
+KODÁLY ZOLTÁN KÖZPONTI ÁLTALÁNOS ISKOLA ÉS AMI	
+Pénzügyőr Sportegyesület Zöld	
+ 0 - 3 	
+MAFC	
+TAKÁCS ÁDÁM
+KÓSA DÁNIEL	
+2026. 11. 08. - 13:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+KESI Röplabda Akadémia 'A'	
+ 1 - 3 	
+Máv Előre	
+BERÉNYI ESZTER
+FEKETE BÁLINT	
+2026. 11. 08. - 15:00	
+
+MAGYAR TESTNEVELÉSI EGYETEM `D` TEREM	
+Szolnoki Sportcentrum	
+ 3 - 0 	
+TFSE Kék	
+NAGY ÁGNES JULIANNA
+BARABÁS BARNABÁS ÁDÁM	
+2026. 11. 08. - 15:00	
+
+KODÁLY ZOLTÁN KÖZPONTI ÁLTALÁNOS ISKOLA ÉS AMI	
+MAFC	
+ 3 - 0 	
+Fino Kaposvár	
+KÓSA DÁNIEL
+TAKÁCS ÁDÁM	
+2026. 11. 08. - 15:00	
+
+MISKOLCI EGYETEMI KÖRCSARNOK	
+Máv Előre	
+ 0 - 3 	
+MEAFC-Miskolc	
+FEKETE BÁLINT
+BERÉNYI ESZTER	
+Web Competition Site © 2026 by
+PRIVACY POLICY
